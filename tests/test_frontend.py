@@ -660,3 +660,60 @@ def test_pausing_motion_clears_pointer_depth(page):
     page.mouse.move(bounds['x'] + bounds['width'] * .7, bounds['y'] + bounds['height'] * .4)
     page.wait_for_timeout(50)
     assert hero.evaluate("el => el.style.getPropertyValue('--scene-x')") == ''
+
+
+@pytest.mark.parametrize('width', [1440, 390])
+def test_library_navigation_branches_and_current_page(page, width):
+    page.set_viewport_size({'width': width, 'height': 900})
+    trigger = page.get_by_role('button', name='院校资料库', exact=True)
+    submenu = page.get_by_role('group', name='院校资料库分页面')
+    expect(trigger).to_have_attribute('aria-expanded', 'false')
+    trigger.click()
+    expect(page.get_by_role('heading', name='寻找属于你的下一站')).to_be_visible()
+    expect(trigger).to_have_attribute('aria-expanded', 'true')
+    expect(submenu.get_by_role('link', name='院校主页')).to_have_attribute('aria-current', 'page')
+    assert page.locator('.library-heading-actions a[href="#map"]').count() == 0
+    submenu.get_by_role('link', name='地图查看', exact=True).click()
+    expect(page.get_by_role('heading', name='全美院校地图')).to_be_visible()
+    expect(page.locator('[data-library-page="map"]')).to_have_attribute('aria-current', 'page')
+    assert page.locator('nav [aria-current="page"]').count() == 1
+    if width < 761:
+        expect(submenu).to_be_hidden()
+        trigger.click()
+    expect(submenu).to_be_visible()
+    submenu.get_by_role('link', name='院校主页', exact=True).click()
+    expect(page.get_by_role('heading', name='寻找属于你的下一站')).to_be_visible()
+    if width < 761:
+        trigger.click()
+    trigger.click()
+    expect(submenu).to_be_hidden()
+    trigger.focus()
+    page.keyboard.press('Enter')
+    expect(submenu).to_be_visible()
+    page.keyboard.press('Escape')
+    expect(submenu).to_be_hidden()
+    expect(trigger).to_be_focused()
+    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+
+
+def test_library_navigation_direct_map_and_browser_history(page, site):
+    page.goto(site + '/#map')
+    expect(page.get_by_role('heading', name='全美院校地图')).to_be_visible()
+    expect(page.locator('[data-library-page="map"]')).to_have_attribute('aria-current', 'page')
+    page.get_by_role('link', name='院校主页', exact=True).click()
+    expect(page.get_by_role('heading', name='寻找属于你的下一站')).to_be_visible()
+    page.go_back()
+    expect(page.get_by_role('heading', name='全美院校地图')).to_be_visible()
+    expect(page.locator('[data-library-page="map"]')).to_have_attribute('aria-current', 'page')
+    page.reload()
+    expect(page.get_by_role('button', name='院校资料库', exact=True)).to_have_attribute('aria-expanded', 'true')
+    expect(page.locator('[data-library-page="map"]')).to_have_attribute('aria-current', 'page')
+
+
+def test_mobile_library_menu_dismisses_on_outside_click(page):
+    page.set_viewport_size({'width': 320, 'height': 844})
+    page.get_by_role('button', name='院校资料库', exact=True).click()
+    expect(page.get_by_role('group', name='院校资料库分页面')).to_be_visible()
+    page.get_by_role('heading', name='寻找属于你的下一站').click()
+    expect(page.get_by_role('group', name='院校资料库分页面')).to_be_hidden()
+    expect(page.get_by_role('button', name='院校资料库', exact=True)).to_have_attribute('aria-expanded', 'false')

@@ -2492,3 +2492,37 @@ html.motion-sleeping *, html.motion-sleeping *::before, html.motion-sleeping *::
 @media print {
   .motion-control, .journey-orbits, .scene-spark { display: none !important; }
 }
+
+/* One university workspace, with a list and a map beneath its disclosure. */
+.library-nav-group { min-width: 0; }
+.library-nav-toggle { position: relative; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 49px; padding: 12px 15px; border-radius: 9px; color: #63745f; font-size: 15px; font-weight: 500; text-align: left; }
+.library-nav-toggle:hover { background: #f0f4e9; color: #245b44; }
+.library-nav-toggle.active { background: linear-gradient(110deg, #e5efd9, #edf3e5); color: #275e45; font-weight: 650; }
+.library-nav-toggle.active::before { position: absolute; inset: 15px auto 15px -19px; width: 3px; border-radius: 0 3px 3px 0; background: #61864d; content: ''; }
+.library-nav-chevron { margin-left: auto; font-size: 16px; line-height: 1; transition: rotate .2s var(--ease); }
+.library-nav-toggle[aria-expanded="true"] .library-nav-chevron { rotate: 180deg; }
+.library-subnav { display: grid; gap: 4px; margin: 8px 0 6px 25px; padding-left: 13px; border-left: 1px solid #d6dfcc; }
+.library-subnav-label { display: none; }
+.library-subnav a { position: relative; display: flex; align-items: center; gap: 8px; min-height: 38px; padding: 9px 10px; border-radius: 7px; font-size: 13px; font-weight: 450; color: #76856c; }
+.library-subnav a::before, .library-subnav a.active::before { position: absolute; inset: 50% auto auto -14px; width: 9px; height: 1px; background: #d6dfcc; border-radius: 0; content: ''; }
+.library-subnav a.active { background: #eeeaf7; color: #70618a; font-weight: 600; }
+.library-subnav a.active i { color: inherit; }
+.library-subnav a i, .library-subnav a svg { width: 15px; height: 15px; }
+@media (min-width: 1500px) { .library-nav-toggle.active::before { left: -23px; } }
+@media (min-width: 761px) and (max-width: 1180px) {
+  .library-nav-toggle { padding-inline: 12px; gap: 10px; }
+  .library-nav-toggle.active::before { left: -14px; }
+}
+@media (max-width: 760px) {
+  .library-nav-group { position: relative; flex: 1; }
+  .library-nav-toggle { flex-direction: column; justify-content: center; height: 69px; min-width: 0; padding: 10px 0 7px; gap: 5px; border-radius: 0; color: #63745f; font-size: 12px; }
+  .library-nav-toggle.active { background: transparent; color: #466c39; }
+  .library-nav-toggle.active::before { inset: 0 28% auto; width: auto; height: 2px; border-radius: 0 0 3px 3px; background: #76965b; }
+  .library-nav-toggle > i, .library-nav-toggle > i svg { width: 20px; height: 20px; }
+  .library-nav-chevron { position: absolute; right: calc(50% - 24px); top: 14px; font-size: 12px; }
+  .library-subnav { position: absolute; bottom: calc(100% + 10px); left: 0; z-index: 2; width: 188px; max-width: calc(100vw - 28px); margin: 0; padding: 10px; gap: 4px; border: 1px solid #dce4d2; border-radius: 13px; background: #fffefa; box-shadow: 0 8px 32px #24473524; }
+  .library-subnav-label { display: block; padding: 4px 10px 8px; font-size: 10px; color: #8b987c; letter-spacing: 1px; }
+  .library-subnav a { flex: none; flex-direction: row; justify-content: flex-start; min-height: 44px; padding: 11px 12px; gap: 10px; font-size: 14px; }
+  .library-subnav a::before, .library-subnav a.active::before, .library-subnav a.active i::before { display: none; }
+  .library-subnav a i, .library-subnav a i svg { width: 17px; height: 17px; }
+}

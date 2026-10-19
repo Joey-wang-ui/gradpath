@@ -2502,6 +2502,40 @@ html.motion-sleeping *, html.motion-sleeping *::before, html.motion-sleeping *::
 @media print {
   .motion-control, .journey-orbits, .scene-spark { display: none !important; }
 }
+
+/* One university workspace, with a list and a map beneath its disclosure. */
+.library-nav-group { min-width: 0; }
+.library-nav-toggle { position: relative; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 49px; padding: 12px 15px; border-radius: 9px; color: #63745f; font-size: 15px; font-weight: 500; text-align: left; }
+.library-nav-toggle:hover { background: #f0f4e9; color: #245b44; }
+.library-nav-toggle.active { background: linear-gradient(110deg, #e5efd9, #edf3e5); color: #275e45; font-weight: 650; }
+.library-nav-toggle.active::before { position: absolute; inset: 15px auto 15px -19px; width: 3px; border-radius: 0 3px 3px 0; background: #61864d; content: ''; }
+.library-nav-chevron { margin-left: auto; font-size: 16px; line-height: 1; transition: rotate .2s var(--ease); }
+.library-nav-toggle[aria-expanded="true"] .library-nav-chevron { rotate: 180deg; }
+.library-subnav { display: grid; gap: 4px; margin: 8px 0 6px 25px; padding-left: 13px; border-left: 1px solid #d6dfcc; }
+.library-subnav-label { display: none; }
+.library-subnav a { position: relative; display: flex; align-items: center; gap: 8px; min-height: 38px; padding: 9px 10px; border-radius: 7px; font-size: 13px; font-weight: 450; color: #76856c; }
+.library-subnav a::before, .library-subnav a.active::before { position: absolute; inset: 50% auto auto -14px; width: 9px; height: 1px; background: #d6dfcc; border-radius: 0; content: ''; }
+.library-subnav a.active { background: #eeeaf7; color: #70618a; font-weight: 600; }
+.library-subnav a.active i { color: inherit; }
+.library-subnav a i, .library-subnav a svg { width: 15px; height: 15px; }
+@media (min-width: 1500px) { .library-nav-toggle.active::before { left: -23px; } }
+@media (min-width: 761px) and (max-width: 1180px) {
+  .library-nav-toggle { padding-inline: 12px; gap: 10px; }
+  .library-nav-toggle.active::before { left: -14px; }
+}
+@media (max-width: 760px) {
+  .library-nav-group { position: relative; flex: 1; }
+  .library-nav-toggle { flex-direction: column; justify-content: center; height: 69px; min-width: 0; padding: 10px 0 7px; gap: 5px; border-radius: 0; color: #63745f; font-size: 12px; }
+  .library-nav-toggle.active { background: transparent; color: #466c39; }
+  .library-nav-toggle.active::before { inset: 0 28% auto; width: auto; height: 2px; border-radius: 0 0 3px 3px; background: #76965b; }
+  .library-nav-toggle > i, .library-nav-toggle > i svg { width: 20px; height: 20px; }
+  .library-nav-chevron { position: absolute; right: calc(50% - 24px); top: 14px; font-size: 12px; }
+  .library-subnav { position: absolute; bottom: calc(100% + 10px); left: 0; z-index: 2; width: 188px; max-width: calc(100vw - 28px); margin: 0; padding: 10px; gap: 4px; border: 1px solid #dce4d2; border-radius: 13px; background: #fffefa; box-shadow: 0 8px 32px #24473524; }
+  .library-subnav-label { display: block; padding: 4px 10px 8px; font-size: 10px; color: #8b987c; letter-spacing: 1px; }
+  .library-subnav a { flex: none; flex-direction: row; justify-content: flex-start; min-height: 44px; padding: 11px 12px; gap: 10px; font-size: 14px; }
+  .library-subnav a::before, .library-subnav a.active::before, .library-subnav a.active i::before { display: none; }
+  .library-subnav a i, .library-subnav a i svg { width: 17px; height: 17px; }
+}
 </style>
 <!-- gradpath:styles:end -->
 </head>
@@ -2513,7 +2547,14 @@ html.motion-sleeping *, html.motion-sleeping *::before, html.motion-sleeping *::
     <div class="nav-label">WORKSPACE</div>
     <nav aria-label="主导航">
       <a href="#overview" data-nav="overview"><i data-icon="dashboard"></i>申请总览</a>
-      <a href="#schools" data-nav="schools"><i data-icon="school"></i>院校资料库<span class="nav-new">NEW</span></a>
+      <div class="library-nav-group">
+        <button class="library-nav-toggle" type="button" data-nav="schools" data-action="toggle-library-nav" aria-expanded="false" aria-controls="library-subnav"><i data-icon="school"></i><span>院校资料库</span><span class="library-nav-chevron" aria-hidden="true">⌄</span></button>
+        <div class="library-subnav" id="library-subnav" role="group" aria-label="院校资料库分页面" hidden>
+          <span class="library-subnav-label">院校资料库</span>
+          <a href="#schools" data-library-page="schools"><i data-icon="list"></i>院校主页</a>
+          <a href="#map" data-library-page="map"><i data-icon="map"></i>地图查看</a>
+        </div>
+      </div>
       <a href="#applications" data-nav="applications"><i data-icon="folder"></i>我的申请<span class="nav-count" id="application-count">4</span></a>
       <a href="#documents" data-nav="documents"><i data-icon="document"></i>文书工作区</a>
       <a href="#profile" data-nav="profile"><i data-icon="user"></i>我的背景</a>
@@ -3427,6 +3468,7 @@ const state = {
 };
 if (state.profile.name === '林同学') state.profile.name = '同学';
 let activePage = 'overview';
+let libraryNavOpen = false;
 let activeTier = 'all';
 let search = '';
 let taskFilter = 'pending';
@@ -3518,7 +3560,7 @@ function matchingSchools() {
 }
 function cycleDate(school) { if(!school.deadline)return Infinity;const [month,day]=school.deadline.split('.').map(Number);return (month<8?month+12:month)*100+day; }
 function library() {
-  return `${heading('寻找属于你的下一站','从一所学校开始，看看更大的世界。','THE UNIVERSITY EDIT',`<div class="library-heading-actions"><a class="secondary-button" href="#map">${icon('map')}地图查看</a><button class="secondary-button" data-action="show-comparison">${icon('compare')}院校对比</button></div>`)}
+  return `${heading('寻找属于你的下一站','从一所学校开始，看看更大的世界。','THE UNIVERSITY EDIT',`<div class="library-heading-actions"><button class="secondary-button" data-action="show-comparison">${icon('compare')}院校对比</button></div>`)}
     <div class="catalog-hero"><div class="catalog-hero-copy"><span class="eyebrow">YOUR AMBITION, WITHOUT BORDERS</span><h2>把世界，<br>放进你的选校清单。</h2><p>了解学校与城市，收藏值得奔赴的可能。<br>${rankingEdition.status==='user-provided'?'按你提供的 2027 PDF 整理，完整保留并列学校。':'2027 排名独立核验，基础资料持续整理。'}</p><div class="catalog-stats"><span><strong>${rankingAvailable?rankedSchools.length:schools.length}</strong>${rankingAvailable?'榜单收录院校':'基础院校'}</span><span><strong>${featuredSchools.length}</strong>首页展示院校</span><span><strong>2027</strong>目标榜单年份</span></div></div><div class="catalog-hero-art" aria-hidden="true"><span>THE<br>UNIVERSITY<br>EDIT.</span><div class="catalog-orbit"></div><b>↗</b></div></div>
     <div class="ranking-source-strip"><span class="source-status-dot ${rankingEdition.status==='verified'?'verified':''}"></span><strong>U.S. News 2027 · National Universities</strong><span>${rankingSourceLabel}</span><button data-action="ranking-source">查看来源 ${icon('arrow')}</button></div>
     <div class="toolbar"><label class="search-box">${icon('search')}<input id="school-search" placeholder="搜索中英文校名、州或城市…" value="${escapeHTML(search)}" aria-label="搜索学校、专业或城市"><button class="icon-button" data-action="clear-school-search" aria-label="清空搜索" ${search?'':'hidden'}>${icon('close')}</button><kbd>/</kbd></label><select id="discipline-filter" class="filter-select" aria-label="院校性质">${[['all','全部院校性质'],['公立','公立大学'],['私立','私立大学']].map(([value,label])=>`<option value="${value}" ${activeDiscipline===value?'selected':''}>${label}</option>`).join('')}</select></div>
@@ -3569,7 +3611,13 @@ function render() {
   if (activePage !== 'documents') document.body.classList.remove('focus-mode');
   document.querySelector('#main-content').innerHTML = pages[activePage]();
   document.querySelector('#breadcrumb-title').textContent = pageNames[activePage];
-  document.querySelectorAll('[data-nav]').forEach(el=>{el.classList.toggle('active',el.dataset.nav===(activePage==='map'?'schools':activePage));if(el.dataset.nav===(activePage==='map'?'schools':activePage))el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
+  document.querySelectorAll('[data-nav]').forEach(el => {
+    const active = el.dataset.nav === (activePage === 'map' ? 'schools' : activePage);
+    el.classList.toggle('active', active);
+    if (active && el.dataset.nav !== 'schools') el.setAttribute('aria-current', 'page');
+    else el.removeAttribute('aria-current');
+  });
+  syncLibraryNav();
   document.querySelector('#application-count').textContent = ProgramWorkspace.items().length;
   document.querySelector('#account-name').textContent = state.profile.name || '同学';
   document.title = `${pageNames[activePage]} · Gradpath`;
@@ -3578,6 +3626,7 @@ function render() {
 }
 function goTo(target, updateURL = true) {
   activePage = pages[target] ? target : 'overview';
+  libraryNavOpen = (activePage === 'schools' || activePage === 'map') && !matchMedia('(max-width: 760px)').matches;
   // Single-file previews may run in srcdoc with an opaque origin. A normal
   // fragment link can replace that document, so always render navigation here.
   if (updateURL && location.hash !== `#${activePage}`) {
@@ -3587,6 +3636,23 @@ function goTo(target, updateURL = true) {
   window.scrollTo(0,0);
 }
 function navigate() { goTo(location.hash.slice(1) || 'overview', false); }
+function syncLibraryNav() {
+  const trigger = document.querySelector('[data-action="toggle-library-nav"]');
+  trigger.setAttribute('aria-expanded', String(libraryNavOpen));
+  document.querySelector('#library-subnav').hidden = !libraryNavOpen;
+  document.querySelectorAll('[data-library-page]').forEach(link => {
+    const current = link.dataset.libraryPage === activePage;
+    link.classList.toggle('active', current);
+    if (current) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+}
+function closeLibraryNav(returnFocus = false) {
+  libraryNavOpen = false;
+  syncLibraryNav();
+  if (returnFocus) document.querySelector('[data-action="toggle-library-nav"]').focus();
+}
+
 function toast(message, undo = null) {
   clearTimeout(toastTimer);
   undoAction = undo;
@@ -3661,12 +3727,14 @@ function refreshLibrary() {
 }
 
 document.addEventListener('click',event=>{
+  if (libraryNavOpen && matchMedia('(max-width: 760px)').matches && !event.target.closest('.library-nav-group')) closeLibraryNav();
   if(event.target.classList.contains('modal-overlay')){closeModal();return;}
   const link = event.target.closest('a[href^="#"]');
   if (link && pages[link.getAttribute('href').slice(1)]) {
     event.preventDefault();
     closeModal();
     goTo(link.getAttribute('href').slice(1));
+    if (link.hasAttribute('data-library-page') && matchMedia('(max-width: 760px)').matches) closeLibraryNav(true);
     return;
   }
   const button=event.target.closest('[data-action]');if(!button)return;
@@ -3678,6 +3746,11 @@ document.addEventListener('click',event=>{
   if(ApplicationWorkspace.handle(action,button))return;
   if(ShortlistWorkspace.handle(action,button))return;
   if(SeasonWorkspace.handle(action,button))return;
+  if (action === 'toggle-library-nav') {
+    if (activePage !== 'schools' && activePage !== 'map') { goTo('schools'); libraryNavOpen = true; syncLibraryNav(); }
+    else { libraryNavOpen = !libraryNavOpen; syncLibraryNav(); }
+    return;
+  }
   if(action==='contact-author')contactAuthor();
   if(action==='account')accountDialog();
   if(action==='close-modal'||action==='close-link'){closeModal();return;}
@@ -3773,6 +3846,7 @@ document.addEventListener('pointermove',MapWorkspace.pointerMove);
 document.addEventListener('pointerup',MapWorkspace.pointerUp);
 document.addEventListener('pointercancel',MapWorkspace.pointerUp);
 document.addEventListener('keydown',event=>{
+  if (event.key === 'Escape' && libraryNavOpen && !document.querySelector('.modal')) { closeLibraryNav(true); return; }
   MapWorkspace.onKeydown(event);
   const editing=event.target.matches('input,textarea,select,[contenteditable="true"]');
   if((event.metaKey||event.ctrlKey)&&event.key.toLowerCase()==='k'){event.preventDefault();showCommand();return;}

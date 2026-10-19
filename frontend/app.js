@@ -75,6 +75,7 @@ const state = {
 };
 if (state.profile.name === '林同学') state.profile.name = '同学';
 let activePage = 'overview';
+let libraryNavOpen = false;
 let activeTier = 'all';
 let search = '';
 let taskFilter = 'pending';
@@ -166,7 +167,7 @@ function matchingSchools() {
 }
 function cycleDate(school) { if(!school.deadline)return Infinity;const [month,day]=school.deadline.split('.').map(Number);return (month<8?month+12:month)*100+day; }
 function library() {
-  return `${heading('寻找属于你的下一站','从一所学校开始，看看更大的世界。','THE UNIVERSITY EDIT',`<div class="library-heading-actions"><a class="secondary-button" href="#map">${icon('map')}地图查看</a><button class="secondary-button" data-action="show-comparison">${icon('compare')}院校对比</button></div>`)}
+  return `${heading('寻找属于你的下一站','从一所学校开始，看看更大的世界。','THE UNIVERSITY EDIT',`<div class="library-heading-actions"><button class="secondary-button" data-action="show-comparison">${icon('compare')}院校对比</button></div>`)}
     <div class="catalog-hero"><div class="catalog-hero-copy"><span class="eyebrow">YOUR AMBITION, WITHOUT BORDERS</span><h2>把世界，<br>放进你的选校清单。</h2><p>了解学校与城市，收藏值得奔赴的可能。<br>${rankingEdition.status==='user-provided'?'按你提供的 2027 PDF 整理，完整保留并列学校。':'2027 排名独立核验，基础资料持续整理。'}</p><div class="catalog-stats"><span><strong>${rankingAvailable?rankedSchools.length:schools.length}</strong>${rankingAvailable?'榜单收录院校':'基础院校'}</span><span><strong>${featuredSchools.length}</strong>首页展示院校</span><span><strong>2027</strong>目标榜单年份</span></div></div><div class="catalog-hero-art" aria-hidden="true"><span>THE<br>UNIVERSITY<br>EDIT.</span><div class="catalog-orbit"></div><b>↗</b></div></div>
     <div class="ranking-source-strip"><span class="source-status-dot ${rankingEdition.status==='verified'?'verified':''}"></span><strong>U.S. News 2027 · National Universities</strong><span>${rankingSourceLabel}</span><button data-action="ranking-source">查看来源 ${icon('arrow')}</button></div>
     <div class="toolbar"><label class="search-box">${icon('search')}<input id="school-search" placeholder="搜索中英文校名、州或城市…" value="${escapeHTML(search)}" aria-label="搜索学校、专业或城市"><button class="icon-button" data-action="clear-school-search" aria-label="清空搜索" ${search?'':'hidden'}>${icon('close')}</button><kbd>/</kbd></label><select id="discipline-filter" class="filter-select" aria-label="院校性质">${[['all','全部院校性质'],['公立','公立大学'],['私立','私立大学']].map(([value,label])=>`<option value="${value}" ${activeDiscipline===value?'selected':''}>${label}</option>`).join('')}</select></div>
@@ -217,7 +218,13 @@ function render() {
   if (activePage !== 'documents') document.body.classList.remove('focus-mode');
   document.querySelector('#main-content').innerHTML = pages[activePage]();
   document.querySelector('#breadcrumb-title').textContent = pageNames[activePage];
-  document.querySelectorAll('[data-nav]').forEach(el=>{el.classList.toggle('active',el.dataset.nav===(activePage==='map'?'schools':activePage));if(el.dataset.nav===(activePage==='map'?'schools':activePage))el.setAttribute('aria-current','page');else el.removeAttribute('aria-current');});
+  document.querySelectorAll('[data-nav]').forEach(el => {
+    const active = el.dataset.nav === (activePage === 'map' ? 'schools' : activePage);
+    el.classList.toggle('active', active);
+    if (active && el.dataset.nav !== 'schools') el.setAttribute('aria-current', 'page');
+    else el.removeAttribute('aria-current');
+  });
+  syncLibraryNav();
   document.querySelector('#application-count').textContent = ProgramWorkspace.items().length;
   document.querySelector('#account-name').textContent = state.profile.name || '同学';
   document.title = `${pageNames[activePage]} · Gradpath`;
@@ -226,6 +233,7 @@ function render() {
 }
 function goTo(target, updateURL = true) {
   activePage = pages[target] ? target : 'overview';
+  libraryNavOpen = (activePage === 'schools' || activePage === 'map') && !matchMedia('(max-width: 760px)').matches;
   // Single-file previews may run in srcdoc with an opaque origin. A normal
   // fragment link can replace that document, so always render navigation here.
   if (updateURL && location.hash !== `#${activePage}`) {
@@ -235,6 +243,23 @@ function goTo(target, updateURL = true) {
   window.scrollTo(0,0);
 }
 function navigate() { goTo(location.hash.slice(1) || 'overview', false); }
+function syncLibraryNav() {
+  const trigger = document.querySelector('[data-action="toggle-library-nav"]');
+  trigger.setAttribute('aria-expanded', String(libraryNavOpen));
+  document.querySelector('#library-subnav').hidden = !libraryNavOpen;
+  document.querySelectorAll('[data-library-page]').forEach(link => {
+    const current = link.dataset.libraryPage === activePage;
+    link.classList.toggle('active', current);
+    if (current) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+}
+function closeLibraryNav(returnFocus = false) {
+  libraryNavOpen = false;
+  syncLibraryNav();
+  if (returnFocus) document.querySelector('[data-action="toggle-library-nav"]').focus();
+}
+
 function toast(message, undo = null) {
   clearTimeout(toastTimer);
   undoAction = undo;
@@ -309,12 +334,14 @@ function refreshLibrary() {
 }
 
 document.addEventListener('click',event=>{
+  if (libraryNavOpen && matchMedia('(max-width: 760px)').matches && !event.target.closest('.library-nav-group')) closeLibraryNav();
   if(event.target.classList.contains('modal-overlay')){closeModal();return;}
   const link = event.target.closest('a[href^="#"]');
   if (link && pages[link.getAttribute('href').slice(1)]) {
     event.preventDefault();
     closeModal();
     goTo(link.getAttribute('href').slice(1));
+    if (link.hasAttribute('data-library-page') && matchMedia('(max-width: 760px)').matches) closeLibraryNav(true);
     return;
   }
   const button=event.target.closest('[data-action]');if(!button)return;
@@ -326,6 +353,11 @@ document.addEventListener('click',event=>{
   if(ApplicationWorkspace.handle(action,button))return;
   if(ShortlistWorkspace.handle(action,button))return;
   if(SeasonWorkspace.handle(action,button))return;
+  if (action === 'toggle-library-nav') {
+    if (activePage !== 'schools' && activePage !== 'map') { goTo('schools'); libraryNavOpen = true; syncLibraryNav(); }
+    else { libraryNavOpen = !libraryNavOpen; syncLibraryNav(); }
+    return;
+  }
   if(action==='contact-author')contactAuthor();
   if(action==='account')accountDialog();
   if(action==='close-modal'||action==='close-link'){closeModal();return;}
@@ -421,6 +453,7 @@ document.addEventListener('pointermove',MapWorkspace.pointerMove);
 document.addEventListener('pointerup',MapWorkspace.pointerUp);
 document.addEventListener('pointercancel',MapWorkspace.pointerUp);
 document.addEventListener('keydown',event=>{
+  if (event.key === 'Escape' && libraryNavOpen && !document.querySelector('.modal')) { closeLibraryNav(true); return; }
   MapWorkspace.onKeydown(event);
   const editing=event.target.matches('input,textarea,select,[contenteditable="true"]');
   if((event.metaKey||event.ctrlKey)&&event.key.toLowerCase()==='k'){event.preventDefault();showCommand();return;}
