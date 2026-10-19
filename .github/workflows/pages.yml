@@ -9,8 +9,57 @@ permissions:
   contents: read
 
 jobs:
+  reset-stale-runs:
+    name: Clear obsolete deployment runs
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      actions: write
+    steps:
+      - name: Cancel only the four superseded Gradpath runs
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const obsolete = [
+              {id: 39278375717, sha: 'c2fd4ff'},
+              {id: 39279096351, sha: '7428aec'},
+              {id: 39279958322, sha: '623224f'},
+              {id: 39281345994, sha: '8b3d493'},
+            ];
+            for (const item of obsolete) {
+              const params = {...context.repo, run_id: item.id};
+              const {data: run} = await github.rest.actions.getWorkflowRun(params);
+              if (run.status === 'completed') {
+                core.info(`Run ${item.id} already completed; leaving it unchanged.`);
+                continue;
+              }
+              if (run.head_branch !== 'main' ||
+                  !run.head_sha.startsWith(item.sha) ||
+                  run.path.split('@')[0] !== '.github/workflows/pages.yml' ||
+                  String(run.id) === String(context.runId)) {
+                throw new Error(`Run ${item.id} does not match the obsolete deployment.`);
+              }
+              await github.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel', params);
+              core.info(`Requested force cancellation of superseded run ${item.id}.`);
+            }
+            for (let attempt = 0; attempt < 24; attempt++) {
+              const pending = [];
+              for (const item of obsolete) {
+                const {data: run} = await github.rest.actions.getWorkflowRun({...context.repo, run_id: item.id});
+                if (run.status !== 'completed') pending.push(item.id);
+              }
+              if (!pending.length) {
+                core.info('All four obsolete runs have finished. The new build may proceed.');
+                return;
+              }
+              core.info(`Waiting for cancellation: ${pending.join(', ')}`);
+              await new Promise(resolve => setTimeout(resolve, 5000));
+            }
+            throw new Error('The obsolete deployment runs have not released the queue yet.');
+
   build:
     name: Build website
+    needs: reset-stale-runs
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
