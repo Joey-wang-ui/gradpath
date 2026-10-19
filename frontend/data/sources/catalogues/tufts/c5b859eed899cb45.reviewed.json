@@ -1,0 +1,125 @@
+{
+  "schoolId": "tufts",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "file": "tufts/c5b859eed899cb45.html",
+      "sha256": "c5b859eed899cb455b23f88aed62fc11e3eb401fc62c19786aa32ce1eb71d860"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "School of Medicine",
+      "english": "School of Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Law and Public Health",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/public-health/mph-program-overview/dual-degrees/jdmph",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medicine and Public Health - Doctorate",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/medicine/dual-degrees/accelerated-4-year-mdmph",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Cummings School of Veterinary Medicine",
+      "english": "Cummings School of Veterinary Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Veterinary Medicine and Lab Animal Medicine",
+          "degree": "Masters",
+          "url": "https://vet.tufts.edu/dual-degree-programs/dvmms-laboratory-animal-medicine",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Grafton",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "The Fletcher School Cummings School of Veterinary Medicine",
+      "english": "The Fletcher School Cummings School of Veterinary Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Veterinary Medicine and Law and Diplomacy",
+          "degree": "Masters",
+          "url": "https://vet.tufts.edu/dual-degree-programs/dvmma-tufts-university-fletcher-school-law-diplomacy",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville, Grafton",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Medicine Cummings School of Veterinary Medicine",
+      "english": "School of Medicine Cummings School of Veterinary Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Veterinary Medicine and Public Health",
+          "degree": "Masters",
+          "url": "https://vet.tufts.edu/dual-degree-programs/dvmmaster-public-health-program",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Grafton, Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

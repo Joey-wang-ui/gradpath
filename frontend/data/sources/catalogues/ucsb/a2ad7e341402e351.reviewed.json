@@ -1,0 +1,56 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC",
+      "file": "ucsb/a2ad7e341402e351.html",
+      "sha256": "a2ad7e341402e351b6a071d601a77bf3d4cddb6c13c37f4c60fefedc15289a59"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Education",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EDUC-MA-0",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Education",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EDUC-PHD-EDUC-MA-0",
+          "field": "教育",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

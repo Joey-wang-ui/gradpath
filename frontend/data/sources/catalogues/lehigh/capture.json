@@ -1,0 +1,22 @@
+{
+  "schoolId": "lehigh",
+  "catalogURL": "https://grad.lehigh.edu/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "lehigh",
+      "url": "https://grad.lehigh.edu/home/graduate-education-life",
+      "requestedURL": "https://grad.lehigh.edu/",
+      "file": "frontend/data/sources/catalogues/lehigh/f2997bd48ab33a47.html",
+      "sha256": "f2997bd48ab33a47c80b9da9f26178ca59f013c45f15452126073a87feb201a6",
+      "capturedAt": "2026-10-19T12:01:50.029725+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

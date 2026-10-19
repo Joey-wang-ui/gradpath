@@ -1,0 +1,3797 @@
+{
+  "schoolId": "bu",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "file": "bu/8fb4d3f5effaf558.html",
+      "sha256": "8fb4d3f5effaf5583ca203b0f8698024abbd6a714c8dd22f468d55be5ce6e100"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "大都会学院",
+      "english": "Metropolitan College",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Actuarial Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/actuarial-science/ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Advertising",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/advertising/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Business Analytics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-in-applied-business-analytics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Data Analytics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/computer-science/master-of-science-in-applied-data-analytics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "bu--applied-data-analytics",
+          "name": "应用数据分析硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Arts Administration",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/arts-administration/ms/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "City Planning",
+          "degree": "MSCP",
+          "url": "https://www.bu.edu/academics/met/programs/urban-affairs/city-planning/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Information Systems",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/computer-science/mscis/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/computer-science/ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Construction Management & Technology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/construction-management-technology/ms-in-construction-management-technology/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Criminal Justice",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/criminal-justice/mcj/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Enterprise Risk Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-enterprise-risk-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-in-financial-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Gastronomy",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/met/programs/gastronomy/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Marketing Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-in-global-marketing-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Communication",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/health-communication/ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Informatics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/computer-science/ms-in-health-informatics/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Innovation & Entrepreneurship",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Insurance Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-insurance-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Project Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-project-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Software Development",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/computer-science/ms-in-software-development/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Supply Chain Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/met/programs/administrative-sciences/ms-in-supply-chain-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban Affairs",
+          "degree": "MSUA",
+          "url": "https://www.bu.edu/academics/met/programs/urban-affairs/mua/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "College of Communication",
+      "english": "College of Communication",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Advertising",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/advertising/advertising-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Branded Content Production",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/branded-content/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cinema & Media Production",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/com/programs/mfa-in-cinema-and-media-production/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Emerging Media Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/com/programs/emerging-media-studies/ma",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Film",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/com/programs/film/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Film & Television Studies",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/com/programs/film-television-studies/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/journalism/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Media Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/media-science/ms-in-media-science/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Media Ventures",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Relations",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/com/programs/public-relations/ms-in-public-relations/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Screenwriting",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/com/programs/screenwriting/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Arts & Sciences",
+      "english": "Graduate School of Arts & Sciences",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "African American & Black Diaspora Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/african-american-studies/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Anthropology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/anthropology/ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Economics & Data Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ms-in-applied-economics-and-data-science/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Archaeology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/archaeology/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art & Architecture, History of",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/history-art-architecture/ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Artificial Intelligence",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/computer-science/ms-in-artificial-intelligence/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Astronomy",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/astronomy/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/biology/master-of-science-in-biology//",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/biostatistics/ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemistry",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/chemistry/ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Classical Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/classical-studies/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Classical Studies/Philosophy",
+          "degree": "MA/PhD",
+          "url": "https://www.bu.edu/academics/grs/programs/classical-studies/ma-phd-phil/",
+          "field": "人文",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Classics & Archaeology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/classical-studies/ma-in-classics-archaeology/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Classics & Philosophy",
+          "degree": "MA/PhD",
+          "url": "https://www.bu.edu/academics/grs/programs/classical-studies/ma-phd-phil/",
+          "field": "人文",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cognitive & Neural Systems",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/cognitive-neural-systems/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/computer-science/ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "bu--computer-science",
+          "name": "计算机科学硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Creative Writing",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/grs/programs/mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Earth & Environment",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/earth-environment/ms-in-earth-environment/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economic Policy & Practice",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ma-economic-policy/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ma/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MA/PhD",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ma-phd/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics, Global Development",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ma-global-development-economics/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics, Quantitative",
+          "degree": "MS/MBA",
+          "url": "https://www.bu.edu/academics/grs/programs/economics/ma-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Editorial Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/editorial-studies/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Energy & Environmental Analysis",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/earth-environment/ma-energy-environment/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Energy & Environmental Analysis",
+          "degree": "MS/MBA",
+          "url": "https://www.bu.edu/academics/grs/programs/earth-environment/ma-in-energy-environment-mba-dual-degree-program/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/english/ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/grs/programs/mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "French Language & Literature",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/romance-studies/ma-french/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Geoarchaeology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/earth-environment/geoarchaeology-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Policy",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/international-relations/ma-in-global-policy/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Hispanic Language & Literatures",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/romance-studies/ma-hispanic/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/history/ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Art & Architecture",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/history-art-architecture/ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Affairs",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/international-relations/international-affairs-ma/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Relations",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/international-relations/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Relations & Business Administration",
+          "degree": "MA/MBA",
+          "url": "https://www.bu.edu/academics/grs/programs/international-relations/international-relations-ma-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Latin American Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/latin-american-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Linguistics",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/linguistics/ma-in-linguistics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Literary Translation",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/grs/programs/mfa-in-literary-translation/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics (includes Statistics)",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/mathematics-statistics/ma-mathematics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular Biology, Cell Biology & Biochemistry",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/molecular-biology-cell-biology-biochemistry/ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Neuroscience",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/neuroscience/ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Philosophy",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/philosophy/ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physics",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/physics/ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Playwriting",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/grs/programs/mfa-in-playwriting/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Political Science",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/political-science/ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Preservation Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/preservation-studies/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Psychology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/psychology/ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Anthropology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/anthropology/ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantum Science & Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/physics/ms-in-quantum-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Religious Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/religious-studies/ma-in-religious-studies/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Remote Sensing & Geospatial Sciences",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/earth-environment/ma-remote-sensing/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sociology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/grs/programs/sociology/ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistical Practice",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/mathematics-statistics/ms-in-statistical-practice/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/grs/programs/mathematics-statistics/ma-statistics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Law",
+      "english": "School of Law",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "American Law",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/american-law/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Banking & Financial Law",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/graduate-program-in-banking-financial-law/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Intellectual Property & Information Law",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/intellectual-property-law/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law",
+          "degree": "MSL",
+          "url": "https://www.bu.edu/academics/law/programs/msl-program/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law—American",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/american-law/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law—Banking & Financial",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/graduate-program-in-banking-financial-law/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law—Intellectual Property & Information",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/intellectual-property-law/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law—Taxation",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/graduate-tax-program/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Tax Law",
+          "degree": "LLM",
+          "url": "https://www.bu.edu/academics/law/programs/graduate-tax-program/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Anatomy & Neurobiology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/anatomy-neurobiology/ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioimaging",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/bioimaging/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Forensic Sciences",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/biomedical-forensic-sciences/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Research Technologies",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/ms-in-biomedical-research-technologies/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration & Medicine",
+          "degree": "MD/MBA",
+          "url": "https://www.bu.edu/academics/busm/programs/combined-md-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Climate Change and Health",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/academics/sph/programs/mph/climate-change-and-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Research",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/clinical-investigation/ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dermatology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/dermatology/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Forensic Anthropology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/forensic-anthropology/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Genetic Counseling",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/genetic-counseling/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Care Emergency Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/healthcare-emergency-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Professions Education",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/ms-in-health-professions-education/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Anthropology & Cross-Cultural Practice",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/medical-anthropology-and-cross-cultural-practice/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Sciences",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/medical-sciences/ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Sciences and Mental Health Counseling & Behavioral Medicine",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/medical-sciences/dual-degree-masters-program-in-medical-sciences-and-mental-health-counseling-behavioral-medicine/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medicine/Business Administration",
+          "degree": "MD/MBA",
+          "url": "https://www.bu.edu/academics/busm/programs/combined-md-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mental Health Counseling & Behavioral Medicine",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/gms/programs/mental-health-counseling-behavioral-medicine-program/ma/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition & Metabolism",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/nutrition-metabolism/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Oral Biology",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/gms/programs/oral-biology/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Oral Health Sciences",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/oral-health-sciences-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pathology & Laboratory Medicine",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/pathology-laboratory-medicine/ma/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pharmacology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/pharmacology/ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physician Assistant Program",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/gms/programs/physician-assistant/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physiology or Biophysics",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/gms/programs/physiology-biophysics/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Henry M. Goldman School of Dental Medicine",
+      "english": "Henry M. Goldman School of Dental Medicine",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Biomechanics",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/applied-biomechanics/master-of-science-in-dentistry-msd-in-applied-biomechanics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dental Biomaterials",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/dental-biomaterials/master-of-science-in-dentistry-in-dental-biomaterials/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dental Public Health",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sdm/programs/dental-public-health/ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dental Public Health",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/dental-public-health/msd/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Endodontics",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/endodontics/msd/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Esthetic, Digital, and Operative Dentistry",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/operative-dentistry/msd/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Oral Biology",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/oral-biology/msd/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Oral & Maxillofacial Surgery",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/oral-and-maxillofacial-surgery/msd/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Orthodontics & Dentofacial Orthopedics",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/orthodontics-dentofacial-orthopedics/cags-msd/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Dentistry",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/pediatric-dentistry/msd/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Periodontology",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/periodontology/msd/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Prosthodontics",
+          "degree": "MSD",
+          "url": "https://www.bu.edu/academics/sdm/programs/prosthodontics/cags-msd",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Public Health",
+      "english": "School of Public Health",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Biostatistics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sph/programs/ms-in-applied-biostatistics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration & Medicine",
+          "degree": "MBA/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mba-mph/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration & Public Health",
+          "degree": "MBA/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mba-mph/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chronic & Non-Communicable Diseases",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/chronic-and-non-communicable-diseases/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Community Assessment, Program Design, Implementation & Evaluation",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/community-assessment/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health and Justice",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/environmental-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiology & Biostatistics",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/epidemiology-and-biostatistics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Genetic Counseling/Master of Public Health",
+          "degree": "MS/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/ms-in-genetic-counseling-master-of-public-health-ms-mph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Health",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/global-health-2/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Health Program Design, Monitoring & Evaluation",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/monitoring-and-evaluation/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Healthcare Management",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/healthcare-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Communication & Promotion",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/programs/health-communication-and-promotion/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Equity",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph-in-health-equity/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Policy & Law",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/health-policy-and-law/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Rights & Social Justice",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/human-rights-and-social-justice/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Infectious Disease",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/infectious-disease/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Maternal & Child Health",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/maternal-and-child-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Sciences & Public Health",
+          "degree": "MS/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/medical-sciences-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medicine & Public Health",
+          "degree": "MD/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/medicine-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mental Health & Substance Use",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/mental-health-and-substance-use/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pharmaceutical Development, Delivery & Access",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/pharmaceutical-development-delivery-and-access/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Population Health Research",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sph/programs/ms-in-population-health-research/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Program Management",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/monitoring-and-evaluation/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health & Genetic Counseling",
+          "degree": "MS/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/ms-in-genetic-counseling-master-of-public-health-ms-mph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health & Management",
+          "degree": "MBA/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mba-mph/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health & Medical Sciences",
+          "degree": "MS/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/medical-sciences-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health & Medicine",
+          "degree": "MD/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/medicine-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health & Social Work",
+          "degree": "MSW/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/social-work-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sex, Sexuality & Gender",
+          "degree": "MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/mph/sex-sexuality-and-gender/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work & Public Health",
+          "degree": "MSW/MPH",
+          "url": "https://www.bu.edu/academics/sph/programs/social-work-and-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "College of Fine Arts",
+      "english": "College of Fine Arts",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art Education",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/art-education/online-ma-in-art-education/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art Education with Initial License",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/art-education/art-education-with-initial-license/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Composition",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/composition/mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Conducting",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/conducting/mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Directing",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/directing/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Graphic Design",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/graphic-design/mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Historical Performance",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/historical-performance/mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Lighting Design",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/lighting-design/mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Museum Education",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/museum-education/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Musicology",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/musicology/ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Musicology",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/musicology/mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Education",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/music-education/mm/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Performance",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/performance/mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Theory",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/music-theory/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Painting",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/painting/mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Performance, Music",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-music/performance/mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Print Media & Photography",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/mfa-in-print-media-photography/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Production Management",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/production-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Scene Design",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/scene-design/mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sculpture",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/sculpture/mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sound Design",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/sound-design/mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Technical Production",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/technical-production/mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theatre Education",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-theatre/theatre-education/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Visual Narrative",
+          "degree": "MFA",
+          "url": "https://www.bu.edu/academics/cfa/programs/school-of-visual-arts/mfa-in-visual-narrative/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "奎斯特罗姆商学院",
+      "english": "Questrom School of Business",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Artificial Intelligence in Business",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/questrom/programs/ms-in-artificial-intelligence-in-business/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration",
+          "degree": "MBA",
+          "url": "https://www.bu.edu/academics/questrom/programs/mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration",
+          "degree": "MBA/MSDT",
+          "url": "https://www.bu.edu/academics/questrom/programs/msdt/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration & Medicine",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/questrom/programs/ms-in-business-analytics/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Analytics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/questrom/programs/ms-in-business-analytics/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Finance",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/questrom/programs/ms-in-finance/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management",
+          "degree": "MiM",
+          "url": "https://www.bu.edu/academics/questrom/programs/ms-in-management-studies/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematical Finance & Financial Technology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/questrom/programs/mathematical-finance/ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "College of Engineering",
+      "english": "College of Engineering",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Artificial Intelligence, Software Engineering (Online",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/ms-in-software-engineering-for-artificial-intelligence/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MEng",
+          "url": "https://www.bu.edu/academics/eng/programs/biomedical-engineering/meng/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/biomedical-engineering/ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/computer-engineering/ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/electrical-engineering/ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical & Computer Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/electrical-engineering/ms-in-electrical-computer-engineering/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science & Engineering",
+          "degree": "MEng",
+          "url": "https://www.bu.edu/academics/eng/programs/materials-science-engineering/meng/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science & Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/materials-science-engineering/ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/mechanical-engineering/ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Product Design & Manufacture",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/product-design-manufacture/product-design-manufacture/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Product Design & Manufacture",
+          "degree": "MBA/MS",
+          "url": "https://www.bu.edu/academics/eng/programs/product-design-manufacture/msmba/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Robotics & Autonomous Systems",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/mechanical-engineering/ms-in-robotics-autonomous-systems/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Software Engineering for Artificial Intelligence",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/ms-in-software-engineering-for-artificial-intelligence/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Systems Engineering",
+          "degree": "MEng",
+          "url": "https://www.bu.edu/academics/eng/programs/systems-engineering/meng/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Systems Engineering",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/eng/programs/systems-engineering/ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Computing & Data Sciences",
+      "english": "Faculty of Computing & Data Sciences",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Bioinformatics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/cds/programs/ms-in-bioinformatics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/cds/programs/ms-in-data-science/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Enterprise AI",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/cds/programs/ms-in-enterprise-ai/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Wheelock College of Education & Human Development",
+      "english": "Wheelock College of Education & Human Development",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Child Life & Family-Centered Care",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/wheelock/programs/ms-in-child-life-family-centered-care/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Leadership & Policy Studies",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/wheelock/programs/policy-planning-administration/ma-in-educational-policy-studies/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English Education",
+          "degree": "MAT",
+          "url": "https://www.bu.edu/academics/wheelock/programs/english-education/mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Leadership, Policy & Advocacy for Early Childhood Well-Being",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/wheelock/programs/early-childhood-education/ma-in-leadership-policy-advocacy-for-early-childhood-well-being/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Learning Design & Technology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/wheelock/programs/learning-design-technology/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics Education",
+          "degree": "MAT",
+          "url": "https://www.bu.edu/academics/wheelock/programs/mathematics-education/mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Science Education",
+          "degree": "MAT",
+          "url": "https://www.bu.edu/academics/wheelock/programs/science-education/mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Studies Education",
+          "degree": "MAT",
+          "url": "https://www.bu.edu/academics/wheelock/programs/social-studies-education/mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "World Language Education",
+          "degree": "MAT",
+          "url": "https://www.bu.edu/academics/wheelock/programs/modern-foreign-language-education/mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Hospitality Administration",
+      "english": "School of Hospitality Administration",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Hospitality",
+          "degree": "MM",
+          "url": "https://www.bu.edu/academics/sha/programs/master-of-management-in-hospitality/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Hospitality Management",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sha/programs/ms-in-hospitality-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sha/programs/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Sargent College of Health & Rehabilitation Sciences",
+      "english": "Sargent College of Health & Rehabilitation Sciences",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Human Physiology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sar/programs/human-physiology/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition/Dietetics",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sar/programs/nutrition-dietetics/ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Speech-Language Pathology",
+          "degree": "MS",
+          "url": "https://www.bu.edu/academics/sar/programs/speech-language-hearing-sciences/ms/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Speech-Language Pathology",
+          "degree": "MS/PhD",
+          "url": "https://www.bu.edu/academics/sar/programs/speech-language-hearing-sciences/ms-phd/",
+          "field": "人文",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Theology",
+      "english": "School of Theology",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Religion & Public Leadership",
+          "degree": "MA",
+          "url": "https://www.bu.edu/academics/sth/programs/marpl/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology",
+          "degree": "MDiv",
+          "url": "https://www.bu.edu/academics/sth/programs/divinity/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology—Divinity & Sacred Music",
+          "degree": "MDiv/MSM",
+          "url": "https://www.bu.edu/academics/sth/programs/dual-degree-theology-music/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology—Sacred Music",
+          "degree": "MSM",
+          "url": "https://www.bu.edu/academics/sth/programs/master-of-sacred-music/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology—Theological Studies",
+          "degree": "MTS",
+          "url": "https://www.bu.edu/academics/sth/programs/theological-studies/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Social Work",
+      "english": "School of Social Work",
+      "url": "https://www.bu.edu/academics/degree-programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Social Work, Clinical Practice",
+          "degree": "MSW",
+          "url": "https://www.bu.edu/academics/ssw/programs/clinical-social-work-practice/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work, Macro Practice",
+          "degree": "MSW",
+          "url": "https://www.bu.edu/academics/ssw/programs/macro-social-work-practice/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work",
+          "degree": "MSW",
+          "url": "https://www.bu.edu/academics/ssw/programs/msw/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work & Theology",
+          "degree": "MSW/MDiv",
+          "url": "https://www.bu.edu/academics/ssw/programs/dual-degree-in-theology-and-social-work/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work & Theology",
+          "degree": "MSW/MTS",
+          "url": "https://www.bu.edu/academics/ssw/programs/dual-degree-in-theology-and-social-work/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology & Social Work",
+          "degree": "MSW/MDiv",
+          "url": "https://www.bu.edu/academics/ssw/programs/dual-degree-in-theology-and-social-work/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theology & Social Work",
+          "degree": "MSW/MTS",
+          "url": "https://www.bu.edu/academics/ssw/programs/dual-degree-in-theology-and-social-work/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

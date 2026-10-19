@@ -1,0 +1,35 @@
+{
+  "schoolId": "tufts",
+  "catalogURL": "https://www.tufts.edu/graduate-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "tufts",
+      "url": "https://www.tufts.edu/graduate-programs",
+      "requestedURL": "https://www.tufts.edu/graduate-programs",
+      "file": "frontend/data/sources/catalogues/tufts/ed7dd1cf1695ba30.html",
+      "sha256": "ed7dd1cf1695ba309f37f1f6a7a5438a12d7ef42a56c7dc8bd5ace8a13fed8db",
+      "capturedAt": "2026-10-19T12:01:51.462415+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 2,
+  "candidates": [
+    {
+      "label": "Master's",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.tufts.edu/graduate-programs"
+    },
+    {
+      "label": "Master's and Doctorate",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.tufts.edu/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

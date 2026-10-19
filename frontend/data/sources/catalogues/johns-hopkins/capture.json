@@ -1,0 +1,22 @@
+{
+  "schoolId": "johns-hopkins",
+  "catalogURL": "https://www.jhu.edu/academics/graduate-studies/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "johns-hopkins",
+      "url": "https://www.jhu.edu/academics/graduate-studies/",
+      "requestedURL": "https://www.jhu.edu/academics/graduate-studies/",
+      "file": "frontend/data/sources/catalogues/johns-hopkins/a7f43cb10a24e785.html",
+      "sha256": "a7f43cb10a24e78585cd19e0b4369c9d68372eb4a783be7df48b0693a1843a3a",
+      "capturedAt": "2026-10-19T12:01:49.340339+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

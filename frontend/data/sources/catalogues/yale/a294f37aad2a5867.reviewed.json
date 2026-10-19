@@ -1,0 +1,374 @@
+{
+  "schoolId": "yale",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19",
+      "file": "yale/a294f37aad2a5867.html",
+      "sha256": "a294f37aad2a5867df795e25ad4a8584c1e2b271e3d9244cdf6a5b28bb1a9d3a"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Graduate School of Arts and Sciences",
+      "english": "Graduate School of Arts and Sciences",
+      "url": "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "African Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/african-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "American Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/american-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Physics",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/applied-physics",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Archaeological Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/archaeological-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/biomedical-engineering",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical & Environmental Engineering",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/chemical-environmental-engineering",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computational Biology & Biomedical Informatics (MS Program)",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/computational-biology-biomedical-informatics-ms-program",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/index%2Ephp/programs-of-study/computer-science",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "yale--computer-science",
+          "name": "计算机科学硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "East Asian Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/east-asian-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical & Computer Engineering",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/electrical-computer-engineering",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English Language & Literature",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/english-language-literature",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "European & Russian Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/european-russian-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/history",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Science & Medicine",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/history-science-medicine",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International & Development Economics",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/international-development-economics",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/mechanical-engineering",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medieval Studies",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/medieval-studies",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/music",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Near Eastern Languages & Civilizations",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/near-eastern-languages-civilizations",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Personalized Medicine & Applied Engineering",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/personalized-medicine-applied-engineering",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/public-health",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics",
+          "degree": "MA",
+          "url": "https://gsas.yale.edu/programs-of-study/statistics",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics & Data Science",
+          "degree": "MS",
+          "url": "https://gsas.yale.edu/programs-of-study/statistics-data-science",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

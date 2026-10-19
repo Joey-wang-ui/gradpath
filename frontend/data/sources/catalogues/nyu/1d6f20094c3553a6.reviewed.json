@@ -1,0 +1,3531 @@
+{
+  "schoolId": "nyu",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "file": "nyu/1d6f20094c3553a6.html",
+      "sha256": "1d6f20094c3553a69f6701bbb4100253afffddd388678de8feefa13dd50cf45d"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Leonard N. Stern School of Business",
+      "english": "Leonard N. Stern School of Business",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Accounting",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/accounting-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "nyu--accounting",
+          "name": "会计硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Business Analytics and AI",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/business-analytics-ai-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Analytics and Business Computing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/data-analytics-business-computing-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Fintech",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/fintech-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "General Management",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/general-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "General Management for Executives",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/general-management-executives-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Executive MBA",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/global-executive-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Finance",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/global-finance-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Luxury and Retail",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/luxury-retail-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing and Retail Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/marketing-retail-science-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Organization Management and Strategy",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/organization-management-strategy-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Finance",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/quantitative-finance-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Stern at NYU Abu Dhabi",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/stern-nyu-abu-dhabi-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Technology and Entrepreneurship",
+          "degree": "MBA",
+          "url": "https://bulletins.nyu.edu/graduate/business/programs/technology-entrepreneurship-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Tisch School of the Arts",
+      "english": "Tisch School of the Arts",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Acting",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/acting-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Arts Politics",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/arts-politics-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dance: Interdisciplinary Research",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/dance-interdisciplinary-research-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Design for Stage and Film",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/design-stage-film-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dramatic Writing",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/dramatic-writing-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Film and Television",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/film-television-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Game Design",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/game-design-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Graduate Musical Theatre Writing",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/musical-theatre-writing-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Interactive Media Arts",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/interactive-media-arts-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Interactive Telecommunications",
+          "degree": "MPS",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/interactive-telecommunications-mps/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Media Producing",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/media-producing-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Moving Image Archiving and Preservation",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/moving-image-archiving-preservation-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Virtual Production",
+          "degree": "MPS",
+          "url": "https://bulletins.nyu.edu/graduate/arts/programs/virtual-production-mps/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Rory Meyers College of Nursing",
+      "english": "Rory Meyers College of Nursing",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Adult-Gerontology Acute Care Nurse Practitioner",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/adult-gerontology-acute-care-nurse-practitioner-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Adult-Gerontology Primary Care Nurse Practitioner",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/adult-gerontology-primary-care-nurse-practitioner-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Research Nursing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/clinical-research-nursing-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Family Nurse Practitioner",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/family-nurse-practitioner-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nurse-Midwifery",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/nurse-midwifery-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nursing Education",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/nursing-education-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nursing Informatics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/nursing-informatics-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatrics Nurse Practitioner Primary Care/Acute Care",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/pediatrics-nurse-practitioner-primary-care-acute-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatrics Primary Care Nurse Practitioner",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/pediatrics-primary-care-nurse-practitioner-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Psychiatric-Mental Health Nurse Practitioner",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/nursing/programs/psychiatric-mental-health-nurse-practitioner-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Steinhardt School of Culture, Education, and Human Development",
+      "english": "Steinhardt School of Culture, Education, and Human Development",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Advanced Occupational Therapy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/advanced-occupational-therapy-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Statistics for Social Science Research",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/applied-statistics-social-science-research-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art Therapy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/art-therapy-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bilingual Education for Teachers",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/bilingual-education-teachers-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Childhood Education/Special Education: Childhood",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/childhood-education-special-education-childhood-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Communicative Sciences and Disorders",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/communicative-sciences-disorders-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Costume Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/costume-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Counseling for Mental Health and Wellness",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/counseling-mental-health-wellness-ma/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Drama Therapy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/drama-therapy-alternate-licensure-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Drama Therapy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/drama-therapy-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Early Childhood Education/Special Education: Early Childhood",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/early-childhood-education-special-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Leadership, Politics, and Advocacy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/educational-leadership-politics-advocacy-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Theatre, All Grades",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/educational-theatre-all-grades-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Theatre, All Grades, and English, 7-12",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/educational-theatre-all-grades-english-712-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Theatre, All Grades, and Social Studies, 7–12",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/educational-theatre-all-grades-social-studies-712-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Food Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/food-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Games for Learning",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/games-learning-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Higher Education and Student Affairs",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/higher-education-student-affairs-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Inclusive Childhood Teacher Residency",
+          "degree": "MAT",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/inclusive-childhood-teacher-residency-mat/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Instrumental Performance",
+          "degree": "MM",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/instrumental-performance-mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Education",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/international-education-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Learning Technology and Experience Design",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/learning-technology-experience-design-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Media, Culture, and Communication",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/media-culture-communication-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Business",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/music-business-ma/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Technology",
+          "degree": "MM",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/music-technology-mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Theory and Composition",
+          "degree": "MM",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/music-theory-composition-mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Therapy",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/music-therapists-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition and Dietetics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/nutrition-dietetics-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Performing Arts Administration",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/performing-arts-administration-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Piano Performance",
+          "degree": "MM",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/music-performance-piano-mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Specialized Studies in Education",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/specialized-studies-education-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Studio Art",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/studio-art-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teacher of Dance, All Grades",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teacher-dance-all-grades-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teacher Residency",
+          "degree": "MAT",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teacher-residency-mat/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teachers of English 7-12",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teachers-english-7-12-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teachers of Mathematics 7-12",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teachers-mathematics-7-12-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching Dance in the Professions",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-dance-professions-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching Dance, All Grades",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-dance-all-grades-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching English 7-12 with 5-6 Extension/Students with Disabilities 7-12 Generalist",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-english-7-12-5-6-extension-students-disabilities-7-12-generalist-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching English to Speakers of Other Languages (TESOL)",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-english-speakers-other-languages-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching English to Speakers of Other Languages (TESOL) All Grades",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-english-speakers-other-languages-all-grades-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching Social Studies 7-12 with 5-6 Extension/Students with Disabilities 7-12 Generalist",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-social-studies-7-12-5-6-extension-students-disabilities-7-12-generalist-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching World Languages 7-12/TESOL (All Grades)",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/teaching-world-languages-7-12-tesol-all-grades-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Theatre for Social and Civic Engagement",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/theatre-social-civic-engagement-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Transformational Teaching in Middle and High Schools",
+          "degree": "MAT",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/transformational-teaching-middle-high-schools-mat/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Transformational Teaching Students with Disabilities and Computer Science",
+          "degree": "MAT",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/transformational-teaching-students-disabilities-computer-science-mat/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Visual Arts Administration",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/visual-arts-administration-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Vocal Performance",
+          "degree": "MM",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/vocal-performance-mm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "World Language Education",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/culture-education-human-development/programs/world-language-education-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Arts and Science",
+      "english": "Graduate School of Arts and Science",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Africana Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/africana-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "American Journalism",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/american-journalism-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Animal Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/animal-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Archives and Public History",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/archives-public-history-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/biology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Informatics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/biomedical-informatics-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemistry",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/chemistry-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cinema Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/cinema-studies-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Classics",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/classics-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Comparative Literature",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/comparative-literature-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science Courant",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/computer-science-courant-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computing, Entrepreneurship and Innovation",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/computing-entrepreneurship-innovation-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Conservation of Historic and Artistic Works/History of Art and Archaeology",
+          "degree": "MS/MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/conservation-historic-artistic-works-history-art-archaeology-ms-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Creative Writing",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/creative-writing-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Creative Writing in Spanish",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/creative-writing-spanish-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/data-science-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "East Asian Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/east-asian-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/economics-ma/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English and American Literature",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/english-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/environmental-health-science-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "European and Mediterranean Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/european-mediterranean-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "French Literature",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/french-literature-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "French Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/french-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "German Thought and Literature",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/german-thought-literature-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Hebrew and Judaic Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/hebrew-judaic-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Historical and Sustainable Architecture",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/historical-sustainable-architecture-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/history-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Art and Archaeology",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/history-art-archaeology-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Skeletal Biology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/human-skeletal-biology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial/Organizational Psychology",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/industrial-organizational-psychology-ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Information Systems",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/information-systems-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Interdisciplinary Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/interdisciplinary-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Relations",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/international-relations-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Irish and Irish American Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/irish-american-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Italian Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/italian-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and Africana Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-africana-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and East Asian Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-east-asian-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and European and Mediterranean Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-european-mediterranean-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and French Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-french-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and International Relations",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-international-relations-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and Latin American and Caribbean Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-latin-american-caribbean-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and Near Eastern Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-near-eastern-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism and Russian and Slavic Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/journalism-russian-slavic-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Latin American and Caribbean Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/latin-american-caribbean-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Literary Reportage",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/literary-reportage-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/mathematics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics in Finance",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/mathematics-finance-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Museum Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/museum-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Near Eastern Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/near-eastern-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Performance Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/performance-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/physics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Politics",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/politics-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Psychology",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/psychology-ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Economics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/quantitative-economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Religious Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/religious-studies-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Russian and Slavic Studies",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/russian-slavic-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Scientific Computing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/arts-science/programs/scientific-computing-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Tandon School of Engineering",
+      "english": "Tandon School of Engineering",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Quantum Science and Technology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/applied-quantum-science-technology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioinformatics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/bioinformatics-online-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/biomedical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biotechnology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/biotechnology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biotechnology and Entrepreneurship",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/biotechnology-entrepreneurship-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/chemical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Civil Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/civil-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/computer-engineering-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science Tandon",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/computer-science-tandon-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Construction Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/construction-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cybersecurity",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/cybersecurity-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/electrical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Emerging Technologies",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/emerging-technologies-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/environmental-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/environmental-science-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/financial-engineering-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/industrial-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Integrated Design and Media",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/integrated-design-media-ms/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management of Technology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/management-technology-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematical Sciences",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/mathematical-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/mechanical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechatronics and Robotics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/mechatronics-robotics-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Transportation Systems",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/transportation-systems-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban Data Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/urban-data-science-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban Infrastructure Systems",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/engineering/programs/urban-infrastructure-systems-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "NYU Abu Dhabi",
+      "english": "NYU Abu Dhabi",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art and Media",
+          "degree": "MFA",
+          "url": "https://bulletins.nyu.edu/graduate/abu-dhabi/programs/art-media-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/abu-dhabi/programs/economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Interdisciplinary Data Science and Artificial Intelligence",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/abu-dhabi/programs/interdisciplinary-data-science-ai-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Global Public Health",
+      "english": "School of Global Public Health",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Bioethics",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/global-public-health/programs/bioethics-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/global-public-health/programs/biostatistics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/global-public-health/programs/epidemiology-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health",
+          "degree": "MPH",
+          "url": "https://bulletins.nyu.edu/graduate/global-public-health/programs/public-health-mph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "College of Dentistry",
+      "english": "College of Dentistry",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biomaterials Science",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/dentistry/programs/biomaterials-science-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Research",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/dentistry/programs/clinical-research-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "NYU Grossman School of Medicine",
+      "english": "NYU Grossman School of Medicine",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Clinical Investigation",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/medicine-grossman/programs/clinical-investigation-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Genome Health Analysis",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/medicine-grossman/programs/genome-health-analysis-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Law",
+      "english": "School of Law",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Competition, Innovation & Information Law",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/competition-innovation-information-law-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Corporate Law",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/corporate-law-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cybersecurity Risk and Strategy",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/cybersecurity-risk-strategy-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental and Energy Law",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/environmental-energy-law-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Law and Strategy",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/health-law-strategy-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Business Regulation, Litigation & Arbitration",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/international-business-regulation-litigation-arbitration-llm/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Legal Studies",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/international-legal-studies-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Taxation",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/international-taxation-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/law-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Legal Theory",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/legal-theory-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Taxation",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/taxation-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Taxation",
+          "degree": "MSL",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/taxation-msl/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Taxation-Executive Program",
+          "degree": "LLM",
+          "url": "https://bulletins.nyu.edu/graduate/law/programs/taxation-executive-program-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Professional Studies",
+      "english": "School of Professional Studies",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Entrepreneurship and Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/entrepreneurship-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Event Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/event-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Executive Coaching and Organizational Consulting",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/executive-coaching-organizational-consulting-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Planning",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/financial-planning-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Affairs",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/global-affairs-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Hospitality Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/global-hospitality-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Security, Conflict, and Cyber Crime",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/global-security-conflict-cyber-crime-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Sport",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/global-sport-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Capital Analytics and Technology",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/human-capital-analytics-technology-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Capital Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/human-capital-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Capital Management/Human Capital Analytics and Technology",
+          "degree": "MS/MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/human-capital-management-human-capital-analytics-technology-ms-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Integrated Marketing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/integrated-marketing-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management and Analytics",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/management-analytics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing and Strategic Communications, Executive",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/executive-masters-marketing-strategic-communications/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Professional Writing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/professional-writing-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Project Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/project-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Relations and Corporate Communication",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/public-relations-corporate-communication-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Publishing",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/publishing-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/real-estate-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate Development",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/real-estate-development-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sports Business",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/sports-business-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sustainability and Global Energy Practice",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/sustainability-global-energy-practice-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Translation and Interpreting",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/translation-interpreting-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Travel and Tourism Management",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/professional-studies/programs/travel-tourism-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Robert F. Wagner Graduate School of Public Service",
+      "english": "Robert F. Wagner Graduate School of Public Service",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Executive",
+          "degree": "MPA",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/executive-mpa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Administration",
+          "degree": "MHA",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/online-health-administration-mha/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Policy and Management",
+          "degree": "MPA",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/health-policy-management-mpa/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public and Nonprofit Management and Policy",
+          "degree": "MPA",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/public-nonprofit-management-policy-mpa/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy",
+          "degree": "MS",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/public-policy-ms/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban Planning",
+          "degree": "MUP",
+          "url": "https://bulletins.nyu.edu/graduate/public-service/programs/urban-planning-mup/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Gallatin School of Individualized Study",
+      "english": "Gallatin School of Individualized Study",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Individualized Study",
+          "degree": "MA",
+          "url": "https://bulletins.nyu.edu/graduate/individualized-study/programs/individualized-study-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Silver School of Social Work",
+      "english": "Silver School of Social Work",
+      "url": "https://bulletins.nyu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Social Work",
+          "degree": "MSW",
+          "url": "https://bulletins.nyu.edu/graduate/social-work/programs/social-work-msw/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

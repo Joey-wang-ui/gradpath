@@ -1,0 +1,41 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST",
+      "file": "ucsb/2597b7d713fe99da.html",
+      "sha256": "2597b7d713fe99da01981ed8409ac5c3893f23db963a162b99473cc0f7467ac5"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Film and Media Studies",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=FAMST-PHD-FAMST-MA-0",
+          "field": "艺术与设计",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

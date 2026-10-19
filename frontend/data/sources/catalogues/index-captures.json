@@ -1,0 +1,1130 @@
+[
+  {
+    "schoolId": "boston-college",
+    "url": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate.html",
+    "requestedURL": "https://www.bc.edu/bc-web/academics/sites/university-catalog/graduate.html",
+    "file": "boston-college/6477bce2473060d5.html",
+    "sha256": "6477bce2473060d54a46fef2af612b8aa711fb80ed2b9911d62384eec78476d7",
+    "capturedAt": "2026-10-19T12:05:32.044555+00:00",
+    "status": "captured",
+    "bytes": 142088
+  },
+  {
+    "schoolId": "bu",
+    "url": "https://www.bu.edu/academics/degree-programs/",
+    "requestedURL": "https://www.bu.edu/academics/degree-programs/",
+    "file": "bu/8fb4d3f5effaf558.html",
+    "sha256": "8fb4d3f5effaf5583ca203b0f8698024abbd6a714c8dd22f468d55be5ce6e100",
+    "capturedAt": "2026-10-19T12:05:32.522761+00:00",
+    "status": "captured",
+    "bytes": 194324
+  },
+  {
+    "schoolId": "brown",
+    "url": "https://masters.brown.edu/academics",
+    "requestedURL": "https://masters.brown.edu/academics",
+    "file": "brown/076ba60553c46ee4.html",
+    "sha256": "076ba60553c46ee4bea2b7c8d3cbfd89a75618472cf12cc855d3b259ee6f396d",
+    "capturedAt": "2026-10-19T12:05:31.947101+00:00",
+    "status": "captured",
+    "bytes": 43724
+  },
+  {
+    "schoolId": "caltech",
+    "url": "https://catalog.caltech.edu/current/areas-of-study-and-research/",
+    "requestedURL": "https://catalog.caltech.edu/current/areas-of-study-and-research/",
+    "file": "caltech/2050fbd33d99df20.html",
+    "sha256": "2050fbd33d99df20ea6f64cad30dcfdfece47eade02d7306776b8a4c1510c6fd",
+    "capturedAt": "2026-10-19T12:05:31.741835+00:00",
+    "status": "captured",
+    "bytes": 188525
+  },
+  {
+    "schoolId": "cmu",
+    "url": "https://www.cmu.edu/academics/graduate-programs.html",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "case-western",
+    "url": "https://bulletin.case.edu/academic-programs/",
+    "requestedURL": "https://bulletin.case.edu/programs/",
+    "file": "case-western/5bec8d8a5a3292d5.html",
+    "sha256": "5bec8d8a5a3292d53aabe8ce47059e88179c921101ec0bc3fa9f19cd613ddce7",
+    "capturedAt": "2026-10-19T12:05:33.295405+00:00",
+    "status": "captured",
+    "bytes": 672786
+  },
+  {
+    "schoolId": "columbia",
+    "url": "https://www.columbia.edu/content/academics/programs",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "cornell",
+    "url": "https://catalog.cornell.edu/programs/",
+    "requestedURL": "https://catalog.cornell.edu/programs/",
+    "file": "cornell/91fe9dab08d41c51.html",
+    "sha256": "91fe9dab08d41c5149379045fbd5f71536960c3bcc5dd72754fac1d865529e1e",
+    "capturedAt": "2026-10-19T12:05:33.090758+00:00",
+    "status": "captured",
+    "bytes": 289367
+  },
+  {
+    "schoolId": "dartmouth",
+    "url": "https://graduate.dartmouth.edu/admissions/programs",
+    "requestedURL": "https://graduate.dartmouth.edu/admissions/programs",
+    "file": "dartmouth/cde7a8b9a09557e2.html",
+    "sha256": "cde7a8b9a09557e2b292addab039a0ed827a54ba1838b7f57dbf706e277e8714",
+    "capturedAt": "2026-10-19T12:05:32.541604+00:00",
+    "status": "captured",
+    "bytes": 120053
+  },
+  {
+    "schoolId": "duke",
+    "url": "https://gradschool.duke.edu/academics/programs-degrees/",
+    "requestedURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+    "file": "duke/8e5690b1279ea81b.html",
+    "sha256": "8e5690b1279ea81be060f072edc26c2449e73c65c2930615a077e0700cfc82c7",
+    "capturedAt": "2026-10-19T12:05:32.988505+00:00",
+    "status": "captured",
+    "bytes": 81
+  },
+  {
+    "schoolId": "emory",
+    "url": "https://gs.emory.edu/academics/degree-programs.html",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "georgetown",
+    "url": "https://grad.georgetown.edu/programs/",
+    "requestedURL": "https://grad.georgetown.edu/programs/",
+    "file": "georgetown/d596de3f5e8f9b54.html",
+    "sha256": "d596de3f5e8f9b54d1479d8898a49b8cefb4a13210a468b10290f584b465bac6",
+    "capturedAt": "2026-10-19T12:05:33.180230+00:00",
+    "status": "captured",
+    "bytes": 322074
+  },
+  {
+    "schoolId": "georgia-tech",
+    "url": "https://catalog.gatech.edu/programs/",
+    "requestedURL": "https://catalog.gatech.edu/programs/",
+    "file": "georgia-tech/34e3dd7fa34c0c31.html",
+    "sha256": "34e3dd7fa34c0c317c1f0669bb88a1911581ff5ea1fdeaa60ebf460d5a4bafbd",
+    "capturedAt": "2026-10-19T12:05:33.410909+00:00",
+    "status": "captured",
+    "bytes": 130036
+  },
+  {
+    "schoolId": "harvard",
+    "url": "https://www.harvard.edu/programs/?degree=masters",
+    "requestedURL": "https://www.harvard.edu/programs/?degree=masters",
+    "file": "harvard/17af98f55d551fd9.html",
+    "sha256": "17af98f55d551fd900b2ad02d98c0b792b569d18097b38c0c36a82b52bae4a31",
+    "capturedAt": "2026-10-19T12:05:33.748629+00:00",
+    "status": "captured",
+    "bytes": 119637
+  },
+  {
+    "schoolId": "johns-hopkins",
+    "url": "https://e-catalogue.jhu.edu/programs/",
+    "requestedURL": "https://e-catalogue.jhu.edu/programs/",
+    "file": "johns-hopkins/30c805313e57e6b2.html",
+    "sha256": "30c805313e57e6b2012eacd71e42c4126c1e68d8003958e95d037e96f1a95606",
+    "capturedAt": "2026-10-19T12:05:34.185477+00:00",
+    "status": "captured",
+    "bytes": 908415
+  },
+  {
+    "schoolId": "lehigh",
+    "url": "https://catalog.lehigh.edu/programsandmajors/",
+    "requestedURL": "https://catalog.lehigh.edu/programsandmajors/",
+    "file": "lehigh/c2db0c41a11b7743.html",
+    "sha256": "c2db0c41a11b7743a116c0bb655ff7493201ad4cc1cae48eef416ed1c402b8c1",
+    "capturedAt": "2026-10-19T12:05:34.143587+00:00",
+    "status": "captured",
+    "bytes": 23360
+  },
+  {
+    "schoolId": "mit",
+    "url": "https://catalog.mit.edu/degree-charts/",
+    "requestedURL": "https://catalog.mit.edu/degree-charts/",
+    "file": "mit/a446ea39ebcfae28.html",
+    "sha256": "a446ea39ebcfae28468b297e5ef256f4087f440cd4a8bfc7d8738730e6ef377b",
+    "capturedAt": "2026-10-19T12:05:33.913794+00:00",
+    "status": "captured",
+    "bytes": 81664
+  },
+  {
+    "schoolId": "nyu",
+    "url": "https://bulletins.nyu.edu/programs/",
+    "requestedURL": "https://bulletins.nyu.edu/programs/",
+    "file": "nyu/1d6f20094c3553a6.html",
+    "sha256": "1d6f20094c3553a69f6701bbb4100253afffddd388678de8feefa13dd50cf45d",
+    "capturedAt": "2026-10-19T12:05:34.535884+00:00",
+    "status": "captured",
+    "bytes": 665022
+  },
+  {
+    "schoolId": "northeastern",
+    "url": "https://catalog.northeastern.edu/graduate/",
+    "requestedURL": "https://catalog.northeastern.edu/graduate/",
+    "file": "northeastern/3be3e16645f38bf7.html",
+    "sha256": "3be3e16645f38bf77ad58658b5b8398f575b42e9739274398a54dc0f7c8dab1b",
+    "capturedAt": "2026-10-19T12:05:33.946579+00:00",
+    "status": "captured",
+    "bytes": 21879
+  },
+  {
+    "schoolId": "northwestern",
+    "url": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+    "requestedURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+    "file": "northwestern/611459917d883996.html",
+    "sha256": "611459917d883996362f7a20863abf442052f8ae0108fb1a06a0a101bdaaf777",
+    "capturedAt": "2026-10-19T12:05:34.607601+00:00",
+    "status": "captured",
+    "bytes": 159768
+  },
+  {
+    "schoolId": "ohio-state",
+    "url": "https://gpadmissions.osu.edu/programs/",
+    "requestedURL": "https://gpadmissions.osu.edu/programs/",
+    "file": "ohio-state/7bc114526d1ae0e4.html",
+    "sha256": "7bc114526d1ae0e41dff102f5f725f2916133ae928cb60468c3b636a7f961b9f",
+    "capturedAt": "2026-10-19T12:05:35.219209+00:00",
+    "status": "captured",
+    "bytes": 356255
+  },
+  {
+    "schoolId": "princeton",
+    "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+    "requestedURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+    "file": "princeton/f74f4022dda84af2.html",
+    "sha256": "f74f4022dda84af2081e233adff5cc27231f2a5a4530380e65b433ef9f4cc024",
+    "capturedAt": "2026-10-19T12:05:34.585291+00:00",
+    "status": "captured",
+    "bytes": 209407
+  },
+  {
+    "schoolId": "purdue",
+    "url": "https://www.purdue.edu/academics/ogsps/prospective/gradrequirements/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "rice",
+    "url": "https://ga.rice.edu/programs-study/",
+    "requestedURL": "https://ga.rice.edu/programs-study/",
+    "file": "rice/1be63cbabeb1524c.html",
+    "sha256": "1be63cbabeb1524c6269bf03b312ac31a24c3f709c8acaacaaf955399330c50d",
+    "capturedAt": "2026-10-19T12:05:34.788212+00:00",
+    "status": "captured",
+    "bytes": 22605
+  },
+  {
+    "schoolId": "rutgers",
+    "url": "https://grad.rutgers.edu/academics/graduate-programs",
+    "requestedURL": "https://grad.rutgers.edu/academics/graduate-programs",
+    "file": "rutgers/0c8a4ace6e8b453e.html",
+    "sha256": "0c8a4ace6e8b453efcc48672d758d4d257342a9eb6fb3bdeba2483cdface50f3",
+    "capturedAt": "2026-10-19T12:05:34.850229+00:00",
+    "status": "captured",
+    "bytes": 157454
+  },
+  {
+    "schoolId": "stanford",
+    "url": "https://gradadmissions.stanford.edu/explore-programs",
+    "requestedURL": "https://gradadmissions.stanford.edu/explore-programs",
+    "file": "stanford/42817a39320e8ac2.html",
+    "sha256": "42817a39320e8ac2ea3ec94cc44b839d9f0393b57690e5cb319c2289af973fbc",
+    "capturedAt": "2026-10-19T12:05:35.032135+00:00",
+    "status": "captured",
+    "bytes": 34739
+  },
+  {
+    "schoolId": "ut-austin",
+    "url": "https://catalog.utexas.edu/graduate/fields-of-study/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs",
+    "requestedURL": "https://www.tufts.edu/graduate-programs",
+    "file": "tufts/ed7dd1cf1695ba30.html",
+    "sha256": "ed7dd1cf1695ba309f37f1f6a7a5438a12d7ef42a56c7dc8bd5ace8a13fed8db",
+    "capturedAt": "2026-10-19T12:05:35.019272+00:00",
+    "status": "captured",
+    "bytes": 165696
+  },
+  {
+    "schoolId": "berkeley",
+    "url": "https://grad.berkeley.edu/admissions/our-programs/",
+    "requestedURL": "https://grad.berkeley.edu/admissions/our-programs/",
+    "file": "berkeley/3475eeb6e67f8cff.html",
+    "sha256": "3475eeb6e67f8cfffb3ed0690a6613a722814a49a6b405715eb18bc1cbb82b05",
+    "capturedAt": "2026-10-19T12:05:35.333998+00:00",
+    "status": "captured",
+    "bytes": 1472924
+  },
+  {
+    "schoolId": "uc-davis",
+    "url": "https://grad.ucdavis.edu/graduate-programs",
+    "requestedURL": "https://grad.ucdavis.edu/graduate-programs",
+    "file": "uc-davis/5a1b73223a07e102.html",
+    "sha256": "5a1b73223a07e1025ba25ed6c66734d0f55e04cb21a55b2e71cc797a6dc9e8c1",
+    "capturedAt": "2026-10-19T12:05:35.145361+00:00",
+    "status": "captured",
+    "bytes": 88257
+  },
+  {
+    "schoolId": "uc-irvine",
+    "url": "https://catalogue.uci.edu/graduate/",
+    "requestedURL": "https://catalogue.uci.edu/graduate/",
+    "file": "uc-irvine/d883a1f3cc3f5e73.html",
+    "sha256": "d883a1f3cc3f5e73334355d17bca486cd791ce043f82f42bd71da91a42962d64",
+    "capturedAt": "2026-10-19T12:05:35.830153+00:00",
+    "status": "captured",
+    "bytes": 114942
+  },
+  {
+    "schoolId": "ucla",
+    "url": "https://grad.ucla.edu/",
+    "requestedURL": "https://grad.ucla.edu/",
+    "file": "ucla/29450b7f58aadab4.html",
+    "sha256": "29450b7f58aadab4fd1de129a899e200e1350a78825297fd01d612951fd6918b",
+    "capturedAt": "2026-10-19T12:05:35.999771+00:00",
+    "status": "captured",
+    "bytes": 164761
+  },
+  {
+    "schoolId": "ucsd",
+    "url": "https://grad.ucsd.edu/academics/programs.html",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://www.graddiv.ucsb.edu/graduate-programs",
+    "requestedURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+    "file": "ucsb/7b5763b75a508b93.html",
+    "sha256": "7b5763b75a508b93dda6fcbd3c392ce470446d4fe7a418224626516bd3bfd149",
+    "capturedAt": "2026-10-19T12:05:35.943915+00:00",
+    "status": "captured",
+    "bytes": 69784
+  },
+  {
+    "schoolId": "uchicago",
+    "url": "https://mastersdegrees.uchicago.edu/",
+    "status": "blocked-network",
+    "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "schoolId": "uf",
+    "url": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+    "requestedURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+    "file": "uf/1ab5110089352e35.html",
+    "sha256": "1ab5110089352e359c5d1c6da1309aa1162bcfa4b47a25b901b14fc9ff29f973",
+    "capturedAt": "2026-10-19T12:05:36.040826+00:00",
+    "status": "captured",
+    "bytes": 35715
+  },
+  {
+    "schoolId": "georgia",
+    "url": "https://grad.uga.edu/graduate-programs/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "uiuc",
+    "url": "https://catalog.illinois.edu/graduate/",
+    "requestedURL": "https://catalog.illinois.edu/graduate/",
+    "file": "uiuc/f353e8344bb5628d.html",
+    "sha256": "f353e8344bb5628d0cd3d94133337700078e38a276e0d36e28cf552d3414d6f5",
+    "capturedAt": "2026-10-19T12:05:36.327417+00:00",
+    "status": "captured",
+    "bytes": 95417
+  },
+  {
+    "schoolId": "maryland",
+    "url": "https://academiccatalog.umd.edu/graduate/programs/",
+    "requestedURL": "https://academiccatalog.umd.edu/graduate/programs/",
+    "file": "maryland/69f7fedf1374817d.html",
+    "sha256": "69f7fedf1374817d47643ff028c7521a24895f89d1e45451b9db76f683468cc1",
+    "capturedAt": "2026-10-19T12:05:36.655651+00:00",
+    "status": "captured",
+    "bytes": 82996
+  },
+  {
+    "schoolId": "umich",
+    "url": "https://rackham.umich.edu/programs-of-study/",
+    "requestedURL": "https://rackham.umich.edu/programs-of-study/",
+    "file": "umich/fbacc4549182a203.html",
+    "sha256": "fbacc4549182a20309be9de648978bdd22b5a2e62cbb60761b31ea429e63bf72",
+    "capturedAt": "2026-10-19T12:05:36.215709+00:00",
+    "status": "captured",
+    "bytes": 341240
+  },
+  {
+    "schoolId": "unc",
+    "url": "https://gradschool.unc.edu/degree-programs/",
+    "requestedURL": "https://gradschool.unc.edu/degree-programs/",
+    "file": "unc/08eac0c9b98b2c66.html",
+    "sha256": "08eac0c9b98b2c66cb935e46475a1bc68c33274c9201c406d974175aeded695b",
+    "capturedAt": "2026-10-19T12:05:36.265926+00:00",
+    "status": "captured",
+    "bytes": 275633
+  },
+  {
+    "schoolId": "notre-dame",
+    "url": "https://graduateschool.nd.edu/degree-programs/",
+    "requestedURL": "https://graduateschool.nd.edu/degree-programs/",
+    "file": "notre-dame/250ff223e2e1099c.html",
+    "sha256": "250ff223e2e1099c8859b7ccc59306d257fe43d85ff0210ab32cb539cf0619c6",
+    "capturedAt": "2026-10-19T12:05:37.036719+00:00",
+    "status": "captured",
+    "bytes": 299940
+  },
+  {
+    "schoolId": "upenn",
+    "url": "https://catalog.upenn.edu/graduate/programs/",
+    "requestedURL": "https://catalog.upenn.edu/graduate/programs/",
+    "file": "upenn/dfa0420f1b3e23f0.html",
+    "sha256": "dfa0420f1b3e23f086af641b83ccf1e3393185a1119a19e202837ded70d2a953",
+    "capturedAt": "2026-10-19T12:05:37.377411+00:00",
+    "status": "captured",
+    "bytes": 67590
+  },
+  {
+    "schoolId": "rochester",
+    "url": "https://www.rochester.edu/graduate-education/graduate-programs/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "usc",
+    "url": "https://catalogue.usc.edu/",
+    "status": "http-403",
+    "detail": "HTTP Error 403: Forbidden"
+  },
+  {
+    "schoolId": "uva",
+    "url": "https://records.ureg.virginia.edu/",
+    "status": "http-403",
+    "detail": "HTTP Error 403: Forbidden"
+  },
+  {
+    "schoolId": "washington",
+    "url": "https://grad.uw.edu/programs/find-a-graduate-program/",
+    "requestedURL": "https://grad.uw.edu/programs/find-a-graduate-program/",
+    "file": "washington/5c829fc4bb47641e.html",
+    "sha256": "5c829fc4bb47641e3afe28f778c4c4b0acc387cf21624b0c4aa603bfb5fc7d4b",
+    "capturedAt": "2026-10-19T12:05:37.199059+00:00",
+    "status": "captured",
+    "bytes": 73933
+  },
+  {
+    "schoolId": "wisconsin",
+    "url": "https://guide.wisc.edu/graduate/",
+    "requestedURL": "https://guide.wisc.edu/graduate/",
+    "file": "wisconsin/0101acde4c8b7729.html",
+    "sha256": "0101acde4c8b7729319098d36b173ab32975a9ca29b4dd701dfa95e51f74fbbe",
+    "capturedAt": "2026-10-19T12:05:37.847272+00:00",
+    "status": "captured",
+    "bytes": 253178
+  },
+  {
+    "schoolId": "vanderbilt",
+    "url": "https://www.vanderbilt.edu/academics/program-finder/",
+    "requestedURL": "https://www.vanderbilt.edu/academics/program-finder/",
+    "file": "vanderbilt/8a6a26c70a7821be.html",
+    "sha256": "8a6a26c70a7821be5820b8aa7c018d54a0886cba96e55d9826139ba93c89f4c6",
+    "capturedAt": "2026-10-19T12:05:38.062943+00:00",
+    "status": "captured",
+    "bytes": 129800
+  },
+  {
+    "schoolId": "villanova",
+    "url": "https://www1.villanova.edu/university/graduate-and-professional-studies.html",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "wake-forest",
+    "url": "https://bulletin.wfu.edu/programs/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "washu",
+    "url": "https://bulletin.wustl.edu/programs/",
+    "requestedURL": "https://bulletin.wustl.edu/programs/",
+    "file": "washu/9cc7b8c2e6022514.html",
+    "sha256": "9cc7b8c2e6022514012e2922c2a66991775bd6804e423c44a12b44b75d9e4abe",
+    "capturedAt": "2026-10-19T12:05:38.175288+00:00",
+    "status": "captured",
+    "bytes": 23197
+  },
+  {
+    "schoolId": "stanford",
+    "url": "https://applygrad.stanford.edu/portal/programs",
+    "requestedURL": "https://applygrad.stanford.edu/portal/programs",
+    "file": "stanford/6380c6081d221661.html",
+    "sha256": "6380c6081d22166126e21d43831e65fb11c9a1a3f9279cf63ecce6b9eef1846b",
+    "capturedAt": "2026-10-19T12:23:38.214015+00:00",
+    "status": "captured",
+    "bytes": 82307
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs",
+    "file": "ucsb/560129719dfd552c.html",
+    "sha256": "560129719dfd552c3087044a41a98a4a42274fd5b603a180845cf70ae84b58f1",
+    "capturedAt": "2026-10-19T12:23:38.479002+00:00",
+    "status": "captured",
+    "bytes": 47204
+  },
+  {
+    "schoolId": "yale",
+    "url": "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19",
+    "requestedURL": "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19",
+    "file": "yale/a294f37aad2a5867.html",
+    "sha256": "a294f37aad2a5867df795e25ad4a8584c1e2b271e3d9244cdf6a5b28bb1a9d3a",
+    "capturedAt": "2026-10-19T12:23:38.017573+00:00",
+    "status": "captured",
+    "bytes": 76290
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23",
+    "file": "tufts/686d4b25d70914cc.html",
+    "sha256": "686d4b25d70914ccb564fb97d87bb794c1f7c288bce3f842e6b09a844435a40a",
+    "capturedAt": "2026-10-19T12:23:38.101434+00:00",
+    "status": "captured",
+    "bytes": 166302
+  },
+  {
+    "schoolId": "uc-irvine",
+    "url": "https://catalogue.uci.edu/degreesandprograms/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "northeastern",
+    "url": "https://catalog.northeastern.edu/programs/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "uchicago",
+    "url": "https://www.uchicago.edu/en/education-and-research/graduate-programs",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "ut-austin",
+    "url": "https://catalog.utexas.edu/graduate/fields-of-study-a-z/",
+    "status": "http-404",
+    "detail": "HTTP Error 404: Not Found"
+  },
+  {
+    "schoolId": "columbia",
+    "url": "https://www.columbia.edu/content/academics",
+    "status": "http-403",
+    "detail": "HTTP Error 403: Forbidden"
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=1",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=1",
+    "file": "tufts/d8a6f3face955e5a.html",
+    "sha256": "d8a6f3face955e5aa8778e30b847880adef1644a85bd517fb4202de092f6e581",
+    "capturedAt": "2026-10-19T12:25:43.969351+00:00",
+    "status": "captured",
+    "bytes": 166570
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+    "file": "tufts/c834138d9963d479.html",
+    "sha256": "c834138d9963d479a01e0b25b3123406194ca45ef6e21f4e1075b1f4e6e543d0",
+    "capturedAt": "2026-10-19T12:25:44.041371+00:00",
+    "status": "captured",
+    "bytes": 166639
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+    "file": "tufts/0042d762c9613b81.html",
+    "sha256": "0042d762c9613b81ae7195ec986fb995d78b67979ac90ed69c784a50813c794f",
+    "capturedAt": "2026-10-19T12:25:44.061752+00:00",
+    "status": "captured",
+    "bytes": 166206
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+    "file": "tufts/b048f9c291d88dbd.html",
+    "sha256": "b048f9c291d88dbd1589b16b15f3ff98fb3c4f42236abd7e40ec2b040a09cee9",
+    "capturedAt": "2026-10-19T12:25:44.069982+00:00",
+    "status": "captured",
+    "bytes": 166185
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=5",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=5",
+    "file": "tufts/70b6d116dbdfb8c2.html",
+    "sha256": "70b6d116dbdfb8c2a35efc1defbf9bc194e835806248498f9a04ba8800b3ea2d",
+    "capturedAt": "2026-10-19T12:25:44.688077+00:00",
+    "status": "captured",
+    "bytes": 158470
+  },
+  {
+    "schoolId": "tufts",
+    "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+    "requestedURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+    "file": "tufts/c5b859eed899cb45.html",
+    "sha256": "c5b859eed899cb455b23f88aed62fc11e3eb401fc62c19786aa32ce1eb71d860",
+    "capturedAt": "2026-10-19T12:25:44.399179+00:00",
+    "status": "captured",
+    "bytes": 136137
+  },
+  {
+    "schoolId": "stanford",
+    "url": "https://applygrad.stanford.edu/portal/explore-programs",
+    "requestedURL": "https://applygrad.stanford.edu/portal/explore-programs",
+    "file": "stanford/ce3d0f814e7588c3.html",
+    "sha256": "ce3d0f814e7588c3673afbbbcbdb5f38efe2114e273600d363c012555ff1cc60",
+    "capturedAt": "2026-10-19T12:25:44.594491+00:00",
+    "status": "captured",
+    "bytes": 43213
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=search",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=search",
+    "file": "ucsb/75b9f1ddfd4155cd.html",
+    "sha256": "75b9f1ddfd4155cdc055aaf68c2778d8b61f10db4990d2954eddc1ba1cd9dd25",
+    "capturedAt": "2026-10-19T12:25:44.777148+00:00",
+    "status": "captured",
+    "bytes": 6671
+  },
+  {
+    "schoolId": "stanford",
+    "url": "https://applygrad.stanford.edu/portal/explore-programs?cmd=grad-program-list",
+    "requestedURL": "https://applygrad.stanford.edu/portal/explore-programs?cmd=grad-program-list",
+    "file": "stanford/6c641dd671b0eeab.html",
+    "sha256": "6c641dd671b0eeabbebbb8498eeaed17a314caeb9473b05da81e6546ed88dc75",
+    "capturedAt": "2026-10-19T12:26:23.891995+00:00",
+    "status": "captured",
+    "bytes": 273778
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH",
+    "file": "ucsb/cf855c32b44b3889.html",
+    "sha256": "cf855c32b44b38890522f5aca358f55714156df5d6ac63edb8928d37c377b93a",
+    "capturedAt": "2026-10-19T12:27:14.153089+00:00",
+    "status": "captured",
+    "bytes": 43806
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ART",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ART",
+    "file": "ucsb/e57412b3d3c19d21.html",
+    "sha256": "e57412b3d3c19d2133c707fecba90529a5a241b2cd0b902fc73f8e264f51af95",
+    "capturedAt": "2026-10-19T12:27:14.220293+00:00",
+    "status": "captured",
+    "bytes": 44034
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BENG",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BENG",
+    "file": "ucsb/8d019718a2e3560d.html",
+    "sha256": "8d019718a2e3560d2820223c5b85853ded1216b4a1f88841279e7c0b603bace8",
+    "capturedAt": "2026-10-19T12:27:14.193501+00:00",
+    "status": "captured",
+    "bytes": 43602
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNENG",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNENG",
+    "file": "ucsb/b08c105c756dfda3.html",
+    "sha256": "b08c105c756dfda3af0a2485fdb912ffd6fdeae1c8789d9c66060fa7c26a53b6",
+    "capturedAt": "2026-10-19T12:27:14.216381+00:00",
+    "status": "captured",
+    "bytes": 43192
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM-TEP",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM-TEP",
+    "file": "ucsb/7a8945a54e2db451.html",
+    "sha256": "7a8945a54e2db451b5247b3efe5475e516cd6723843ab5c46df4d959e2014e15",
+    "capturedAt": "2026-10-19T12:27:14.364245+00:00",
+    "status": "captured",
+    "bytes": 44318
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM",
+    "file": "ucsb/c845b1f6f4dea367.html",
+    "sha256": "c845b1f6f4dea367ebc42a87b28160f7955917e4e5e6196ec5bbd3468668480a",
+    "capturedAt": "2026-10-19T12:27:14.438805+00:00",
+    "status": "captured",
+    "bytes": 44470
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHST",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHST",
+    "file": "ucsb/0a695736c75f44a8.html",
+    "sha256": "0a695736c75f44a888a59a7db67a1814a42fb902256b80af30d723f392c16647",
+    "capturedAt": "2026-10-19T12:27:14.575654+00:00",
+    "status": "captured",
+    "bytes": 44280
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLASS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLASS",
+    "file": "ucsb/53400318ed1d43a8.html",
+    "sha256": "53400318ed1d43a853f9c2b1fbb034749969254ec505db4ea86d6073be54a783",
+    "capturedAt": "2026-10-19T12:27:14.437619+00:00",
+    "status": "captured",
+    "bytes": 44491
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=COMM",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=COMM",
+    "file": "ucsb/4009953438ad1f73.html",
+    "sha256": "4009953438ad1f734d72bda65668dad3c9dd5310efec62959e0cdee6fd6c247c",
+    "capturedAt": "2026-10-19T12:27:14.577296+00:00",
+    "status": "captured",
+    "bytes": 44173
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLIT",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLIT",
+    "file": "ucsb/feb1e5ed6bbb1414.html",
+    "sha256": "feb1e5ed6bbb1414efc99001b4213b7a1751a767381524fe4a40f3e4c8551a0c",
+    "capturedAt": "2026-10-19T12:27:14.680435+00:00",
+    "status": "captured",
+    "bytes": 44339
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CMPSC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CMPSC",
+    "file": "ucsb/6879dd32520cd82e.html",
+    "sha256": "6879dd32520cd82e5f0e7f6aee7f2225051804a2479e07d5cda8fd371347e030",
+    "capturedAt": "2026-10-19T12:27:14.837954+00:00",
+    "status": "captured",
+    "bytes": 44419
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNCSP",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNCSP",
+    "file": "ucsb/55bf35b8e8e9298d.html",
+    "sha256": "55bf35b8e8e9298d691cfd40320d377a65e73d2fa692b5a3b0065d0cfaab4b07",
+    "capturedAt": "2026-10-19T12:27:14.898034+00:00",
+    "status": "captured",
+    "bytes": 44364
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=DYNS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=DYNS",
+    "file": "ucsb/dbd9e7ff78b4854d.html",
+    "sha256": "dbd9e7ff78b4854db2f45d71eb0f59ebbc202ca16890ec72d9b7215e1ccece05",
+    "capturedAt": "2026-10-19T12:27:14.778176+00:00",
+    "status": "captured",
+    "bytes": 43248
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC",
+    "file": "ucsb/f9c6dbc652797e4d.html",
+    "sha256": "f9c6dbc652797e4d7a4a84d52a4ce2278eb2bd4905e5524eb2e60197ff00c40d",
+    "capturedAt": "2026-10-19T12:27:14.890312+00:00",
+    "status": "captured",
+    "bytes": 44567
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EALCS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EALCS",
+    "file": "ucsb/0f4f0dd4710d436b.html",
+    "sha256": "0f4f0dd4710d436b12a52f31e1c4050b01a7fc7b0b907b45399db4718fd94426",
+    "capturedAt": "2026-10-19T12:27:14.995407+00:00",
+    "status": "captured",
+    "bytes": 44518
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB",
+    "file": "ucsb/2ad6e5835ae4da0d.html",
+    "sha256": "2ad6e5835ae4da0dc158c6a672ee4fd46dfc9b207a81cb50b3e487e09b8af9ba",
+    "capturedAt": "2026-10-19T12:27:15.115839+00:00",
+    "status": "captured",
+    "bytes": 44613
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECON",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECON",
+    "file": "ucsb/4ceaffb0b80517fc.html",
+    "sha256": "4ceaffb0b80517fc4e084b8a64a475377e755ad5bdd65204f2aaf2e167ab2f40",
+    "capturedAt": "2026-10-19T12:27:15.110479+00:00",
+    "status": "captured",
+    "bytes": 43626
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC",
+    "file": "ucsb/a2ad7e341402e351.html",
+    "sha256": "a2ad7e341402e351b6a071d601a77bf3d4cddb6c13c37f4c60fefedc15289a59",
+    "capturedAt": "2026-10-19T12:27:15.111985+00:00",
+    "status": "captured",
+    "bytes": 44617
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECE",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECE",
+    "file": "ucsb/ae5883f189d11085.html",
+    "sha256": "ae5883f189d11085345e79286bdcdebd5da4de9d9d4d341daa8dee6f523392a2",
+    "capturedAt": "2026-10-19T12:27:15.254368+00:00",
+    "status": "captured",
+    "bytes": 46642
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ETL",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ETL",
+    "file": "ucsb/bb49e9ab31ad3012.html",
+    "sha256": "bb49e9ab31ad301255e01f40b9c5d52b6254e0d560ca1ae96dfd642ed1ec9e1d",
+    "capturedAt": "2026-10-19T12:27:15.319120+00:00",
+    "status": "captured",
+    "bytes": 44249
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ENGL",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ENGL",
+    "file": "ucsb/2e78349f9ce428d6.html",
+    "sha256": "2e78349f9ce428d6de0a0c96b90bab9423b85e5184dd299eda7c153a11804854",
+    "capturedAt": "2026-10-19T12:27:15.385551+00:00",
+    "status": "captured",
+    "bytes": 44142
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM",
+    "file": "ucsb/384d1442d1e34204.html",
+    "sha256": "384d1442d1e34204269999c451c1cc1979549a05cfd2590377d10e8832d73a15",
+    "capturedAt": "2026-10-19T12:27:15.473452+00:00",
+    "status": "captured",
+    "bytes": 44439
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FEMST",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FEMST",
+    "file": "ucsb/5cf30f9ee9663e92.html",
+    "sha256": "5cf30f9ee9663e920ccf68647b249d546253deb5ed072a1ca8478f4ddf7a00f6",
+    "capturedAt": "2026-10-19T12:27:15.458935+00:00",
+    "status": "captured",
+    "bytes": 44396
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST",
+    "file": "ucsb/2597b7d713fe99da.html",
+    "sha256": "2597b7d713fe99da01981ed8409ac5c3893f23db963a162b99473cc0f7467ac5",
+    "capturedAt": "2026-10-19T12:27:15.522408+00:00",
+    "status": "captured",
+    "bytes": 44037
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GEOG",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GEOG",
+    "file": "ucsb/124a984b51bc3889.html",
+    "sha256": "124a984b51bc388966fd342cbf70be1d26d1f60d2f9a9c821c82d74ce92f835d",
+    "capturedAt": "2026-10-19T12:27:15.607132+00:00",
+    "status": "captured",
+    "bytes": 44282
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GLOBL",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GLOBL",
+    "file": "ucsb/7225c5d1ff6e6ba9.html",
+    "sha256": "7225c5d1ff6e6ba9e03b08c635ae7e7f8f68c5168edfb80c6203692037d65b67",
+    "capturedAt": "2026-10-19T12:27:15.728073+00:00",
+    "status": "captured",
+    "bytes": 43777
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST",
+    "file": "ucsb/414f143a02469d82.html",
+    "sha256": "414f143a02469d8226e8f05fd9f56c85a675fa3cfe42f2a0969442cfd8d714c4",
+    "capturedAt": "2026-10-19T12:27:15.735451+00:00",
+    "status": "captured",
+    "bytes": 44097
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ARTHI",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ARTHI",
+    "file": "ucsb/010870c62dbd5cf8.html",
+    "sha256": "010870c62dbd5cf8c93a3a64a6fb341d5c6bb20a646c31363c5843d9d94b9bec",
+    "capturedAt": "2026-10-19T12:27:15.722722+00:00",
+    "status": "captured",
+    "bytes": 44114
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE",
+    "file": "ucsb/d62d3d16d990cb1b.html",
+    "sha256": "d62d3d16d990cb1b7e95ca31a28fb5d9eeff8bd6d267c9bb3f92de15cfa3e8b9",
+    "capturedAt": "2026-10-19T12:27:15.806666+00:00",
+    "status": "captured",
+    "bytes": 44924
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LAIS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LAIS",
+    "file": "ucsb/2f02ac973573c9a9.html",
+    "sha256": "2f02ac973573c9a98474f1a3ef5a4e3d2fc7392b771dcce10d4eed7b10efe87b",
+    "capturedAt": "2026-10-19T12:27:15.943812+00:00",
+    "status": "captured",
+    "bytes": 44018
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING",
+    "file": "ucsb/906e80971f0ffba9.html",
+    "sha256": "906e80971f0ffba9cdecfc770d12926fa477df181ef74773ab0161a3a7f0b068",
+    "capturedAt": "2026-10-19T12:27:15.941924+00:00",
+    "status": "captured",
+    "bytes": 43651
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MARSC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MARSC",
+    "file": "ucsb/a5fd28562d504f74.html",
+    "sha256": "a5fd28562d504f7430485c6275a70eb019744f0f71bcb5416e4130402bc419bd",
+    "capturedAt": "2026-10-19T12:27:15.932840+00:00",
+    "status": "captured",
+    "bytes": 44088
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL",
+    "file": "ucsb/80efeb067c8d1679.html",
+    "sha256": "80efeb067c8d1679a8a9aea82a8e28cadbf7c171495da6ee8bf21c30ab7a22e3",
+    "capturedAt": "2026-10-19T12:27:16.009359+00:00",
+    "status": "captured",
+    "bytes": 44852
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATH",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATH",
+    "file": "ucsb/9b0c46da8614c1eb.html",
+    "sha256": "9b0c46da8614c1eb31f90c28b42e76f55619192bc4b7033e64960de418cb8828",
+    "capturedAt": "2026-10-19T12:27:16.185087+00:00",
+    "status": "captured",
+    "bytes": 44112
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB-TEP",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB-TEP",
+    "file": "ucsb/01c2cf1af9e1944d.html",
+    "sha256": "01c2cf1af9e1944d1bd2fd1ef2eb463bb5d3472f110cf814c11ba3774bbd23dd",
+    "capturedAt": "2026-10-19T12:27:16.143551+00:00",
+    "status": "captured",
+    "bytes": 44408
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ME",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ME",
+    "file": "ucsb/4b2cbaa5b4cdcb84.html",
+    "sha256": "4b2cbaa5b4cdcb84341727e78b62bcfd1b548f4b4fe12c87f00e0eabc8dcea51",
+    "capturedAt": "2026-10-19T12:27:16.214696+00:00",
+    "status": "captured",
+    "bytes": 44680
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MAT",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MAT",
+    "file": "ucsb/485f98fcebb17bab.html",
+    "sha256": "485f98fcebb17babd89e00f5281147753838186a02b15911c7e60c221ecba59e",
+    "capturedAt": "2026-10-19T12:27:16.200692+00:00",
+    "status": "captured",
+    "bytes": 43962
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB",
+    "file": "ucsb/111b0907e7762a5c.html",
+    "sha256": "111b0907e7762a5c9a02f1d8d02d918034ca32dfc397eae8f1d1c094806e1752",
+    "capturedAt": "2026-10-19T12:27:16.442203+00:00",
+    "status": "captured",
+    "bytes": 44747
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MUSIC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MUSIC",
+    "file": "ucsb/5a1dc90060aa590a.html",
+    "sha256": "5a1dc90060aa590a24e6394f50da800bc81e1c68f5ea9068eed286267661f5ec",
+    "capturedAt": "2026-10-19T12:27:16.446023+00:00",
+    "status": "captured",
+    "bytes": 46135
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHIL",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHIL",
+    "file": "ucsb/2649d4e1c92670a4.html",
+    "sha256": "2649d4e1c92670a44b969bd61462f306b8468f7f31c9fe6438def3b0b2aceda0",
+    "capturedAt": "2026-10-19T12:27:16.399200+00:00",
+    "status": "captured",
+    "bytes": 44085
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHYS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHYS",
+    "file": "ucsb/b4bc86210dd07540.html",
+    "sha256": "b4bc86210dd0754084f3cdc514a6ccdb5ccd3d45f77583cd385cdbe8b139181e",
+    "capturedAt": "2026-10-19T12:27:16.448103+00:00",
+    "status": "captured",
+    "bytes": 44040
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=POLS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=POLS",
+    "file": "ucsb/a16cc7596954b2d6.html",
+    "sha256": "a16cc7596954b2d6512d10c37412dc65dadab406372337373b0039c2f6f5633a",
+    "capturedAt": "2026-10-19T12:27:16.592952+00:00",
+    "status": "captured",
+    "bytes": 44022
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PSY",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PSY",
+    "file": "ucsb/7c6d0677d2d77df7.html",
+    "sha256": "7c6d0677d2d77df78a49de78108bab6348a430e4d1c0ce5b5ab05d3bdf36a8ae",
+    "capturedAt": "2026-10-19T12:27:16.657763+00:00",
+    "status": "captured",
+    "bytes": 43438
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=RELST",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=RELST",
+    "file": "ucsb/59b042e9ffc3f6ac.html",
+    "sha256": "59b042e9ffc3f6acc2166d41af6a83e3a2f005e0bb01acd7c3178254b2bd7b6d",
+    "capturedAt": "2026-10-19T12:27:16.723053+00:00",
+    "status": "captured",
+    "bytes": 44606
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SOC",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SOC",
+    "file": "ucsb/da5d652be3c9abcb.html",
+    "sha256": "da5d652be3c9abcbee52db71fab2f3f097b05da4ceb83245bd5a9da2e8159d08",
+    "capturedAt": "2026-10-19T12:27:16.669695+00:00",
+    "status": "captured",
+    "bytes": 44035
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SPPT",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SPPT",
+    "file": "ucsb/d2b7b3cdfdbeea96.html",
+    "sha256": "d2b7b3cdfdbeea960c5ac1c48dd787a221105e190b4e75ec338bf4ce964453cb",
+    "capturedAt": "2026-10-19T12:27:16.813811+00:00",
+    "status": "captured",
+    "bytes": 43936
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=STATS",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=STATS",
+    "file": "ucsb/36b1691aec9a69d1.html",
+    "sha256": "36b1691aec9a69d1f8a622077d9feacbb1691735f615e321c5e5a6c748254697",
+    "capturedAt": "2026-10-19T12:27:16.871693+00:00",
+    "status": "captured",
+    "bytes": 44783
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TEP",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TEP",
+    "file": "ucsb/3519e31718626e80.html",
+    "sha256": "3519e31718626e8039e80e662c2d1cdaddd65b5cd03dd8d975be764df0cb2fa8",
+    "capturedAt": "2026-10-19T12:27:16.869415+00:00",
+    "status": "captured",
+    "bytes": 45178
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TMP",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TMP",
+    "file": "ucsb/ca6eb49f0a00169e.html",
+    "sha256": "ca6eb49f0a00169ea0fa6928e6429832bb6deea02703343124ec37a6e2b406f0",
+    "capturedAt": "2026-10-19T12:27:16.954279+00:00",
+    "status": "captured",
+    "bytes": 43822
+  },
+  {
+    "schoolId": "ucsb",
+    "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=THTDA",
+    "requestedURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=THTDA",
+    "file": "ucsb/5894a070b42861d2.html",
+    "sha256": "5894a070b42861d20b5faabb6f7f408ca45e1e1e33128e5a139f450c1b1c089e",
+    "capturedAt": "2026-10-19T12:27:17.073773+00:00",
+    "status": "captured",
+    "bytes": 43891
+  }
+]

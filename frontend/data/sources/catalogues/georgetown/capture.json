@@ -1,0 +1,71 @@
+{
+  "schoolId": "georgetown",
+  "catalogURL": "https://grad.georgetown.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "georgetown",
+      "url": "https://grad.georgetown.edu/programs/",
+      "requestedURL": "https://grad.georgetown.edu/programs/",
+      "file": "frontend/data/sources/catalogues/georgetown/d596de3f5e8f9b54.html",
+      "sha256": "d596de3f5e8f9b54d1479d8898a49b8cefb4a13210a468b10290f584b465bac6",
+      "capturedAt": "2026-10-19T12:01:48.626388+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 8,
+  "candidates": [
+    {
+      "label": "Master's in Addiction Policy & Practice",
+      "url": "https://addictionpolicy.georgetown.edu/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in American Government",
+      "url": "https://government.georgetown.edu/maag/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in Applied Economics",
+      "url": "https://econ.georgetown.edu/academics/masters-programs-in-economics/masters-in-applied-economics/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in Arab Studies",
+      "url": "https://sfs.georgetown.edu/ma-arab-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in Arabic and Islamic Studies",
+      "url": "https://arabic.georgetown.edu/grad/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in Art and Museum Studies",
+      "url": "https://art.georgetown.edu/programs/museum-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "Master's in Asian Studies",
+      "url": "https://sfs.georgetown.edu/ma-asian-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    },
+    {
+      "label": "M.S. in Biochemistry & Molecular Biology",
+      "url": "https://msbiochemistry.georgetown.edu/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.georgetown.edu/programs/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

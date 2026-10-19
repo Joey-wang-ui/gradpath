@@ -1,0 +1,1466 @@
+{
+  "schoolId": "upenn",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://catalog.upenn.edu/graduate/programs/",
+      "file": "upenn/dfa0420f1b3e23f0.html",
+      "sha256": "dfa0420f1b3e23f086af641b83ccf1e3393185a1119a19e202837ded70d2a953"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://catalog.upenn.edu/graduate/programs/",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Accounting",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/accounting-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Adult Gerontology Acute Care Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/adult-gerontology-acute-care-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Adult Gerontology Primary Care Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/adult-gerontology-primary-care-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Economics and Data Science",
+          "degree": "MEDS",
+          "url": "https://catalog.upenn.edu/graduate/programs/applied-economics-data-science-meds/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Mathematics and Computational Science",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/applied-mathematics-computational-science-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture",
+          "degree": "MArch",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-march/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture",
+          "degree": "MS",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-ms/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture, MSD: Advanced Architectural Design",
+          "degree": "MSD",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-advanced-architectural-design-msd/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture, MSD: Environmental Building Design",
+          "degree": "MSD",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-environmental-building-design-msd/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture, MSD: Property Development and Design",
+          "degree": "MSD",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-property-development-design-msd/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture, MSD: Robotics and Autonomous Systems",
+          "degree": "MSD",
+          "url": "https://catalog.upenn.edu/graduate/programs/architecture-robotics-autonomous-systems-msd/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art and Archaeology of the Mediterranean World",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/art-archaeology-mediterranean-world-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Artificial Intelligence for Business",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/artificial-intelligence-business-mba/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Artificial Intelligence",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/artificial-intelligence-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioengineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/bioengineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioethics",
+          "degree": "MBE",
+          "url": "https://catalog.upenn.edu/graduate/programs/bioethics-mbe/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics",
+          "degree": "MS",
+          "url": "https://catalog.upenn.edu/graduate/programs/epidemiology-biostatistics-biostatistics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Analytics",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/business-analytics-mba/",
+          "field": "数据与统计",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Economics & Public Policy",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/business-economics-public-policy-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business, Energy, Environment and Sustainability",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/business-energy-env-sustain-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical & Biomolecular Engineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/chemical-biomolecular-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical Sciences",
+          "degree": "MCS",
+          "url": "https://catalog.upenn.edu/graduate/programs/chemical-sciences-mcs/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cinema and Media Studies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/cinema-media-studies-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "City & Regional Planning",
+          "degree": "MCP",
+          "url": "https://catalog.upenn.edu/graduate/programs/city-and-regional-planning-mcp/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Epidemiology",
+          "degree": "MSCE",
+          "url": "https://catalog.upenn.edu/graduate/programs/clinical-epidemiology-msce/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer & Information Science",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/computer-information-science-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer & Information Technology",
+          "degree": "MCIT",
+          "url": "https://catalog.upenn.edu/graduate/programs/computer-information-technology-mcit/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Graphics & Game Technology",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/computer-graphics-game-technology-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Criminology",
+          "degree": "MS",
+          "url": "https://catalog.upenn.edu/graduate/programs/criminology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science and Artificial Intelligence",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/data-science-artificial-intelligence-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/data-science-mse/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "East Asian Languages and Civilizations",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/east-asian-languages-civilizations-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical Engineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/electrical-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Energy and Sustainability Engineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/energy-sustainability-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/english-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Entrepreneurship and Innovation",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/entrepreneurship-innovation-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Executive",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/executive-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Family Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/family-nurse-practitioner-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Finance",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/finance-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Fine Arts",
+          "degree": "MFA",
+          "url": "https://catalog.upenn.edu/graduate/programs/fine-arts-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/global-mpa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Government Administration (Exec)",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/government-administration-mpa/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Government Administration (FT)",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/government-administration-mpaf/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Care Management",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/health-care-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Historic Preservation",
+          "degree": "MSD",
+          "url": "https://catalog.upenn.edu/graduate/programs/historic-preservation-msd/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Art",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/history-art-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Impact, Value and Sustainable Business",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/impact-value-sustainable-business-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Individualized Major",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/individualized-major-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Integrated Product Design",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/integrated-product-design-mse/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Impact Evaluation",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/international-impact-evaluation-mpa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Studies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/international-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/international-mpa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Landscape Architecture & Regional Planning",
+          "degree": "MLA",
+          "url": "https://catalog.upenn.edu/graduate/programs/landscape-architecture-regional-planning-mla/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Law",
+          "degree": "LLM",
+          "url": "https://catalog.upenn.edu/graduate/programs/law-llm/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Leading Across Differences",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/leading-across-differences-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Liberal Arts Individualized",
+          "degree": "MLA",
+          "url": "https://catalog.upenn.edu/graduate/programs/liberal-arts-individualized-mla/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Linguistics",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/linguistics-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing & Operations Management",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/marketing-operations-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/marketing-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/materials-science-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/mathematics-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering & Applied Mechanics",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/mechanical-engineering-applied-mechanics-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Ethics",
+          "degree": "MSME",
+          "url": "https://catalog.upenn.edu/graduate/programs/medical-ethics-msme/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Middle Eastern Languages & Cultures, MA: Biblical Studies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/middle-eastern-languages-cultures-biblical-studies-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Middle Eastern Languages & Cultures, MA: Egyptology",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/middle-eastern-languages-cultures-egyptology-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Middle Eastern Languages & Cultures, MA: Hebrew and Judaic Studies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/middle-eastern-languages-cultures-hebrew-judaic-studies-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Middle Eastern Languages & Cultures, MA: Mesopotamian Civilization",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/middle-eastern-languages-cultures-mesopotamian-civilization-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Middle Eastern Languages & Cultures, MA: Middle Eastern Literatures & Societies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/middle-eastern-languages-cultures-middle-eastern-literatures-societies-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Multinational Management",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/multinational-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Neonatal Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/neonatal-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nurse-Midwifery",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/nurse-midwifery-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nursing & Healthcare Leadership",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/nursing-and-healthcare-leadership-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Operations, Information, & Decisions",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/operations-information-decisions-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Organizational Effectiveness",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/organizational-effectiveness-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Acute Care Nurse Practitioner: Acute/Chronic",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/pediatric-acute-care-np-acute-chronic-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Acute Care Nurse Practitioner: Critical Care",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/pediatric-acute-care-np-critical-care-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Acute Care Nurse Practitioner: Oncology",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/pediatric-acute-care-np-oncology-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Primary Care Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/pediatric-primary-care-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Psychiatric Mental Health Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/psychiatric-mental-health-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health",
+          "degree": "MPH",
+          "url": "https://catalog.upenn.edu/graduate/programs/public-health-mph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Finance",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/quantitative-finance-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Policy Analysis",
+          "degree": "MPA",
+          "url": "https://catalog.upenn.edu/graduate/programs/quantitative-policy-analysis-mpa/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/real-estate-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Robotics",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/robotics-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Scientific Computing",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/scientific-computing-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social and Governance Factors for Business",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/social-governance-factors-business-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work",
+          "degree": "MSW",
+          "url": "https://catalog.upenn.edu/graduate/programs/social-work-msw/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Software Systems and Cybersecurity",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/software-systems-cybersecurity-mse/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "South Asia Regional Studies",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/south-asia-regional-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics and Data Science",
+          "degree": "MA",
+          "url": "https://catalog.upenn.edu/graduate/programs/statistics-data-science-ma/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics and Data Science",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/statistics-data-science-mba/",
+          "field": "数据与统计",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Strategic Management",
+          "degree": "MBA",
+          "url": "https://catalog.upenn.edu/graduate/programs/strategic-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Systems Engineering",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/systems-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Technology and Innovation",
+          "degree": "MSE",
+          "url": "https://catalog.upenn.edu/graduate/programs/technology-innovation-mse/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Women's Health/Gender Related Nurse Practitioner",
+          "degree": "MSN",
+          "url": "https://catalog.upenn.edu/graduate/programs/womens-health-gender-related-np-msn/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

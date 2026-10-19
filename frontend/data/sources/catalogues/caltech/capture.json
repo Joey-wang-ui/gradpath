@@ -1,0 +1,22 @@
+{
+  "schoolId": "caltech",
+  "catalogURL": "https://www.gradoffice.caltech.edu/academics/degrees",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "caltech",
+      "url": "https://www.gradoffice.caltech.edu/academics/degrees",
+      "requestedURL": "https://www.gradoffice.caltech.edu/academics/degrees",
+      "file": "frontend/data/sources/catalogues/caltech/a12362d63958b317.html",
+      "sha256": "a12362d63958b31740889a680449b70fb06b415a728f8b0302e7e7bbda5d6b79",
+      "capturedAt": "2026-10-19T12:01:46.894550+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

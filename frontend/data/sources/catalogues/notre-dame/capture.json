@@ -1,0 +1,155 @@
+{
+  "schoolId": "notre-dame",
+  "catalogURL": "https://graduateschool.nd.edu/degree-programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "notre-dame",
+      "url": "https://graduateschool.nd.edu/degree-programs/",
+      "requestedURL": "https://graduateschool.nd.edu/degree-programs/",
+      "file": "frontend/data/sources/catalogues/notre-dame/250ff223e2e1099c.html",
+      "sha256": "250ff223e2e1099c8859b7ccc59306d257fe43d85ff0210ab32cb539cf0619c6",
+      "capturedAt": "2026-10-19T12:01:54.995129+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 22,
+  "candidates": [
+    {
+      "label": "ACE: Teaching Fellows: MEd",
+      "url": "https://graduateschool.nd.edu/degree-programs/ace-teaching-fellows-med---masters-professional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Applied and Computational Mathematics and Statistics: MS",
+      "url": "https://graduateschool.nd.edu/degree-programs/applied-and-computational-mathematics-and-statistics-ms---masters-professional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Civil and Environmental Engineering: MEng",
+      "url": "https://graduateschool.nd.edu/degree-programs/civil-and-environmental-engineering-meng---masters-professional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Classics: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/classics-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "https://classics.nd.edu/graduate-students/ma-in-classics/",
+      "url": "https://classics.nd.edu/graduate-students/ma-in-classics/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Data Science: MS",
+      "url": "https://graduateschool.nd.edu/degree-programs/data-science-ms---masters-professional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Design: MFA",
+      "url": "https://graduateschool.nd.edu/degree-programs/design-mfa---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Early Christian Studies: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/early-christian-studies-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Echo/Theology: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/echo-theology-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Engineering, Science and Technology Entrepreneurship (ESTEEM): MS",
+      "url": "https://graduateschool.nd.edu/degree-programs/engineering-science-and-technology-entrepreneurship-esteem-ms---masters-professional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "English (Creative Writing): MFA",
+      "url": "https://graduateschool.nd.edu/degree-programs/english-creative-writing-mfa---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "English - MFA",
+      "url": "https://english.nd.edu/graduate/mfa/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "https://english.nd.edu/graduate/mfa/",
+      "url": "https://english.nd.edu/graduate/mfa/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "English : MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/english-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "English - MA",
+      "url": "https://english.nd.edu/graduate/programs/ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "https://english.nd.edu/graduate/programs/ma/",
+      "url": "https://english.nd.edu/graduate/programs/ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "French and Francophone Studies: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/french-and-francophone-studies-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Italian Studies: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/italian-studies-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "https://mse.nd.edu/",
+      "url": "https://mse.nd.edu/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Spanish: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/spanish-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Studio Art: MFA",
+      "url": "https://graduateschool.nd.edu/degree-programs/studio-art-mfa---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    },
+    {
+      "label": "Theology: MA",
+      "url": "https://graduateschool.nd.edu/degree-programs/theology-ma---masters-traditional/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

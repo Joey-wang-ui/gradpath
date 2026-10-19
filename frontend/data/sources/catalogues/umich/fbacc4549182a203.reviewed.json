@@ -1,0 +1,1266 @@
+{
+  "schoolId": "umich",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "file": "umich/fbacc4549182a203.html",
+      "sha256": "fbacc4549182a20309be9de648978bdd22b5a2e62cbb60761b31ea429e63bf72"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Engineering",
+      "english": "Engineering",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Aerospace Engineering",
+          "degree": "MSE",
+          "url": "https://aero.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://bme.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical Engineering",
+          "degree": "MSE",
+          "url": "https://che.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Civil Engineering",
+          "degree": "MSE",
+          "url": "https://cee.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Construction Engineering and Management",
+          "degree": "MSE",
+          "url": "https://tcmp.engin.umich.edu/programs-m-s-e-cem/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Engineering",
+          "degree": "MSE",
+          "url": "https://cee.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Climate and Space Sciences and Engineering",
+          "degree": "MS",
+          "url": "https://clasp.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Design Science",
+          "degree": "MS",
+          "url": "https://designscience.engin.umich.edu/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science and Engineering",
+          "degree": "MSE",
+          "url": "https://www.eecs.umich.edu/eecs/graduate",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "umich--computer-science",
+          "name": "计算机科学与工程硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Electrical and Computer Engineering",
+          "degree": "MSE",
+          "url": "https://ece.engin.umich.edu/eecs/graduate/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering Education Research",
+          "degree": "MS",
+          "url": "https://eer.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial and Operations Engineering",
+          "degree": "MSE",
+          "url": "https://ioe.engin.umich.edu/academics/graduate/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Macromolecular Science and Engineering",
+          "degree": "MSE",
+          "url": "https://macro.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MSE",
+          "url": "https://msewww.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MSE",
+          "url": "https://me.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Naval Architecture and Marine Engineering",
+          "degree": "MSE",
+          "url": "https://name.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nuclear Engineering and Radiological Sciences",
+          "degree": "MSE",
+          "url": "https://ners.engin.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Robotics",
+          "degree": "MS",
+          "url": "https://robotics.umich.edu/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Literature, Science, and the Arts",
+      "english": "Literature, Science, and the Arts",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Physics",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/appliedphysics",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemistry",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/chem/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Latin",
+          "degree": "MAT",
+          "url": "https://lsa.umich.edu/classics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Earth and Environmental Sciences",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/earth",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Ecology and Evolutionary Biology",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/eeb/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Creative Writing",
+          "degree": "MFA",
+          "url": "https://lsa.umich.edu/writers/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International and Regional Studies",
+          "degree": "MA",
+          "url": "https://ii.umich.edu/ii/students/MIRS.html",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied and Interdisciplinary Mathematics",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/math/graduates/GraduateStudentHandbook/doctoral-programs/applied-and-interdisciplinary-mathematics--aim-.html",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/math",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular, Cellular, and Developmental Biology",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/mcdb/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Arabic Studies",
+          "degree": "MA",
+          "url": "https://lsa.umich.edu/middleeast/graduates/ma-admissions.html",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Philosophy",
+          "degree": "MA",
+          "url": "https://lsa.umich.edu/philosophy/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Finance and Risk Management",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/stats/masters_students/mastersprograms/quantitative-finance-program.html",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Transcultural Studies",
+          "degree": "MA",
+          "url": "https://lsa.umich.edu/transcultural",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "MS",
+          "url": "https://lsa.umich.edu/stats/masters_students/mastersprograms/data-science-masters-program.html",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Architecture and Urban Planning",
+      "english": "Architecture and Urban Planning",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Architecture",
+          "degree": "MS",
+          "url": "https://taubmancollege.umich.edu/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban and Regional Planning",
+          "degree": "MURP",
+          "url": "https://taubmancollege.umich.edu/urbanplanning",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Art and Design",
+      "english": "Art and Design",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art",
+          "degree": "MFA",
+          "url": "https://stamps.umich.edu/graduate-programs/mfa",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Design",
+          "degree": "MDes",
+          "url": "https://stamps.umich.edu/graduate-programs/mdes",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Medicine",
+      "english": "Medicine",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Bioinformatics",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/computational-medicine-bioinformatics",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biological Chemistry",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/biological-chemistry/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health and Health Care Research",
+          "degree": "MS",
+          "url": "https://ihpi.umich.edu/about/education-training/programs/ihpi-clinician-scholars-program/curriculum",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Infrastructures and Learning Systems",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/lhs/education/health-infrastructures-learning-systems-hils-msphd",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Genetic Counseling",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/human-genetics",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Microbiology and Immunology",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/microbiology-immunology/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pharmacology",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/pharmacology/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular and Integrative Physiology",
+          "degree": "MS",
+          "url": "https://medicine.umich.edu/dept/molecular-integrative-physiology/education/masters-program",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Public Health",
+      "english": "Public Health",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biostatistics",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/biostat/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Research Design and Statistical Analysis",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/biostat/programs/crdsa.html",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health Sciences",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/ehs/index.html",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Toxicology",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/ehs/programs/toxicology.html",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiologic Science",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/epid/programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Behavior and Health Equity",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/hbhe/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutritional Sciences",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/ns/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Population and Health Sciences",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/online/index.html",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computational Epidemiology and Systems Modeling",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/epid/programs/ms/computational-epidemiology-systems-modeling.html",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics: Health Data Science",
+          "degree": "MS",
+          "url": "https://sph.umich.edu/biostat/programs/masters-hds.html",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Life Sciences Institute",
+      "english": "Life Sciences Institute",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Chemical Biology of Cancer",
+          "degree": "MS",
+          "url": "https://www.chembio.umich.edu/about-program/ms-degree",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Dentistry",
+      "english": "Dentistry",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Dental Hygiene",
+          "degree": "MS",
+          "url": "https://dent.umich.edu/education/academic-programs/dental-hygiene-programs",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Endodontics",
+          "degree": "MS",
+          "url": "https://www.dent.umich.edu/education/endodontics-graduate-program-ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Oral Health Sciences",
+          "degree": "MS",
+          "url": "https://dent.umich.edu/education/academic-programs/oral-health-sciences-phd-masters",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Orthodontics",
+          "degree": "MS",
+          "url": "https://www.dent.umich.edu/education/orthodontics-graduate-program-ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pediatric Dentistry",
+          "degree": "MS",
+          "url": "https://dent.umich.edu/education/academic-programs/graduate-programs/pediatric-dentistry-graduate-program-ms",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Periodontics",
+          "degree": "MS",
+          "url": "https://www.dent.umich.edu/education/periodontics-graduate-program-ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Prosthodontics",
+          "degree": "MS",
+          "url": "https://www.dent.umich.edu/education/prosthodontics-graduate-program-ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Restorative Dentistry",
+          "degree": "MS",
+          "url": "https://dent.umich.edu/education/academic-programs/graduate-programs/graduate-restorative-dentistry-program-ms",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Education",
+      "english": "Education",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Educational Studies",
+          "degree": "MA",
+          "url": "https://soe.umich.edu/academics-admissions/es",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Kinesiology",
+      "english": "Kinesiology",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Movement Science",
+          "degree": "MS",
+          "url": "https://www.kines.umich.edu/academics/graduate-programs/ms-movement-science",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Sport Management",
+          "degree": "MS",
+          "url": "https://www.kines.umich.edu/academics/graduate-programs/ms-sport-management",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Athletic Training",
+          "degree": "MS",
+          "url": "https://www.kines.umich.edu/academics/graduate-programs/masters-athletic-training",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Music, Theatre, and Dance",
+      "english": "Music, Theatre, and Dance",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Dance",
+          "degree": "MFA",
+          "url": "https://smtd.umich.edu/degree/master-of-fine-arts-in-dance/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Environment and Sustainability",
+      "english": "Environment and Sustainability",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Landscape Architecture",
+          "degree": "MLArch",
+          "url": "https://seas.umich.edu/la",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environment and Sustainability",
+          "degree": "MS",
+          "url": "https://seas.umich.edu/academics/ms",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Public Policy",
+      "english": "Public Policy",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Public Affairs",
+          "degree": "MPA",
+          "url": "https://fordschool.umich.edu/mpp-mpa/degrees",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy",
+          "degree": "MPP",
+          "url": "https://fordschool.umich.edu/mpp-mpa/degrees",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Institute for Social Research",
+      "english": "Institute for Social Research",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Survey and Data Science",
+          "degree": "MS",
+          "url": "https://psm.isr.umich.edu/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacy",
+      "english": "Pharmacy",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Integrated Pharmaceutical Sciences",
+          "degree": "MS",
+          "url": "https://pharmacy.umich.edu/program/ms-integrated-pharmaceutical-sciences",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Ann Arbor",
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

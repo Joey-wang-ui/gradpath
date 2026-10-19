@@ -1,0 +1,18 @@
+{
+  "schoolId": "ucsd",
+  "catalogURL": "https://grad.ucsd.edu/programs/",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://grad.ucsd.edu/programs/",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

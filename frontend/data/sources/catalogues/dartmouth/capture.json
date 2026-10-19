@@ -1,0 +1,59 @@
+{
+  "schoolId": "dartmouth",
+  "catalogURL": "https://graduate.dartmouth.edu/academics/programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "dartmouth",
+      "url": "https://graduate.dartmouth.edu/admissions/programs",
+      "requestedURL": "https://graduate.dartmouth.edu/academics/programs",
+      "file": "frontend/data/sources/catalogues/dartmouth/cde7a8b9a09557e2.html",
+      "sha256": "cde7a8b9a09557e2b292addab039a0ed827a54ba1838b7f57dbf706e277e8714",
+      "capturedAt": "2026-10-19T12:01:48.701260+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 6,
+  "candidates": [
+    {
+      "label": "Master of Arts in Liberal Studies (MALS)",
+      "url": "https://graduate.dartmouth.edu/admissions/programs/master-arts-liberal-studies-mals",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    },
+    {
+      "label": "Master of Biotechnology",
+      "url": "https://graduate.dartmouth.edu/admissions/programs/master-biotechnology-mbt",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    },
+    {
+      "label": "Master of Energy Transition",
+      "url": "https://graduate.dartmouth.edu/admissions/programs/master-energy-transition",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    },
+    {
+      "label": "Master of Arts in Liberal Studies",
+      "url": "https://graduate.dartmouth.edu/academics/programs/master-arts-liberal-studies-mals",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    },
+    {
+      "label": "Master of Biotechnology (MBT)",
+      "url": "https://graduate.dartmouth.edu/admissions/programs/master-biotechnology-mbt",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    },
+    {
+      "label": "Master of Energy Transition (MET)",
+      "url": "https://graduate.dartmouth.edu/academics/programs/master-energy-transition",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

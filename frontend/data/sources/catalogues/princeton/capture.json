@@ -1,0 +1,41 @@
+{
+  "schoolId": "princeton",
+  "catalogURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "princeton",
+      "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+      "requestedURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+      "file": "frontend/data/sources/catalogues/princeton/4f4be5643818a432.html",
+      "sha256": "4f4be5643818a43273ae9d168b90f13125f33bbe8f8158e26be840146f06993c",
+      "capturedAt": "2026-10-19T12:01:50.487211+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 3,
+  "candidates": [
+    {
+      "label": "Incidental Master’s Degree",
+      "url": "https://gradschool.princeton.edu/academics/degrees-requirements/general-exam/incidental-master%E2%80%99s-degree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+    },
+    {
+      "label": "Final Master's Degree Requirements",
+      "url": "https://gradschool.princeton.edu/academics/degrees-requirements/final-masters-degree-requirements",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+    },
+    {
+      "label": "Master’s Degree Funding",
+      "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/master%E2%80%99s-degree-funding",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

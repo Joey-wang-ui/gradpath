@@ -1,0 +1,71 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL",
+      "file": "ucsb/80efeb067c8d1679.html",
+      "sha256": "80efeb067c8d1679a8a9aea82a8e28cadbf7c171495da6ee8bf21c30ab7a22e3"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Materials",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=MATRL-MS-0",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials (Five-Year Program) Current UCSB Undergraduates Only",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=MATRL-MS-1",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=MATRL-PHD-MATRL-MS-0",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

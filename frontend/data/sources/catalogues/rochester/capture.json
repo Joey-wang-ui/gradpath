@@ -1,0 +1,22 @@
+{
+  "schoolId": "rochester",
+  "catalogURL": "https://www.rochester.edu/graduate-education/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "rochester",
+      "url": "https://www.rochester.edu/graduate-education/",
+      "requestedURL": "https://www.rochester.edu/graduate-education/",
+      "file": "frontend/data/sources/catalogues/rochester/879f893e4c3a2b80.html",
+      "sha256": "879f893e4c3a2b80cba846eaa9e0d85eb217528404a41ef7455579f77dffbaca",
+      "capturedAt": "2026-10-19T12:01:55.593690+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

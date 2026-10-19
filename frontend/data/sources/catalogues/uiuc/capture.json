@@ -1,0 +1,18 @@
+{
+  "schoolId": "uiuc",
+  "catalogURL": "https://grad.illinois.edu/academics/programs",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://grad.illinois.edu/academics/programs",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

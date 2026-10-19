@@ -1,0 +1,11 @@
+{
+  "sourceURL": "https://github.com/PublicaMundi/MappingAPI/blob/3dc2b1ec615772ef38400363a27eb9433d5382d1/data/geojson/us-states.json",
+  "sourceFile": "sources/us-states.geojson",
+  "sha256": "6f23ed91fce2c25d57c01d83225342ba40258e9571c486c3999bd827c80d193b",
+  "description": "US state outlines from the PublicaMundi MappingAPI geographic example; original geometry retained. Geographic basemap only, no university data.",
+  "coordinateSource": "IPEDS HD2023 institutional main-campus coordinates",
+  "schoolCoordinateFields": [
+    "LATITUDE",
+    "LONGITUD"
+  ]
+}

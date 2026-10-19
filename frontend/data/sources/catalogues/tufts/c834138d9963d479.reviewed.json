@@ -1,0 +1,298 @@
+{
+  "schoolId": "tufts",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "file": "tufts/c834138d9963d479.html",
+      "sha256": "c834138d9963d479a01e0b25b3123406194ca45ef6e21f4e1075b1f4e6e543d0"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "工程学院",
+      "english": "School of Engineering",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Data Science",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/data-science-masters",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/online-masters-data-science",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dual Degree (MS + MSIM, MSEM, or MSTML)",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/dual-degree-engineering-program-masters",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical Engineering",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/electrical-engineering-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering Management",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/engineering-management-masters",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online, Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Dental Medicine",
+      "english": "School of Dental Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Dental Research",
+          "degree": "Masters",
+          "url": "https://dental.tufts.edu/academics/postgraduate-programs/master-science-dental-research",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Arts and Sciences",
+      "english": "Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Economics",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/economics-masters",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Studies",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/educational-studies-masters",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Economics and Urban Planning",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/environmental-economics-and-urban-planning-masters",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Policy and Planning",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/environmental-policy-and-planning-masters",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History and Museum Studies",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/history-and-museum-studies-masters",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History - Doctorate",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/history-doctorate",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/history-masters",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Engineering Graduate School of Arts and Sciences",
+      "english": "School of Engineering Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Environmental Engineering Policy and Planning",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/environmental-engineering-policy-and-planning-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "弗莱彻法律与外交学院",
+      "english": "The Fletcher School",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Executive Master of Arts in International Affairs",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/global-master-arts-program",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online, Medford/Somerville",
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Executive Master of International Business",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/programs/masters/global-business-administration",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online, Medford/Somerville",
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

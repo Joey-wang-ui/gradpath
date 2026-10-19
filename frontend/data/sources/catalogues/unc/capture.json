@@ -1,0 +1,71 @@
+{
+  "schoolId": "unc",
+  "catalogURL": "https://gradschool.unc.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "unc",
+      "url": "https://gradschool.unc.edu/degree-programs/",
+      "requestedURL": "https://gradschool.unc.edu/programs/",
+      "file": "frontend/data/sources/catalogues/unc/08eac0c9b98b2c66.html",
+      "sha256": "08eac0c9b98b2c66cb935e46475a1bc68c33274c9201c406d974175aeded695b",
+      "capturedAt": "2026-10-19T12:01:54.427310+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 8,
+  "candidates": [
+    {
+      "label": "Master of Applied Professional Studies Degree",
+      "url": "https://gradschool.unc.edu/degree-programs/maps-degree/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Biochemistry and Biophysics – Direct Admit MS",
+      "url": "https://gradschool.sites.unc.edu/biochemistry-and-biophysics-direct-admit-ms/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Cell Biology and Physiology – Direct Admit MS and PhD",
+      "url": "https://gradschool.sites.unc.edu/cbph-direct-admit-ms/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Master of Arts in Teaching",
+      "url": "https://gradschool.sites.unc.edu/master-of-arts-in-teaching/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Master of Applied Professional Studies (MAPS)",
+      "url": "https://gradschool.sites.unc.edu/master-applied-professional-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Microbiology and Immunology – Direct Admit MS",
+      "url": "https://gradschool.sites.unc.edu/microbiology-and-immunology-direct-admit-ms/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Trans Atlantic Masters",
+      "url": "https://gradschool.sites.unc.edu/trans-atlantic-masters-program/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    },
+    {
+      "label": "Master of Public Health",
+      "url": "https://gradschool.sites.unc.edu/master-of-public-health/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

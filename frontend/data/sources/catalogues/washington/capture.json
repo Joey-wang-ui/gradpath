@@ -1,0 +1,22 @@
+{
+  "schoolId": "washington",
+  "catalogURL": "https://grad.uw.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "washington",
+      "url": "https://grad.uw.edu/programs/find-a-graduate-program/",
+      "requestedURL": "https://grad.uw.edu/programs/",
+      "file": "frontend/data/sources/catalogues/washington/5c829fc4bb47641e.html",
+      "sha256": "5c829fc4bb47641e3afe28f778c4c4b0acc387cf21624b0c4aa603bfb5fc7d4b",
+      "capturedAt": "2026-10-19T12:01:56.022731+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

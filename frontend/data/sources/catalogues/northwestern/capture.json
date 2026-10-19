@@ -1,0 +1,323 @@
+{
+  "schoolId": "northwestern",
+  "catalogURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "northwestern",
+      "url": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+      "requestedURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+      "file": "frontend/data/sources/catalogues/northwestern/af54698991d3fd8e.html",
+      "sha256": "af54698991d3fd8ee51bdaa9aaba1a73a2ff0967f2022b375e65d539f6e35ca5",
+      "capturedAt": "2026-10-19T12:01:50.543282+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 50,
+  "candidates": [
+    {
+      "label": "Accelerated MS in Education for NW Undergrads",
+      "url": "https://sesp.northwestern.edu/undergraduate/options-concentrations/accelerated-msed.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Advanced Manufacturing MS",
+      "url": "https://www.mccormick.northwestern.edu/masters-advanced-manufacturing/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Biomedical Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/biomedical/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Chemical and Biological Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/chemical-biological/academics/graduate/chemical-biological-engineering-ms/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Civil and Environmental Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/civil-environmental/academics/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Computer Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/masters/computer-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Computer Science MS",
+      "url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Doctor of Physical Therapy/Master of Public Health (DPT/MPH)",
+      "url": "https://www.feinberg.northwestern.edu/sites/pthms/our-programs/dpt-mph.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Dual MS in Applied Economics and Social and Economic Policy",
+      "url": "https://sesp.northwestern.edu/graduate-professional/social-and-economic-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Electrical Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/masters/electrical-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Engineering Sciences and Applied Mathematics MS",
+      "url": "https://www.mccormick.northwestern.edu/applied-math/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "English Literature MA",
+      "url": "https://english.northwestern.edu/graduate/ma-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Executive Masters in Law",
+      "url": "https://www.law.northwestern.edu/admissions/faq/faqllm.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Executive MBA",
+      "url": "https://www.kellogg.northwestern.edu/programs/executive-mba.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Health Analytics MS",
+      "url": "https://sps.northwestern.edu/masters/health-analytics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Health Informatics MS",
+      "url": "https://sps.northwestern.edu/masters/health-informatics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Integrated Marketing Communications Professional (MS)",
+      "url": "https://imcprofessional.medill.northwestern.edu/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "JD-MBA",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/jd-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Joint Master of Science in Mechanical Engineering and Materials Science and Engineering",
+      "url": "https://www.mccormick.northwestern.edu/mechanical-materials-science-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Life Sciences PhD/Master of Science in Clinical Investigation Combined Program",
+      "url": "https://www.feinberg.northwestern.edu/sites/dgp/prospective-students/dual-degree-options.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Life Sciences PhD/MPH",
+      "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/phd-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Literature MA",
+      "url": "https://sps.northwestern.edu/masters/literature/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Litowitz MFA+MA Program in Creative Writing and English",
+      "url": "https://english.northwestern.edu/graduate/mfa-ma-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Master in Management",
+      "url": "https://www.kellogg.northwestern.edu/programs/master-in-management.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Master of Prosthetics-Orthotics (MPO)",
+      "url": "https://www.nupoc.northwestern.edu/education/curriculum.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Master of Public Health (MPH)",
+      "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Master of Science in Law",
+      "url": "https://www.law.northwestern.edu/academics/degree-programs/msl/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Materials Science and Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/materials-science/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MBA (Evening & Weekend MBA)",
+      "url": "https://www.kellogg.northwestern.edu/programs/part-time-mba.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MBA (One-Year Program, Full-Time)",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/one-year-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MBA (Two-Year Program, Full-Time)",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/two-year-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MD/Master of Business Administration (MD/MBA)",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/md-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MD/Master of Public Health (MD/MPH)",
+      "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/md-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MD-MBA",
+      "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/md-mba-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Mechanical Engineering MS",
+      "url": "https://www.mccormick.northwestern.edu/mechanical/academics/graduate/prospective-masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Medical Anthropology PhD/MPH",
+      "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/phd-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MMM Program (MBA and MS in Design Innovation)",
+      "url": "https://design.northwestern.edu/mmm-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MS in Educational Studies",
+      "url": "https://sesp.northwestern.edu/graduate-professional/teaching-learning-and-education/msed-educational-studies/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MS in Higher Education Administration and Policy",
+      "url": "https://sesp.northwestern.edu/graduate-professional/higher-education-administration-and-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MS in Learning and Organizational Change",
+      "url": "https://sesp.northwestern.edu/graduate-professional/learning-and-organizational-change/ms-learning-organizational-change/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "MS in Technology, People, and Policy",
+      "url": "https://sesp.northwestern.edu/graduate-professional/technology-people-and-policy/ms-technology-people-and-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Physics MS",
+      "url": "https://physics.northwestern.edu/graduate/master-degree/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Plant Biology and Conservation MS",
+      "url": "https://plantbiology.northwestern.edu/graduate/prospective-students/ms/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Project Management MS",
+      "url": "https://www.mccormick.northwestern.edu/project-management/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Regulatory Compliance MS",
+      "url": "https://sps.northwestern.edu/masters/regulatory-compliance/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Robotics MS",
+      "url": "https://www.mccormick.northwestern.edu/robotics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Statistics and Data Science MS",
+      "url": "https://statistics.northwestern.edu/graduate/ms-stat-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Theoretical and Applied Mechanics MS",
+      "url": "https://www.mccormick.northwestern.edu/theoretical-applied-mechanics/masters-phd-degree/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "Writing MA",
+      "url": "https://sps.northwestern.edu/masters/writing/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    },
+    {
+      "label": "March Through the Arch",
+      "url": "https://www.northwestern.edu/about/history/the-arch.html",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

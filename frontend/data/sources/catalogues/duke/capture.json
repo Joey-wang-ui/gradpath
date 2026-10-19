@@ -1,0 +1,22 @@
+{
+  "schoolId": "duke",
+  "catalogURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "duke",
+      "url": "https://gradschool.duke.edu/academics/programs-degrees/",
+      "requestedURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+      "file": "frontend/data/sources/catalogues/duke/8e5690b1279ea81b.html",
+      "sha256": "8e5690b1279ea81be060f072edc26c2449e73c65c2930615a077e0700cfc82c7",
+      "capturedAt": "2026-10-19T12:01:48.721231+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

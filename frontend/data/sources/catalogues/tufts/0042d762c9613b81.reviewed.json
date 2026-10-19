@@ -1,0 +1,290 @@
+{
+  "schoolId": "tufts",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+      "file": "tufts/0042d762c9613b81.html",
+      "sha256": "0042d762c9613b81ae7195ec986fb995d78b67979ac90ed69c784a50813c794f"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "工程学院",
+      "english": "School of Engineering",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Human Factors Engineering",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/human-factors-engineering-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human-Robot Interaction",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/human-robot-interaction-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Innovation and Management",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/innovation-and-management-masters",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/materials-science-and-engineering-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/mechanical-engineering-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "弗莱彻法律与外交学院",
+      "english": "The Fletcher School",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "International Business",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-international-business",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Law",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-laws-international-law",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Arts in International Affairs",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-arts-law-diplomacy",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Arts in Transatlantic Affairs",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-arts-transatlantic-affairs",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of International Business: Quantitative Methods",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-international-business-quantitative-methods-qm-track",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Science in International Economics",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/academics/degrees-programs/master-arts-law-diplomacy-international-development-economics",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mid-Career Master of Arts in International Affairs",
+          "degree": "Masters",
+          "url": "https://fletcher.tufts.edu/programs/masters/MA",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Arts and Sciences",
+      "english": "Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Leadership",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/leadership-masters",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/mathematics-masters",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of the Museum of Fine Arts Graduate School of Arts and Sciences",
+      "english": "School of the Museum of Fine Arts Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Master of Arts in Creative Practice",
+          "degree": "Masters",
+          "url": "https://smfa.tufts.edu/graduate/creative-practice",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston SMFA",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Fine Arts in Studio Art - MFA",
+          "degree": "Masters",
+          "url": "https://smfa.tufts.edu/graduate/MFA",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston SMFA",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

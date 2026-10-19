@@ -1,0 +1,18 @@
+{
+  "schoolId": "uc-irvine",
+  "catalogURL": "https://grad.uci.edu/academics/degree-programs/",
+  "degreeScope": "masters",
+  "status": "http-403",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://grad.uci.edu/academics/degree-programs/",
+      "status": "http-403",
+      "detail": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

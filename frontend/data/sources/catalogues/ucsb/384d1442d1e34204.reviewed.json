@@ -1,0 +1,56 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM",
+      "file": "ucsb/384d1442d1e34204.html",
+      "sha256": "384d1442d1e34204269999c451c1cc1979549a05cfd2590377d10e8832d73a15"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Environmental Data Science",
+          "degree": "MEDS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EDS-MDS-0",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Science & Management",
+          "degree": "MESM",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=ESM-MES-0",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

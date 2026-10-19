@@ -1,0 +1,22 @@
+{
+  "schoolId": "rice",
+  "catalogURL": "https://graduate.rice.edu/programs-study",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "rice",
+      "url": "https://graduate.rice.edu/programs-study",
+      "requestedURL": "https://graduate.rice.edu/programs-study",
+      "file": "frontend/data/sources/catalogues/rice/684d1610a0ded3f5.html",
+      "sha256": "684d1610a0ded3f5efaa54b3cf4adfcd613ce21fbc80de5adccee2e6c74d4604",
+      "capturedAt": "2026-10-19T12:01:51.175356+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

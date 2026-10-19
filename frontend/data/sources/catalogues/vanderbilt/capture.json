@@ -1,0 +1,22 @@
+{
+  "schoolId": "vanderbilt",
+  "catalogURL": "https://gradschool.vanderbilt.edu/academics/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "vanderbilt",
+      "url": "https://gradschool.vanderbilt.edu/academics/programs-departments/",
+      "requestedURL": "https://gradschool.vanderbilt.edu/academics/programs/",
+      "file": "frontend/data/sources/catalogues/vanderbilt/bee040869818cad7.html",
+      "sha256": "bee040869818cad77b2a0884f9a7847943b71edf04bdc00624f7a71d65974374",
+      "capturedAt": "2026-10-19T12:01:57.204923+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

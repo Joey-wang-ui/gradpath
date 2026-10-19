@@ -1,0 +1,29 @@
+{
+  "schoolId": "wisconsin",
+  "catalogURL": "https://grad.wisc.edu/academic-programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "wisconsin",
+      "url": "https://info.grad.wisc.edu/our-academic-programs",
+      "requestedURL": "https://grad.wisc.edu/academic-programs/",
+      "file": "frontend/data/sources/catalogues/wisconsin/f711d7d67ab7021a.html",
+      "sha256": "f711d7d67ab7021af908d0afe575bdf910144f48d3b1bc84364d46999f19b0f4",
+      "capturedAt": "2026-10-19T12:01:57.615742+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Completing Your Master's Degree",
+      "url": "https://grad.wisc.edu/academics/masters-guide/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://info.grad.wisc.edu/our-academic-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

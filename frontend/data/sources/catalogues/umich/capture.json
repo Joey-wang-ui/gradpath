@@ -1,0 +1,65 @@
+{
+  "schoolId": "umich",
+  "catalogURL": "https://rackham.umich.edu/programs-of-study/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "umich",
+      "url": "https://rackham.umich.edu/programs-of-study/",
+      "requestedURL": "https://rackham.umich.edu/programs-of-study/",
+      "file": "frontend/data/sources/catalogues/umich/231a398462cd6ced.html",
+      "sha256": "231a398462cd6ced00a6f24b32bb0d559386be81559af59dbbd7e36b6dda9b93",
+      "capturedAt": "2026-10-19T12:01:54.391112+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 7,
+  "candidates": [
+    {
+      "label": "Master's",
+      "url": "https://rackham.umich.edu/navigating-your-degree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "D.M.A.",
+      "url": "https://rackham.umich.edu/navigating-your-degree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "Master's",
+      "url": "https://tableau.dsc.umich.edu/t/UM-Public/views/RackhamMastersProgramStatistics/ProgramStatistics?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no&FOSDParameter=All+Rackham",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "Master’s",
+      "url": "https://rackham.umich.edu/navigating-your-degree",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "Master’s",
+      "url": "https://tableau.dsc.umich.edu/t/UM-Public/views/RackhamMastersProgramStatistics/ProgramStatistics?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no&FOSDParameter=All+Rackham",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "Go to Master of Arts with Teacher Certification",
+      "url": "https://marsal.umich.edu/academics-admissions/epp",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    },
+    {
+      "label": "Go to the Accelerated Master’s Degree Program Website",
+      "url": "https://lsa.umich.edu/psych/undergraduates/accelerated-master-s-degree-program.html",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

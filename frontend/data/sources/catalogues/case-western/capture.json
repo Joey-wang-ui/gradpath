@@ -1,0 +1,29 @@
+{
+  "schoolId": "case-western",
+  "catalogURL": "https://case.edu/gradstudies/prospective-students",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "case-western",
+      "url": "https://case.edu/gradstudies/prospective-students",
+      "requestedURL": "https://case.edu/gradstudies/prospective-students",
+      "file": "frontend/data/sources/catalogues/case-western/d95341890aa33e7b.html",
+      "sha256": "d95341890aa33e7b10899c9b415ca7fa90c2747aa9fea0933f2ef8a7719f453a",
+      "capturedAt": "2026-10-19T12:01:47.277052+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Combined Bachelor's/Master's Degree Program",
+      "url": "https://case.edu/gradstudies/prospective-students/combined-bachelorsmasters-degree-program",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://case.edu/gradstudies/prospective-students"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

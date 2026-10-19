@@ -1,0 +1,47 @@
+{
+  "schoolId": "yale",
+  "catalogURL": "https://gsas.yale.edu/programs-of-study",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "yale",
+      "url": "https://gsas.yale.edu/programs-of-study",
+      "requestedURL": "https://gsas.yale.edu/programs-of-study",
+      "file": "frontend/data/sources/catalogues/yale/c587a15c5deea20e.html",
+      "sha256": "c587a15c5deea20e1f2c5cb771f726b9789c9b2696daa78e25913737d457a77f",
+      "capturedAt": "2026-10-19T12:01:57.574207+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 4,
+  "candidates": [
+    {
+      "label": "Master's Programs",
+      "url": "https://gsas.yale.edu/index%2Ephp/programs-of-study?level%5B19%5D=19",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.yale.edu/programs-of-study"
+    },
+    {
+      "label": "PhD/Master's Application Process",
+      "url": "https://gsas.yale.edu/index%2Ephp/admissions/phdmasters-application-process",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.yale.edu/programs-of-study"
+    },
+    {
+      "label": "Master's Funding",
+      "url": "https://gsas.yale.edu/index%2Ephp/resources?type_support=10&category=52&sort_bef_combine=featured_DESC&sort_by=featured&sort_order=DESC",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.yale.edu/programs-of-study"
+    },
+    {
+      "label": "Computational Biology & Biomedical Informatics (MS Program)",
+      "url": "https://gsas.yale.edu/programs-of-study/computational-biology-biomedical-informatics-ms-program",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.yale.edu/programs-of-study"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

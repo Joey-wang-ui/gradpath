@@ -1,0 +1,622 @@
+{
+  "asOf": "2026-10-19",
+  "scope": "Masters only, including clearly marked joint and restricted routes. Counts are directory entries, not independent application counts.",
+  "publicEntryCount": 2090,
+  "sourceBackedEntryCount": 1957,
+  "schools": [
+    {
+      "schoolId": "mit",
+      "currentProgrammeCount": 25,
+      "officialCatalogueNamedEntries": 22,
+      "referenceOnlyEntries": 3,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://catalog.mit.edu/degree-charts/"
+      ]
+    },
+    {
+      "schoolId": "princeton",
+      "currentProgrammeCount": 15,
+      "officialCatalogueNamedEntries": 13,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+      ]
+    },
+    {
+      "schoolId": "harvard",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "yale",
+      "currentProgrammeCount": 25,
+      "officialCatalogueNamedEntries": 23,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19"
+      ]
+    },
+    {
+      "schoolId": "caltech",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "stanford",
+      "currentProgrammeCount": 48,
+      "officialCatalogueNamedEntries": 47,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://applygrad.stanford.edu/portal/explore-programs?cmd=grad-program-list"
+      ]
+    },
+    {
+      "schoolId": "upenn",
+      "currentProgrammeCount": 99,
+      "officialCatalogueNamedEntries": 96,
+      "referenceOnlyEntries": 3,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://catalog.upenn.edu/graduate/programs/"
+      ]
+    },
+    {
+      "schoolId": "duke",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "johns-hopkins",
+      "currentProgrammeCount": 156,
+      "officialCatalogueNamedEntries": 155,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://e-catalogue.jhu.edu/programs/"
+      ]
+    },
+    {
+      "schoolId": "northwestern",
+      "currentProgrammeCount": 99,
+      "officialCatalogueNamedEntries": 98,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+      ]
+    },
+    {
+      "schoolId": "uchicago",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "columbia",
+      "currentProgrammeCount": 4,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 4,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "dartmouth",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "cmu",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "cornell",
+      "currentProgrammeCount": 101,
+      "officialCatalogueNamedEntries": 98,
+      "referenceOnlyEntries": 3,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://catalog.cornell.edu/programs/"
+      ]
+    },
+    {
+      "schoolId": "brown",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "rice",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "notre-dame",
+      "currentProgrammeCount": 32,
+      "officialCatalogueNamedEntries": 30,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://graduateschool.nd.edu/degree-programs/"
+      ]
+    },
+    {
+      "schoolId": "vanderbilt",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "washu",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "berkeley",
+      "currentProgrammeCount": 114,
+      "officialCatalogueNamedEntries": 113,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://grad.berkeley.edu/admissions/our-programs/"
+      ]
+    },
+    {
+      "schoolId": "ucla",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "emory",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "georgetown",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "umich",
+      "currentProgrammeCount": 77,
+      "officialCatalogueNamedEntries": 75,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://rackham.umich.edu/programs-of-study/"
+      ]
+    },
+    {
+      "schoolId": "usc",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "uva",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "unc",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "ut-austin",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "uf",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "ucsd",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "nyu",
+      "currentProgrammeCount": 227,
+      "officialCatalogueNamedEntries": 225,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://bulletins.nyu.edu/programs/"
+      ]
+    },
+    {
+      "schoolId": "uc-davis",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "uc-irvine",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "uiuc",
+      "currentProgrammeCount": 152,
+      "officialCatalogueNamedEntries": 151,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://catalog.illinois.edu/graduate/"
+      ]
+    },
+    {
+      "schoolId": "wisconsin",
+      "currentProgrammeCount": 144,
+      "officialCatalogueNamedEntries": 144,
+      "referenceOnlyEntries": 0,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://guide.wisc.edu/graduate/"
+      ]
+    },
+    {
+      "schoolId": "bu",
+      "currentProgrammeCount": 244,
+      "officialCatalogueNamedEntries": 243,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://www.bu.edu/academics/degree-programs/"
+      ]
+    },
+    {
+      "schoolId": "ohio-state",
+      "currentProgrammeCount": 134,
+      "officialCatalogueNamedEntries": 132,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://gpadmissions.osu.edu/programs/"
+      ]
+    },
+    {
+      "schoolId": "maryland",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "rochester",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "georgia-tech",
+      "currentProgrammeCount": 60,
+      "officialCatalogueNamedEntries": 60,
+      "referenceOnlyEntries": 0,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://catalog.gatech.edu/programs/"
+      ]
+    },
+    {
+      "schoolId": "lehigh",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "rutgers",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "tufts",
+      "currentProgrammeCount": 100,
+      "officialCatalogueNamedEntries": 97,
+      "referenceOnlyEntries": 3,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=1",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=5",
+        "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271"
+      ]
+    },
+    {
+      "schoolId": "washington",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "boston-college",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "northeastern",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "ucsb",
+      "currentProgrammeCount": 51,
+      "officialCatalogueNamedEntries": 49,
+      "referenceOnlyEntries": 2,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ART",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ARTHI",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHST",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLIT",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CMPSC",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNCSP",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=COMM",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EALCS",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECON",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ENGL",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ETL",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FEMST",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GEOG",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GLOBL",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LAIS",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MARSC",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MAT",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATH",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ME",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHIL",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=POLS",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=RELST",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SOC",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SPPT",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=STATS",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=THTDA",
+        "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TMP"
+      ]
+    },
+    {
+      "schoolId": "case-western",
+      "currentProgrammeCount": 87,
+      "officialCatalogueNamedEntries": 86,
+      "referenceOnlyEntries": 1,
+      "status": "partially-reviewed",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": [
+        "https://bulletin.case.edu/academic-programs/"
+      ]
+    },
+    {
+      "schoolId": "wake-forest",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "villanova",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "purdue",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    },
+    {
+      "schoolId": "georgia",
+      "currentProgrammeCount": 3,
+      "officialCatalogueNamedEntries": 0,
+      "referenceOnlyEntries": 3,
+      "status": "reference-only",
+      "officialMastersTotal": null,
+      "completeCatalogueReviewed": false,
+      "sourceURLs": []
+    }
+  ]
+}

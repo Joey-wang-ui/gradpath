@@ -1,0 +1,29 @@
+{
+  "schoolId": "ucsb",
+  "catalogURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "ucsb",
+      "url": "https://www.graddiv.ucsb.edu/graduate-programs",
+      "requestedURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+      "file": "frontend/data/sources/catalogues/ucsb/7b5763b75a508b93.html",
+      "sha256": "7b5763b75a508b93dda6fcbd3c392ce470446d4fe7a418224626516bd3bfd149",
+      "capturedAt": "2026-10-19T12:01:53.062321+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Master of Engineering and Technology Leadership (METL) Program",
+      "url": "https://metl.engineering.ucsb.edu/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.graddiv.ucsb.edu/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

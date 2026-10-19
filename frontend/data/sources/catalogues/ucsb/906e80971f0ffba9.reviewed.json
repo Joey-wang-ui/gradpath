@@ -1,0 +1,41 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING",
+      "file": "ucsb/906e80971f0ffba9.html",
+      "sha256": "906e80971f0ffba9cdecfc770d12926fa477df181ef74773ab0161a3a7f0b068"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Linguistics",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=LING-PHD-LING-MA-0",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

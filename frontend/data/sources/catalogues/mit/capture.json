@@ -1,0 +1,29 @@
+{
+  "schoolId": "mit",
+  "catalogURL": "https://oge.mit.edu/graduate-admissions/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "mit",
+      "url": "https://oge.mit.edu/graduate-admissions/",
+      "requestedURL": "https://oge.mit.edu/graduate-admissions/",
+      "file": "frontend/data/sources/catalogues/mit/bc57215aa3987396.html",
+      "sha256": "bc57215aa3987396b26eb5df00868de1249ee49001d1ce4e0d9618852aab4ec9",
+      "capturedAt": "2026-10-19T12:01:49.185197+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Master’s degrees",
+      "url": "https://oge.mit.edu/graduate-admissions/programs/masters-degrees/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://oge.mit.edu/graduate-admissions/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

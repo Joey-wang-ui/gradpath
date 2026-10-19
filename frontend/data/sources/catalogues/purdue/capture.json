@@ -1,0 +1,18 @@
+{
+  "schoolId": "purdue",
+  "catalogURL": "https://www.purdue.edu/gradschool/prospective/gradrequirements/",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://www.purdue.edu/gradschool/prospective/gradrequirements/",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

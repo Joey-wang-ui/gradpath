@@ -1,0 +1,18 @@
+{
+  "schoolId": "brown",
+  "catalogURL": "https://graduateschool.brown.edu/academics/programs",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://graduateschool.brown.edu/academics/programs",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

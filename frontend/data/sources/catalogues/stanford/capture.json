@@ -1,0 +1,22 @@
+{
+  "schoolId": "stanford",
+  "catalogURL": "https://gradadmissions.stanford.edu/explore-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "stanford",
+      "url": "https://gradadmissions.stanford.edu/explore-programs",
+      "requestedURL": "https://gradadmissions.stanford.edu/explore-programs",
+      "file": "frontend/data/sources/catalogues/stanford/42817a39320e8ac2.html",
+      "sha256": "42817a39320e8ac2ea3ec94cc44b839d9f0393b57690e5cb319c2289af973fbc",
+      "capturedAt": "2026-10-19T12:01:51.131112+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

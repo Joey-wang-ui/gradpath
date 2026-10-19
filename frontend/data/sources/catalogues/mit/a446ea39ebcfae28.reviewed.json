@@ -1,0 +1,396 @@
+{
+  "schoolId": "mit",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "file": "mit/a446ea39ebcfae28.html",
+      "sha256": "a446ea39ebcfae28468b297e5ef256f4087f440cd4a8bfc7d8738730e6ef377b"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "School of Architecture and Planning",
+      "english": "School of Architecture and Planning",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Architecture",
+          "degree": "MArch",
+          "url": "https://catalog.mit.edu/degree-charts/master-architecture/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture Studies",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-architecture-studies/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art, Culture, and Technology",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-art-culture-technology/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "City Planning",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-city-planning/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Engineering",
+      "english": "School of Engineering",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Civil and Environmental Engineering",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/sm-civil-environmental-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "College of Computing",
+      "english": "College of Computing",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Electrical Engineering and Computer Science",
+          "degree": "MEng",
+          "url": "https://catalog.mit.edu/degree-charts/master-electrical-engineering-computer-science-course-6-p/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Humanities, Arts, and Social Sciences",
+      "english": "School of Humanities, Arts, and Social Sciences",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Data, Economics, and Design of Policy",
+          "degree": "MASc",
+          "url": "https://catalog.mit.edu/degree-charts/master-applied-science-data-economics-design-policy/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Linguistics",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/sm-linguistics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Science Writing",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-science-writing/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Science",
+      "english": "School of Science",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Mathematics of Data",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/sm-mathematics-data/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Interdisciplinary Programs",
+      "english": "Interdisciplinary Programs",
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Computation and Cognition",
+          "degree": "MEng",
+          "url": "https://catalog.mit.edu/degree-charts/master-computation-cognition-course-6-9p/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computational Science and Engineering",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-computational-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science and Molecular Biology",
+          "degree": "MEng",
+          "url": "https://catalog.mit.edu/degree-charts/master-computer-science-molecular-biology-course-6-7p/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science, Economics, and Data Science",
+          "degree": "MEng",
+          "url": "https://catalog.mit.edu/degree-charts/master-computer-science-economics-data-science-course-6-14-p/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering and Management",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/sm-system-design-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Technology and Computation",
+          "degree": "MASc",
+          "url": "https://catalog.mit.edu/degree-charts/master-music-technology-computation/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Technology and Computation",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-music-technology-computation/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate Development",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-real-estate-development/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Supply Chain Management",
+          "degree": "MASc",
+          "url": "https://catalog.mit.edu/degree-charts/master-supply-chain-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Supply Chain Management",
+          "degree": "MEng",
+          "url": "https://catalog.mit.edu/degree-charts/master-supply-chain-management/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Technology and Policy",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-technology-policy/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Transportation",
+          "degree": "SM",
+          "url": "https://catalog.mit.edu/degree-charts/master-transportation/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

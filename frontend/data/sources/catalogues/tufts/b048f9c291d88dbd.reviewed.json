@@ -1,0 +1,298 @@
+{
+  "schoolId": "tufts",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "file": "tufts/b048f9c291d88dbd.html",
+      "sha256": "b048f9c291d88dbd1589b16b15f3ff98fb3c4f42236abd7e40ec2b040a09cee9"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Graduate School of Arts and Sciences",
+      "english": "Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Middle and High School Education",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/middle-and-high-school-education-masters",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Museum Education",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/museum-education-masters",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/music-masters",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Occupational Therapy - Post-Professional",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/occupational-therapy-post-professional-masters-masters",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Philosophy",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/philosophy-masters",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physics and Physics: Astrophysics",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/physics-and-physics-astrophysics-masters",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physics Education",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/physics-physics-education-masters",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Medicine",
+      "english": "School of Medicine",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Nutrition and Public Health",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/public-health/mph-dual-degrees/ms-nutritionmph",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physician Assistant and Public Health",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/physician-assistant/pa-program-overview/pamph",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physician Assistant",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/physician-assistant",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health",
+          "degree": "Masters",
+          "url": "https://medicine.tufts.edu/academics/public-health",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Friedman School of Nutrition Science and Policy",
+      "english": "Friedman School of Nutrition Science and Policy",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Nutrition",
+          "degree": "Masters",
+          "url": "https://nutrition.tufts.edu/academics/degrees-programs/ms-nutrition",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition",
+          "degree": "Masters",
+          "url": "https://nutrition.tufts.edu/academics/degrees-programs/online-ms-nutrition",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition Science and Dietetics",
+          "degree": "Masters",
+          "url": "https://nutrition.tufts.edu/academics/degrees-programs/ms-dietetic-internship",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "工程学院",
+      "english": "School of Engineering",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Offshore Wind Energy Engineering",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/offshore-wind-energy-engineering-masters",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Biomedical Sciences",
+      "english": "Graduate School of Biomedical Sciences",
+      "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Pharmacology and Drug Development",
+          "degree": "Masters",
+          "url": "https://gsbs.tufts.edu/academics/ms-pharmacology-drug-development",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston Health Sciences",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

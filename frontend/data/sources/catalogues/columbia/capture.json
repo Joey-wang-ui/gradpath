@@ -1,0 +1,18 @@
+{
+  "schoolId": "columbia",
+  "catalogURL": "https://www.columbia.edu/content/academics/graduate-professional-programs",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://www.columbia.edu/content/academics/graduate-professional-programs",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

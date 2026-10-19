@@ -1,0 +1,22 @@
+{
+  "schoolId": "upenn",
+  "catalogURL": "https://www.upenn.edu/academics/graduate",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "upenn",
+      "url": "https://www.upenn.edu/academics/graduate",
+      "requestedURL": "https://www.upenn.edu/academics/graduate",
+      "file": "frontend/data/sources/catalogues/upenn/a16da25843a99b49.html",
+      "sha256": "a16da25843a99b4941f2cab15627b339da261d418d517e970fcb58780b9696e6",
+      "capturedAt": "2026-10-19T12:01:55.252712+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

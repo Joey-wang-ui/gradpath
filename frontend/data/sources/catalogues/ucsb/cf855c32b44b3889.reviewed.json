@@ -1,0 +1,41 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH",
+      "file": "ucsb/cf855c32b44b3889.html",
+      "sha256": "cf855c32b44b38890522f5aca358f55714156df5d6ac63edb8928d37c377b93a"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Anthropology",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=ANTH-PHD-ANTH-MA-0",
+          "field": "社会科学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

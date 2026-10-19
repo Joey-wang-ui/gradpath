@@ -1,0 +1,18 @@
+{
+  "schoolId": "wake-forest",
+  "catalogURL": "https://graduate.wfu.edu/",
+  "degreeScope": "masters",
+  "status": "http-403",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://graduate.wfu.edu/",
+      "status": "http-403",
+      "detail": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

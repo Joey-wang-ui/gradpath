@@ -1,0 +1,749 @@
+{
+  "schoolId": "berkeley",
+  "catalogURL": "https://grad.berkeley.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "berkeley",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "requestedURL": "https://grad.berkeley.edu/programs/",
+      "file": "frontend/data/sources/catalogues/berkeley/8f648a936405ae05.html",
+      "sha256": "8f648a936405ae05a41465d9a36c815fb86317423c0dba7e0d975ba910588bf7",
+      "capturedAt": "2026-10-19T12:01:52.110805+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 121,
+  "candidates": [
+    {
+      "label": "Master’s Degree Progress",
+      "url": "https://grad.berkeley.edu/academics/degree-progress/masters/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Anthropology 5th-Year MA (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Architecture / Civil and Environmental Engineering MArch/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Architecture / Master of City Planning MArch/MCP",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Architecture MArch",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Architecture MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Art Practice MFA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Asian Studies MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Bioengineering MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Biostatistics MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Bioengineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Civil and Environmental Engineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Climate Solutions MBA/MCS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Electrical Engineering and Computer Sciences MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Health Policy and Management MBA/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Industrial Engineering and Operations Research MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Law MBA/JD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Law MBA/JD (Hastings)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Materials Science and Engineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Mechanical Engineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration / Nuclear Engineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration & Masters of Engineering MBA/MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Business Administration MBA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Chemical and Biomolecular Engineering MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Chemical and Biomolecular Engineering Prof MS (PDP)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Civil and Environmental Engineering MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Civil and Environmental Engineering Prof MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Demography MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Earth and Planetary Science 5th-Year MA (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Economics MA (UCB Graduate Students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Education MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Education-Admin Services Credential Cred/MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Education-Teaching Credential Cred/MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Computer Science MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Computer Science MS/PhD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Electrical Engineering and Computer Sciences 5th-Year MS (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Electrical Engineering and Computer Sciences MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Electrical Engineering and Computer Sciences MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "EECS – Electrical Engineering and Computer Sciences MS/PhD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Energy and Resources Law MS/JD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Energy and Resources / Law MA/JD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Energy and Resources MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Energy and Resources MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Environmental Health Sciences / Journalism MPH/MJ",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Environmental Health Sciences MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Epidemiology and Biostatistics / Journalism MPH/MJ",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Epidemiology MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Evening and Weekend MBA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Executive MBA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Folklore MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Global Studies MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Health and Medical Sciences (Joint UCSF) MS (Dept pre-approval to apply)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Health and Social Behavior / Journalism MPH/MJ",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Industrial Engineering and Operations Research 5th-year MS (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Industrial Engineering and Operations Research MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Industrial Engineering and Operations Research MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Information Management and Systems MIMS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Journalism / Asian Studies MJ/MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Landscape Architecture / Architecture MLA/MArch",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Landscape Architecture / Master of City Planning MLA/MCP",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Advanced Architectural Design MAAD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Advanced Studies in Engineering MAS-E",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Analytics MAnlytx",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Artificial Intelligence and Machine Learning MAIML",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Bioprocess Engineering (MBE)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Biotechnology",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Civil and Environmental Engineering MCP/ Prof MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Environmental Health Sciences MCP/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Epidemiology and Biostatistics MCP/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Health and Social Behavior MCP/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Law MCP/JD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning / Law MCP/JD (Hastings)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of City Planning MCP",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Climate Solutions MCS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Computational Social Science MaCSS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Financial Engineering MFE",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Financial Engineering MFE 2-Year (Part-Time)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Nutritional Sciences and Dietetics MNSD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Master of Real Estate Development + Design MRED+D",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Materials Science and Engineering 5th-Year MS (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Materials Science and Engineering MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Materials Science and Engineering MS/PhD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Mathematics MA (For UCB Graduate students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Mechanical Engineering 5th-Year MS (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Mechanical Engineering MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Mechanical Engineering MS/PhD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Metabolic Biology MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Nuclear Engineering MEng",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Affairs MPA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Environmental Health Sciences (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Epidemiology (11-month)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Epidemiology and Biostatistics (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Epidemiology and Biostatistics (4+1)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Food, Nutrition and Population Health (11-month)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Food, Nutrition and Population Health (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Food, Nutrition and Population Health (4+1)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Global Health and Environment (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Health and Social Behavior (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Health Policy and Management (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Infectious Diseases and Vaccinology (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Interdisciplinary (11-month)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Maternal, Child and Adolescent (11-month)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Maternal, Child and Adolescent (2-year)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health MPH – Maternal, Child and Adolescent Health (4+1)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Health-Online MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Civil and Environmental Engineering MPP/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Electrical Engineering and Computer Sciences MPP/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Energy and Resources MPP/MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Energy and Resources MPP/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Health Policy and Management MPP/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Law MPP/JD",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Mechanical Engineering MPP/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy / Nuclear Engineering MPP/MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Public Policy MPP",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Rangeland and Wildlife Management MS",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Social Welfare / Food, Nutrition and Population Health MSW/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Social Welfare / Health and Social Behavior MSW/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Social Welfare / Maternal, Child and Adolescent Health MSW/MPH",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Social Welfare / Public Policy MSW/MPP",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Statistics and Data Science 5th-year MA (For UCB students only)",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    },
+    {
+      "label": "Statistics and Data Science MA",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

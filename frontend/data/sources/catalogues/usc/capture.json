@@ -1,0 +1,29 @@
+{
+  "schoolId": "usc",
+  "catalogURL": "https://graduateschool.usc.edu/prospective-students/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "usc",
+      "url": "https://graduateschool.usc.edu/prospective-students/",
+      "requestedURL": "https://graduateschool.usc.edu/prospective-students/",
+      "file": "frontend/data/sources/catalogues/usc/efbcbc14a07f95d2.html",
+      "sha256": "efbcbc14a07f95d200d125195775d07e977464871422c14fa1aab49ead96d09f",
+      "capturedAt": "2026-10-19T12:01:55.391562+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Scholarships for Masters Students",
+      "url": "https://graduateschool.usc.edu/fellowships/scholarships-for-masters-students/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://graduateschool.usc.edu/prospective-students/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

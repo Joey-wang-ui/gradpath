@@ -1,0 +1,117 @@
+{
+  "schoolId": "tufts",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://www.tufts.edu/graduate-programs",
+      "file": "tufts/ed7dd1cf1695ba30.html",
+      "sha256": "ed7dd1cf1695ba309f37f1f6a7a5438a12d7ef42a56c7dc8bd5ace8a13fed8db"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "Cummings School of Veterinary Medicine",
+      "english": "Cummings School of Veterinary Medicine",
+      "url": "https://www.tufts.edu/graduate-programs",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Animals and Public Policy",
+          "degree": "Masters",
+          "url": "https://vet.tufts.edu/masters-programs/ms-animals-and-public-policy",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Grafton",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Engineering Friedman School of Nutrition Science and Policy",
+      "english": "School of Engineering Friedman School of Nutrition Science and Policy",
+      "url": "https://www.tufts.edu/graduate-programs",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied AI for Food and Nutrition",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/applied-ai-food-and-nutrition-masters",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Online",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate School of Arts and Sciences",
+      "english": "Graduate School of Arts and Sciences",
+      "url": "https://www.tufts.edu/graduate-programs",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art Education",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/art-education-masters",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Boston SMFA",
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art History and Museum Studies",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/art-history-and-museum-studies-masters",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art History",
+          "degree": "Masters",
+          "url": "https://asegrad.tufts.edu/program/art-history-masters",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": "Medford/Somerville",
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

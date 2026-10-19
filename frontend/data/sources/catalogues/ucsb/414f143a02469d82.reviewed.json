@@ -1,0 +1,41 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST",
+      "file": "ucsb/414f143a02469d82.html",
+      "sha256": "414f143a02469d8226e8f05fd9f56c85a675fa3cfe42f2a0969442cfd8d714c4"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "History",
+          "degree": "MA",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=HIST-PHD-HIST-MA-0",
+          "field": "人文",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

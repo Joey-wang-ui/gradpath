@@ -1,0 +1,22 @@
+{
+  "schoolId": "georgia-tech",
+  "catalogURL": "https://grad.gatech.edu/degree-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "georgia-tech",
+      "url": "https://gradapp.gatech.edu/portal/program-info",
+      "requestedURL": "https://grad.gatech.edu/degree-programs",
+      "file": "frontend/data/sources/catalogues/georgia-tech/c10966c6b5ab23c0.html",
+      "sha256": "c10966c6b5ab23c0c7f40f1746fb881a8fdf5d5472de89428d4f1d147776e591",
+      "capturedAt": "2026-10-19T12:01:49.975535+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

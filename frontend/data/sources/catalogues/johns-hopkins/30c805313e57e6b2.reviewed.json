@@ -1,0 +1,2437 @@
+{
+  "schoolId": "johns-hopkins",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "file": "johns-hopkins/30c805313e57e6b2.html",
+      "sha256": "30c805313e57e6b2012eacd71e42c4126c1e68d8003958e95d037e96f1a95606"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "School of Medicine",
+      "english": "School of Medicine",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Anatomy Education",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/anatomy-education-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Health Sciences Informatics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/applied-health-sciences-informatics-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cellular and Molecular Medicine",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/cellular-molecular-medicine-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Anaplastology",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/clinical-anaplastology-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Sciences Informatics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/health-sciences-informatics-research-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Medicine",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/history-medicine-ma-onsite/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "History of Medicine",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/history-medicine-ma/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical and Biological Illustration",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/medical-biological-illustration-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Medical Physics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/medicine/graduate-programs/medical-physics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Whiting School of Engineering (Engineering For Professionals)",
+      "english": "Whiting School of Engineering (Engineering For Professionals)",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied and Computational Mathematics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/applied-computational-mathematics/applied-computational-mathematics-master-science/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/applied-biomedical-engineering/applied-biomedical-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Applied Physics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/applied-physics/applied-physics-master-science/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Artificial Intelligence",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/artificial-intelligence/master-of-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Climate, Energy, and Environmental Sustainability",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/environmental-engineering-science-management-programs/climate-energy-environmental-sustainability/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/computer-science/computer-science-master/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cybersecurity",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/cybersecurity/cybersecurity-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Analytics and Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/data-analytics-engineering/data-analytics-engineering-master-science/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Science",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/data-science/data-science-master/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical and Computer Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/electrical-computer-engineering/electrical-computer-engineering-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Engineering and Science",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/environmental-engineering-science-management-programs/environmental-engineering-science-master/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Planning and Management",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/environmental-engineering-science-management-programs/environmental-planning-management-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Mathematics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/financial-mathematics/financial-mathematics-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Healthcare Systems Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/healthcare-systems-engineering/healthcare-systems-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial and Operations Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/industrial-operations-engineering/industrial-operations-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Information Systems Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/information-systems-engineering/information-systems-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/materials-science-engineering/materials-science-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/mechanical-engineering/mechanical-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Occupational and Environmental Hygiene",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/occupational-environmental-hygiene/occupational-environmental-hygiene-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Robotics and Autonomous Systems",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/robotics-autonomous-systems/robotics-autonomous-systems-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Space Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/space-engineering/space-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Systems Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/engineering-professionals/systems-engineering/systems-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Krieger School of Arts and Sciences (Advanced Academic Programs)",
+      "english": "Krieger School of Arts and Sciences (Advanced Academic Programs)",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Economics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/applied-economics-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioinformatics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/bioinformatics-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biotechnology",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/biotechnology-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Communication",
+          "degree": "MA/MBA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/communication-master-arts-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Communication",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/communication-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cultural Heritage Management",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/cultural-heritage-management-master-arts/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Data Analytics and Policy",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/data-analytics-policy-master-science/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Energy Policy and Climate",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/energy-policy-climate-master-science/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Sciences and Policy",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/environmental-sciences-policy-master-science/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Film and Media",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/film-media-master-arts/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Economics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/financial-economics-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Food Safety Regulation",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/food-safety-regulation-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Geographic Information Systems",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/geographic-information-systems-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Geospatial Intelligence",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/geospatial-intelligence-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Security Studies",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/global-security-studies-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Government",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/government-master-arts/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Individualized Genomics and Health",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/individualized-genomics-health-master-science/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Intelligence Analysis",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/intelligence-analysis-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Museum Studies",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/museum-studies-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nonprofit Management",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/non-profit-management-master-arts/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Organizational Leadership",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/organizational-leadership-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Management",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/public-management-master-arts/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Regenerative and Stem Cell Technologies",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/regenerative-stem-cell-technologies/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Regulatory Science",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/regulatory-master-science/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Research Administration",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/research-administration-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Science Writing",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/science-writing-master-of-arts/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching Writing",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/teaching-writing-master-arts/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Writing",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/writing-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "凯瑞商学院",
+      "english": "Carey Business School",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Economics",
+          "degree": "MS/MBA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/applied-economics-ms-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biotechnology",
+          "degree": "MS/MBA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-biotechnology-education/biotechnology-master-science-mba/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration (Accelerated)",
+          "degree": "MBA",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/business-administration-accelerated-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration (Flexible)",
+          "degree": "MBA",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/business-administration-flexible-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration (Full Time)",
+          "degree": "MBA",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/business-administration-fulltime-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Analytics and Artificial Intelligence (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/business-analytics-artificial-intelligence-part-time-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business Analytics and Artificial Intelligence",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/business-analytics-artificial-intelligence-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Finance (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/finance-part-time-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Finance",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/finance-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "johns-hopkins--finance",
+          "name": "金融硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Government",
+          "degree": "MA/MBA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/advanced-academic-programs/programs/center-advanced-governmental-studies/government-master-arts-mba/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Care Management (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/health-care-management-part-time-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Care Management",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/health-care-management-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Information Systems and Artificial Intelligence for Business (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/information-systems-artificial-intelligence-business-part-time-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Information Systems and Artificial Intelligence for Business",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/information-systems-master-science/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/management-part-time-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Management",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/management-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/marketing-part-time-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Marketing",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/marketing-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate and Infrastructure (Part Time)",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/real-estate-infrastructure-part-time-master-science/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Real Estate and Infrastructure",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/business/degrees-certificates/real-estate-infrastructure-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Whiting School of Engineering (Full Time, On Campus Programs)",
+      "english": "Whiting School of Engineering (Full Time, On Campus Programs)",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Mathematics and Statistics",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/applied-mathematics-statistics/applied-mathematics-statistics-master-science-engineering/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Bioengineering Innovation and Design",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/biomedical-engineering/innovation-design-master-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/biomedical-engineering/biomedical-engineering-master-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical and Biomolecular Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/chemical-biomolecular-engineering/chemical-biomolecular-engineering-master-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Civil Engineering, Master of Science in Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/civil-engineering/civil-engineering-mse/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Computer Science",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/computer-science/computer-science-master-science-engineering/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "johns-hopkins--computer-science",
+          "name": "计算机科学硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Data Science",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/applied-mathematics-statistics/data-science-masters-degree/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electrical and Computer Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/electrical-computer-engineering/electrical-computer-master-science-engineering/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering Management",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/leadership-education/engineering-management-master-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health and Engineering",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/environmental-health-engineering/environmental-health-engineering-master-arts/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health and Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/environmental-health-engineering/environmental-health-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health and Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/environmental-health-engineering/environmental-health-engineering-master-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Mathematics",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/applied-mathematics-statistics/financial-mathematics-master-science-engineering/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Innovation and Leadership Through Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/leadership-education/global-innovation-leadership-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/materials-science-engineering/materials-science-engineering-master/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/mechanical-engineering/mechanical-engineering-master-science/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Robotics",
+          "degree": "MSE",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/robotics-computational-sensing/robotics-master-science-engineering/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Security Informatics",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/information-security-institute/security-informatics-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Systems Engineering",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/civil-engineering/systems-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Peabody Institute",
+      "english": "Peabody Institute",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Audio Sciences: Acoustics",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/audio-sciences-acoustics-master-arts/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Audio Sciences: Recording Arts and Sciences",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/audio-sciences-recording-production-master-arts/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Composition",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/composition-master-music/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Electronics and Computer Music",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/electronics-computer-music-master-music/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Film and Game Scoring",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/film-game-scoring-master-of-music/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Education",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/music-education-master-music/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music Theory Pedagogy",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/music-theory-pedagogy-master-music/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Musicology",
+          "degree": "MM",
+          "url": "https://e-catalogue.jhu.edu/peabody/degree-diploma-programs/musicology-master-music/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "彭博公共卫生学院",
+      "english": "Bloomberg School of Public Health",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biochemistry and Molecular Biology",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/biochemistry-molecular-biology/biochemistry-molecular-biology-mhs/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/biostatistics/biostatistics-mhs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Investigation",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/graduate-training-clinical-investigation/graduate-training-clinical-investigation-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/environmental-health-engineering/environmental-health-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiology",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/epidemiology/epidemiology-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Health Economics",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/international-health/global-health-economics-mhs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Administration",
+          "degree": "MHA",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-policy-management/mha/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Economics and Outcomes Research",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-policy-management/health-economics-outcomes-research-mhs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Education and Health Communication",
+          "degree": "MSPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-behavior-society/health-education-communication-msph/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Finance and Management",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-policy-management/health-finance-management-mhs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Policy",
+          "degree": "MSPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-policy-management/health-policy-msph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health, Behavior, and Society",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/health-behavior-society/health-behavior-society-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Health",
+          "degree": "MA/MSPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/international-health/international-health-ma-msph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Health",
+          "degree": "MSPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/international-health/international-health-msph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Applied Science in Patient Safety and Healthcare Quality",
+          "degree": "MAS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/MAS-Office/patient-safety-healthcare-quality-master-applied-science/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Applied Science in Population Health Management",
+          "degree": "MAS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/MAS-Office/population-health-management-master-applied-science/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Applied Science in Spatial Analysis for Public Health",
+          "degree": "MAS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/MAS-Office/spatial-analysis-public-health-master-applied-science/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Arts in Public Health Biology",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/ma-public-health-biology/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Bioethics",
+          "degree": "MBE",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/master-bioethics/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Public Health Program",
+          "degree": "MPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/master-public-health/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mental Health",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/mental-health/mental-health-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular Microbiology & Immunology",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/molecular-microbiology-immunology/molecular-microbiology-immunology-mhs/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Occupational and Environmental Hygiene",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/degree-programs/environmental-health-engineering/occupational-environmental-hygiene-master-sience/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Population, Family and Reproductive Health",
+          "degree": "MHS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/population-family-reproductive-health/population-family-reproductive-health-mhs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Population, Family and Reproductive Health",
+          "degree": "MSPH",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/population-family-reproductive-health/population-family-reproductive-health-msph/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Toxicology for Human Risk Assessment",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/public-health/departments/environmental-health-engineering/toxicology-human-risk-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Krieger School of Arts and Sciences (Full Time, On Campus Programs)",
+      "english": "Krieger School of Arts and Sciences (Full Time, On Campus Programs)",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biophysical Chemistry and Design for Biotechnology",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/biophysics/biophysical-chemistry-design-biotechnology-master-science/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cognitive Science",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/cognitive-science/cognitive-science-master-art/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Earth and Planetary Sciences",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/earth-planetary-science/earth-planetary-sciences-master-science/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/economics/economics-master-arts/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Neuroscience",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/neuroscience/neuroscience-master-science/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Psychology",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/psychological-brain-science/psychology-master-science/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Writing Seminars",
+          "degree": "MFA",
+          "url": "https://e-catalogue.jhu.edu/arts-sciences/full-time-residential-programs/degree-programs/writing-seminars/writing-seminars-master-fine-art/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Education",
+      "english": "School of Education",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Counseling",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/counseling-master-science/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Education Policy",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/education-policy-master-science/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Education",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/education-master-science/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Health Professions (Online)",
+          "degree": "MEd",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/health-professions-online-master-education/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Learning Design and Technology",
+          "degree": "MEd",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/learning-design-technology-master-education/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Special Education",
+          "degree": "MS",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/special-education-master-science/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Teaching Professionals",
+          "degree": "MEd",
+          "url": "https://e-catalogue.jhu.edu/education/programs/masters/teaching-for-professional-master-education/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Advanced International Studies",
+      "english": "School of Advanced International Studies",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "European Public Policy",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/european-public-policy-master-arts/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Policy",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/global-policy-master-arts/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Global Risk",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/global-risk-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "online",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Affairs",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/international-affairs-master-arts/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Economics and Finance",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/international-economics-finance-master-arts/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Relations",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "International Studies",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/programs/international-studies-master-arts/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Strategy, Cybersecurity, and Intelligence",
+          "degree": "MA",
+          "url": "https://e-catalogue.jhu.edu/advanced-international-studies/strategy-cybersecurity-intelligence/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "hybrid",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "School of Nursing",
+      "english": "School of Nursing",
+      "url": "https://e-catalogue.jhu.edu/programs/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Master of Science in Nursing",
+          "degree": "MSN",
+          "url": "https://e-catalogue.jhu.edu/nursing/masters-degrees/msn-healthcare-organizational-leadership-track/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "on-campus",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

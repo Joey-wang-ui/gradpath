@@ -1,0 +1,1727 @@
+{
+  "schoolId": "berkeley",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "file": "berkeley/3475eeb6e67f8cff.html",
+      "sha256": "3475eeb6e67f8cfffb3ed0690a6613a722814a49a6b405715eb18bc1cbb82b05"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://grad.berkeley.edu/admissions/our-programs/",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Anthropology 5th-Year",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "社会科学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture / Civil and Environmental Engineering",
+          "degree": "MArch/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture / Master of City Planning",
+          "degree": "MArch/MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture",
+          "degree": "MArch",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Architecture",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Art Practice",
+          "degree": "MFA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Asian Studies",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Bioengineering",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Biostatistics",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Bioengineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Civil and Environmental Engineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Climate Solutions",
+          "degree": "MBA/MCS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Electrical Engineering and Computer Sciences",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Health Policy and Management",
+          "degree": "MBA/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Industrial Engineering and Operations Research",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Law",
+          "degree": "MBA/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Materials Science and Engineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Mechanical Engineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration / Nuclear Engineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration & Masters of Engineering",
+          "degree": "MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Business Administration",
+          "degree": "MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters",
+          "existingId": "berkeley--mba",
+          "name": "工商管理硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Chemical and Biomolecular Engineering",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Chemical and Biomolecular Engineering Prof",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Civil and Environmental Engineering",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Civil and Environmental Engineering Prof",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Demography",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Design",
+          "degree": "MDes",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Development Engineering",
+          "degree": "MDevEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Development Practice",
+          "degree": "MDP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Earth and Planetary Science 5th-Year",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Economics",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Education",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Computer Science",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Computer Science",
+          "degree": "MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Electrical Engineering and Computer Sciences 5th-Year",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Electrical Engineering and Computer Sciences",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Electrical Engineering and Computer Sciences",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "EECS – Electrical Engineering and Computer Sciences",
+          "degree": "MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Energy and Resources Law",
+          "degree": "MS/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Energy and Resources / Law",
+          "degree": "MA/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Energy and Resources",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Energy and Resources",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health Sciences / Journalism",
+          "degree": "MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Health Sciences",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiology and Biostatistics / Journalism",
+          "degree": "MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Epidemiology",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Evening and Weekend",
+          "degree": "MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Executive",
+          "degree": "MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Folklore",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Forestry 5th-Year",
+          "degree": "MF",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Forestry",
+          "degree": "MF",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Global Studies",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Health and Medical Sciences (Joint UCSF)",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Health and Social Behavior / Journalism",
+          "degree": "MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial Engineering and Operations Research 5th-year",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial Engineering and Operations Research",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Industrial Engineering and Operations Research",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Information and Cybersecurity",
+          "degree": "MICS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Information and Data Science",
+          "degree": "MIDS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Information Management and Systems",
+          "degree": "MIMS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters",
+          "existingId": "berkeley--information-management",
+          "name": "信息管理与系统硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Journalism / Asian Studies",
+          "degree": "MJ/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Journalism",
+          "degree": "MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Landscape Architecture / Architecture",
+          "degree": "MLA/MArch",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Landscape Architecture / Master of City Planning",
+          "degree": "MLA/MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Landscape Architecture",
+          "degree": "MLA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Law",
+          "degree": "LLM",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Advanced Architectural Design",
+          "degree": "MAAD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Analytics",
+          "degree": "MAnlytx",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Artificial Intelligence and Machine Learning",
+          "degree": "MAIML",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Bioprocess Engineering",
+          "degree": "MBE",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning / Civil and Environmental Engineering MCP/ Prof",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning / Environmental Health Sciences",
+          "degree": "MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning / Epidemiology and Biostatistics",
+          "degree": "MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning / Health and Social Behavior",
+          "degree": "MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning / Law",
+          "degree": "MCP/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of City Planning",
+          "degree": "MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Climate Solutions",
+          "degree": "MCS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Financial Engineering",
+          "degree": "MFE",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Master of Nutritional Sciences and Dietetics",
+          "degree": "MNSD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering 5th-Year",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Mathematics",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "自然科学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering 5th-Year",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Metabolic Biology",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular Science and Software Engineering",
+          "degree": "MSSE",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Nuclear Engineering",
+          "degree": "MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Affairs",
+          "degree": "MPA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Health-Online",
+          "degree": "MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Civil and Environmental Engineering",
+          "degree": "MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Electrical Engineering and Computer Sciences",
+          "degree": "MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Energy and Resources",
+          "degree": "MPP/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Energy and Resources",
+          "degree": "MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Health Policy and Management",
+          "degree": "MPP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Law",
+          "degree": "MPP/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Mechanical Engineering",
+          "degree": "MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy / Nuclear Engineering",
+          "degree": "MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Public Policy",
+          "degree": "MPP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Rangeland and Wildlife Management",
+          "degree": "MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare / Food, Nutrition and Population Health",
+          "degree": "MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare / Health and Social Behavior",
+          "degree": "MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare / Law",
+          "degree": "MSW/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "社会科学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare / Maternal, Child and Adolescent Health",
+          "degree": "MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare / Public Policy",
+          "degree": "MSW/MPP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "公共与国际事务",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare Advanced Standing Flex",
+          "degree": "MSW",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare Extended Flex",
+          "degree": "MSW",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Social Welfare",
+          "degree": "MSW",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics and Data Science 5th-year",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics and Data Science",
+          "degree": "MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Translational Medicine (joint UCSF)",
+          "degree": "MTM",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        },
+        {
+          "english": "Urban Design",
+          "degree": "MUD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "college",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

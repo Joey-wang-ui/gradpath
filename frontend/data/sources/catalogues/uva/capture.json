@@ -1,0 +1,18 @@
+{
+  "schoolId": "uva",
+  "catalogURL": "https://graduate.virginia.edu/",
+  "degreeScope": "masters",
+  "status": "blocked-network",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://graduate.virginia.edu/",
+      "status": "blocked-network",
+      "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

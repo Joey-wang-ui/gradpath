@@ -1,0 +1,29 @@
+{
+  "schoolId": "uchicago",
+  "catalogURL": "https://www.uchicago.edu/education-and-research/graduate-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "uchicago",
+      "url": "https://www.uchicago.edu/academics/graduate-programs",
+      "requestedURL": "https://www.uchicago.edu/education-and-research/graduate-programs",
+      "file": "frontend/data/sources/catalogues/uchicago/fb32b828d1abd6bd.html",
+      "sha256": "fb32b828d1abd6bdfea9bdd379f26ad2c1e222900bb90e8fbb0697f63ae35d74",
+      "capturedAt": "2026-10-19T12:01:53.430144+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "Explore Master’s Degree Programs",
+      "url": "https://www.uchicago.edu/academics/graduate-programs/masters-programs",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.uchicago.edu/academics/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

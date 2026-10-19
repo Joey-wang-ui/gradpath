@@ -1,0 +1,41 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE",
+      "file": "ucsb/d62d3d16d990cb1b.html",
+      "sha256": "d62d3d16d990cb1b7e95ca31a28fb5d9eeff8bd6d267c9bb3f92de15cfa3e8b9"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Biochemistry and Molecular Biology (Five-Year Program) Current UCSB Undergraduates Only",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=BMB-MS-1",
+          "field": "自然科学",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

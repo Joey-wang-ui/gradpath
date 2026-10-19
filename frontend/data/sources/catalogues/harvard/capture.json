@@ -1,0 +1,47 @@
+{
+  "schoolId": "harvard",
+  "catalogURL": "https://gsas.harvard.edu/programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "harvard",
+      "url": "https://gsas.harvard.edu/programs",
+      "requestedURL": "https://gsas.harvard.edu/programs",
+      "file": "frontend/data/sources/catalogues/harvard/4a1facf20d020bcd.html",
+      "sha256": "4a1facf20d020bcd3ba91a745c75cf7b74e56dd734cdc64793504ce0026b5744",
+      "capturedAt": "2026-10-19T12:01:48.966103+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 4,
+  "candidates": [
+    {
+      "label": "Master of Arts (AM) (7)",
+      "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A158",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.harvard.edu/programs"
+    },
+    {
+      "label": "Master of Engineering (ME) (2)",
+      "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A160",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.harvard.edu/programs"
+    },
+    {
+      "label": "Master of Science (SM) (4)",
+      "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A159",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.harvard.edu/programs"
+    },
+    {
+      "label": "PhD and select master’s degrees",
+      "url": "https://gsas.harvard.edu/programs?f%5B0%5D=program_type%3A166",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gsas.harvard.edu/programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

@@ -1,0 +1,22 @@
+{
+  "schoolId": "uf",
+  "catalogURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "uf",
+      "url": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+      "requestedURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+      "file": "frontend/data/sources/catalogues/uf/1ab5110089352e35.html",
+      "sha256": "1ab5110089352e359c5d1c6da1309aa1162bcfa4b47a25b901b14fc9ff29f973",
+      "capturedAt": "2026-10-19T12:01:53.319680+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

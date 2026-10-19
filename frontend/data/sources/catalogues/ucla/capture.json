@@ -1,0 +1,257 @@
+{
+  "schoolId": "ucla",
+  "catalogURL": "https://grad.ucla.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "ucla",
+      "url": "https://grad.ucla.edu/",
+      "requestedURL": "https://grad.ucla.edu/programs/",
+      "file": "frontend/data/sources/catalogues/ucla/29450b7f58aadab4.html",
+      "sha256": "29450b7f58aadab4fd1de129a899e200e1350a78825297fd01d612951fd6918b",
+      "capturedAt": "2026-10-19T12:01:53.706890+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 39,
+  "candidates": [
+    {
+      "label": "Master’s Studies",
+      "url": "https://grad.ucla.edu/academics/masters-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Architecture - M.Arch.",
+      "url": "https://grad.ucla.edu/programs/school-of-arts-and-architecture/architecture-and-urban-design-department/architecture-m-arch-i/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Architecture - M.S. in Architecture and Urban Design",
+      "url": "https://grad.ucla.edu/programs/school-of-arts-and-architecture/architecture-and-urban-design-department/architecture-m-s/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Biostatistics MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Chemistry - Master of Applied Chemical Sciences",
+      "url": "https://grad.ucla.edu/programs/physical-sciences/chemistry-and-biochemistry-department/chemistry-master-of-applied-chemical-sciences/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Community Health Sciences MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/community-health-sciences-department/community-health-sciences-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Economics - Master of Quantitative Economics",
+      "url": "https://grad.ucla.edu/programs/social-sciences/economics-department/economics-master-of-quantitative-economics/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - Master of Engineering",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-master-of-engineering/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Aerospace, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-aerospace-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Computer Networking, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-computer-networking-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Electrical, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-electrical-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Electronic Materials, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-electronic-materials-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Integrated Circuits, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-integrated-circuits-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Manufacturing and Design, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-manufacturing-and-design-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Materials Science, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-materials-science-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Mechanical, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-mechanical-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Signal Processing and Communications, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-signal-processing-and-communications-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Engineering - MS in Engineering-Structural Materials, Online",
+      "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-structural-materials-online/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Environmental Health Sciences MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/environmental-health-sciences-department/environmental-health-sciences-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Epidemiology MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/epidemiology-department/epidemiology-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Executive Master of Public Health",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/executive-master-of-public-health/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Health Management MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-management-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Health Policy & Management MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-policy-management-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Health Policy MPH",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-policy-mph/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - Business Analytics MS",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-business-analytics-ms/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - Executive MBA",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-executive-mba/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - Fully Employed MBA (FEMBA)",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-fully-employed-mba-femba/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - Global Executive MBA for Asia Pacific",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-global-executive-mba-for-asia-pacific/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - Master of Financial Engineering",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-master-of-financial-engineering/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - MBA",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-mba/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Management - MS, PHD",
+      "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-ms-phd/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Applied Geospatial Information Systems & Technologies",
+      "url": "https://grad.ucla.edu/programs/social-sciences/geography-department/master-of-applied-geospatial-information-systems-technologies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Legal Studies",
+      "url": "https://grad.ucla.edu/programs/school-of-law/master-of-legal-studies/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Public Health in Community Health, Health Promotion and Education",
+      "url": "https://grad.ucla.edu/programs/school-of-public-health/community-health-sciences-department/master-of-public-health-in-community-health-health-promotion-and-education/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Quantum Science and Technology",
+      "url": "https://grad.ucla.edu/programs/physical-sciences/physics-and-astronomy-department/master-of-quantum-science-and-technology/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Real Estate Development",
+      "url": "https://grad.ucla.edu/programs/school-of-public-affairs/urban-planning-department/master-of-real-estate-development/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Master of Social Science",
+      "url": "https://grad.ucla.edu/programs/social-sciences/master-of-social-science/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    },
+    {
+      "label": "Statistics - Master of Applied Statistics and Data Science",
+      "url": "https://grad.ucla.edu/programs/physical-sciences/statistics-and-data-science-department/statistics-master-of-applied-statistics-and-data-science/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucla.edu/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

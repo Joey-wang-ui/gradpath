@@ -1,0 +1,3664 @@
+{
+  "schemaVersion": 1,
+  "compiledAt": "2026-10-19",
+  "status": "reference",
+  "scope": "每校代表性硕士项目与学院入口，并非全校完整专业目录。",
+  "verification": "人工整理的参考条目；尚未逐页核验当前官网。学位名称、招生路径及所选申请季要求需到官方页面确认。",
+  "verifiedAt": null,
+  "schools": [
+    {
+      "schoolId": "mit",
+      "catalogURL": "https://oge.mit.edu/graduate-admissions/",
+      "colleges": [
+        {
+          "id": "mit-unit-1",
+          "name": "斯隆管理学院",
+          "english": "MIT Sloan School of Management",
+          "url": "https://mitsloan.mit.edu/",
+          "programs": [
+            {
+              "id": "mit--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MBAn",
+              "field": "商科与数据",
+              "url": "https://mitsloan.mit.edu/master-of-business-analytics",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "mit--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MFin",
+              "field": "金融",
+              "url": "https://mitsloan.mit.edu/master-of-finance",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "mit-unit-2",
+          "name": "工程学院 · 土木与环境工程系",
+          "english": "School of Engineering · Civil and Environmental Engineering",
+          "url": "https://cee.mit.edu/",
+          "programs": [
+            {
+              "id": "mit--civil-environmental",
+              "name": "土木与环境工程硕士",
+              "english": "Civil and Environmental Engineering",
+              "degree": "MEng",
+              "field": "工程",
+              "url": "https://cee.mit.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "princeton",
+      "catalogURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+      "colleges": [
+        {
+          "id": "princeton-unit-1",
+          "name": "研究生院 · 本德海姆金融中心",
+          "english": "Graduate School · Bendheim Center for Finance",
+          "url": "https://bcf.princeton.edu/",
+          "programs": [
+            {
+              "id": "princeton--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MFin",
+              "field": "金融",
+              "url": "https://bcf.princeton.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "princeton-unit-2",
+          "name": "公共与国际事务学院",
+          "english": "School of Public and International Affairs",
+          "url": "https://spia.princeton.edu/",
+          "programs": [
+            {
+              "id": "princeton--public-affairs",
+              "name": "公共事务硕士",
+              "english": "Public Affairs",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://spia.princeton.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "princeton--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://spia.princeton.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "harvard",
+      "catalogURL": "https://gsas.harvard.edu/programs",
+      "colleges": [
+        {
+          "id": "harvard-unit-1",
+          "name": "工程与应用科学学院 · 文理研究生院",
+          "english": "SEAS · Kenneth C. Griffin Graduate School of Arts and Sciences",
+          "url": "https://seas.harvard.edu/",
+          "programs": [
+            {
+              "id": "harvard--data-science",
+              "name": "数据科学硕士",
+              "english": "Data Science",
+              "degree": "SM",
+              "field": "数据科学",
+              "url": "https://seas.harvard.edu/applied-computation/graduate-programs/master-science-data-science",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "harvard-unit-2",
+          "name": "教育研究生院",
+          "english": "Harvard Graduate School of Education",
+          "url": "https://www.gse.harvard.edu/",
+          "programs": [
+            {
+              "id": "harvard--education",
+              "name": "教育学硕士",
+              "english": "Education",
+              "degree": "EdM",
+              "field": "教育",
+              "url": "https://www.gse.harvard.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "harvard-unit-3",
+          "name": "肯尼迪政府学院",
+          "english": "Harvard Kennedy School",
+          "url": "https://www.hks.harvard.edu/",
+          "programs": [
+            {
+              "id": "harvard--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://www.hks.harvard.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "yale",
+      "catalogURL": "https://gsas.yale.edu/programs-of-study",
+      "colleges": [
+        {
+          "id": "yale-unit-1",
+          "name": "文理研究生院 · 计算机科学系",
+          "english": "Graduate School of Arts and Sciences · Computer Science",
+          "url": "https://cpsc.yale.edu/",
+          "programs": [
+            {
+              "id": "yale--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://cpsc.yale.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "yale-unit-2",
+          "name": "管理学院",
+          "english": "Yale School of Management",
+          "url": "https://som.yale.edu/",
+          "programs": [
+            {
+              "id": "yale--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://som.yale.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "yale-unit-3",
+          "name": "环境学院",
+          "english": "Yale School of the Environment",
+          "url": "https://environment.yale.edu/",
+          "programs": [
+            {
+              "id": "yale--environment",
+              "name": "环境管理硕士",
+              "english": "Environmental Management",
+              "degree": "MEM",
+              "field": "环境",
+              "url": "https://environment.yale.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "caltech",
+      "catalogURL": "https://www.gradoffice.caltech.edu/academics/degrees",
+      "colleges": [
+        {
+          "id": "caltech-unit-1",
+          "name": "工程与应用科学学部",
+          "english": "Division of Engineering and Applied Science",
+          "url": "https://www.eas.caltech.edu/",
+          "programs": [
+            {
+              "id": "caltech--electrical-engineering",
+              "name": "电气工程硕士学位路径",
+              "english": "Electrical Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://www.eas.caltech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-route",
+              "note": "请先确认是否接受独立硕士申请；该校部分硕士学位随博士培养授予。"
+            },
+            {
+              "id": "caltech--aeronautics",
+              "name": "航空学硕士学位路径",
+              "english": "Aeronautics",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://www.eas.caltech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-route",
+              "note": "请先确认是否接受独立硕士申请；该校部分硕士学位随博士培养授予。"
+            }
+          ]
+        },
+        {
+          "id": "caltech-unit-2",
+          "name": "地质与行星科学学部",
+          "english": "Division of Geological and Planetary Sciences",
+          "url": "https://www.gps.caltech.edu/",
+          "programs": [
+            {
+              "id": "caltech--geology",
+              "name": "地质学硕士学位路径",
+              "english": "Geology",
+              "degree": "MS",
+              "field": "地球科学",
+              "url": "https://www.gps.caltech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-route",
+              "note": "请先确认是否接受独立硕士申请；该校部分硕士学位随博士培养授予。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "stanford",
+      "catalogURL": "https://gradadmissions.stanford.edu/explore-programs",
+      "colleges": [
+        {
+          "id": "stanford-unit-1",
+          "name": "工程学院",
+          "english": "Stanford School of Engineering",
+          "url": "https://engineering.stanford.edu/",
+          "programs": [
+            {
+              "id": "stanford--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.cs.stanford.edu/admissions/masters",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "stanford--management-science",
+              "name": "管理科学与工程硕士",
+              "english": "Management Science and Engineering",
+              "degree": "MS",
+              "field": "工程与管理",
+              "url": "https://msande.stanford.edu/academics-admissions/graduate/ms-program",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "stanford-unit-2",
+          "name": "商学研究生院",
+          "english": "Stanford Graduate School of Business",
+          "url": "https://www.gsb.stanford.edu/",
+          "programs": [
+            {
+              "id": "stanford--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.gsb.stanford.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "upenn",
+      "catalogURL": "https://www.upenn.edu/academics/graduate",
+      "colleges": [
+        {
+          "id": "upenn-unit-1",
+          "name": "工程与应用科学学院",
+          "english": "School of Engineering and Applied Science",
+          "url": "https://www.seas.upenn.edu/",
+          "programs": [
+            {
+              "id": "upenn--computer-information-science",
+              "name": "计算机与信息科学硕士",
+              "english": "Computer and Information Science",
+              "degree": "MSE",
+              "field": "计算机",
+              "url": "https://www.seas.upenn.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "upenn--computer-information-technology",
+              "name": "计算机与信息技术硕士",
+              "english": "Computer and Information Technology",
+              "degree": "MCIT",
+              "field": "计算机",
+              "url": "https://www.seas.upenn.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "upenn-unit-2",
+          "name": "沃顿商学院",
+          "english": "The Wharton School",
+          "url": "https://www.wharton.upenn.edu/",
+          "programs": [
+            {
+              "id": "upenn--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.wharton.upenn.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "duke",
+      "catalogURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+      "colleges": [
+        {
+          "id": "duke-unit-1",
+          "name": "普拉特工程学院",
+          "english": "Pratt School of Engineering",
+          "url": "https://pratt.duke.edu/",
+          "programs": [
+            {
+              "id": "duke--engineering-management",
+              "name": "工程管理硕士",
+              "english": "Engineering Management",
+              "degree": "MEM",
+              "field": "工程与管理",
+              "url": "https://pratt.duke.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "duke--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MEng",
+              "field": "工程",
+              "url": "https://pratt.duke.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "duke-unit-2",
+          "name": "富库商学院",
+          "english": "Fuqua School of Business",
+          "url": "https://www.fuqua.duke.edu/",
+          "programs": [
+            {
+              "id": "duke--quantitative-management",
+              "name": "商业分析量化管理硕士",
+              "english": "Quantitative Management: Business Analytics",
+              "degree": "MQM",
+              "field": "商科与数据",
+              "url": "https://www.fuqua.duke.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "johns-hopkins",
+      "catalogURL": "https://www.jhu.edu/academics/graduate-studies/",
+      "colleges": [
+        {
+          "id": "johns-hopkins-unit-1",
+          "name": "怀廷工程学院",
+          "english": "Whiting School of Engineering",
+          "url": "https://engineering.jhu.edu/",
+          "programs": [
+            {
+              "id": "johns-hopkins--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MSE",
+              "field": "计算机",
+              "url": "https://engineering.jhu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "johns-hopkins-unit-2",
+          "name": "凯瑞商学院",
+          "english": "Carey Business School",
+          "url": "https://carey.jhu.edu/",
+          "programs": [
+            {
+              "id": "johns-hopkins--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://carey.jhu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "johns-hopkins-unit-3",
+          "name": "彭博公共卫生学院",
+          "english": "Bloomberg School of Public Health",
+          "url": "https://publichealth.jhu.edu/",
+          "programs": [
+            {
+              "id": "johns-hopkins--public-health",
+              "name": "公共卫生硕士",
+              "english": "Public Health",
+              "degree": "MPH",
+              "field": "公共卫生",
+              "url": "https://publichealth.jhu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "northwestern",
+      "catalogURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+      "colleges": [
+        {
+          "id": "northwestern-unit-1",
+          "name": "麦考密克工程学院",
+          "english": "McCormick School of Engineering",
+          "url": "https://www.mccormick.northwestern.edu/",
+          "programs": [
+            {
+              "id": "northwestern--artificial-intelligence",
+              "name": "人工智能硕士",
+              "english": "Artificial Intelligence",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.mccormick.northwestern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "northwestern-unit-2",
+          "name": "梅迪尔新闻学院",
+          "english": "Medill School of Journalism, Media, Integrated Marketing Communications",
+          "url": "https://www.medill.northwestern.edu/",
+          "programs": [
+            {
+              "id": "northwestern--journalism",
+              "name": "新闻学硕士",
+              "english": "Journalism",
+              "degree": "MS",
+              "field": "传播",
+              "url": "https://www.medill.northwestern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "northwestern-unit-3",
+          "name": "凯洛格管理学院",
+          "english": "Kellogg School of Management",
+          "url": "https://www.kellogg.northwestern.edu/",
+          "programs": [
+            {
+              "id": "northwestern--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.kellogg.northwestern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uchicago",
+      "catalogURL": "https://www.uchicago.edu/education-and-research/graduate-programs",
+      "colleges": [
+        {
+          "id": "uchicago-unit-1",
+          "name": "物理科学学部 · 计算机科学",
+          "english": "Physical Sciences Division · Computer Science",
+          "url": "https://masters.cs.uchicago.edu/",
+          "programs": [
+            {
+              "id": "uchicago--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://masters.cs.uchicago.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uchicago-unit-2",
+          "name": "哈里斯公共政策学院",
+          "english": "Harris School of Public Policy",
+          "url": "https://harris.uchicago.edu/",
+          "programs": [
+            {
+              "id": "uchicago--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://harris.uchicago.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uchicago-unit-3",
+          "name": "布斯商学院",
+          "english": "Chicago Booth School of Business",
+          "url": "https://www.chicagobooth.edu/",
+          "programs": [
+            {
+              "id": "uchicago--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.chicagobooth.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "columbia",
+      "catalogURL": "https://www.columbia.edu/content/academics/graduate-professional-programs",
+      "colleges": [
+        {
+          "id": "columbia-unit-1",
+          "name": "傅氏工程与应用科学学院",
+          "english": "Fu Foundation School of Engineering and Applied Science",
+          "url": "https://www.engineering.columbia.edu/",
+          "programs": [
+            {
+              "id": "columbia--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.cs.columbia.edu/education/ms/",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "columbia--electrical-engineering",
+              "name": "电气工程硕士",
+              "english": "Electrical Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://www.engineering.columbia.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "columbia-unit-2",
+          "name": "数据科学研究所（跨学院）",
+          "english": "Data Science Institute · Interdisciplinary",
+          "url": "https://datascience.columbia.edu/",
+          "programs": [
+            {
+              "id": "columbia--data-science",
+              "name": "数据科学硕士",
+              "english": "Data Science",
+              "degree": "MS",
+              "field": "数据科学",
+              "url": "https://datascience.columbia.edu/education/programs/m-s-in-data-science/",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "columbia-unit-3",
+          "name": "国际与公共事务学院",
+          "english": "School of International and Public Affairs",
+          "url": "https://www.sipa.columbia.edu/",
+          "programs": [
+            {
+              "id": "columbia--public-administration",
+              "name": "公共管理硕士",
+              "english": "Public Administration",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://www.sipa.columbia.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 4,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "dartmouth",
+      "catalogURL": "https://graduate.dartmouth.edu/academics/programs",
+      "colleges": [
+        {
+          "id": "dartmouth-unit-1",
+          "name": "圭里尼文理研究生院",
+          "english": "Guarini School of Graduate and Advanced Studies",
+          "url": "https://graduate.dartmouth.edu/",
+          "programs": [
+            {
+              "id": "dartmouth--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://graduate.dartmouth.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "dartmouth-unit-2",
+          "name": "塞耶工程学院",
+          "english": "Thayer School of Engineering",
+          "url": "https://engineering.dartmouth.edu/",
+          "programs": [
+            {
+              "id": "dartmouth--engineering",
+              "name": "工程硕士",
+              "english": "Engineering",
+              "degree": "MEng",
+              "field": "工程",
+              "url": "https://engineering.dartmouth.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "dartmouth--engineering-management",
+              "name": "工程管理硕士",
+              "english": "Engineering Management",
+              "degree": "MEM",
+              "field": "工程与管理",
+              "url": "https://engineering.dartmouth.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "cmu",
+      "catalogURL": "https://www.cmu.edu/graduate/academics/",
+      "colleges": [
+        {
+          "id": "cmu-unit-1",
+          "name": "计算机科学学院",
+          "english": "School of Computer Science",
+          "url": "https://www.cs.cmu.edu/",
+          "programs": [
+            {
+              "id": "cmu--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.cs.cmu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "cmu-unit-2",
+          "name": "海因茨学院",
+          "english": "Heinz College",
+          "url": "https://www.heinz.cmu.edu/",
+          "programs": [
+            {
+              "id": "cmu--information-systems",
+              "name": "信息系统管理硕士",
+              "english": "Information Systems Management",
+              "degree": "MISM",
+              "field": "信息管理",
+              "url": "https://www.heinz.cmu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "cmu-unit-3",
+          "name": "泰珀商学院",
+          "english": "Tepper School of Business",
+          "url": "https://www.cmu.edu/tepper/",
+          "programs": [
+            {
+              "id": "cmu--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.cmu.edu/tepper/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "cornell",
+      "catalogURL": "https://gradschool.cornell.edu/academics/fields-of-study/",
+      "colleges": [
+        {
+          "id": "cornell-unit-1",
+          "name": "鲍尔斯计算与信息科学学院",
+          "english": "Cornell Bowers College of Computing and Information Science",
+          "url": "https://www.cis.cornell.edu/",
+          "programs": [
+            {
+              "id": "cornell--computer-science",
+              "name": "计算机科学工程硕士",
+              "english": "Computer Science",
+              "degree": "MEng",
+              "field": "计算机",
+              "url": "https://www.cis.cornell.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "cornell-unit-2",
+          "name": "工程学院",
+          "english": "Cornell Engineering",
+          "url": "https://www.engineering.cornell.edu/",
+          "programs": [
+            {
+              "id": "cornell--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MEng",
+              "field": "工程",
+              "url": "https://www.engineering.cornell.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "cornell-unit-3",
+          "name": "庄臣管理研究生院 · SC Johnson 商学院",
+          "english": "Johnson Graduate School of Management · SC Johnson College of Business",
+          "url": "https://www.johnson.cornell.edu/",
+          "programs": [
+            {
+              "id": "cornell--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.johnson.cornell.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "brown",
+      "catalogURL": "https://graduateschool.brown.edu/academics/programs",
+      "colleges": [
+        {
+          "id": "brown-unit-1",
+          "name": "数据科学研究所 · 研究生院",
+          "english": "Data Science Institute · Graduate School",
+          "url": "https://dsi.brown.edu/",
+          "programs": [
+            {
+              "id": "brown--data-science",
+              "name": "数据科学硕士",
+              "english": "Data Science",
+              "degree": "ScM",
+              "field": "数据科学",
+              "url": "https://dsi.brown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "brown-unit-2",
+          "name": "工程学院",
+          "english": "Brown School of Engineering",
+          "url": "https://engineering.brown.edu/",
+          "programs": [
+            {
+              "id": "brown--engineering",
+              "name": "工程学硕士",
+              "english": "Engineering",
+              "degree": "ScM",
+              "field": "工程",
+              "url": "https://engineering.brown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "brown-unit-3",
+          "name": "公共卫生学院",
+          "english": "School of Public Health",
+          "url": "https://sph.brown.edu/",
+          "programs": [
+            {
+              "id": "brown--public-health",
+              "name": "公共卫生硕士",
+              "english": "Public Health",
+              "degree": "MPH",
+              "field": "公共卫生",
+              "url": "https://sph.brown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "rice",
+      "catalogURL": "https://graduate.rice.edu/programs-study",
+      "colleges": [
+        {
+          "id": "rice-unit-1",
+          "name": "乔治·布朗工程与计算学院",
+          "english": "George R. Brown School of Engineering and Computing",
+          "url": "https://engineering.rice.edu/",
+          "programs": [
+            {
+              "id": "rice--computer-science",
+              "name": "计算机科学专业硕士",
+              "english": "Computer Science",
+              "degree": "MCS",
+              "field": "计算机",
+              "url": "https://engineering.rice.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "rice--data-science",
+              "name": "数据科学硕士",
+              "english": "Data Science",
+              "degree": "MDS",
+              "field": "数据科学",
+              "url": "https://engineering.rice.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "rice-unit-2",
+          "name": "琼斯商学院",
+          "english": "Jones Graduate School of Business",
+          "url": "https://business.rice.edu/",
+          "programs": [
+            {
+              "id": "rice--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://business.rice.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "notre-dame",
+      "catalogURL": "https://graduateschool.nd.edu/degree-programs/",
+      "colleges": [
+        {
+          "id": "notre-dame-unit-1",
+          "name": "门多萨商学院",
+          "english": "Mendoza College of Business",
+          "url": "https://mendoza.nd.edu/",
+          "programs": [
+            {
+              "id": "notre-dame--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://mendoza.nd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "notre-dame--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://mendoza.nd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "notre-dame-unit-2",
+          "name": "基奥全球事务学院",
+          "english": "Keough School of Global Affairs",
+          "url": "https://keough.nd.edu/",
+          "programs": [
+            {
+              "id": "notre-dame--global-affairs",
+              "name": "全球事务硕士",
+              "english": "Global Affairs",
+              "degree": "MGA",
+              "field": "国际事务",
+              "url": "https://keough.nd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "vanderbilt",
+      "catalogURL": "https://gradschool.vanderbilt.edu/academics/programs/",
+      "colleges": [
+        {
+          "id": "vanderbilt-unit-1",
+          "name": "工程学院",
+          "english": "Vanderbilt School of Engineering",
+          "url": "https://engineering.vanderbilt.edu/",
+          "programs": [
+            {
+              "id": "vanderbilt--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.vanderbilt.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "vanderbilt-unit-2",
+          "name": "皮博迪教育与人类发展学院",
+          "english": "Peabody College",
+          "url": "https://peabody.vanderbilt.edu/",
+          "programs": [
+            {
+              "id": "vanderbilt--education-policy",
+              "name": "国际教育政策与管理硕士",
+              "english": "International Education Policy and Management",
+              "degree": "MEd",
+              "field": "教育",
+              "url": "https://peabody.vanderbilt.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "vanderbilt-unit-3",
+          "name": "欧文管理研究生院",
+          "english": "Owen Graduate School of Management",
+          "url": "https://business.vanderbilt.edu/",
+          "programs": [
+            {
+              "id": "vanderbilt--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://business.vanderbilt.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "washu",
+      "catalogURL": "https://washu.edu/academics/graduate-professional/",
+      "colleges": [
+        {
+          "id": "washu-unit-1",
+          "name": "麦凯维工程学院",
+          "english": "McKelvey School of Engineering",
+          "url": "https://engineering.washu.edu/",
+          "programs": [
+            {
+              "id": "washu--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.washu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "washu-unit-2",
+          "name": "奥林商学院",
+          "english": "Olin Business School",
+          "url": "https://olin.washu.edu/",
+          "programs": [
+            {
+              "id": "washu--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://olin.washu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "washu-unit-3",
+          "name": "布朗学院",
+          "english": "Brown School",
+          "url": "https://brownschool.washu.edu/",
+          "programs": [
+            {
+              "id": "washu--social-work",
+              "name": "社会工作硕士",
+              "english": "Social Work",
+              "degree": "MSW",
+              "field": "社会科学",
+              "url": "https://brownschool.washu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "berkeley",
+      "catalogURL": "https://grad.berkeley.edu/programs/",
+      "colleges": [
+        {
+          "id": "berkeley-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://engineering.berkeley.edu/",
+          "programs": [
+            {
+              "id": "berkeley--electrical-computer",
+              "name": "电子工程与计算机科学工程硕士",
+              "english": "Electrical Engineering and Computer Sciences",
+              "degree": "MEng",
+              "field": "工程与计算机",
+              "url": "https://engineering.berkeley.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "berkeley-unit-2",
+          "name": "信息学院",
+          "english": "School of Information",
+          "url": "https://www.ischool.berkeley.edu/",
+          "programs": [
+            {
+              "id": "berkeley--information-management",
+              "name": "信息管理与系统硕士",
+              "english": "Information Management and Systems",
+              "degree": "MIMS",
+              "field": "信息管理",
+              "url": "https://www.ischool.berkeley.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "berkeley-unit-3",
+          "name": "哈斯商学院",
+          "english": "Haas School of Business",
+          "url": "https://haas.berkeley.edu/",
+          "programs": [
+            {
+              "id": "berkeley--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://haas.berkeley.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "ucla",
+      "catalogURL": "https://grad.ucla.edu/programs/",
+      "colleges": [
+        {
+          "id": "ucla-unit-1",
+          "name": "萨缪理工程学院",
+          "english": "UCLA Samueli School of Engineering",
+          "url": "https://samueli.ucla.edu/",
+          "programs": [
+            {
+              "id": "ucla--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://samueli.ucla.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ucla-unit-2",
+          "name": "安德森管理学院",
+          "english": "UCLA Anderson School of Management",
+          "url": "https://www.anderson.ucla.edu/",
+          "programs": [
+            {
+              "id": "ucla--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://www.anderson.ucla.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ucla-unit-3",
+          "name": "卢斯金公共事务学院",
+          "english": "UCLA Luskin School of Public Affairs",
+          "url": "https://luskin.ucla.edu/",
+          "programs": [
+            {
+              "id": "ucla--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://luskin.ucla.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "emory",
+      "catalogURL": "https://www.emory.edu/home/academics/graduate.html",
+      "colleges": [
+        {
+          "id": "emory-unit-1",
+          "name": "兰尼研究生院",
+          "english": "Laney Graduate School",
+          "url": "https://gs.emory.edu/",
+          "programs": [
+            {
+              "id": "emory--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://gs.emory.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "emory-unit-2",
+          "name": "罗林斯公共卫生学院",
+          "english": "Rollins School of Public Health",
+          "url": "https://sph.emory.edu/",
+          "programs": [
+            {
+              "id": "emory--public-health",
+              "name": "公共卫生硕士",
+              "english": "Public Health",
+              "degree": "MPH",
+              "field": "公共卫生",
+              "url": "https://sph.emory.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "emory-unit-3",
+          "name": "戈伊苏埃塔商学院",
+          "english": "Goizueta Business School",
+          "url": "https://goizueta.emory.edu/",
+          "programs": [
+            {
+              "id": "emory--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://goizueta.emory.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "georgetown",
+      "catalogURL": "https://grad.georgetown.edu/programs/",
+      "colleges": [
+        {
+          "id": "georgetown-unit-1",
+          "name": "文理研究生院",
+          "english": "Graduate School of Arts and Sciences",
+          "url": "https://grad.georgetown.edu/",
+          "programs": [
+            {
+              "id": "georgetown--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://grad.georgetown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgetown-unit-2",
+          "name": "麦克多诺商学院",
+          "english": "McDonough School of Business",
+          "url": "https://msb.georgetown.edu/",
+          "programs": [
+            {
+              "id": "georgetown--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MSF",
+              "field": "金融",
+              "url": "https://msb.georgetown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgetown-unit-3",
+          "name": "麦考特公共政策学院",
+          "english": "McCourt School of Public Policy",
+          "url": "https://mccourt.georgetown.edu/",
+          "programs": [
+            {
+              "id": "georgetown--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://mccourt.georgetown.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "umich",
+      "catalogURL": "https://rackham.umich.edu/programs-of-study/",
+      "colleges": [
+        {
+          "id": "umich-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://www.engin.umich.edu/",
+          "programs": [
+            {
+              "id": "umich--computer-science",
+              "name": "计算机科学与工程硕士",
+              "english": "Computer Science and Engineering",
+              "degree": "MSE",
+              "field": "计算机",
+              "url": "https://www.engin.umich.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "umich-unit-2",
+          "name": "信息学院",
+          "english": "School of Information",
+          "url": "https://www.si.umich.edu/",
+          "programs": [
+            {
+              "id": "umich--information",
+              "name": "信息学硕士",
+              "english": "Information",
+              "degree": "MSI",
+              "field": "信息管理",
+              "url": "https://www.si.umich.edu/programs/master-science-information",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "umich-unit-3",
+          "name": "罗斯商学院",
+          "english": "Ross School of Business",
+          "url": "https://michiganross.umich.edu/",
+          "programs": [
+            {
+              "id": "umich--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://michiganross.umich.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "usc",
+      "catalogURL": "https://graduateschool.usc.edu/prospective-students/",
+      "colleges": [
+        {
+          "id": "usc-unit-1",
+          "name": "维特比工程学院",
+          "english": "USC Viterbi School of Engineering",
+          "url": "https://viterbi.usc.edu/",
+          "programs": [
+            {
+              "id": "usc--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://viterbi.usc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "usc-unit-2",
+          "name": "马歇尔商学院",
+          "english": "USC Marshall School of Business",
+          "url": "https://www.marshall.usc.edu/",
+          "programs": [
+            {
+              "id": "usc--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://www.marshall.usc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "usc-unit-3",
+          "name": "安纳伯格传播与新闻学院",
+          "english": "USC Annenberg School for Communication and Journalism",
+          "url": "https://annenberg.usc.edu/",
+          "programs": [
+            {
+              "id": "usc--communication-management",
+              "name": "传播管理硕士",
+              "english": "Communication Management",
+              "degree": "MCM",
+              "field": "传播",
+              "url": "https://annenberg.usc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uva",
+      "catalogURL": "https://graduate.virginia.edu/",
+      "colleges": [
+        {
+          "id": "uva-unit-1",
+          "name": "工程与应用科学学院",
+          "english": "School of Engineering and Applied Science",
+          "url": "https://engineering.virginia.edu/",
+          "programs": [
+            {
+              "id": "uva--computer-science",
+              "name": "计算机科学专业硕士",
+              "english": "Computer Science",
+              "degree": "MCS",
+              "field": "计算机",
+              "url": "https://engineering.virginia.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uva-unit-2",
+          "name": "麦金太尔商学院",
+          "english": "McIntire School of Commerce",
+          "url": "https://www.commerce.virginia.edu/",
+          "programs": [
+            {
+              "id": "uva--commerce",
+              "name": "商业硕士",
+              "english": "Commerce",
+              "degree": "MS",
+              "field": "商科",
+              "url": "https://www.commerce.virginia.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uva-unit-3",
+          "name": "巴滕领导力与公共政策学院",
+          "english": "Frank Batten School of Leadership and Public Policy",
+          "url": "https://batten.virginia.edu/",
+          "programs": [
+            {
+              "id": "uva--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://batten.virginia.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "unc",
+      "catalogURL": "https://gradschool.unc.edu/programs/",
+      "colleges": [
+        {
+          "id": "unc-unit-1",
+          "name": "文理学院",
+          "english": "College of Arts and Sciences",
+          "url": "https://college.unc.edu/",
+          "programs": [
+            {
+              "id": "unc--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://college.unc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "unc-unit-2",
+          "name": "凯南-弗拉格勒商学院",
+          "english": "Kenan-Flagler Business School",
+          "url": "https://www.kenan-flagler.unc.edu/",
+          "programs": [
+            {
+              "id": "unc--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.kenan-flagler.unc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "unc-unit-3",
+          "name": "吉林斯全球公共卫生学院",
+          "english": "Gillings School of Global Public Health",
+          "url": "https://sph.unc.edu/",
+          "programs": [
+            {
+              "id": "unc--public-health",
+              "name": "公共卫生硕士",
+              "english": "Public Health",
+              "degree": "MPH",
+              "field": "公共卫生",
+              "url": "https://sph.unc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "ut-austin",
+      "catalogURL": "https://gradschool.utexas.edu/programs",
+      "colleges": [
+        {
+          "id": "ut-austin-unit-1",
+          "name": "自然科学学院",
+          "english": "College of Natural Sciences",
+          "url": "https://cns.utexas.edu/",
+          "programs": [
+            {
+              "id": "ut-austin--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://cns.utexas.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ut-austin-unit-2",
+          "name": "麦库姆斯商学院",
+          "english": "McCombs School of Business",
+          "url": "https://www.mccombs.utexas.edu/",
+          "programs": [
+            {
+              "id": "ut-austin--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://www.mccombs.utexas.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ut-austin-unit-3",
+          "name": "科克雷尔工程学院",
+          "english": "Cockrell School of Engineering",
+          "url": "https://cockrell.utexas.edu/",
+          "programs": [
+            {
+              "id": "ut-austin--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MSE",
+              "field": "工程",
+              "url": "https://cockrell.utexas.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uf",
+      "catalogURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+      "colleges": [
+        {
+          "id": "uf-unit-1",
+          "name": "赫伯特·韦特海姆工程学院",
+          "english": "Herbert Wertheim College of Engineering",
+          "url": "https://www.eng.ufl.edu/",
+          "programs": [
+            {
+              "id": "uf--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.eng.ufl.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uf-unit-2",
+          "name": "沃灵顿商学院",
+          "english": "Warrington College of Business",
+          "url": "https://warrington.ufl.edu/",
+          "programs": [
+            {
+              "id": "uf--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://warrington.ufl.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uf-unit-3",
+          "name": "公共卫生与健康职业学院",
+          "english": "College of Public Health and Health Professions",
+          "url": "https://phhp.ufl.edu/",
+          "programs": [
+            {
+              "id": "uf--public-health",
+              "name": "公共卫生硕士",
+              "english": "Public Health",
+              "degree": "MPH",
+              "field": "公共卫生",
+              "url": "https://phhp.ufl.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "ucsd",
+      "catalogURL": "https://grad.ucsd.edu/programs/",
+      "colleges": [
+        {
+          "id": "ucsd-unit-1",
+          "name": "雅各布斯工程学院",
+          "english": "Jacobs School of Engineering",
+          "url": "https://jacobsschool.ucsd.edu/",
+          "programs": [
+            {
+              "id": "ucsd--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://jacobsschool.ucsd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ucsd-unit-2",
+          "name": "雷迪管理学院",
+          "english": "Rady School of Management",
+          "url": "https://rady.ucsd.edu/",
+          "programs": [
+            {
+              "id": "ucsd--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://rady.ucsd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ucsd-unit-3",
+          "name": "全球政策与战略学院",
+          "english": "School of Global Policy and Strategy",
+          "url": "https://gps.ucsd.edu/",
+          "programs": [
+            {
+              "id": "ucsd--public-policy",
+              "name": "公共政策硕士",
+              "english": "Public Policy",
+              "degree": "MPP",
+              "field": "公共政策",
+              "url": "https://gps.ucsd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "nyu",
+      "catalogURL": "https://www.nyu.edu/academics/graduate-admissions.html",
+      "colleges": [
+        {
+          "id": "nyu-unit-1",
+          "name": "文理研究生院 · 柯朗数学科学研究所",
+          "english": "Graduate School of Arts and Science · Courant Institute",
+          "url": "https://cs.nyu.edu/",
+          "programs": [
+            {
+              "id": "nyu--courant-computer-science",
+              "name": "计算机科学硕士（柯朗）",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://cs.nyu.edu/home/master/prospective_ms.html",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "nyu-unit-2",
+          "name": "坦登工程学院",
+          "english": "NYU Tandon School of Engineering",
+          "url": "https://engineering.nyu.edu/",
+          "programs": [
+            {
+              "id": "nyu--tandon-computer-science",
+              "name": "计算机科学硕士（坦登）",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.nyu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "nyu-unit-3",
+          "name": "斯特恩商学院",
+          "english": "NYU Stern School of Business",
+          "url": "https://www.stern.nyu.edu/",
+          "programs": [
+            {
+              "id": "nyu--accounting",
+              "name": "会计硕士",
+              "english": "Accounting",
+              "degree": "MS",
+              "field": "商科",
+              "url": "https://www.stern.nyu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uc-davis",
+      "catalogURL": "https://grad.ucdavis.edu/programs",
+      "colleges": [
+        {
+          "id": "uc-davis-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://engineering.ucdavis.edu/",
+          "programs": [
+            {
+              "id": "uc-davis--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.ucdavis.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "uc-davis--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://engineering.ucdavis.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uc-davis-unit-2",
+          "name": "管理研究生院",
+          "english": "Graduate School of Management",
+          "url": "https://gsm.ucdavis.edu/",
+          "programs": [
+            {
+              "id": "uc-davis--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://gsm.ucdavis.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uc-irvine",
+      "catalogURL": "https://grad.uci.edu/academics/degree-programs/",
+      "colleges": [
+        {
+          "id": "uc-irvine-unit-1",
+          "name": "唐纳德·布伦信息与计算机科学学院",
+          "english": "Donald Bren School of Information and Computer Sciences",
+          "url": "https://ics.uci.edu/",
+          "programs": [
+            {
+              "id": "uc-irvine--computer-science",
+              "name": "计算机科学专业硕士",
+              "english": "Computer Science",
+              "degree": "MCS",
+              "field": "计算机",
+              "url": "https://ics.uci.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "uc-irvine--software-engineering",
+              "name": "软件工程硕士",
+              "english": "Software Engineering",
+              "degree": "MSWE",
+              "field": "计算机",
+              "url": "https://ics.uci.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uc-irvine-unit-2",
+          "name": "保罗·梅拉奇商学院",
+          "english": "Paul Merage School of Business",
+          "url": "https://merage.uci.edu/",
+          "programs": [
+            {
+              "id": "uc-irvine--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://merage.uci.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "uiuc",
+      "catalogURL": "https://grad.illinois.edu/academics/programs",
+      "colleges": [
+        {
+          "id": "uiuc-unit-1",
+          "name": "格兰杰工程学院",
+          "english": "The Grainger College of Engineering",
+          "url": "https://grainger.illinois.edu/",
+          "programs": [
+            {
+              "id": "uiuc--computer-science",
+              "name": "计算机科学专业硕士",
+              "english": "Computer Science",
+              "degree": "MCS",
+              "field": "计算机",
+              "url": "https://grainger.illinois.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "uiuc--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://grainger.illinois.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "uiuc-unit-2",
+          "name": "吉斯商学院",
+          "english": "Gies College of Business",
+          "url": "https://giesbusiness.illinois.edu/",
+          "programs": [
+            {
+              "id": "uiuc--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://giesbusiness.illinois.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "wisconsin",
+      "catalogURL": "https://grad.wisc.edu/academic-programs/",
+      "colleges": [
+        {
+          "id": "wisconsin-unit-1",
+          "name": "文理学院 · 计算机科学系",
+          "english": "College of Letters and Science · Computer Sciences",
+          "url": "https://www.cs.wisc.edu/",
+          "programs": [
+            {
+              "id": "wisconsin--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Sciences",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.cs.wisc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "wisconsin-unit-2",
+          "name": "威斯康星商学院",
+          "english": "Wisconsin School of Business",
+          "url": "https://business.wisc.edu/",
+          "programs": [
+            {
+              "id": "wisconsin--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://business.wisc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "wisconsin-unit-3",
+          "name": "拉福莱特公共事务学院",
+          "english": "La Follette School of Public Affairs",
+          "url": "https://lafollette.wisc.edu/",
+          "programs": [
+            {
+              "id": "wisconsin--public-affairs",
+              "name": "公共事务硕士",
+              "english": "Public Affairs",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://lafollette.wisc.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "bu",
+      "catalogURL": "https://www.bu.edu/academics/programs/",
+      "colleges": [
+        {
+          "id": "bu-unit-1",
+          "name": "大都会学院",
+          "english": "Metropolitan College",
+          "url": "https://www.bu.edu/met/",
+          "programs": [
+            {
+              "id": "bu--applied-data-analytics",
+              "name": "应用数据分析硕士",
+              "english": "Applied Data Analytics",
+              "degree": "MS",
+              "field": "数据科学",
+              "url": "https://www.bu.edu/met/degrees-certificates/ms-applied-data-analytics/",
+              "sourceLevel": "program",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "bu-unit-2",
+          "name": "文理研究生院",
+          "english": "Graduate School of Arts and Sciences",
+          "url": "https://www.bu.edu/cas/",
+          "programs": [
+            {
+              "id": "bu--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.bu.edu/cas/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "bu-unit-3",
+          "name": "奎斯特罗姆商学院",
+          "english": "Questrom School of Business",
+          "url": "https://www.bu.edu/questrom/",
+          "programs": [
+            {
+              "id": "bu--mathematical-finance",
+              "name": "数学金融与金融科技硕士",
+              "english": "Mathematical Finance and Financial Technology",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://www.bu.edu/questrom/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "ohio-state",
+      "catalogURL": "https://gradsch.osu.edu/programs",
+      "colleges": [
+        {
+          "id": "ohio-state-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://engineering.osu.edu/",
+          "programs": [
+            {
+              "id": "ohio-state--computer-science",
+              "name": "计算机科学与工程硕士",
+              "english": "Computer Science and Engineering",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.osu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ohio-state-unit-2",
+          "name": "费舍尔商学院",
+          "english": "Fisher College of Business",
+          "url": "https://fisher.osu.edu/",
+          "programs": [
+            {
+              "id": "ohio-state--finance",
+              "name": "金融专业硕士",
+              "english": "Specialized Master in Finance",
+              "degree": "SMF",
+              "field": "金融",
+              "url": "https://fisher.osu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ohio-state-unit-3",
+          "name": "约翰·格伦公共事务学院",
+          "english": "John Glenn College of Public Affairs",
+          "url": "https://glenn.osu.edu/",
+          "programs": [
+            {
+              "id": "ohio-state--public-administration",
+              "name": "公共管理硕士",
+              "english": "Public Administration",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://glenn.osu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "maryland",
+      "catalogURL": "https://gradschool.umd.edu/graduate-programs",
+      "colleges": [
+        {
+          "id": "maryland-unit-1",
+          "name": "计算机、数学与自然科学学院",
+          "english": "College of Computer, Mathematical, and Natural Sciences",
+          "url": "https://cmns.umd.edu/",
+          "programs": [
+            {
+              "id": "maryland--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://cmns.umd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "maryland-unit-2",
+          "name": "罗伯特·史密斯商学院",
+          "english": "Robert H. Smith School of Business",
+          "url": "https://www.rhsmith.umd.edu/",
+          "programs": [
+            {
+              "id": "maryland--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://www.rhsmith.umd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "maryland-unit-3",
+          "name": "信息学院",
+          "english": "College of Information",
+          "url": "https://ischool.umd.edu/",
+          "programs": [
+            {
+              "id": "maryland--information-management",
+              "name": "信息管理硕士",
+              "english": "Information Management",
+              "degree": "MIM",
+              "field": "信息管理",
+              "url": "https://ischool.umd.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "rochester",
+      "catalogURL": "https://www.rochester.edu/graduate-education/",
+      "colleges": [
+        {
+          "id": "rochester-unit-1",
+          "name": "哈吉姆工程与应用科学学院",
+          "english": "Hajim School of Engineering and Applied Sciences",
+          "url": "https://www.hajim.rochester.edu/",
+          "programs": [
+            {
+              "id": "rochester--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.hajim.rochester.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "rochester-unit-2",
+          "name": "西蒙商学院",
+          "english": "Simon Business School",
+          "url": "https://simon.rochester.edu/",
+          "programs": [
+            {
+              "id": "rochester--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://simon.rochester.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "rochester-unit-3",
+          "name": "沃纳教育学院",
+          "english": "Warner School of Education",
+          "url": "https://www.warner.rochester.edu/",
+          "programs": [
+            {
+              "id": "rochester--education",
+              "name": "教育学硕士",
+              "english": "Education",
+              "degree": "MS",
+              "field": "教育",
+              "url": "https://www.warner.rochester.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "georgia-tech",
+      "catalogURL": "https://grad.gatech.edu/degree-programs",
+      "colleges": [
+        {
+          "id": "georgia-tech-unit-1",
+          "name": "计算学院",
+          "english": "College of Computing",
+          "url": "https://www.cc.gatech.edu/",
+          "programs": [
+            {
+              "id": "georgia-tech--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.cc.gatech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgia-tech-unit-2",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://coe.gatech.edu/",
+          "programs": [
+            {
+              "id": "georgia-tech--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://coe.gatech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgia-tech-unit-3",
+          "name": "谢勒商学院",
+          "english": "Scheller College of Business",
+          "url": "https://www.scheller.gatech.edu/",
+          "programs": [
+            {
+              "id": "georgia-tech--mba",
+              "name": "工商管理硕士",
+              "english": "Business Administration",
+              "degree": "MBA",
+              "field": "商科",
+              "url": "https://www.scheller.gatech.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "lehigh",
+      "catalogURL": "https://grad.lehigh.edu/",
+      "colleges": [
+        {
+          "id": "lehigh-unit-1",
+          "name": "P.C. Rossin 工程与应用科学学院",
+          "english": "P.C. Rossin College of Engineering and Applied Science",
+          "url": "https://engineering.lehigh.edu/",
+          "programs": [
+            {
+              "id": "lehigh--electrical-engineering",
+              "name": "电气工程硕士",
+              "english": "Electrical Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://engineering.lehigh.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "lehigh-unit-2",
+          "name": "商学院",
+          "english": "College of Business",
+          "url": "https://business.lehigh.edu/",
+          "programs": [
+            {
+              "id": "lehigh--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://business.lehigh.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "lehigh-unit-3",
+          "name": "教育学院",
+          "english": "College of Education",
+          "url": "https://ed.lehigh.edu/",
+          "programs": [
+            {
+              "id": "lehigh--educational-leadership",
+              "name": "教育领导力硕士",
+              "english": "Educational Leadership",
+              "degree": "MEd",
+              "field": "教育",
+              "url": "https://ed.lehigh.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "rutgers",
+      "catalogURL": "https://grad.rutgers.edu/academics/graduate-programs",
+      "colleges": [
+        {
+          "id": "rutgers-unit-1",
+          "name": "文理学院 · 研究生院",
+          "english": "School of Arts and Sciences · School of Graduate Studies",
+          "url": "https://sas.rutgers.edu/",
+          "programs": [
+            {
+              "id": "rutgers--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://sas.rutgers.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "rutgers-unit-2",
+          "name": "罗格斯商学院",
+          "english": "Rutgers Business School",
+          "url": "https://www.business.rutgers.edu/",
+          "programs": [
+            {
+              "id": "rutgers--information-technology-analytics",
+              "name": "信息技术与分析硕士",
+              "english": "Information Technology and Analytics",
+              "degree": "MITA",
+              "field": "信息与数据",
+              "url": "https://www.business.rutgers.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "rutgers-unit-3",
+          "name": "工程学院",
+          "english": "School of Engineering",
+          "url": "https://soe.rutgers.edu/",
+          "programs": [
+            {
+              "id": "rutgers--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://soe.rutgers.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "tufts",
+      "catalogURL": "https://www.tufts.edu/graduate-programs",
+      "colleges": [
+        {
+          "id": "tufts-unit-1",
+          "name": "工程学院",
+          "english": "School of Engineering",
+          "url": "https://engineering.tufts.edu/",
+          "programs": [
+            {
+              "id": "tufts--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.tufts.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "tufts--data-science",
+              "name": "数据科学硕士",
+              "english": "Data Science",
+              "degree": "MS",
+              "field": "数据科学",
+              "url": "https://engineering.tufts.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "tufts-unit-2",
+          "name": "弗莱彻法律与外交学院",
+          "english": "The Fletcher School",
+          "url": "https://fletcher.tufts.edu/",
+          "programs": [
+            {
+              "id": "tufts--law-diplomacy",
+              "name": "法律与外交硕士",
+              "english": "Law and Diplomacy",
+              "degree": "MALD",
+              "field": "国际事务",
+              "url": "https://fletcher.tufts.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "washington",
+      "catalogURL": "https://grad.uw.edu/programs/",
+      "colleges": [
+        {
+          "id": "washington-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://www.engr.washington.edu/",
+          "programs": [
+            {
+              "id": "washington--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://www.engr.washington.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "washington-unit-2",
+          "name": "福斯特商学院",
+          "english": "Foster School of Business",
+          "url": "https://foster.uw.edu/",
+          "programs": [
+            {
+              "id": "washington--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://foster.uw.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "washington-unit-3",
+          "name": "埃文斯公共政策与治理学院",
+          "english": "Evans School of Public Policy and Governance",
+          "url": "https://evans.uw.edu/",
+          "programs": [
+            {
+              "id": "washington--public-administration",
+              "name": "公共管理硕士",
+              "english": "Public Administration",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://evans.uw.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "boston-college",
+      "catalogURL": "https://www.bc.edu/bc-web/academics/graduate.html",
+      "colleges": [
+        {
+          "id": "boston-college-unit-1",
+          "name": "伍兹高等研究学院",
+          "english": "Woods College of Advancing Studies",
+          "url": "https://www.bc.edu/bc-web/schools/woods.html",
+          "programs": [
+            {
+              "id": "boston-college--applied-analytics",
+              "name": "应用分析硕士",
+              "english": "Applied Analytics",
+              "degree": "MS",
+              "field": "数据科学",
+              "url": "https://www.bc.edu/bc-web/schools/woods.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "boston-college-unit-2",
+          "name": "卡罗尔管理学院",
+          "english": "Carroll School of Management",
+          "url": "https://www.bc.edu/bc-web/schools/carroll-school.html",
+          "programs": [
+            {
+              "id": "boston-college--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://www.bc.edu/bc-web/schools/carroll-school.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "boston-college-unit-3",
+          "name": "林奇教育与人类发展学院",
+          "english": "Lynch School of Education and Human Development",
+          "url": "https://www.bc.edu/bc-web/schools/lynch-school.html",
+          "programs": [
+            {
+              "id": "boston-college--mental-health-counseling",
+              "name": "心理健康咨询硕士",
+              "english": "Mental Health Counseling",
+              "degree": "MA",
+              "field": "教育与心理",
+              "url": "https://www.bc.edu/bc-web/schools/lynch-school.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "northeastern",
+      "catalogURL": "https://graduate.northeastern.edu/programs/",
+      "colleges": [
+        {
+          "id": "northeastern-unit-1",
+          "name": "库里计算机科学学院",
+          "english": "Khoury College of Computer Sciences",
+          "url": "https://www.khoury.northeastern.edu/",
+          "programs": [
+            {
+              "id": "northeastern--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.khoury.northeastern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "northeastern-unit-2",
+          "name": "达摩尔-麦金商学院",
+          "english": "D’Amore-McKim School of Business",
+          "url": "https://damore-mckim.northeastern.edu/",
+          "programs": [
+            {
+              "id": "northeastern--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://damore-mckim.northeastern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "northeastern-unit-3",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://coe.northeastern.edu/",
+          "programs": [
+            {
+              "id": "northeastern--data-analytics-engineering",
+              "name": "数据分析工程硕士",
+              "english": "Data Analytics Engineering",
+              "degree": "MS",
+              "field": "工程与数据",
+              "url": "https://coe.northeastern.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "ucsb",
+      "catalogURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+      "colleges": [
+        {
+          "id": "ucsb-unit-1",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://engineering.ucsb.edu/",
+          "programs": [
+            {
+              "id": "ucsb--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.ucsb.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "ucsb--electrical-computer",
+              "name": "电子与计算机工程硕士",
+              "english": "Electrical and Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://engineering.ucsb.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "ucsb-unit-2",
+          "name": "布伦环境科学与管理学院",
+          "english": "Bren School of Environmental Science and Management",
+          "url": "https://bren.ucsb.edu/",
+          "programs": [
+            {
+              "id": "ucsb--environmental-management",
+              "name": "环境科学与管理硕士",
+              "english": "Environmental Science and Management",
+              "degree": "MESM",
+              "field": "环境",
+              "url": "https://bren.ucsb.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "case-western",
+      "catalogURL": "https://case.edu/gradstudies/prospective-students",
+      "colleges": [
+        {
+          "id": "case-western-unit-1",
+          "name": "凯斯工程学院",
+          "english": "Case School of Engineering",
+          "url": "https://engineering.case.edu/",
+          "programs": [
+            {
+              "id": "case-western--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://engineering.case.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "case-western-unit-2",
+          "name": "魏德海管理学院",
+          "english": "Weatherhead School of Management",
+          "url": "https://weatherhead.case.edu/",
+          "programs": [
+            {
+              "id": "case-western--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MS",
+              "field": "金融",
+              "url": "https://weatherhead.case.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "case-western-unit-3",
+          "name": "曼德尔应用社会科学学院",
+          "english": "Jack, Joseph and Morton Mandel School of Applied Social Sciences",
+          "url": "https://case.edu/socialwork/",
+          "programs": [
+            {
+              "id": "case-western--social-work",
+              "name": "社会工作硕士",
+              "english": "Social Work",
+              "degree": "MSW",
+              "field": "社会科学",
+              "url": "https://case.edu/socialwork/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "wake-forest",
+      "catalogURL": "https://graduate.wfu.edu/",
+      "colleges": [
+        {
+          "id": "wake-forest-unit-1",
+          "name": "文理研究生院",
+          "english": "Graduate School of Arts and Sciences",
+          "url": "https://graduate.wfu.edu/",
+          "programs": [
+            {
+              "id": "wake-forest--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://graduate.wfu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "wake-forest-unit-2",
+          "name": "商学院",
+          "english": "School of Business",
+          "url": "https://business.wfu.edu/",
+          "programs": [
+            {
+              "id": "wake-forest--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://business.wfu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            },
+            {
+              "id": "wake-forest--management",
+              "name": "管理学硕士",
+              "english": "Management",
+              "degree": "MSM",
+              "field": "商科",
+              "url": "https://business.wfu.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "villanova",
+      "catalogURL": "https://www1.villanova.edu/university/graduate-programs.html",
+      "colleges": [
+        {
+          "id": "villanova-unit-1",
+          "name": "文理学院",
+          "english": "College of Liberal Arts and Sciences",
+          "url": "https://www1.villanova.edu/university/liberal-arts-sciences.html",
+          "programs": [
+            {
+              "id": "villanova--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www1.villanova.edu/university/liberal-arts-sciences.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "villanova-unit-2",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://www1.villanova.edu/university/engineering.html",
+          "programs": [
+            {
+              "id": "villanova--computer-engineering",
+              "name": "计算机工程硕士",
+              "english": "Computer Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://www1.villanova.edu/university/engineering.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "villanova-unit-3",
+          "name": "商学院",
+          "english": "Villanova School of Business",
+          "url": "https://www1.villanova.edu/university/business.html",
+          "programs": [
+            {
+              "id": "villanova--finance",
+              "name": "金融硕士",
+              "english": "Finance",
+              "degree": "MSF",
+              "field": "金融",
+              "url": "https://www1.villanova.edu/university/business.html",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "purdue",
+      "catalogURL": "https://www.purdue.edu/gradschool/prospective/gradrequirements/",
+      "colleges": [
+        {
+          "id": "purdue-unit-1",
+          "name": "理学院",
+          "english": "College of Science",
+          "url": "https://www.purdue.edu/science/",
+          "programs": [
+            {
+              "id": "purdue--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://www.purdue.edu/science/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "purdue-unit-2",
+          "name": "丹尼尔斯商学院",
+          "english": "Daniels School of Business",
+          "url": "https://business.purdue.edu/",
+          "programs": [
+            {
+              "id": "purdue--business-analytics",
+              "name": "商业分析与信息管理硕士",
+              "english": "Business Analytics and Information Management",
+              "degree": "MS",
+              "field": "商科与数据",
+              "url": "https://business.purdue.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "purdue-unit-3",
+          "name": "工程学院",
+          "english": "College of Engineering",
+          "url": "https://engineering.purdue.edu/",
+          "programs": [
+            {
+              "id": "purdue--industrial-engineering",
+              "name": "工业工程硕士",
+              "english": "Industrial Engineering",
+              "degree": "MS",
+              "field": "工程",
+              "url": "https://engineering.purdue.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    },
+    {
+      "schoolId": "georgia",
+      "catalogURL": "https://grad.uga.edu/degree/",
+      "colleges": [
+        {
+          "id": "georgia-unit-1",
+          "name": "富兰克林文理学院",
+          "english": "Franklin College of Arts and Sciences",
+          "url": "https://franklin.uga.edu/",
+          "programs": [
+            {
+              "id": "georgia--computer-science",
+              "name": "计算机科学硕士",
+              "english": "Computer Science",
+              "degree": "MS",
+              "field": "计算机",
+              "url": "https://franklin.uga.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgia-unit-2",
+          "name": "特里商学院",
+          "english": "Terry College of Business",
+          "url": "https://www.terry.uga.edu/",
+          "programs": [
+            {
+              "id": "georgia--business-analytics",
+              "name": "商业分析硕士",
+              "english": "Business Analytics",
+              "degree": "MSBA",
+              "field": "商科与数据",
+              "url": "https://www.terry.uga.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        },
+        {
+          "id": "georgia-unit-3",
+          "name": "公共与国际事务学院",
+          "english": "School of Public and International Affairs",
+          "url": "https://spia.uga.edu/",
+          "programs": [
+            {
+              "id": "georgia--public-administration",
+              "name": "公共管理硕士",
+              "english": "Public Administration",
+              "degree": "MPA",
+              "field": "公共政策",
+              "url": "https://spia.uga.edu/",
+              "sourceLevel": "college",
+              "admissionMode": "check-current-cycle",
+              "note": "课程、先修要求、申请资格及当季招生安排请以官网为准。"
+            }
+          ]
+        }
+      ],
+      "coverage": {
+        "status": "reference-only",
+        "currentProgrammeCount": 3,
+        "reviewedProgrammeCount": 0,
+        "officialMastersTotal": null,
+        "reviewedAt": null,
+        "completeCatalogueReviewed": false
+      }
+    }
+  ]
+}

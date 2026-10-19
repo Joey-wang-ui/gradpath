@@ -1,0 +1,29 @@
+{
+  "schoolId": "cmu",
+  "catalogURL": "https://www.cmu.edu/graduate/academics/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "cmu",
+      "url": "https://www.cmu.edu/graduate/prospective/index.html",
+      "requestedURL": "https://www.cmu.edu/graduate/academics/",
+      "file": "frontend/data/sources/catalogues/cmu/aaf03379b1065c9b.html",
+      "sha256": "aaf03379b1065c9b51b3a74c0edeba264336dc5fd2a319393eee5e69a7a44d3b",
+      "capturedAt": "2026-10-19T12:01:47.821490+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "master’s and doctoral programs",
+      "url": "https://www.cmu.edu/graduate/prospective/index.html",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.cmu.edu/graduate/prospective/index.html"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

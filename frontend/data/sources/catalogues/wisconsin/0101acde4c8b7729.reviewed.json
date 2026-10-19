@@ -1,0 +1,2867 @@
+{
+  "schoolId": "wisconsin",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://guide.wisc.edu/graduate/",
+      "file": "wisconsin/0101acde4c8b7729.html",
+      "sha256": "0101acde4c8b7729319098d36b173ab32975a9ca29b4dd701dfa95e51f74fbbe"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "African American Studies",
+      "english": "African American Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "African American Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/african-american-studies/african-american-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "African Cultural Studies",
+      "english": "African Cultural Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "African Cultural Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/african-cultural-studies/african-cultural-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Agricultural and Applied Economics",
+      "english": "Agricultural and Applied Economics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Agricultural and Applied Economics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/agricultural-applied-economics/agricultural-applied-economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Plant and Agroecosystem Sciences",
+      "english": "Plant and Agroecosystem Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Agroecology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/plant-agroecosystem-sciences/agroecology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Agronomy",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/plant-agroecosystem-sciences/agronomy-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Horticulture",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/plant-agroecosystem-sciences/horticulture-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Plant Science and Technology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/plant-agroecosystem-sciences/plant-science-technology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Animal and Dairy Sciences",
+      "english": "Animal and Dairy Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Animal and Dairy Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/animal-dairy-sciences/animal-dairy-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Animal Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/animal-dairy-sciences/animal-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Dairy Science",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/animal-dairy-sciences/dairy-science-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Anthropology",
+      "english": "Anthropology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Anthropology",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/anthropology/anthropology-ma/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Anthropology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/anthropology/anthropology-ms/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Medicine and Public Health - School-Wide",
+      "english": "Medicine and Public Health - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Applied Biotechnology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/applied-biotechnology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Biotechnology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/biotechnology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Molecular and Cellular Pharmacology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/molecular-cellular-pharmacology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Neuroscience",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/medicine-public-health-school-wide/neuroscience-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Art History",
+      "english": "Art History",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art History",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/art-history/art-history-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Art",
+      "english": "Art",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Art",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/art/art-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Art",
+          "degree": "MFA",
+          "url": "https://guide.wisc.edu/graduate/art/art-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Asian Languages and Cultures",
+      "english": "Asian Languages and Cultures",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Asian Languages and Cultures",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/asian-languages-cultures/asian-languages-cultures-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Chinese",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/asian-languages-cultures/chinese-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Japanese",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/asian-languages-cultures/japanese-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Astronomy",
+      "english": "Astronomy",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Astronomy",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/astronomy/astronomy-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Kinesiology",
+      "english": "Kinesiology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Athletic Training",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/kinesiology/athletic-training-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Kinesiology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/kinesiology/kinesiology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Atmospheric and Oceanic Sciences",
+      "english": "Atmospheric and Oceanic Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Atmospheric and Oceanic Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/atmospheric-oceanic-sciences/atmospheric-oceanic-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Bacteriology",
+      "english": "Bacteriology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Bacteriology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/bacteriology/bacteriology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Microbiology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/bacteriology/microbiology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Biochemistry",
+      "english": "Biochemistry",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biochemistry",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/biochemistry/biochemistry-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Biological Systems Engineering",
+      "english": "Biological Systems Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biological Systems Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/biological-systems-engineering/biological-systems-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Biostatistics and Medical Informatics",
+      "english": "Biostatistics and Medical Informatics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biomedical Data Science",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/biostatistics-medical-informatics/biomedical-data-science-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Biomedical Engineering",
+      "english": "Biomedical Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biomedical Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/biomedical-engineering/biomedical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Graduate - School-Wide",
+      "english": "Graduate - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Biophysics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/graduate-school-wide/biophysics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Cellular and Molecular Biology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/graduate-school-wide/cellular-molecular-biology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Special Graduate Committee",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/graduate-school-wide/special-graduate-committee-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Special Graduate Committee",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/graduate-school-wide/special-graduate-committee-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Botany",
+      "english": "Botany",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Botany",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/botany/botany-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Business - School-Wide",
+      "english": "Business - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Business",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/business-school-wide/business-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business: Analytics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/business-school-wide/business-analytics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "wisconsin--business-analytics",
+          "name": "商业分析硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Business: Executive",
+          "degree": "MBA",
+          "url": "https://guide.wisc.edu/graduate/business-school-wide/business-executive-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business: General Management",
+          "degree": "MBA",
+          "url": "https://guide.wisc.edu/graduate/business-school-wide/business-general-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Business: Supply Chain Management",
+          "degree": "MBA",
+          "url": "https://guide.wisc.edu/graduate/business-school-wide/business-supply-chain-management-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Accounting and Information Systems",
+      "english": "Accounting and Information Systems",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Business: Accounting",
+          "degree": "MAcc",
+          "url": "https://guide.wisc.edu/graduate/accounting-information-systems/business-accounting-macc/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "english": "Marketing",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Business: Marketing",
+          "degree": "MBA",
+          "url": "https://guide.wisc.edu/graduate/marketing/business-marketing-mba/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Operations and Information Management",
+      "english": "Operations and Information Management",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Business: Supply Chain Management",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/operations-information-management/business-supply-chain-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Oncology",
+      "english": "Oncology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Cancer Biology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/oncology/cancer-biology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Pathology",
+      "english": "Pathology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Cellular and Molecular Pathology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/pathology/cellular-molecular-pathology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Chemical and Biological Engineering",
+      "english": "Chemical and Biological Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Chemical Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/chemical-biological-engineering/chemical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "english": "Chemistry",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Chemistry",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/chemistry/chemistry-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Civil and Environmental Engineering",
+      "english": "Civil and Environmental Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Civil and Environmental Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/civil-environmental-engineering/civil-environmental-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Geological Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/civil-environmental-engineering/geological-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Institute for Clinical and Translational Research",
+      "english": "Institute for Clinical and Translational Research",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Clinical and Health Informatics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/institute-clinical-translational-research/clinical-health-informatics-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Clinical Investigation",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/institute-clinical-translational-research/clinical-investigation-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Food and Nutritional Sciences",
+      "english": "Food and Nutritional Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Clinical Nutrition",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/food-nutritional-sciences/clinical-nutrition-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Food Science",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/food-nutritional-sciences/food-science-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Nutrition and Metabolism",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/food-nutritional-sciences/nutrition-metabolism-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Rehabilitation Psychology and Special Education",
+      "english": "Rehabilitation Psychology and Special Education",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Clinical Rehabilitation Counseling",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/rehabilitation-psychology-special-education/clinical-rehabilitation-counseling-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Special Education",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/rehabilitation-psychology-special-education/special-education-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Communication Arts",
+      "english": "Communication Arts",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Communication Arts",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/communication-arts/communication-arts-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Communication Sciences and Disorders",
+      "english": "Communication Sciences and Disorders",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Communication Sciences and Disorders",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/communication-sciences-disorders/communication-sciences-disorders-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Veterinary Medicine - School-Wide",
+      "english": "Veterinary Medicine - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Comparative Biomedical Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/veterinary-medicine-school-wide/comparative-biomedical-sciences-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Computer Sciences",
+      "english": "Computer Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Computer Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/computer-sciences/computer-sciences-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "wisconsin--computer-science",
+          "name": "计算机科学硕士",
+          "reconcileCollegeFromOfficialSource": true
+        },
+        {
+          "english": "Data Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/computer-sciences/data-engineering-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Counseling Psychology",
+      "english": "Counseling Psychology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Counseling",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/counseling-psychology/counseling-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "english": "English",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Creative Writing",
+          "degree": "MFA",
+          "url": "https://guide.wisc.edu/graduate/english/creative-writing-mfa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "English",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/english/english-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Interdisciplinary Theatre Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/english/interdisciplinary-theatre-studies-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Curriculum and Instruction",
+      "english": "Curriculum and Instruction",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Curriculum and Instruction",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/curriculum-instruction/curriculum-instruction-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Dance",
+      "english": "Dance",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Dance",
+          "degree": "MFA",
+          "url": "https://guide.wisc.edu/graduate/dance/dance-mfa/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "english": "Statistics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Data Science",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/statistics/data-science-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Statistics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/statistics/statistics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Engineering - College-Wide",
+      "english": "Engineering - College-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Design + Innovation",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/engineering-college-wide/design-plus-innovation-ms/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering Management",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/engineering-college-wide/engineering-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Engineering",
+          "degree": "MEng",
+          "url": "https://guide.wisc.edu/graduate/engineering-college-wide/engineering-meng/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Manufacturing Systems Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/engineering-college-wide/manufacturing-systems-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Economics",
+      "english": "Economics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Economics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/economics/economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Financial Economics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/economics/financial-economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantitative Economics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/economics/quantitative-economics-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Educational Psychology",
+      "english": "Educational Psychology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Education: Instructional Coaching",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/educational-psychology/education-instructional-coaching-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Educational Psychology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/educational-psychology/educational-psychology-ms/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Learning Analytics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/educational-psychology/learning-analytics-ms/",
+          "field": "数据与统计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "School Psychology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/educational-psychology/school-psychology-ms/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Educational Policy Studies",
+      "english": "Educational Policy Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Educational Policy Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/educational-policy-studies/educational-policy-studies-ma/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Electrical and Computer Engineering",
+      "english": "Electrical and Computer Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Electrical and Computer Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/electrical-computer-engineering/electrical-computer-engineering-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Mechanical Engineering",
+      "english": "Mechanical Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Engineering Mechanics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/mechanical-engineering/engineering-mechanics-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Mechanical Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/mechanical-engineering/mechanical-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Entomology",
+      "english": "Entomology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Entomology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/entomology/entomology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Gaylord Nelson Institute for Environmental Studies",
+      "english": "Gaylord Nelson Institute for Environmental Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Environment and Resources",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/environmental-studies/environment-resources-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Environmental Conservation",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/environmental-studies/environmental-conservation-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Water Resources Management",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/environmental-studies/water-resources-management-ms/",
+          "field": "商科与经济",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Population Health Sciences",
+      "english": "Population Health Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Epidemiology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/population-health-sciences/epidemiology-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Population Health",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/population-health-sciences/population-health-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Forest and Wildlife Ecology",
+      "english": "Forest and Wildlife Ecology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Forestry",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/forest-wildlife-ecology/forestry-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Wildlife Ecology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/forest-wildlife-ecology/wildlife-ecology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "French and Italian",
+      "english": "French and Italian",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "French",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/french-italian/french-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Italian",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/french-italian/italian-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Integrative Biology",
+      "english": "Integrative Biology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Freshwater and Marine Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/integrative-biology/freshwater-marine-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Integrative Biology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/integrative-biology/integrative-biology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Gender and Women's Studies",
+      "english": "Gender and Women's Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Gender and Women's Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/gender-womens-studies/gender-womens-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Genetics",
+      "english": "Genetics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Genetics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/genetics/genetics-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "english": "Geography",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Geography",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/geography/geography-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Geoscience",
+      "english": "Geoscience",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Geoscience",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/geoscience/geoscience-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "German, Nordic, and Slavic",
+      "english": "German, Nordic, and Slavic",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "German",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/german-nordic-slavic/german-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Scandinavian Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/german-nordic-slavic/scandinavian-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Slavic Languages and Literatures",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/german-nordic-slavic/slavic-languages-literatures-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacy - School-Wide",
+      "english": "Pharmacy - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Health Services Research in Pharmacy",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/pharmacy-school-wide/health-sciences-research-pharmacy-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pharmaceutical Sciences",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/pharmacy-school-wide/pharmaceutical-sciences-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Pharmacy",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/pharmacy-school-wide/pharmacy-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "english": "History",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "History",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/history/history-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Human Ecology - School-Wide",
+      "english": "Human Ecology - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Human Ecology",
+          "degree": "MFA",
+          "url": "https://guide.wisc.edu/graduate/human-ecology-school-wide/human-ecology-mfa/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Human Ecology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/human-ecology-school-wide/human-ecology-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Industrial and Systems Engineering",
+      "english": "Industrial and Systems Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Industrial Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/industrial-systems-engineering/industrial-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Information School",
+      "english": "Information School",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Information",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/information/information-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Library and Information Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/information/library-information-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "拉福莱特公共事务学院",
+      "english": "La Follette School of Public Affairs",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "International Public Affairs",
+          "degree": "MIPA",
+          "url": "https://guide.wisc.edu/graduate/lafollette-school-public-affairs/international-public-affairs-mipa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Public Affairs",
+          "degree": "MPA",
+          "url": "https://guide.wisc.edu/graduate/lafollette-school-public-affairs/public-affairs-mpa/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters",
+          "existingId": "wisconsin--public-affairs",
+          "name": "公共事务硕士",
+          "reconcileCollegeFromOfficialSource": true
+        }
+      ]
+    },
+    {
+      "name": "Journalism and Mass Communication",
+      "english": "Journalism and Mass Communication",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Journalism and Mass Communication",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/journalism-mass-communication/journalism-mass-communication-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Planning and Landscape Architecture",
+      "english": "Planning and Landscape Architecture",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Landscape Architecture",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/planning-landscape-architecture/landscape-architecture-ms/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Urban and Regional Planning",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/planning-landscape-architecture/urban-regional-planning-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Life Sciences Communication",
+      "english": "Life Sciences Communication",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Life Sciences Communication",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/life-sciences-communication/life-sciences-communication-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Language Sciences",
+      "english": "Language Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Linguistics",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/language-sciences/linguistics-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "english": "Materials Science and Engineering",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Materials Science and Engineering",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/materials-science-engineering/materials-science-engineering-ms/",
+          "field": "工程",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "english": "Mathematics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Mathematics",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/mathematics/mathematics-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Medical Physics",
+      "english": "Medical Physics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Medical Physics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/medical-physics/medical-physics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Mead Witter School of Music",
+      "english": "Mead Witter School of Music",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Music",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/music/music-ma/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music: Education",
+          "degree": "MM",
+          "url": "https://guide.wisc.edu/graduate/music/music-education-mm/",
+          "field": "教育",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Music: Performance",
+          "degree": "MM",
+          "url": "https://guide.wisc.edu/graduate/music/music-performance-mm/",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Nursing - School-Wide",
+      "english": "Nursing - School-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Nursing",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/nursing-school-wide/nursing-ms/",
+          "field": "健康与医学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "english": "Philosophy",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Philosophy",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/philosophy/philosophy-ma/",
+          "field": "人文",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "english": "Physics",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Physics",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/physics/physics-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Physics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/physics/physics-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Quantum Computing",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/physics/quantum-computing-ms/",
+          "field": "计算机",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Agricultural and Life Sciences - College-Wide",
+      "english": "Agricultural and Life Sciences - College-Wide",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Plant Breeding and Plant Genetics",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/agricultural-life-sciences-college-wide/plant-breeding-plant-genetics-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Plant Pathology",
+      "english": "Plant Pathology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Plant Pathology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/plant-pathology/plant-pathology-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Political Science",
+      "english": "Political Science",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Political Science",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/political-science/political-science-ma/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Spanish and Portuguese",
+      "english": "Spanish and Portuguese",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Portuguese and Spanish",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/spanish-portuguese/portuguese-spanish-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Spanish",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/spanish-portuguese/spanish-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Psychology",
+      "english": "Psychology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Psychology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/psychology/psychology-ms/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Sandra Rosenbaum School of Social Work",
+      "english": "Sandra Rosenbaum School of Social Work",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Social Work Advanced Standing",
+          "degree": "MSW",
+          "url": "https://guide.wisc.edu/graduate/social-work/social-work-advanced-standing-msw/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Social Work",
+          "degree": "MSW",
+          "url": "https://guide.wisc.edu/graduate/social-work/social-work-msw/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Sociology",
+      "english": "Sociology",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Sociology",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/sociology/sociology-ms/",
+          "field": "社会科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Soil and Environmental Sciences",
+      "english": "Soil and Environmental Sciences",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Soil Science",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/soil-environmental-sciences/soil-science-ms/",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Institute for Regional and International Studies",
+      "english": "Institute for Regional and International Studies",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Southeast Asian Studies",
+          "degree": "MA",
+          "url": "https://guide.wisc.edu/graduate/institute-regional-international-studies/southeast-asian-studies-ma/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    },
+    {
+      "name": "Educational Leadership and Policy Analysis",
+      "english": "Educational Leadership and Policy Analysis",
+      "url": "https://guide.wisc.edu/graduate/",
+      "unitType": "academic",
+      "programs": [
+        {
+          "english": "Sports Leadership",
+          "degree": "MS",
+          "url": "https://guide.wisc.edu/graduate/educational-leadership-policy-analysis/sports-leadership-ms/",
+          "field": "其他学科",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

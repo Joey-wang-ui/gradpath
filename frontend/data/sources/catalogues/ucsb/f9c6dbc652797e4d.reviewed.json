@@ -1,0 +1,56 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC",
+      "file": "ucsb/f9c6dbc652797e4d.html",
+      "sha256": "f9c6dbc652797e4d7a4a84d52a4ce2278eb2bd4905e5524eb2e60197ff00c40d"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Earth Science",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EARTH-MS-0",
+          "field": "艺术与设计",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Earth Science (Five-Year Program) Current UCSB Undergraduates Only",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EARTH-MS-1",
+          "field": "艺术与设计",
+          "admissionMode": "check-route",
+          "note": "此条目包含校内衔接或专业方向限制；不能直接视为面向所有人的独立申请项目，请先核对招生路径。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

@@ -1,0 +1,3093 @@
+{
+  "attemptedAt": "2026-10-19T12:01:58.475464+00:00",
+  "degreeScope": "masters",
+  "schoolCount": 53,
+  "capturedSchoolCount": 36,
+  "candidateCount": 327,
+  "note": "Captures and link candidates require review; zero candidates is not evidence of zero programmes. No candidate is automatically added to the public directory.",
+  "schools": [
+    {
+      "schoolId": "boston-college",
+      "catalogURL": "https://www.bc.edu/bc-web/academics/graduate.html",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www.bc.edu/bc-web/academics/graduate.html",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "bu",
+      "catalogURL": "https://www.bu.edu/academics/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "bu",
+          "url": "https://www.bu.edu/academics/cas/programs/",
+          "requestedURL": "https://www.bu.edu/academics/programs/",
+          "file": "frontend/data/sources/catalogues/bu/8cc1b745f79c72c0.html",
+          "sha256": "8cc1b745f79c72c090b5924d57d5847c3eac1bcf0b2f5c88412cc0fb5a169754",
+          "capturedAt": "2026-10-19T12:01:47.924641+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 32,
+      "candidates": [
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/archaeology/bama-in-archaeology/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/archaeology/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/classical-studies/ba-ma-in-classics-archaeology/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/astronomy/ba-ma-astrophysics/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA/MA",
+          "url": "https://www.bu.edu/academics/cas/programs/biochemistry-molecular-biology/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/biochemistry-molecular-biology/bachelor-of-arts-in-biochemistry-and-molecular-biology-to-master-of-science-in-molecular-biology-cell-biology-and-biochemistry/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/biology/ba-ms-in-biology/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA/MA",
+          "url": "https://www.bu.edu/academics/cas/programs/chemistry/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA,",
+          "url": "https://www.bu.edu/academics/cas/programs/classical-studies/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-ancient-greek-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-latin-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/computer-science/ba-ms/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/mathematics-statistics/ba-in-mathematics-computer-science-ms-in-computer-science/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/earth-environment/bama-energy-environment/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/earth-environment/bama-in-remote-sensing-geospatial-sciences/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/economics/ba-econ-math-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/economics/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/english/bama-in-english/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/international-relations/ba-in-international-relationsma-in-international-affairs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/linguistics/bama-in-linguistics/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-chinese-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/world-languages-literatures/ba-in-comparative-literature-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-french-studies-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-german-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-japanese-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MFA",
+          "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-spanish-mfa-in-literary-translation/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MS",
+          "url": "https://www.bu.edu/academics/cas/programs/marine-science/bachelor-of-arts-in-marine-science-to-master-of-science-in-biology/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/mathematics-statistics/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MA",
+          "url": "https://www.bu.edu/academics/cas/programs/physics/ba-ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "Bachelor’s-to-Master’s Programs",
+          "url": "https://www.bu.edu/academics/cas/programs/bama-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MPH Program",
+          "url": "https://www.bu.edu/academics/cas/programs/bamph-program/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        },
+        {
+          "label": "BA-to-MPH",
+          "url": "https://www.bu.edu/academics/cas/programs/bamph-program/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "brown",
+      "catalogURL": "https://graduateschool.brown.edu/academics/programs",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://graduateschool.brown.edu/academics/programs",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "caltech",
+      "catalogURL": "https://www.gradoffice.caltech.edu/academics/degrees",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "caltech",
+          "url": "https://www.gradoffice.caltech.edu/academics/degrees",
+          "requestedURL": "https://www.gradoffice.caltech.edu/academics/degrees",
+          "file": "frontend/data/sources/catalogues/caltech/a12362d63958b317.html",
+          "sha256": "a12362d63958b31740889a680449b70fb06b415a728f8b0302e7e7bbda5d6b79",
+          "capturedAt": "2026-10-19T12:01:46.894550+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "cmu",
+      "catalogURL": "https://www.cmu.edu/graduate/academics/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "cmu",
+          "url": "https://www.cmu.edu/graduate/prospective/index.html",
+          "requestedURL": "https://www.cmu.edu/graduate/academics/",
+          "file": "frontend/data/sources/catalogues/cmu/aaf03379b1065c9b.html",
+          "sha256": "aaf03379b1065c9b51b3a74c0edeba264336dc5fd2a319393eee5e69a7a44d3b",
+          "capturedAt": "2026-10-19T12:01:47.821490+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "master’s and doctoral programs",
+          "url": "https://www.cmu.edu/graduate/prospective/index.html",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.cmu.edu/graduate/prospective/index.html"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "case-western",
+      "catalogURL": "https://case.edu/gradstudies/prospective-students",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "case-western",
+          "url": "https://case.edu/gradstudies/prospective-students",
+          "requestedURL": "https://case.edu/gradstudies/prospective-students",
+          "file": "frontend/data/sources/catalogues/case-western/d95341890aa33e7b.html",
+          "sha256": "d95341890aa33e7b10899c9b415ca7fa90c2747aa9fea0933f2ef8a7719f453a",
+          "capturedAt": "2026-10-19T12:01:47.277052+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Combined Bachelor's/Master's Degree Program",
+          "url": "https://case.edu/gradstudies/prospective-students/combined-bachelorsmasters-degree-program",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://case.edu/gradstudies/prospective-students"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "columbia",
+      "catalogURL": "https://www.columbia.edu/content/academics/graduate-professional-programs",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www.columbia.edu/content/academics/graduate-professional-programs",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "cornell",
+      "catalogURL": "https://gradschool.cornell.edu/academics/fields-of-study/",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://gradschool.cornell.edu/academics/fields-of-study/",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "dartmouth",
+      "catalogURL": "https://graduate.dartmouth.edu/academics/programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "dartmouth",
+          "url": "https://graduate.dartmouth.edu/admissions/programs",
+          "requestedURL": "https://graduate.dartmouth.edu/academics/programs",
+          "file": "frontend/data/sources/catalogues/dartmouth/cde7a8b9a09557e2.html",
+          "sha256": "cde7a8b9a09557e2b292addab039a0ed827a54ba1838b7f57dbf706e277e8714",
+          "capturedAt": "2026-10-19T12:01:48.701260+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 6,
+      "candidates": [
+        {
+          "label": "Master of Arts in Liberal Studies (MALS)",
+          "url": "https://graduate.dartmouth.edu/admissions/programs/master-arts-liberal-studies-mals",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        },
+        {
+          "label": "Master of Biotechnology",
+          "url": "https://graduate.dartmouth.edu/admissions/programs/master-biotechnology-mbt",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        },
+        {
+          "label": "Master of Energy Transition",
+          "url": "https://graduate.dartmouth.edu/admissions/programs/master-energy-transition",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        },
+        {
+          "label": "Master of Arts in Liberal Studies",
+          "url": "https://graduate.dartmouth.edu/academics/programs/master-arts-liberal-studies-mals",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        },
+        {
+          "label": "Master of Biotechnology (MBT)",
+          "url": "https://graduate.dartmouth.edu/admissions/programs/master-biotechnology-mbt",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        },
+        {
+          "label": "Master of Energy Transition (MET)",
+          "url": "https://graduate.dartmouth.edu/academics/programs/master-energy-transition",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduate.dartmouth.edu/admissions/programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "duke",
+      "catalogURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "duke",
+          "url": "https://gradschool.duke.edu/academics/programs-degrees/",
+          "requestedURL": "https://gradschool.duke.edu/academics/programs-degrees/",
+          "file": "frontend/data/sources/catalogues/duke/8e5690b1279ea81b.html",
+          "sha256": "8e5690b1279ea81be060f072edc26c2449e73c65c2930615a077e0700cfc82c7",
+          "capturedAt": "2026-10-19T12:01:48.721231+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "emory",
+      "catalogURL": "https://www.emory.edu/home/academics/graduate.html",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www.emory.edu/home/academics/graduate.html",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "georgetown",
+      "catalogURL": "https://grad.georgetown.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "georgetown",
+          "url": "https://grad.georgetown.edu/programs/",
+          "requestedURL": "https://grad.georgetown.edu/programs/",
+          "file": "frontend/data/sources/catalogues/georgetown/d596de3f5e8f9b54.html",
+          "sha256": "d596de3f5e8f9b54d1479d8898a49b8cefb4a13210a468b10290f584b465bac6",
+          "capturedAt": "2026-10-19T12:01:48.626388+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 8,
+      "candidates": [
+        {
+          "label": "Master's in Addiction Policy & Practice",
+          "url": "https://addictionpolicy.georgetown.edu/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in American Government",
+          "url": "https://government.georgetown.edu/maag/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in Applied Economics",
+          "url": "https://econ.georgetown.edu/academics/masters-programs-in-economics/masters-in-applied-economics/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in Arab Studies",
+          "url": "https://sfs.georgetown.edu/ma-arab-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in Arabic and Islamic Studies",
+          "url": "https://arabic.georgetown.edu/grad/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in Art and Museum Studies",
+          "url": "https://art.georgetown.edu/programs/museum-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "Master's in Asian Studies",
+          "url": "https://sfs.georgetown.edu/ma-asian-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        },
+        {
+          "label": "M.S. in Biochemistry & Molecular Biology",
+          "url": "https://msbiochemistry.georgetown.edu/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.georgetown.edu/programs/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "georgia-tech",
+      "catalogURL": "https://grad.gatech.edu/degree-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "georgia-tech",
+          "url": "https://gradapp.gatech.edu/portal/program-info",
+          "requestedURL": "https://grad.gatech.edu/degree-programs",
+          "file": "frontend/data/sources/catalogues/georgia-tech/c10966c6b5ab23c0.html",
+          "sha256": "c10966c6b5ab23c0c7f40f1746fb881a8fdf5d5472de89428d4f1d147776e591",
+          "capturedAt": "2026-10-19T12:01:49.975535+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "harvard",
+      "catalogURL": "https://gsas.harvard.edu/programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "harvard",
+          "url": "https://gsas.harvard.edu/programs",
+          "requestedURL": "https://gsas.harvard.edu/programs",
+          "file": "frontend/data/sources/catalogues/harvard/4a1facf20d020bcd.html",
+          "sha256": "4a1facf20d020bcd3ba91a745c75cf7b74e56dd734cdc64793504ce0026b5744",
+          "capturedAt": "2026-10-19T12:01:48.966103+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "label": "Master of Arts (AM) (7)",
+          "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A158",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.harvard.edu/programs"
+        },
+        {
+          "label": "Master of Engineering (ME) (2)",
+          "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A160",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.harvard.edu/programs"
+        },
+        {
+          "label": "Master of Science (SM) (4)",
+          "url": "https://gsas.harvard.edu/programs?f%5B0%5D=degrees_offered%3A159",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.harvard.edu/programs"
+        },
+        {
+          "label": "PhD and select master’s degrees",
+          "url": "https://gsas.harvard.edu/programs?f%5B0%5D=program_type%3A166",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.harvard.edu/programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "johns-hopkins",
+      "catalogURL": "https://www.jhu.edu/academics/graduate-studies/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "johns-hopkins",
+          "url": "https://www.jhu.edu/academics/graduate-studies/",
+          "requestedURL": "https://www.jhu.edu/academics/graduate-studies/",
+          "file": "frontend/data/sources/catalogues/johns-hopkins/a7f43cb10a24e785.html",
+          "sha256": "a7f43cb10a24e78585cd19e0b4369c9d68372eb4a783be7df48b0693a1843a3a",
+          "capturedAt": "2026-10-19T12:01:49.340339+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "lehigh",
+      "catalogURL": "https://grad.lehigh.edu/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "lehigh",
+          "url": "https://grad.lehigh.edu/home/graduate-education-life",
+          "requestedURL": "https://grad.lehigh.edu/",
+          "file": "frontend/data/sources/catalogues/lehigh/f2997bd48ab33a47.html",
+          "sha256": "f2997bd48ab33a47c80b9da9f26178ca59f013c45f15452126073a87feb201a6",
+          "capturedAt": "2026-10-19T12:01:50.029725+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "mit",
+      "catalogURL": "https://oge.mit.edu/graduate-admissions/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "mit",
+          "url": "https://oge.mit.edu/graduate-admissions/",
+          "requestedURL": "https://oge.mit.edu/graduate-admissions/",
+          "file": "frontend/data/sources/catalogues/mit/bc57215aa3987396.html",
+          "sha256": "bc57215aa3987396b26eb5df00868de1249ee49001d1ce4e0d9618852aab4ec9",
+          "capturedAt": "2026-10-19T12:01:49.185197+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Master’s degrees",
+          "url": "https://oge.mit.edu/graduate-admissions/programs/masters-degrees/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://oge.mit.edu/graduate-admissions/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "nyu",
+      "catalogURL": "https://www.nyu.edu/academics/graduate-admissions.html",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www.nyu.edu/academics/graduate-admissions.html",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "northeastern",
+      "catalogURL": "https://graduate.northeastern.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "northeastern",
+          "url": "https://graduate.northeastern.edu/programs/",
+          "requestedURL": "https://graduate.northeastern.edu/programs/",
+          "file": "frontend/data/sources/catalogues/northeastern/45e165135e131534.html",
+          "sha256": "45e165135e13153428c430a7d9784d240e591e9d5c74067301bd1905287fa065",
+          "capturedAt": "2026-10-19T12:01:49.644647+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "northwestern",
+      "catalogURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "northwestern",
+          "url": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+          "requestedURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html",
+          "file": "frontend/data/sources/catalogues/northwestern/af54698991d3fd8e.html",
+          "sha256": "af54698991d3fd8ee51bdaa9aaba1a73a2ff0967f2022b375e65d539f6e35ca5",
+          "capturedAt": "2026-10-19T12:01:50.543282+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 50,
+      "candidates": [
+        {
+          "label": "Accelerated MS in Education for NW Undergrads",
+          "url": "https://sesp.northwestern.edu/undergraduate/options-concentrations/accelerated-msed.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Advanced Manufacturing MS",
+          "url": "https://www.mccormick.northwestern.edu/masters-advanced-manufacturing/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Biomedical Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/biomedical/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Chemical and Biological Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/chemical-biological/academics/graduate/chemical-biological-engineering-ms/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Civil and Environmental Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/civil-environmental/academics/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Computer Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/masters/computer-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Computer Science MS",
+          "url": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Doctor of Physical Therapy/Master of Public Health (DPT/MPH)",
+          "url": "https://www.feinberg.northwestern.edu/sites/pthms/our-programs/dpt-mph.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Dual MS in Applied Economics and Social and Economic Policy",
+          "url": "https://sesp.northwestern.edu/graduate-professional/social-and-economic-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Electrical Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/electrical-computer/academics/graduate/masters/electrical-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Engineering Sciences and Applied Mathematics MS",
+          "url": "https://www.mccormick.northwestern.edu/applied-math/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "English Literature MA",
+          "url": "https://english.northwestern.edu/graduate/ma-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Executive Masters in Law",
+          "url": "https://www.law.northwestern.edu/admissions/faq/faqllm.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Executive MBA",
+          "url": "https://www.kellogg.northwestern.edu/programs/executive-mba.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Health Analytics MS",
+          "url": "https://sps.northwestern.edu/masters/health-analytics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Health Informatics MS",
+          "url": "https://sps.northwestern.edu/masters/health-informatics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Integrated Marketing Communications Professional (MS)",
+          "url": "https://imcprofessional.medill.northwestern.edu/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "JD-MBA",
+          "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/jd-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Joint Master of Science in Mechanical Engineering and Materials Science and Engineering",
+          "url": "https://www.mccormick.northwestern.edu/mechanical-materials-science-engineering/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Life Sciences PhD/Master of Science in Clinical Investigation Combined Program",
+          "url": "https://www.feinberg.northwestern.edu/sites/dgp/prospective-students/dual-degree-options.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Life Sciences PhD/MPH",
+          "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/phd-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Literature MA",
+          "url": "https://sps.northwestern.edu/masters/literature/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Litowitz MFA+MA Program in Creative Writing and English",
+          "url": "https://english.northwestern.edu/graduate/mfa-ma-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Master in Management",
+          "url": "https://www.kellogg.northwestern.edu/programs/master-in-management.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Master of Prosthetics-Orthotics (MPO)",
+          "url": "https://www.nupoc.northwestern.edu/education/curriculum.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Master of Public Health (MPH)",
+          "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Master of Science in Law",
+          "url": "https://www.law.northwestern.edu/academics/degree-programs/msl/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Materials Science and Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/materials-science/academics/graduate/masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MBA (Evening & Weekend MBA)",
+          "url": "https://www.kellogg.northwestern.edu/programs/part-time-mba.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MBA (One-Year Program, Full-Time)",
+          "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/one-year-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MBA (Two-Year Program, Full-Time)",
+          "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/two-year-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MD/Master of Business Administration (MD/MBA)",
+          "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/md-mba-program.aspx?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MD/Master of Public Health (MD/MPH)",
+          "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/md-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MD-MBA",
+          "url": "https://www.kellogg.northwestern.edu/programs/full-time-mba/md-mba-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Mechanical Engineering MS",
+          "url": "https://www.mccormick.northwestern.edu/mechanical/academics/graduate/prospective-masters/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Medical Anthropology PhD/MPH",
+          "url": "https://www.feinberg.northwestern.edu/sites/mph/degree-options/phd-mph/index.html?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MMM Program (MBA and MS in Design Innovation)",
+          "url": "https://design.northwestern.edu/mmm-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MS in Educational Studies",
+          "url": "https://sesp.northwestern.edu/graduate-professional/teaching-learning-and-education/msed-educational-studies/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MS in Higher Education Administration and Policy",
+          "url": "https://sesp.northwestern.edu/graduate-professional/higher-education-administration-and-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MS in Learning and Organizational Change",
+          "url": "https://sesp.northwestern.edu/graduate-professional/learning-and-organizational-change/ms-learning-organizational-change/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "MS in Technology, People, and Policy",
+          "url": "https://sesp.northwestern.edu/graduate-professional/technology-people-and-policy/ms-technology-people-and-policy/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Physics MS",
+          "url": "https://physics.northwestern.edu/graduate/master-degree/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Plant Biology and Conservation MS",
+          "url": "https://plantbiology.northwestern.edu/graduate/prospective-students/ms/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Project Management MS",
+          "url": "https://www.mccormick.northwestern.edu/project-management/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Regulatory Compliance MS",
+          "url": "https://sps.northwestern.edu/masters/regulatory-compliance/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Robotics MS",
+          "url": "https://www.mccormick.northwestern.edu/robotics/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Statistics and Data Science MS",
+          "url": "https://statistics.northwestern.edu/graduate/ms-stat-program/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Theoretical and Applied Mechanics MS",
+          "url": "https://www.mccormick.northwestern.edu/theoretical-applied-mechanics/masters-phd-degree/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "Writing MA",
+          "url": "https://sps.northwestern.edu/masters/writing/?utm_source=nu_tl&utm_medium=graddegree&SRC=nu_tl_graddegree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        },
+        {
+          "label": "March Through the Arch",
+          "url": "https://www.northwestern.edu/about/history/the-arch.html",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "ohio-state",
+      "catalogURL": "https://gradsch.osu.edu/programs",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://gradsch.osu.edu/programs",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "princeton",
+      "catalogURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "princeton",
+          "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+          "requestedURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study",
+          "file": "frontend/data/sources/catalogues/princeton/4f4be5643818a432.html",
+          "sha256": "4f4be5643818a43273ae9d168b90f13125f33bbe8f8158e26be840146f06993c",
+          "capturedAt": "2026-10-19T12:01:50.487211+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "label": "Incidental Master’s Degree",
+          "url": "https://gradschool.princeton.edu/academics/degrees-requirements/general-exam/incidental-master%E2%80%99s-degree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+        },
+        {
+          "label": "Final Master's Degree Requirements",
+          "url": "https://gradschool.princeton.edu/academics/degrees-requirements/final-masters-degree-requirements",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+        },
+        {
+          "label": "Master’s Degree Funding",
+          "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/master%E2%80%99s-degree-funding",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "purdue",
+      "catalogURL": "https://www.purdue.edu/gradschool/prospective/gradrequirements/",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www.purdue.edu/gradschool/prospective/gradrequirements/",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "rice",
+      "catalogURL": "https://graduate.rice.edu/programs-study",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "rice",
+          "url": "https://graduate.rice.edu/programs-study",
+          "requestedURL": "https://graduate.rice.edu/programs-study",
+          "file": "frontend/data/sources/catalogues/rice/684d1610a0ded3f5.html",
+          "sha256": "684d1610a0ded3f5efaa54b3cf4adfcd613ce21fbc80de5adccee2e6c74d4604",
+          "capturedAt": "2026-10-19T12:01:51.175356+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "rutgers",
+      "catalogURL": "https://grad.rutgers.edu/academics/graduate-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "rutgers",
+          "url": "https://grad.rutgers.edu/academics/graduate-programs",
+          "requestedURL": "https://grad.rutgers.edu/academics/graduate-programs",
+          "file": "frontend/data/sources/catalogues/rutgers/7e6dd3694730751e.html",
+          "sha256": "7e6dd3694730751e3a1009f9b83c1d98b7afb87dba27b4e7b12c53cb636731e6",
+          "capturedAt": "2026-10-19T12:01:50.813383+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 3,
+      "candidates": [
+        {
+          "label": "Biomedical and Health Sciences - Master's Degree Programs",
+          "url": "https://grad.rutgers.edu/academics/graduate-programs/biomedical-and-health-sciences-all-degree-programs/masters-programs",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+        },
+        {
+          "label": "Biomedical Sciences - MBS & MS",
+          "url": "https://grad.rutgers.edu/node/902",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+        },
+        {
+          "label": "Biomedical Sciences – MS",
+          "url": "https://grad.rutgers.edu/academics/graduate-programs/biomedical-and-health-sciences-all-degree-programs/masters-programs/mbs",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "stanford",
+      "catalogURL": "https://gradadmissions.stanford.edu/explore-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "stanford",
+          "url": "https://gradadmissions.stanford.edu/explore-programs",
+          "requestedURL": "https://gradadmissions.stanford.edu/explore-programs",
+          "file": "frontend/data/sources/catalogues/stanford/42817a39320e8ac2.html",
+          "sha256": "42817a39320e8ac2ea3ec94cc44b839d9f0393b57690e5cb319c2289af973fbc",
+          "capturedAt": "2026-10-19T12:01:51.131112+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "ut-austin",
+      "catalogURL": "https://gradschool.utexas.edu/programs",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://gradschool.utexas.edu/programs",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "tufts",
+      "catalogURL": "https://www.tufts.edu/graduate-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "tufts",
+          "url": "https://www.tufts.edu/graduate-programs",
+          "requestedURL": "https://www.tufts.edu/graduate-programs",
+          "file": "frontend/data/sources/catalogues/tufts/ed7dd1cf1695ba30.html",
+          "sha256": "ed7dd1cf1695ba309f37f1f6a7a5438a12d7ef42a56c7dc8bd5ace8a13fed8db",
+          "capturedAt": "2026-10-19T12:01:51.462415+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 2,
+      "candidates": [
+        {
+          "label": "Master's",
+          "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.tufts.edu/graduate-programs"
+        },
+        {
+          "label": "Master's and Doctorate",
+          "url": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.tufts.edu/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "berkeley",
+      "catalogURL": "https://grad.berkeley.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "berkeley",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "requestedURL": "https://grad.berkeley.edu/programs/",
+          "file": "frontend/data/sources/catalogues/berkeley/8f648a936405ae05.html",
+          "sha256": "8f648a936405ae05a41465d9a36c815fb86317423c0dba7e0d975ba910588bf7",
+          "capturedAt": "2026-10-19T12:01:52.110805+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 121,
+      "candidates": [
+        {
+          "label": "Master’s Degree Progress",
+          "url": "https://grad.berkeley.edu/academics/degree-progress/masters/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Anthropology 5th-Year MA (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Architecture / Civil and Environmental Engineering MArch/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Architecture / Master of City Planning MArch/MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Architecture MArch",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Architecture MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Art Practice MFA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Asian Studies MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Bioengineering MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Biostatistics MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Bioengineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Civil and Environmental Engineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Climate Solutions MBA/MCS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Electrical Engineering and Computer Sciences MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Health Policy and Management MBA/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Industrial Engineering and Operations Research MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Law MBA/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Law MBA/JD (Hastings)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Materials Science and Engineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Mechanical Engineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration / Nuclear Engineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration & Masters of Engineering MBA/MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Business Administration MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Chemical and Biomolecular Engineering MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Chemical and Biomolecular Engineering Prof MS (PDP)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Civil and Environmental Engineering MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Civil and Environmental Engineering Prof MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Demography MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Earth and Planetary Science 5th-Year MA (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Economics MA (UCB Graduate Students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Education MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Education-Admin Services Credential Cred/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Education-Teaching Credential Cred/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Computer Science MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Computer Science MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Electrical Engineering and Computer Sciences 5th-Year MS (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Electrical Engineering and Computer Sciences MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Electrical Engineering and Computer Sciences MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "EECS – Electrical Engineering and Computer Sciences MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Energy and Resources Law MS/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Energy and Resources / Law MA/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Energy and Resources MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Energy and Resources MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Environmental Health Sciences / Journalism MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Environmental Health Sciences MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Epidemiology and Biostatistics / Journalism MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Epidemiology MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Evening and Weekend MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Executive MBA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Folklore MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Global Studies MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Health and Medical Sciences (Joint UCSF) MS (Dept pre-approval to apply)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Health and Social Behavior / Journalism MPH/MJ",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Industrial Engineering and Operations Research 5th-year MS (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Industrial Engineering and Operations Research MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Industrial Engineering and Operations Research MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Information Management and Systems MIMS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Journalism / Asian Studies MJ/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Landscape Architecture / Architecture MLA/MArch",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Landscape Architecture / Master of City Planning MLA/MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Advanced Architectural Design MAAD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Advanced Studies in Engineering MAS-E",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Analytics MAnlytx",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Artificial Intelligence and Machine Learning MAIML",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Bioprocess Engineering (MBE)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Biotechnology",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Civil and Environmental Engineering MCP/ Prof MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Environmental Health Sciences MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Epidemiology and Biostatistics MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Health and Social Behavior MCP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Law MCP/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning / Law MCP/JD (Hastings)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of City Planning MCP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Climate Solutions MCS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Computational Social Science MaCSS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Financial Engineering MFE",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Financial Engineering MFE 2-Year (Part-Time)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Nutritional Sciences and Dietetics MNSD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Master of Real Estate Development + Design MRED+D",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Materials Science and Engineering 5th-Year MS (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Materials Science and Engineering MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Materials Science and Engineering MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Mathematics MA (For UCB Graduate students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Mechanical Engineering 5th-Year MS (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Mechanical Engineering MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Mechanical Engineering MS/PhD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Metabolic Biology MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Nuclear Engineering MEng",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Affairs MPA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Environmental Health Sciences (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Epidemiology (11-month)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Epidemiology and Biostatistics (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Epidemiology and Biostatistics (4+1)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Food, Nutrition and Population Health (11-month)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Food, Nutrition and Population Health (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Food, Nutrition and Population Health (4+1)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Global Health and Environment (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Health and Social Behavior (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Health Policy and Management (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Infectious Diseases and Vaccinology (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Interdisciplinary (11-month)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Maternal, Child and Adolescent (11-month)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Maternal, Child and Adolescent (2-year)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health MPH – Maternal, Child and Adolescent Health (4+1)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Health-Online MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Civil and Environmental Engineering MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Electrical Engineering and Computer Sciences MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Energy and Resources MPP/MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Energy and Resources MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Health Policy and Management MPP/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Law MPP/JD",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Mechanical Engineering MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy / Nuclear Engineering MPP/MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Public Policy MPP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Rangeland and Wildlife Management MS",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Social Welfare / Food, Nutrition and Population Health MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Social Welfare / Health and Social Behavior MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Social Welfare / Maternal, Child and Adolescent Health MSW/MPH",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Social Welfare / Public Policy MSW/MPP",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Statistics and Data Science 5th-year MA (For UCB students only)",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        },
+        {
+          "label": "Statistics and Data Science MA",
+          "url": "https://grad.berkeley.edu/admissions/our-programs/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uc-davis",
+      "catalogURL": "https://grad.ucdavis.edu/programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "uc-davis",
+          "url": "https://grad.ucdavis.edu/graduate-programs",
+          "requestedURL": "https://grad.ucdavis.edu/programs",
+          "file": "frontend/data/sources/catalogues/uc-davis/5a1b73223a07e102.html",
+          "sha256": "5a1b73223a07e1025ba25ed6c66734d0f55e04cb21a55b2e71cc797a6dc9e8c1",
+          "capturedAt": "2026-10-19T12:01:52.093099+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 10,
+      "candidates": [
+        {
+          "label": "Master's & Doctoral Candidacy",
+          "url": "https://grad.ucdavis.edu/masters-doctoral-candidacy",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Completing the Master's Plan II or MFA",
+          "url": "https://grad.ucdavis.edu/passing-masters-examination",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Business Administration (MBA)",
+          "url": "https://grad.ucdavis.edu/programs/smba",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Education (Credential/M.A.)",
+          "url": "https://grad.ucdavis.edu/programs/gemc",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Master of Education and Teaching Credential",
+          "url": "https://grad.ucdavis.edu/programs/getc",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Master of Management",
+          "url": "https://grad.ucdavis.edu/programs/smmm",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Master of Management (Online)",
+          "url": "https://grad.ucdavis.edu/programs/smmo",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Nursing (Master's Entry Program in Nursing)",
+          "url": "https://grad.ucdavis.edu/programs/gnme",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Nursing Science and Health-Care Leadership (M.S.)",
+          "url": "https://grad.ucdavis.edu/programs/gnrs",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        },
+        {
+          "label": "Public Health (MPH)",
+          "url": "https://grad.ucdavis.edu/programs/mmph",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uc-irvine",
+      "catalogURL": "https://grad.uci.edu/academics/degree-programs/",
+      "degreeScope": "masters",
+      "status": "http-403",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://grad.uci.edu/academics/degree-programs/",
+          "status": "http-403",
+          "detail": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "ucla",
+      "catalogURL": "https://grad.ucla.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "ucla",
+          "url": "https://grad.ucla.edu/",
+          "requestedURL": "https://grad.ucla.edu/programs/",
+          "file": "frontend/data/sources/catalogues/ucla/29450b7f58aadab4.html",
+          "sha256": "29450b7f58aadab4fd1de129a899e200e1350a78825297fd01d612951fd6918b",
+          "capturedAt": "2026-10-19T12:01:53.706890+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 39,
+      "candidates": [
+        {
+          "label": "Master’s Studies",
+          "url": "https://grad.ucla.edu/academics/masters-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Architecture - M.Arch.",
+          "url": "https://grad.ucla.edu/programs/school-of-arts-and-architecture/architecture-and-urban-design-department/architecture-m-arch-i/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Architecture - M.S. in Architecture and Urban Design",
+          "url": "https://grad.ucla.edu/programs/school-of-arts-and-architecture/architecture-and-urban-design-department/architecture-m-s/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Biostatistics MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/biostatistics-department/biostatistics-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Chemistry - Master of Applied Chemical Sciences",
+          "url": "https://grad.ucla.edu/programs/physical-sciences/chemistry-and-biochemistry-department/chemistry-master-of-applied-chemical-sciences/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Community Health Sciences MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/community-health-sciences-department/community-health-sciences-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Economics - Master of Quantitative Economics",
+          "url": "https://grad.ucla.edu/programs/social-sciences/economics-department/economics-master-of-quantitative-economics/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - Master of Engineering",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-master-of-engineering/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Aerospace, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-aerospace-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Computer Networking, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-computer-networking-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Electrical, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-electrical-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Electronic Materials, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-electronic-materials-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Integrated Circuits, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-integrated-circuits-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Manufacturing and Design, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-manufacturing-and-design-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Materials Science, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-materials-science-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Mechanical, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-mechanical-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Signal Processing and Communications, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-signal-processing-and-communications-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Engineering - MS in Engineering-Structural Materials, Online",
+          "url": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/engineering-ms-in-engineering-structural-materials-online/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Environmental Health Sciences MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/environmental-health-sciences-department/environmental-health-sciences-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Epidemiology MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/epidemiology-department/epidemiology-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Executive Master of Public Health",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/executive-master-of-public-health/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Health Management MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-management-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Health Policy & Management MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-policy-management-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Health Policy MPH",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/health-policy-and-management-department/health-policy-mph/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - Business Analytics MS",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-business-analytics-ms/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - Executive MBA",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-executive-mba/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - Fully Employed MBA (FEMBA)",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-fully-employed-mba-femba/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - Global Executive MBA for Asia Pacific",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-global-executive-mba-for-asia-pacific/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - Master of Financial Engineering",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-master-of-financial-engineering/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - MBA",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-mba/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Management - MS, PHD",
+          "url": "https://grad.ucla.edu/programs/anderson-school-of-management/management-ms-phd/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Applied Geospatial Information Systems & Technologies",
+          "url": "https://grad.ucla.edu/programs/social-sciences/geography-department/master-of-applied-geospatial-information-systems-technologies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Legal Studies",
+          "url": "https://grad.ucla.edu/programs/school-of-law/master-of-legal-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Public Health in Community Health, Health Promotion and Education",
+          "url": "https://grad.ucla.edu/programs/school-of-public-health/community-health-sciences-department/master-of-public-health-in-community-health-health-promotion-and-education/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Quantum Science and Technology",
+          "url": "https://grad.ucla.edu/programs/physical-sciences/physics-and-astronomy-department/master-of-quantum-science-and-technology/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Real Estate Development",
+          "url": "https://grad.ucla.edu/programs/school-of-public-affairs/urban-planning-department/master-of-real-estate-development/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Master of Social Science",
+          "url": "https://grad.ucla.edu/programs/social-sciences/master-of-social-science/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        },
+        {
+          "label": "Statistics - Master of Applied Statistics and Data Science",
+          "url": "https://grad.ucla.edu/programs/physical-sciences/statistics-and-data-science-department/statistics-master-of-applied-statistics-and-data-science/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://grad.ucla.edu/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "ucsd",
+      "catalogURL": "https://grad.ucsd.edu/programs/",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://grad.ucsd.edu/programs/",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "ucsb",
+      "catalogURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "ucsb",
+          "url": "https://www.graddiv.ucsb.edu/graduate-programs",
+          "requestedURL": "https://www.graddiv.ucsb.edu/graduate-programs",
+          "file": "frontend/data/sources/catalogues/ucsb/7b5763b75a508b93.html",
+          "sha256": "7b5763b75a508b93dda6fcbd3c392ce470446d4fe7a418224626516bd3bfd149",
+          "capturedAt": "2026-10-19T12:01:53.062321+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Master of Engineering and Technology Leadership (METL) Program",
+          "url": "https://metl.engineering.ucsb.edu/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.graddiv.ucsb.edu/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uchicago",
+      "catalogURL": "https://www.uchicago.edu/education-and-research/graduate-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "uchicago",
+          "url": "https://www.uchicago.edu/academics/graduate-programs",
+          "requestedURL": "https://www.uchicago.edu/education-and-research/graduate-programs",
+          "file": "frontend/data/sources/catalogues/uchicago/fb32b828d1abd6bd.html",
+          "sha256": "fb32b828d1abd6bdfea9bdd379f26ad2c1e222900bb90e8fbb0697f63ae35d74",
+          "capturedAt": "2026-10-19T12:01:53.430144+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Explore Master’s Degree Programs",
+          "url": "https://www.uchicago.edu/academics/graduate-programs/masters-programs",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://www.uchicago.edu/academics/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uf",
+      "catalogURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "uf",
+          "url": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+          "requestedURL": "https://gradcatalog.ufl.edu/graduate/colleges-departments/",
+          "file": "frontend/data/sources/catalogues/uf/1ab5110089352e35.html",
+          "sha256": "1ab5110089352e359c5d1c6da1309aa1162bcfa4b47a25b901b14fc9ff29f973",
+          "capturedAt": "2026-10-19T12:01:53.319680+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "georgia",
+      "catalogURL": "https://grad.uga.edu/degree/",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://grad.uga.edu/degree/",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uiuc",
+      "catalogURL": "https://grad.illinois.edu/academics/programs",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://grad.illinois.edu/academics/programs",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "maryland",
+      "catalogURL": "https://gradschool.umd.edu/graduate-programs",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "maryland",
+          "url": "https://gradschool.umd.edu/graduate-programs",
+          "requestedURL": "https://gradschool.umd.edu/graduate-programs",
+          "file": "frontend/data/sources/catalogues/maryland/c64b4984aa38486c.html",
+          "sha256": "c64b4984aa38486c04322c298b26506f6f49eb6c2a47915e1eb94c0cb83f8bc2",
+          "capturedAt": "2026-10-19T12:01:53.869072+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "doctoral and master’s programs",
+          "url": "https://academiccatalog.umd.edu/filters/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.umd.edu/graduate-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "umich",
+      "catalogURL": "https://rackham.umich.edu/programs-of-study/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "umich",
+          "url": "https://rackham.umich.edu/programs-of-study/",
+          "requestedURL": "https://rackham.umich.edu/programs-of-study/",
+          "file": "frontend/data/sources/catalogues/umich/231a398462cd6ced.html",
+          "sha256": "231a398462cd6ced00a6f24b32bb0d559386be81559af59dbbd7e36b6dda9b93",
+          "capturedAt": "2026-10-19T12:01:54.391112+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 7,
+      "candidates": [
+        {
+          "label": "Master's",
+          "url": "https://rackham.umich.edu/navigating-your-degree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "D.M.A.",
+          "url": "https://rackham.umich.edu/navigating-your-degree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "Master's",
+          "url": "https://tableau.dsc.umich.edu/t/UM-Public/views/RackhamMastersProgramStatistics/ProgramStatistics?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no&FOSDParameter=All+Rackham",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "Master’s",
+          "url": "https://rackham.umich.edu/navigating-your-degree",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "Master’s",
+          "url": "https://tableau.dsc.umich.edu/t/UM-Public/views/RackhamMastersProgramStatistics/ProgramStatistics?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no&FOSDParameter=All+Rackham",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "Go to Master of Arts with Teacher Certification",
+          "url": "https://marsal.umich.edu/academics-admissions/epp",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        },
+        {
+          "label": "Go to the Accelerated Master’s Degree Program Website",
+          "url": "https://lsa.umich.edu/psych/undergraduates/accelerated-master-s-degree-program.html",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "unc",
+      "catalogURL": "https://gradschool.unc.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "unc",
+          "url": "https://gradschool.unc.edu/degree-programs/",
+          "requestedURL": "https://gradschool.unc.edu/programs/",
+          "file": "frontend/data/sources/catalogues/unc/08eac0c9b98b2c66.html",
+          "sha256": "08eac0c9b98b2c66cb935e46475a1bc68c33274c9201c406d974175aeded695b",
+          "capturedAt": "2026-10-19T12:01:54.427310+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 8,
+      "candidates": [
+        {
+          "label": "Master of Applied Professional Studies Degree",
+          "url": "https://gradschool.unc.edu/degree-programs/maps-degree/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Biochemistry and Biophysics – Direct Admit MS",
+          "url": "https://gradschool.sites.unc.edu/biochemistry-and-biophysics-direct-admit-ms/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Cell Biology and Physiology – Direct Admit MS and PhD",
+          "url": "https://gradschool.sites.unc.edu/cbph-direct-admit-ms/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Master of Arts in Teaching",
+          "url": "https://gradschool.sites.unc.edu/master-of-arts-in-teaching/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Master of Applied Professional Studies (MAPS)",
+          "url": "https://gradschool.sites.unc.edu/master-applied-professional-studies/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Microbiology and Immunology – Direct Admit MS",
+          "url": "https://gradschool.sites.unc.edu/microbiology-and-immunology-direct-admit-ms/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Trans Atlantic Masters",
+          "url": "https://gradschool.sites.unc.edu/trans-atlantic-masters-program/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        },
+        {
+          "label": "Master of Public Health",
+          "url": "https://gradschool.sites.unc.edu/master-of-public-health/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gradschool.unc.edu/degree-programs/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "notre-dame",
+      "catalogURL": "https://graduateschool.nd.edu/degree-programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "notre-dame",
+          "url": "https://graduateschool.nd.edu/degree-programs/",
+          "requestedURL": "https://graduateschool.nd.edu/degree-programs/",
+          "file": "frontend/data/sources/catalogues/notre-dame/250ff223e2e1099c.html",
+          "sha256": "250ff223e2e1099c8859b7ccc59306d257fe43d85ff0210ab32cb539cf0619c6",
+          "capturedAt": "2026-10-19T12:01:54.995129+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 22,
+      "candidates": [
+        {
+          "label": "ACE: Teaching Fellows: MEd",
+          "url": "https://graduateschool.nd.edu/degree-programs/ace-teaching-fellows-med---masters-professional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Applied and Computational Mathematics and Statistics: MS",
+          "url": "https://graduateschool.nd.edu/degree-programs/applied-and-computational-mathematics-and-statistics-ms---masters-professional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Civil and Environmental Engineering: MEng",
+          "url": "https://graduateschool.nd.edu/degree-programs/civil-and-environmental-engineering-meng---masters-professional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Classics: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/classics-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "https://classics.nd.edu/graduate-students/ma-in-classics/",
+          "url": "https://classics.nd.edu/graduate-students/ma-in-classics/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Data Science: MS",
+          "url": "https://graduateschool.nd.edu/degree-programs/data-science-ms---masters-professional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Design: MFA",
+          "url": "https://graduateschool.nd.edu/degree-programs/design-mfa---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Early Christian Studies: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/early-christian-studies-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Echo/Theology: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/echo-theology-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Engineering, Science and Technology Entrepreneurship (ESTEEM): MS",
+          "url": "https://graduateschool.nd.edu/degree-programs/engineering-science-and-technology-entrepreneurship-esteem-ms---masters-professional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "English (Creative Writing): MFA",
+          "url": "https://graduateschool.nd.edu/degree-programs/english-creative-writing-mfa---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "English - MFA",
+          "url": "https://english.nd.edu/graduate/mfa/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "https://english.nd.edu/graduate/mfa/",
+          "url": "https://english.nd.edu/graduate/mfa/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "English : MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/english-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "English - MA",
+          "url": "https://english.nd.edu/graduate/programs/ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "https://english.nd.edu/graduate/programs/ma/",
+          "url": "https://english.nd.edu/graduate/programs/ma/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "French and Francophone Studies: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/french-and-francophone-studies-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Italian Studies: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/italian-studies-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "https://mse.nd.edu/",
+          "url": "https://mse.nd.edu/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Spanish: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/spanish-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Studio Art: MFA",
+          "url": "https://graduateschool.nd.edu/degree-programs/studio-art-mfa---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        },
+        {
+          "label": "Theology: MA",
+          "url": "https://graduateschool.nd.edu/degree-programs/theology-ma---masters-traditional/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "upenn",
+      "catalogURL": "https://www.upenn.edu/academics/graduate",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "upenn",
+          "url": "https://www.upenn.edu/academics/graduate",
+          "requestedURL": "https://www.upenn.edu/academics/graduate",
+          "file": "frontend/data/sources/catalogues/upenn/a16da25843a99b49.html",
+          "sha256": "a16da25843a99b4941f2cab15627b339da261d418d517e970fcb58780b9696e6",
+          "capturedAt": "2026-10-19T12:01:55.252712+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "rochester",
+      "catalogURL": "https://www.rochester.edu/graduate-education/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "rochester",
+          "url": "https://www.rochester.edu/graduate-education/",
+          "requestedURL": "https://www.rochester.edu/graduate-education/",
+          "file": "frontend/data/sources/catalogues/rochester/879f893e4c3a2b80.html",
+          "sha256": "879f893e4c3a2b80cba846eaa9e0d85eb217528404a41ef7455579f77dffbaca",
+          "capturedAt": "2026-10-19T12:01:55.593690+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "usc",
+      "catalogURL": "https://graduateschool.usc.edu/prospective-students/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "usc",
+          "url": "https://graduateschool.usc.edu/prospective-students/",
+          "requestedURL": "https://graduateschool.usc.edu/prospective-students/",
+          "file": "frontend/data/sources/catalogues/usc/efbcbc14a07f95d2.html",
+          "sha256": "efbcbc14a07f95d200d125195775d07e977464871422c14fa1aab49ead96d09f",
+          "capturedAt": "2026-10-19T12:01:55.391562+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Scholarships for Masters Students",
+          "url": "https://graduateschool.usc.edu/fellowships/scholarships-for-masters-students/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://graduateschool.usc.edu/prospective-students/"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "uva",
+      "catalogURL": "https://graduate.virginia.edu/",
+      "degreeScope": "masters",
+      "status": "blocked-network",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://graduate.virginia.edu/",
+          "status": "blocked-network",
+          "detail": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "washington",
+      "catalogURL": "https://grad.uw.edu/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "washington",
+          "url": "https://grad.uw.edu/programs/find-a-graduate-program/",
+          "requestedURL": "https://grad.uw.edu/programs/",
+          "file": "frontend/data/sources/catalogues/washington/5c829fc4bb47641e.html",
+          "sha256": "5c829fc4bb47641e3afe28f778c4c4b0acc387cf21624b0c4aa603bfb5fc7d4b",
+          "capturedAt": "2026-10-19T12:01:56.022731+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "wisconsin",
+      "catalogURL": "https://grad.wisc.edu/academic-programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "wisconsin",
+          "url": "https://info.grad.wisc.edu/our-academic-programs",
+          "requestedURL": "https://grad.wisc.edu/academic-programs/",
+          "file": "frontend/data/sources/catalogues/wisconsin/f711d7d67ab7021a.html",
+          "sha256": "f711d7d67ab7021af908d0afe575bdf910144f48d3b1bc84364d46999f19b0f4",
+          "capturedAt": "2026-10-19T12:01:57.615742+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 1,
+      "candidates": [
+        {
+          "label": "Completing Your Master's Degree",
+          "url": "https://grad.wisc.edu/academics/masters-guide/",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://info.grad.wisc.edu/our-academic-programs"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "vanderbilt",
+      "catalogURL": "https://gradschool.vanderbilt.edu/academics/programs/",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "vanderbilt",
+          "url": "https://gradschool.vanderbilt.edu/academics/programs-departments/",
+          "requestedURL": "https://gradschool.vanderbilt.edu/academics/programs/",
+          "file": "frontend/data/sources/catalogues/vanderbilt/bee040869818cad7.html",
+          "sha256": "bee040869818cad77b2a0884f9a7847943b71edf04bdc00624f7a71d65974374",
+          "capturedAt": "2026-10-19T12:01:57.204923+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "villanova",
+      "catalogURL": "https://www1.villanova.edu/university/graduate-programs.html",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://www1.villanova.edu/university/graduate-programs.html",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "wake-forest",
+      "catalogURL": "https://graduate.wfu.edu/",
+      "degreeScope": "masters",
+      "status": "http-403",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://graduate.wfu.edu/",
+          "status": "http-403",
+          "detail": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "washu",
+      "catalogURL": "https://washu.edu/academics/graduate-professional/",
+      "degreeScope": "masters",
+      "status": "http-404",
+      "capturedPages": [],
+      "candidateCount": 0,
+      "candidates": [],
+      "failures": [
+        {
+          "url": "https://washu.edu/academics/graduate-professional/",
+          "status": "http-404",
+          "detail": "HTTP Error 404: Not Found"
+        }
+      ],
+      "coverage": "not-reviewed",
+      "complete": false
+    },
+    {
+      "schoolId": "yale",
+      "catalogURL": "https://gsas.yale.edu/programs-of-study",
+      "degreeScope": "masters",
+      "status": "captured-needs-review",
+      "capturedPages": [
+        {
+          "schoolId": "yale",
+          "url": "https://gsas.yale.edu/programs-of-study",
+          "requestedURL": "https://gsas.yale.edu/programs-of-study",
+          "file": "frontend/data/sources/catalogues/yale/c587a15c5deea20e.html",
+          "sha256": "c587a15c5deea20e1f2c5cb771f726b9789c9b2696daa78e25913737d457a77f",
+          "capturedAt": "2026-10-19T12:01:57.574207+00:00",
+          "status": "captured-not-reviewed"
+        }
+      ],
+      "candidateCount": 4,
+      "candidates": [
+        {
+          "label": "Master's Programs",
+          "url": "https://gsas.yale.edu/index%2Ephp/programs-of-study?level%5B19%5D=19",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.yale.edu/programs-of-study"
+        },
+        {
+          "label": "PhD/Master's Application Process",
+          "url": "https://gsas.yale.edu/index%2Ephp/admissions/phdmasters-application-process",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.yale.edu/programs-of-study"
+        },
+        {
+          "label": "Master's Funding",
+          "url": "https://gsas.yale.edu/index%2Ephp/resources?type_support=10&category=52&sort_bef_combine=featured_DESC&sort_by=featured&sort_order=DESC",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.yale.edu/programs-of-study"
+        },
+        {
+          "label": "Computational Biology & Biomedical Informatics (MS Program)",
+          "url": "https://gsas.yale.edu/programs-of-study/computational-biology-biomedical-informatics-ms-program",
+          "status": "candidate-needs-review",
+          "sourceURL": "https://gsas.yale.edu/programs-of-study"
+        }
+      ],
+      "failures": [],
+      "coverage": "not-reviewed",
+      "complete": false
+    }
+  ]
+}

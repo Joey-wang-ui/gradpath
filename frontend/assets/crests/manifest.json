@@ -1,0 +1,374 @@
+{
+  "mit": {
+    "file": "mit.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Massachusetts%20Institute%20of%20Technology%20(MIT).png",
+    "sha256": "73168ceb82adde759ccbf6f331f6f013a782f0d65b0b9e0a1a92027f174b8a06",
+    "school": "Massachusetts Institute of Technology (MIT)",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "princeton": {
+    "file": "princeton.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Princeton%20University.png",
+    "sha256": "205d130060fdbff37d703e5b2bf0f075be94246851028d0c4aa50f998a945277",
+    "school": "Princeton University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "harvard": {
+    "file": "harvard.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Harvard%20University.png",
+    "sha256": "ed0d9bc538ea4d6b30c5dc3162ded95e43aad5bceb394741487d9b6cc0c0e954",
+    "school": "Harvard University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "yale": {
+    "file": "yale.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Yale%20University.png",
+    "sha256": "71fd224ce34977fb78108b031547bcb9465432d208b63d9378886901c043e49b",
+    "school": "Yale University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "caltech": {
+    "file": "caltech.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/California%20Institute%20of%20Technology.png",
+    "sha256": "69098541d84ae1bc4d481503d1bf4595f2b58a3ff1978b6d31d6c4c10c3ce18e",
+    "school": "California Institute of Technology",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "stanford": {
+    "file": "stanford.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Stanford%20University.png",
+    "sha256": "25430fc1b28b0eedb56747fb53e32fa43c740a65fa1f98931ea8c1fe4bc6a15f",
+    "school": "Stanford University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "upenn": {
+    "file": "upenn.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Pennsylvania.png",
+    "sha256": "50a56cfad69e3731e92a06d47f123a144ab58708ba351a12366ab88a98001dc1",
+    "school": "University of Pennsylvania",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "duke": {
+    "file": "duke.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Duke%20University.png",
+    "sha256": "75e354367985df3ce6d84310f3880e27403b3818af76eb675ecc1372286079b2",
+    "school": "Duke University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "johns-hopkins": {
+    "file": "johns-hopkins.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Johns%20Hopkins%20University.png",
+    "sha256": "f865d954c4339de810cb04789a2d2f771e5ae76b7fc87bdf4ae0df6c60cc1c9d",
+    "school": "Johns Hopkins University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "northwestern": {
+    "file": "northwestern.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Northwestern%20University.png",
+    "sha256": "816a0a5f95d51f5388163292ede14e08492adc3e221026df5e5ced45821176fa",
+    "school": "Northwestern University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "boston-college": {
+    "file": "boston-college.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Boston%20College.png",
+    "sha256": "832c41e74f1c9a844184aa480e34f0b23a9354bdcc108f2f09a847514c6cdd93",
+    "school": "Boston College",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "bu": {
+    "file": "bu.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Boston%20University.png",
+    "sha256": "04a9533235f03deffc8881d244577b413932556bd6d4691e5c890dcbe1b3c1af",
+    "school": "Boston University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "brown": {
+    "file": "brown.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Brown%20University.png",
+    "sha256": "b7960796e80f5cef255571234c118c839cfc672f424ecb51c166964d532682ef",
+    "school": "Brown University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "cmu": {
+    "file": "cmu.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Carnegie%20Mellon%20University.png",
+    "sha256": "b83da40278ead435aa98bc7f19c88c8bd3dc62abbde34139e9d37a16fdccad5a",
+    "school": "Carnegie Mellon University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "case-western": {
+    "file": "case-western.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Case%20Western%20Reserve%20University.png",
+    "sha256": "0cc00d6d7e90d8fa1211faea4235e110868356739592e2f69ebc70cecd8fa080",
+    "school": "Case Western Reserve University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "columbia": {
+    "file": "columbia.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Columbia%20University.png",
+    "sha256": "737c23b7f907b7d3aded4d878f02fb29351e5f20d272ab622eb81f18f3a21af3",
+    "school": "Columbia University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "cornell": {
+    "file": "cornell.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Cornell%20University.png",
+    "sha256": "fa88aa4f3e013b95ea5f28f1f4b4d71f3cc545d01e64ef2f5eb0cd5ff792d4e9",
+    "school": "Cornell University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "dartmouth": {
+    "file": "dartmouth.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Dartmouth%20College.png",
+    "sha256": "1adf2dfa1d9b4a09bcad593d073afed454cf76af8c20fbce3fec823f221ed568",
+    "school": "Dartmouth College",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "emory": {
+    "file": "emory.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Emory%20University.png",
+    "sha256": "2522b70785f9871d3fab97ba4657c20d067ea5174b6abfe3736458d11166035b",
+    "school": "Emory University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "georgetown": {
+    "file": "georgetown.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Georgetown%20University.png",
+    "sha256": "32a653189a9f52a7170d5cbac870040f2526af3e892e18c3c6eeface487e62c2",
+    "school": "Georgetown University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "georgia-tech": {
+    "file": "georgia-tech.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Georgia%20Institute%20of%20Technology.png",
+    "sha256": "bdb4485619c590dbc2581497f6ab2c918a9a0ff8e2e37ccfcc4f3ff065821ecf",
+    "school": "Georgia Institute of Technology",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "lehigh": {
+    "file": "lehigh.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Lehigh%20University.png",
+    "sha256": "1b7859129e938084655d0f1e4cdfef7d1afeafd66be4064c2a169b7f4e48386e",
+    "school": "Lehigh University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "nyu": {
+    "file": "nyu.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/New%20York%20University.png",
+    "sha256": "2b7c4fda2cc311ebd3c7d0bf9b4debc1d80f242b5422b862737d63b1c14f5f3c",
+    "school": "New York University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "northeastern": {
+    "file": "northeastern.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Northeastern%20University%20(Boston).png",
+    "sha256": "657c154566626001398281566ec7af586697567603ab850f526ca035387d77a7",
+    "school": "Northeastern University (Boston)",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "ohio-state": {
+    "file": "ohio-state.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/The%20Ohio%20State%20University%20-%20Columbus.png",
+    "sha256": "82d1c0313909b2ccaa0eb6207130e7a9b20fcada550a6c89ac293e17940d546a",
+    "school": "The Ohio State University - Columbus",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "purdue": {
+    "file": "purdue.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Purdue%20University%20-%20West%20Lafayette.png",
+    "sha256": "a91359facd2ad2ee8b336b908aa9e8fc803ff3836eb12a4dfa94805a5f7316b7",
+    "school": "Purdue University - West Lafayette",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "rice": {
+    "file": "rice.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Rice%20University.png",
+    "sha256": "0d95c288ec64585794e153239e09c46c325e1c5095c9c013e3f925d3a988f5e1",
+    "school": "Rice University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "rutgers": {
+    "file": "rutgers.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Rutgers%2C%20The%20State%20University%20of%20New%20Jersey%20-%20New%20Brunswick.png",
+    "sha256": "6f5fc08910a3a326d6a2fb0af9d4ab2d7a08fa6aa68756d45c5e7483f16278fd",
+    "school": "Rutgers, The State University of New Jersey - New Brunswick",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "ut-austin": {
+    "file": "ut-austin.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/The%20University%20of%20Texas%20at%20Austin.png",
+    "sha256": "f9113e0ca7dc73c8ed218a78b44ca86802a79089a15d419863c3e7694028c449",
+    "school": "The University of Texas at Austin",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "tufts": {
+    "file": "tufts.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Tufts%20University.png",
+    "sha256": "43e8534338b977737401e93ef7fb61897773bfc85c12f86b5a1dc478ad363637",
+    "school": "Tufts University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "berkeley": {
+    "file": "berkeley.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20Berkeley.png",
+    "sha256": "6b802b91064d048c3420c78f86acc32ef2eafea6c5719a530e7dd8e81c74728e",
+    "school": "University of California, Berkeley",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uc-davis": {
+    "file": "uc-davis.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20Davis.png",
+    "sha256": "d6d1eac46ad6a7864d3d1e85bd041070da014914a2fddfbe61c394a36077a473",
+    "school": "University of California, Davis",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uc-irvine": {
+    "file": "uc-irvine.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20Irvine.png",
+    "sha256": "4f1b2b677085dd2ae3069d83f5ed635f9fa17b97cbf7172da11b8db35462c0ea",
+    "school": "University of California, Irvine",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "ucla": {
+    "file": "ucla.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20Los%20Angeles.png",
+    "sha256": "796e5ba5bce9384e349bf9006ff5d68190656da284961edca0913e556677073e",
+    "school": "University of California, Los Angeles",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "ucsd": {
+    "file": "ucsd.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20San%20Diego.png",
+    "sha256": "84ee79d2a562b24d9a49fa5ff628176eea8dab670857e23932a62fb726f95f65",
+    "school": "University of California, San Diego",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "ucsb": {
+    "file": "ucsb.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20California%2C%20Santa%20Barbara.png",
+    "sha256": "97f396b41e6ac701619e52b51c33b80754eeb785af50ea0951a2a11f5dcc734a",
+    "school": "University of California, Santa Barbara",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uchicago": {
+    "file": "uchicago.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Chicago.png",
+    "sha256": "4f97882e86cd000a485c249f9d328ee6667e065915c21a3930be7a787ca35e6a",
+    "school": "University of Chicago",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uf": {
+    "file": "uf.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Florida.png",
+    "sha256": "1dc6a37c0857fc875266eae8a784668c3e6f1271f7e4214ebe3c85e78c8c5c40",
+    "school": "University of Florida",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "georgia": {
+    "file": "georgia.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/The%20University%20of%20Georgia.png",
+    "sha256": "f41f5182019903f9252146ffa0317d5e817f4355ff3ee6370ad63e610a4bd107",
+    "school": "The University of Georgia",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uiuc": {
+    "file": "uiuc.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Illinois%20at%20Urbana-Champaign.png",
+    "sha256": "3ce6366fa981af60b87b8c3723b90b441ed5d531f7da10663b7b2bf05988b38e",
+    "school": "University of Illinois at Urbana-Champaign",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "maryland": {
+    "file": "maryland.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Maryland%2C%20College%20Park.png",
+    "sha256": "92bb941c8d55dd7ccad407fa8a7cd18e98a38b08977a1446d7a49b0e2142f04f",
+    "school": "University of Maryland, College Park",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "umich": {
+    "file": "umich.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Michigan-Ann%20Arbor.png",
+    "sha256": "08bbdfa022a1a3fafc9b0d0aaae466e8d657eceacc1b799d0f2aea87a2dd6b02",
+    "school": "University of Michigan-Ann Arbor",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "unc": {
+    "file": "unc.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20North%20Carolina%20at%20Chapel%20Hill.png",
+    "sha256": "e16a93ee929b5e1a005fba8a02e2717a71cd6058954ff259a0307e132b452717",
+    "school": "University of North Carolina at Chapel Hill",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "notre-dame": {
+    "file": "notre-dame.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Notre%20Dame.png",
+    "sha256": "37c645f333378f3a6c0b939e2b4d225a7a356650021012cbc7e03c301eda9d96",
+    "school": "University of Notre Dame",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "rochester": {
+    "file": "rochester.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Rochester.png",
+    "sha256": "bf87071f289b8868d2d4883da7c15b1f11236bed178d3c421901c37b886afda7",
+    "school": "University of Rochester",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "usc": {
+    "file": "usc.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Southern%20California.png",
+    "sha256": "1d2fd6482e0393b9ea7f8e557bfdd1ebc164db459834e1895058f5bc8557d4a5",
+    "school": "University of Southern California",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "uva": {
+    "file": "uva.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Virginia.png",
+    "sha256": "a3b03374e8abe33624bbd44092d6a82b7a0613b42f4391d9e25819b10d0a4cf6",
+    "school": "University of Virginia",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "washington": {
+    "file": "washington.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Washington.png",
+    "sha256": "6f7320a59782f1fa8163155ce63f525e36a220a4c1d946d71687eb3b5f3008b9",
+    "school": "University of Washington",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "wisconsin": {
+    "file": "wisconsin.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/University%20of%20Wisconsin%20-%20Madison.png",
+    "sha256": "445cb9b0dec70db6b15c7706f730db9337a6fa1c07683c4cd2ef387722191995",
+    "school": "University of Wisconsin - Madison",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "vanderbilt": {
+    "file": "vanderbilt.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Vanderbilt%20University.png",
+    "sha256": "f849cafb70100a4271842ba407247d9720e32db7d15359c37801e7ba68afd224",
+    "school": "Vanderbilt University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "wake-forest": {
+    "file": "wake-forest.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Wake%20Forest%20University.png",
+    "sha256": "e073b760fe5c3c6dcc733e72f8cf1c65616b26bd22389c6dc6c15a8bcbd67f7e",
+    "school": "Wake Forest University",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "washu": {
+    "file": "washu.png",
+    "source": "https://github.com/zhoudaxia233/UniLogo/blob/d64657c0f29817d8beaaf541104446c54d39c383/images/imgs0617/Washington%20University%20in%20St.%20Louis.png",
+    "sha256": "650f488f9ba9e8773e4dcd7cb72d1eec3016994bf4b000a69db3f134c1a6f4a0",
+    "school": "Washington University in St. Louis",
+    "credit": "UniLogo / ARWU institution logo collection; university marks remain the property of each university"
+  },
+  "villanova": {
+    "file": "villanova.png",
+    "source": "https://github.com/kianeutron/Villanova-Project/blob/37dbe5dd8921cb0943c8fd5af0f2acc13dac52e6/img/Villanova-Seal-Logo.png",
+    "sha256": "b7530291552f8a74f189cc62d074af06e8cc3aa16777fbf9affa29e35ff05d7a",
+    "school": "Villanova University",
+    "credit": "Villanova University seal, mirrored in Villanova-Project; university marks remain the property of the university",
+    "fit": "cover"
+  }
+}

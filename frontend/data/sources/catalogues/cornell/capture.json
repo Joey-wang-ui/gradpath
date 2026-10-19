@@ -1,0 +1,18 @@
+{
+  "schoolId": "cornell",
+  "catalogURL": "https://gradschool.cornell.edu/academics/fields-of-study/",
+  "degreeScope": "masters",
+  "status": "http-404",
+  "capturedPages": [],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [
+    {
+      "url": "https://gradschool.cornell.edu/academics/fields-of-study/",
+      "status": "http-404",
+      "detail": "HTTP Error 404: Not Found"
+    }
+  ],
+  "coverage": "not-reviewed",
+  "complete": false
+}

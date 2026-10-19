@@ -1,0 +1,215 @@
+{
+  "schoolId": "bu",
+  "catalogURL": "https://www.bu.edu/academics/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "bu",
+      "url": "https://www.bu.edu/academics/cas/programs/",
+      "requestedURL": "https://www.bu.edu/academics/programs/",
+      "file": "frontend/data/sources/catalogues/bu/8cc1b745f79c72c0.html",
+      "sha256": "8cc1b745f79c72c090b5924d57d5847c3eac1bcf0b2f5c88412cc0fb5a169754",
+      "capturedAt": "2026-10-19T12:01:47.924641+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 32,
+  "candidates": [
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/archaeology/bama-in-archaeology/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/archaeology/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/classical-studies/ba-ma-in-classics-archaeology/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/astronomy/ba-ma-astrophysics/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA/MA",
+      "url": "https://www.bu.edu/academics/cas/programs/biochemistry-molecular-biology/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/biochemistry-molecular-biology/bachelor-of-arts-in-biochemistry-and-molecular-biology-to-master-of-science-in-molecular-biology-cell-biology-and-biochemistry/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/biology/ba-ms-in-biology/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA/MA",
+      "url": "https://www.bu.edu/academics/cas/programs/chemistry/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA,",
+      "url": "https://www.bu.edu/academics/cas/programs/classical-studies/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-ancient-greek-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-latin-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/computer-science/ba-ms/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/mathematics-statistics/ba-in-mathematics-computer-science-ms-in-computer-science/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/earth-environment/bama-energy-environment/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/earth-environment/bama-in-remote-sensing-geospatial-sciences/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba-econ-math-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/economics/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/english/bama-in-english/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/international-relations/ba-in-international-relationsma-in-international-affairs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/linguistics/bama-in-linguistics/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-chinese-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/world-languages-literatures/ba-in-comparative-literature-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-french-studies-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-german-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-japanese-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MFA",
+      "url": "https://www.bu.edu/academics/cas/programs/romance-studies/ba-in-spanish-mfa-in-literary-translation/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MS",
+      "url": "https://www.bu.edu/academics/cas/programs/marine-science/bachelor-of-arts-in-marine-science-to-master-of-science-in-biology/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/mathematics-statistics/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MA",
+      "url": "https://www.bu.edu/academics/cas/programs/physics/ba-ma/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "Bachelor’s-to-Master’s Programs",
+      "url": "https://www.bu.edu/academics/cas/programs/bama-programs/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MPH Program",
+      "url": "https://www.bu.edu/academics/cas/programs/bamph-program/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    },
+    {
+      "label": "BA-to-MPH",
+      "url": "https://www.bu.edu/academics/cas/programs/bamph-program/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://www.bu.edu/academics/cas/programs/"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

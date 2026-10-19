@@ -1,0 +1,3 @@
+# Gradpath project instructions
+
+Keep the public website self-contained and preserve existing programme IDs and browser data keys. Build using Python 3.12 and scripts/build_frontend.py. Run relevant pytest tests with mocked model requests; never require a real API key for validation. Keep original ranking, crest and catalogue evidence and source labels. Do not invent admission requirements or claim complete programme coverage. Never commit secrets, .env, browser student data or credential files. GitHub Pages deploys only the generated static HTML in _site; the Python GPT API requires separate server-side deployment.

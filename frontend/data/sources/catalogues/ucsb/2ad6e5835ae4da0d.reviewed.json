@@ -1,0 +1,56 @@
+{
+  "schoolId": "ucsb",
+  "reviewed": true,
+  "reviewedAt": "2026-10-19",
+  "reviewMethod": "Explicit master’s degree labels and programme links in retained official catalogue HTML; degree terms and route restrictions checked by adapter. Admissions terms not imported.",
+  "evidence": [
+    {
+      "id": "index",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB",
+      "file": "ucsb/2ad6e5835ae4da0d.html",
+      "sha256": "2ad6e5835ae4da0dc158c6a672ee4fd46dfc9b207a81cb50b3e487e09b8af9ba"
+    }
+  ],
+  "colleges": [
+    {
+      "name": "学院待归类 · 官网目录",
+      "english": "Official graduate programme directory — unit classification pending",
+      "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB",
+      "unitType": "directory",
+      "programs": [
+        {
+          "english": "Ecology, Evolution & Marine Biology",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EEMB-MS-0",
+          "field": "自然科学",
+          "admissionMode": "check-current-cycle",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        },
+        {
+          "english": "Ecology, Evolution & Marine Biology",
+          "degree": "MS",
+          "url": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=prog&code=EEMB-PHD-EEMB-MS-0",
+          "field": "自然科学",
+          "admissionMode": "check-route",
+          "note": "按官方目录项目名称与学位整理；招生资格、先修课及当季要求需另查项目页面。",
+          "campus": null,
+          "deliveryMode": "unknown",
+          "evidenceIds": [
+            "index"
+          ],
+          "sourceLevel": "program",
+          "level": "masters"
+        }
+      ]
+    }
+  ],
+  "completeCatalogueReviewed": false,
+  "officialMastersTotal": null
+}

@@ -1,0 +1,430 @@
+{
+  "year": 2027,
+  "publisher": "U.S. News & World Report",
+  "category": "National Universities",
+  "status": "user-provided",
+  "sourceURL": "https://www.usnews.com/best-colleges/rankings/national-universities",
+  "verifiedAt": null,
+  "importedAt": "2026-10-19",
+  "sourceTitle": "2027 U.S. News 美国大学综合排名 TOP 50",
+  "source": {
+    "type": "user-provided-pdf",
+    "file": "sources/USNews_2027_US_National_Universities_Top50.pdf",
+    "fileName": "USNews_2027_US_National_Universities_Top50.pdf",
+    "sha256": "69250b94bc5a3c3e5b4c2d7a6f5ed2c5035eeac127bb9de872f2d944d7cb60c9",
+    "pages": 2,
+    "publicationType": "整理版；文件注明并非 U.S. News 官方出版物",
+    "officialWebsiteIndependentlyVerified": false
+  },
+  "note": "按用户提供PDF逐行录入，保留全部并列名次及原表顺序；未独立核验官网。",
+  "entries": [
+    {
+      "schoolId": "mit",
+      "rank": 1,
+      "sourceOrder": 1,
+      "sourcePage": 1,
+      "sourceEnglishName": "Massachusetts Institute of Technology",
+      "sourceChineseName": "麻省理工学院"
+    },
+    {
+      "schoolId": "princeton",
+      "rank": 2,
+      "sourceOrder": 2,
+      "sourcePage": 1,
+      "sourceEnglishName": "Princeton University",
+      "sourceChineseName": "普林斯顿大学"
+    },
+    {
+      "schoolId": "harvard",
+      "rank": 3,
+      "sourceOrder": 3,
+      "sourcePage": 1,
+      "sourceEnglishName": "Harvard University",
+      "sourceChineseName": "哈佛大学"
+    },
+    {
+      "schoolId": "yale",
+      "rank": 4,
+      "sourceOrder": 4,
+      "sourcePage": 1,
+      "sourceEnglishName": "Yale University",
+      "sourceChineseName": "耶鲁大学"
+    },
+    {
+      "schoolId": "caltech",
+      "rank": 5,
+      "sourceOrder": 5,
+      "sourcePage": 1,
+      "sourceEnglishName": "California Institute of Technology",
+      "sourceChineseName": "加州理工学院"
+    },
+    {
+      "schoolId": "stanford",
+      "rank": 5,
+      "sourceOrder": 6,
+      "sourcePage": 1,
+      "sourceEnglishName": "Stanford University",
+      "sourceChineseName": "斯坦福大学"
+    },
+    {
+      "schoolId": "upenn",
+      "rank": 7,
+      "sourceOrder": 7,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Pennsylvania",
+      "sourceChineseName": "宾夕法尼亚大学"
+    },
+    {
+      "schoolId": "duke",
+      "rank": 8,
+      "sourceOrder": 8,
+      "sourcePage": 1,
+      "sourceEnglishName": "Duke University",
+      "sourceChineseName": "杜克大学"
+    },
+    {
+      "schoolId": "johns-hopkins",
+      "rank": 9,
+      "sourceOrder": 9,
+      "sourcePage": 1,
+      "sourceEnglishName": "Johns Hopkins University",
+      "sourceChineseName": "约翰斯   霍普金斯大学"
+    },
+    {
+      "schoolId": "northwestern",
+      "rank": 9,
+      "sourceOrder": 10,
+      "sourcePage": 1,
+      "sourceEnglishName": "Northwestern University",
+      "sourceChineseName": "西北大学"
+    },
+    {
+      "schoolId": "uchicago",
+      "rank": 9,
+      "sourceOrder": 11,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Chicago",
+      "sourceChineseName": "芝加哥大学"
+    },
+    {
+      "schoolId": "columbia",
+      "rank": 12,
+      "sourceOrder": 12,
+      "sourcePage": 1,
+      "sourceEnglishName": "Columbia University",
+      "sourceChineseName": "哥伦比亚大学"
+    },
+    {
+      "schoolId": "dartmouth",
+      "rank": 12,
+      "sourceOrder": 13,
+      "sourcePage": 1,
+      "sourceEnglishName": "Dartmouth College",
+      "sourceChineseName": "达特茅斯学院"
+    },
+    {
+      "schoolId": "cmu",
+      "rank": 14,
+      "sourceOrder": 14,
+      "sourcePage": 1,
+      "sourceEnglishName": "Carnegie Mellon University",
+      "sourceChineseName": "卡内基梅隆大学"
+    },
+    {
+      "schoolId": "cornell",
+      "rank": 14,
+      "sourceOrder": 15,
+      "sourcePage": 1,
+      "sourceEnglishName": "Cornell University",
+      "sourceChineseName": "康奈尔大学"
+    },
+    {
+      "schoolId": "brown",
+      "rank": 16,
+      "sourceOrder": 16,
+      "sourcePage": 1,
+      "sourceEnglishName": "Brown University",
+      "sourceChineseName": "布朗大学"
+    },
+    {
+      "schoolId": "rice",
+      "rank": 16,
+      "sourceOrder": 17,
+      "sourcePage": 1,
+      "sourceEnglishName": "Rice University",
+      "sourceChineseName": "莱斯大学"
+    },
+    {
+      "schoolId": "vanderbilt",
+      "rank": 16,
+      "sourceOrder": 18,
+      "sourcePage": 1,
+      "sourceEnglishName": "Vanderbilt University",
+      "sourceChineseName": "范德堡大学"
+    },
+    {
+      "schoolId": "washu",
+      "rank": 16,
+      "sourceOrder": 19,
+      "sourcePage": 1,
+      "sourceEnglishName": "Washington University in St. Louis",
+      "sourceChineseName": "圣路易斯华盛顿大学"
+    },
+    {
+      "schoolId": "berkeley",
+      "rank": 20,
+      "sourceOrder": 20,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of California, Berkeley",
+      "sourceChineseName": "加州大学伯克利分校"
+    },
+    {
+      "schoolId": "ucla",
+      "rank": 20,
+      "sourceOrder": 21,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of California, Los Angeles",
+      "sourceChineseName": "加州大学洛杉矶分校"
+    },
+    {
+      "schoolId": "notre-dame",
+      "rank": 20,
+      "sourceOrder": 22,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Notre Dame",
+      "sourceChineseName": "圣母大学"
+    },
+    {
+      "schoolId": "emory",
+      "rank": 23,
+      "sourceOrder": 23,
+      "sourcePage": 1,
+      "sourceEnglishName": "Emory University",
+      "sourceChineseName": "埃默里大学"
+    },
+    {
+      "schoolId": "georgetown",
+      "rank": 23,
+      "sourceOrder": 24,
+      "sourcePage": 1,
+      "sourceEnglishName": "Georgetown University",
+      "sourceChineseName": "乔治城大学"
+    },
+    {
+      "schoolId": "umich",
+      "rank": 25,
+      "sourceOrder": 25,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Michigan–Ann Arbor",
+      "sourceChineseName": "密歇根大学安娜堡分校"
+    },
+    {
+      "schoolId": "uva",
+      "rank": 26,
+      "sourceOrder": 26,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Virginia",
+      "sourceChineseName": "弗吉尼亚大学"
+    },
+    {
+      "schoolId": "unc",
+      "rank": 27,
+      "sourceOrder": 27,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of North Carolina–Chapel Hill",
+      "sourceChineseName": "北卡罗来纳大学教堂山分校"
+    },
+    {
+      "schoolId": "usc",
+      "rank": 27,
+      "sourceOrder": 28,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of Southern California",
+      "sourceChineseName": "南加州大学"
+    },
+    {
+      "schoolId": "georgia-tech",
+      "rank": 29,
+      "sourceOrder": 29,
+      "sourcePage": 1,
+      "sourceEnglishName": "Georgia Institute of Technology",
+      "sourceChineseName": "佐治亚理工学院"
+    },
+    {
+      "schoolId": "ucsd",
+      "rank": 29,
+      "sourceOrder": 30,
+      "sourcePage": 1,
+      "sourceEnglishName": "University of California San Diego",
+      "sourceChineseName": "加州大学圣迭戈分校"
+    },
+    {
+      "schoolId": "boston-college",
+      "rank": 31,
+      "sourceOrder": 31,
+      "sourcePage": 1,
+      "sourceEnglishName": "Boston College",
+      "sourceChineseName": "波士顿学院"
+    },
+    {
+      "schoolId": "nyu",
+      "rank": 31,
+      "sourceOrder": 32,
+      "sourcePage": 1,
+      "sourceEnglishName": "New York University",
+      "sourceChineseName": "纽约大学"
+    },
+    {
+      "schoolId": "tufts",
+      "rank": 31,
+      "sourceOrder": 33,
+      "sourcePage": 2,
+      "sourceEnglishName": "Tufts University",
+      "sourceChineseName": "塔夫茨大学"
+    },
+    {
+      "schoolId": "bu",
+      "rank": 34,
+      "sourceOrder": 34,
+      "sourcePage": 2,
+      "sourceEnglishName": "Boston University",
+      "sourceChineseName": "波士顿大学"
+    },
+    {
+      "schoolId": "uc-davis",
+      "rank": 34,
+      "sourceOrder": 35,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of California, Davis",
+      "sourceChineseName": "加州大学戴维斯分校"
+    },
+    {
+      "schoolId": "uc-irvine",
+      "rank": 34,
+      "sourceOrder": 36,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of California, Irvine",
+      "sourceChineseName": "加州大学欧文分校"
+    },
+    {
+      "schoolId": "uf",
+      "rank": 34,
+      "sourceOrder": 37,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Florida",
+      "sourceChineseName": "佛罗里达大学"
+    },
+    {
+      "schoolId": "uiuc",
+      "rank": 34,
+      "sourceOrder": 38,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Illinois Urbana-Champaign",
+      "sourceChineseName": "伊利诺伊大学厄巴纳-香槟分校"
+    },
+    {
+      "schoolId": "ut-austin",
+      "rank": 34,
+      "sourceOrder": 39,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Texas–Austin",
+      "sourceChineseName": "德克萨斯大学奥斯汀分校"
+    },
+    {
+      "schoolId": "wisconsin",
+      "rank": 34,
+      "sourceOrder": 40,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Wisconsin–Madison",
+      "sourceChineseName": "威斯康星大学麦迪逊分校"
+    },
+    {
+      "schoolId": "wake-forest",
+      "rank": 34,
+      "sourceOrder": 41,
+      "sourcePage": 2,
+      "sourceEnglishName": "Wake Forest University",
+      "sourceChineseName": "维克森林大学"
+    },
+    {
+      "schoolId": "northeastern",
+      "rank": 42,
+      "sourceOrder": 42,
+      "sourcePage": 2,
+      "sourceEnglishName": "Northeastern University",
+      "sourceChineseName": "东北大学（波士顿）"
+    },
+    {
+      "schoolId": "villanova",
+      "rank": 42,
+      "sourceOrder": 43,
+      "sourcePage": 2,
+      "sourceEnglishName": "Villanova University",
+      "sourceChineseName": "维拉诺瓦大学"
+    },
+    {
+      "schoolId": "case-western",
+      "rank": 44,
+      "sourceOrder": 44,
+      "sourcePage": 2,
+      "sourceEnglishName": "Case Western Reserve University",
+      "sourceChineseName": "凯斯西储大学"
+    },
+    {
+      "schoolId": "lehigh",
+      "rank": 44,
+      "sourceOrder": 45,
+      "sourcePage": 2,
+      "sourceEnglishName": "Lehigh University",
+      "sourceChineseName": "理海大学"
+    },
+    {
+      "schoolId": "ohio-state",
+      "rank": 44,
+      "sourceOrder": 46,
+      "sourcePage": 2,
+      "sourceEnglishName": "The Ohio State University",
+      "sourceChineseName": "俄亥俄州立大学"
+    },
+    {
+      "schoolId": "rutgers",
+      "rank": 44,
+      "sourceOrder": 47,
+      "sourcePage": 2,
+      "sourceEnglishName": "Rutgers University–New Brunswick",
+      "sourceChineseName": "罗格斯大学新布朗斯维克分校"
+    },
+    {
+      "schoolId": "ucsb",
+      "rank": 44,
+      "sourceOrder": 48,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of California, Santa Barbara",
+      "sourceChineseName": "加州大学圣巴巴拉分校"
+    },
+    {
+      "schoolId": "maryland",
+      "rank": 49,
+      "sourceOrder": 49,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Maryland, College Park",
+      "sourceChineseName": "马里兰大学帕克分校"
+    },
+    {
+      "schoolId": "rochester",
+      "rank": 49,
+      "sourceOrder": 50,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Rochester",
+      "sourceChineseName": "罗切斯特大学"
+    },
+    {
+      "schoolId": "washington",
+      "rank": 49,
+      "sourceOrder": 51,
+      "sourcePage": 2,
+      "sourceEnglishName": "University of Washington",
+      "sourceChineseName": "华盛顿大学（西雅图）"
+    }
+  ]
+}

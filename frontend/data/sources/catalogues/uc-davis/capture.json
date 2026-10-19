@@ -1,0 +1,83 @@
+{
+  "schoolId": "uc-davis",
+  "catalogURL": "https://grad.ucdavis.edu/programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "uc-davis",
+      "url": "https://grad.ucdavis.edu/graduate-programs",
+      "requestedURL": "https://grad.ucdavis.edu/programs",
+      "file": "frontend/data/sources/catalogues/uc-davis/5a1b73223a07e102.html",
+      "sha256": "5a1b73223a07e1025ba25ed6c66734d0f55e04cb21a55b2e71cc797a6dc9e8c1",
+      "capturedAt": "2026-10-19T12:01:52.093099+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 10,
+  "candidates": [
+    {
+      "label": "Master's & Doctoral Candidacy",
+      "url": "https://grad.ucdavis.edu/masters-doctoral-candidacy",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Completing the Master's Plan II or MFA",
+      "url": "https://grad.ucdavis.edu/passing-masters-examination",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Business Administration (MBA)",
+      "url": "https://grad.ucdavis.edu/programs/smba",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Education (Credential/M.A.)",
+      "url": "https://grad.ucdavis.edu/programs/gemc",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Master of Education and Teaching Credential",
+      "url": "https://grad.ucdavis.edu/programs/getc",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Master of Management",
+      "url": "https://grad.ucdavis.edu/programs/smmm",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Master of Management (Online)",
+      "url": "https://grad.ucdavis.edu/programs/smmo",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Nursing (Master's Entry Program in Nursing)",
+      "url": "https://grad.ucdavis.edu/programs/gnme",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Nursing Science and Health-Care Leadership (M.S.)",
+      "url": "https://grad.ucdavis.edu/programs/gnrs",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    },
+    {
+      "label": "Public Health (MPH)",
+      "url": "https://grad.ucdavis.edu/programs/mmph",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.ucdavis.edu/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

@@ -1,0 +1,29 @@
+{
+  "schoolId": "maryland",
+  "catalogURL": "https://gradschool.umd.edu/graduate-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "maryland",
+      "url": "https://gradschool.umd.edu/graduate-programs",
+      "requestedURL": "https://gradschool.umd.edu/graduate-programs",
+      "file": "frontend/data/sources/catalogues/maryland/c64b4984aa38486c.html",
+      "sha256": "c64b4984aa38486c04322c298b26506f6f49eb6c2a47915e1eb94c0cb83f8bc2",
+      "capturedAt": "2026-10-19T12:01:53.869072+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 1,
+  "candidates": [
+    {
+      "label": "doctoral and master’s programs",
+      "url": "https://academiccatalog.umd.edu/filters/",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://gradschool.umd.edu/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

@@ -1,0 +1,41 @@
+{
+  "schoolId": "rutgers",
+  "catalogURL": "https://grad.rutgers.edu/academics/graduate-programs",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "rutgers",
+      "url": "https://grad.rutgers.edu/academics/graduate-programs",
+      "requestedURL": "https://grad.rutgers.edu/academics/graduate-programs",
+      "file": "frontend/data/sources/catalogues/rutgers/7e6dd3694730751e.html",
+      "sha256": "7e6dd3694730751e3a1009f9b83c1d98b7afb87dba27b4e7b12c53cb636731e6",
+      "capturedAt": "2026-10-19T12:01:50.813383+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 3,
+  "candidates": [
+    {
+      "label": "Biomedical and Health Sciences - Master's Degree Programs",
+      "url": "https://grad.rutgers.edu/academics/graduate-programs/biomedical-and-health-sciences-all-degree-programs/masters-programs",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+    },
+    {
+      "label": "Biomedical Sciences - MBS & MS",
+      "url": "https://grad.rutgers.edu/node/902",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+    },
+    {
+      "label": "Biomedical Sciences – MS",
+      "url": "https://grad.rutgers.edu/academics/graduate-programs/biomedical-and-health-sciences-all-degree-programs/masters-programs/mbs",
+      "status": "candidate-needs-review",
+      "sourceURL": "https://grad.rutgers.edu/academics/graduate-programs"
+    }
+  ],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}

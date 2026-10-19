@@ -1,0 +1,392 @@
+[
+  {
+    "schoolId": "bu",
+    "imported": 243,
+    "units": 16,
+    "sourceURL": "https://www.bu.edu/academics/degree-programs/"
+  },
+  {
+    "schoolId": "case-western",
+    "imported": 88,
+    "units": 8,
+    "sourceURL": "https://bulletin.case.edu/academic-programs/"
+  },
+  {
+    "schoolId": "cornell",
+    "imported": 98,
+    "units": 7,
+    "sourceURL": "https://catalog.cornell.edu/programs/"
+  },
+  {
+    "schoolId": "georgia-tech",
+    "imported": 60,
+    "units": 1,
+    "sourceURL": "https://catalog.gatech.edu/programs/"
+  },
+  {
+    "schoolId": "johns-hopkins",
+    "imported": 155,
+    "units": 11,
+    "sourceURL": "https://e-catalogue.jhu.edu/programs/"
+  },
+  {
+    "schoolId": "mit",
+    "imported": 22,
+    "units": 6,
+    "sourceURL": "https://catalog.mit.edu/degree-charts/"
+  },
+  {
+    "schoolId": "nyu",
+    "imported": 226,
+    "units": 15,
+    "sourceURL": "https://bulletins.nyu.edu/programs/"
+  },
+  {
+    "schoolId": "northwestern",
+    "imported": 102,
+    "units": 15,
+    "sourceURL": "https://www.northwestern.edu/academics/graduate-a-to-z.html"
+  },
+  {
+    "schoolId": "ohio-state",
+    "imported": 132,
+    "units": 1,
+    "sourceURL": "https://gpadmissions.osu.edu/programs/"
+  },
+  {
+    "schoolId": "princeton",
+    "imported": 13,
+    "units": 1,
+    "sourceURL": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 5,
+    "units": 3,
+    "sourceURL": "https://www.tufts.edu/graduate-programs"
+  },
+  {
+    "schoolId": "berkeley",
+    "imported": 113,
+    "units": 1,
+    "sourceURL": "https://grad.berkeley.edu/admissions/our-programs/"
+  },
+  {
+    "schoolId": "uiuc",
+    "imported": 151,
+    "units": 1,
+    "sourceURL": "https://catalog.illinois.edu/graduate/"
+  },
+  {
+    "schoolId": "umich",
+    "imported": 75,
+    "units": 15,
+    "sourceURL": "https://rackham.umich.edu/programs-of-study/"
+  },
+  {
+    "schoolId": "notre-dame",
+    "imported": 31,
+    "units": 1,
+    "sourceURL": "https://graduateschool.nd.edu/degree-programs/"
+  },
+  {
+    "schoolId": "upenn",
+    "imported": 96,
+    "units": 1,
+    "sourceURL": "https://catalog.upenn.edu/graduate/programs/"
+  },
+  {
+    "schoolId": "wisconsin",
+    "imported": 144,
+    "units": 85,
+    "sourceURL": "https://guide.wisc.edu/graduate/"
+  },
+  {
+    "schoolId": "yale",
+    "imported": 23,
+    "units": 1,
+    "sourceURL": "https://gsas.yale.edu/programs-of-study?level%5B19%5D=19"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 16,
+    "units": 6,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 16,
+    "units": 5,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=1"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 16,
+    "units": 5,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=2"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 16,
+    "units": 4,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=3"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 16,
+    "units": 5,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=4"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 12,
+    "units": 6,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A23&page=5"
+  },
+  {
+    "schoolId": "tufts",
+    "imported": 5,
+    "units": 4,
+    "sourceURL": "https://www.tufts.edu/graduate-programs?f%5B0%5D=degree_type%3A271"
+  },
+  {
+    "schoolId": "stanford",
+    "imported": 47,
+    "units": 7,
+    "sourceURL": "https://applygrad.stanford.edu/portal/explore-programs?cmd=grad-program-list"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ANTH"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ART"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHEM"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CHST"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=COMM"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CLIT"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CMPSC"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=CNCSP"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ERTSC"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EALCS"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EEMB"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ECON"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=EDUC"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ETL"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ENGL"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ESM"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FEMST"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=FLMST"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GEOG"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=GLOBL"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=HIST"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ARTHI"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=BMSE"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LAIS"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=LING"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MARSC"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 3,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATRL"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 3,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MATH"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=ME"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MAT"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=MCDB"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=PHIL"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=POLS"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=RELST"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SOC"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=SPPT"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 3,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=STATS"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 1,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=TMP"
+  },
+  {
+    "schoolId": "ucsb",
+    "imported": 2,
+    "units": 1,
+    "sourceURL": "https://engage.graddiv.ucsb.edu/portal/programs?cmd=dept&code=THTDA"
+  }
+]

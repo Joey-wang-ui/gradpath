@@ -1,0 +1,22 @@
+{
+  "schoolId": "northeastern",
+  "catalogURL": "https://graduate.northeastern.edu/programs/",
+  "degreeScope": "masters",
+  "status": "captured-needs-review",
+  "capturedPages": [
+    {
+      "schoolId": "northeastern",
+      "url": "https://graduate.northeastern.edu/programs/",
+      "requestedURL": "https://graduate.northeastern.edu/programs/",
+      "file": "frontend/data/sources/catalogues/northeastern/45e165135e131534.html",
+      "sha256": "45e165135e13153428c430a7d9784d240e591e9d5c74067301bd1905287fa065",
+      "capturedAt": "2026-10-19T12:01:49.644647+00:00",
+      "status": "captured-not-reviewed"
+    }
+  ],
+  "candidateCount": 0,
+  "candidates": [],
+  "failures": [],
+  "coverage": "not-reviewed",
+  "complete": false
+}
