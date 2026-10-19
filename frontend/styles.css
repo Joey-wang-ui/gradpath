@@ -1,4 +1,4 @@
-/* Gradpath — warm, confident, and a little closer to your next chapter. */
+/* Gradpath — warm, curious, and a little closer to your next chapter. */
 :root {
   color-scheme: light;
   --bg: #f7f8f2;
@@ -2339,3 +2339,156 @@ nav a { font-size:15px;min-height:49px;color:#63745f; }
 .degree-type{max-width:70%;text-align:right;overflow-wrap:anywhere}
 
 .workspace-select{gap:9px;padding-inline:10px}.workspace-icon{flex-shrink:0}.workspace-select small{letter-spacing:.35px;white-space:nowrap}.workspace-select small span{margin-left:5px;white-space:nowrap}
+
+/* Next chapter: paper texture, orbital sketches, and little moments of delight.
+   Inspired by Joey's personal archive; all decoration remains self-contained. */
+:root {
+  --spark: #4869b1;
+  --lavender: #eeebfb;
+  --peach: #fff0df;
+}
+body {
+  background-image: radial-gradient(#5776580b .65px, transparent .8px);
+  background-size: 6px 6px;
+}
+.sidebar { background: #fffefaed; }
+.topbar { background: #fffefaf2; }
+.eyebrow { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+.brand-dot { color: var(--spark); }
+nav a.active { background: linear-gradient(110deg, #e5efd9, #edf3e5); }
+.hero {
+  isolation: isolate;
+  border-color: #d3dfc3;
+  background: linear-gradient(115deg, #edf3dc 12%, #e8f0df 59%, #e4eaf4);
+  box-shadow: 0 6px 0 #dae3cc40, 0 16px 40px #354e4710;
+}
+.hero::before {
+  inset: 0;
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: inherit;
+  background-image: linear-gradient(#71947516 1px, transparent 1px), linear-gradient(90deg, #71947516 1px, transparent 1px);
+  background-size: 36px 36px;
+  mask-image: linear-gradient(100deg, transparent 25%, #000 100%);
+}
+.hero::after {
+  width: 300px;
+  height: 300px;
+  right: -65px;
+  top: -80px;
+  border: 0;
+  background: radial-gradient(circle, #c0c9ed80, #c0c9ed00 70%);
+}
+.hero-topline { color: #526c4b; }
+.hero-title-accent { color: var(--spark); }
+.hero-title-accent::after {
+  height: 7px;
+  bottom: 0;
+  background: #afc4e2;
+  border-radius: 50%;
+  transform-origin: left;
+  animation: chapter-underline 850ms 250ms var(--ease) both;
+}
+.hero .primary-button { box-shadow: 3px 4px 0 #163e3220; }
+.hero-copy .hero-bottomline { color: #617451; }
+.hero-copy .hero-bottomline > span { color: var(--spark); animation: chapter-spin 30s linear infinite; }
+.hero-scene { right: 10px; bottom: 50px; }
+.journey-orbits { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; fill: none; stroke: #7996bb; stroke-width: .85; }
+.journey-orbit-track { transform-origin: 180px 150px; animation: chapter-spin 34s linear infinite; }
+.journey-orbit-dash { stroke-dasharray: 7 10; stroke: #6c8dcc; }
+.journey-orbit-node { fill: var(--spark); stroke: #f7faf3; stroke-width: 2; }
+.journey-orbit-cross { stroke: #8ba3bd; }
+.scene-spark { position: absolute; top: 20px; right: 12px; color: #7ca44e; font-size: 49px; line-height: 1; animation: chapter-spin 38s linear infinite reverse; }
+.orbit-label {
+  padding: 10px 12px;
+  border: 1px solid #b8c9d3;
+  border-radius: 5px;
+  background: #fffef9f5;
+  color: #49677d;
+  box-shadow: 4px 5px 0 #4d6d7b0c;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 10px;
+  animation: chapter-float 7s ease-in-out infinite;
+}
+.orbit-one { top: 38px; right: 30px; }
+.orbit-two { bottom: 26px; left: -5px; background: #f7f2ff; border-color: #c6bcdd; color: #70628e; animation-delay: -3.5s; }
+.scene-caption, .scene-caption b { color: #5e7b92; }
+.stat-card { border-color: #d4dfcd; background: #eef4e4; box-shadow: 0 3px 0 #dfe7d247; }
+.stat-card:nth-child(2) { background: var(--lavender); border-color: #dcd6ed; }
+.stat-card:nth-child(3) { background: var(--peach); border-color: #edddca; }
+.stat-card:nth-child(2) .stat-value, .stat-card:nth-child(2) .stat-label i { color: #716092; }
+.stat-card:nth-child(3) .stat-value, .stat-card:nth-child(3) .stat-label i { color: #926039; }
+.stat-label, .stat-value small, .stat-foot { color: #5f7155; }
+.stat-card:nth-child(2) .stat-label, .stat-card:nth-child(2) .stat-value small, .stat-card:nth-child(2) .stat-foot { color: #726787; }
+.stat-card:nth-child(3) .stat-label, .stat-card:nth-child(3) .stat-value small, .stat-card:nth-child(3) .stat-foot { color: #826c52; }
+.stat-card::after { opacity: 1; width: 65px; height: 65px; border-color: currentColor; color: #78926220; }
+.stat-card:nth-child(2)::after { color: #8c7da027; }
+.stat-card:nth-child(3)::after { color: #ae865b27; }
+.tiny-bar { background: #dac7ad60; }
+.tiny-bar > span { background: #b78a55; }
+.journey-step { border-radius: 7px; transition: background .2s, color .2s; }
+.journey-step:hover { background: #e8eedd; }
+.journey-step.active > span { background: var(--lavender); border-color: #c7bbdf; color: #716092; }
+.assistant-card { background: linear-gradient(145deg, #234d40, #163d37 65%, #254b55); box-shadow: 0 6px 0 #d6e0d566; }
+.assistant-mark { color: #d2eaa0; }
+.assistant-status { background: #d2eaa0; }
+.deadline-card { box-shadow: 4px 5px 0 #e5e9e055; }
+.journey-note { border: 1px dashed #d8cbe6; border-radius: 12px; background: linear-gradient(135deg, #f7f3fc, #f2f3e9); }
+.journey-note .leaf { color: #8872a6; }
+.school-card { transition: transform .35s var(--ease), box-shadow .35s var(--ease), border-color .25s; }
+.catalog-hero { box-shadow: 0 6px 0 #dce4d640; }
+.catalog-hero-art > b { color: var(--spark); }
+.motion-control { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 36px; padding: 6px 9px; border: 1px solid #dce3d5; border-radius: 8px; background: #f5f7ed; color: #5c7454; font-size: 11px; white-space: nowrap; }
+.motion-control svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; }
+.motion-control:hover { background: #eaf0df; }
+.motion-control[aria-pressed="true"] { background: #eeeaf7; border-color: #dad2e8; color: #72618b; }
+.motion-play, .motion-control[aria-pressed="true"] .motion-pause { display: none; }
+.motion-control[aria-pressed="true"] .motion-play { display: block; }
+.motion-control:disabled { opacity: 1; cursor: default; }
+@keyframes chapter-spin { to { rotate: 360deg; } }
+@keyframes chapter-float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@keyframes chapter-underline { from { scale: 0 1; } to { scale: 1 1; } }
+@media (hover: hover) and (pointer: fine) {
+  html:not([data-motion="paused"]) .stat-card:hover,
+  html:not([data-motion="paused"]) .school-card:hover {
+    transform: perspective(900px) translateY(-4px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+    box-shadow: 0 14px 28px #2e4f3d14;
+  }
+  html:not([data-motion="paused"]) .primary-button:hover { transform: translateY(-2px); }
+}
+@media (max-width: 1180px) {
+  .motion-control { width: 34px; padding: 6px; }
+  .motion-control span { display: none; }
+  .orbit-label { font-size: 9px; padding: 8px; }
+}
+@media (max-width: 760px) {
+  .hero { box-shadow: 0 4px 0 #dae3cc40; }
+  .hero-scene { right: -5px; bottom: 50px; }
+  .scene-spark { font-size: 32px; top: 20px; right: 15px; }
+  .orbit-one { top: 32px; right: 5px; }
+  .orbit-two { left: 5px; bottom: 22px; }
+  .motion-control { min-height: 34px; width: 30px; padding: 5px; }
+  .hero-title-accent::after { height: 5px; }
+}
+@media (max-width: 480px) {
+  .orbit-label { padding: 6px 7px; font-size: 7px; }
+  .orbit-one { top: 22px; right: 9px; }
+  .orbit-two { left: 0; bottom: 22px; }
+  .hero-scene { right: 5px; bottom: 42px; }
+  .scene-spark { top: 5px; right: 13px; }
+}
+html[data-motion="paused"], html[data-motion="paused"] *, html[data-motion="paused"] *::before, html[data-motion="paused"] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
+}
+html[data-motion="paused"] .hero-scene { transform: none; }
+html[data-motion="paused"] .stat-card:hover, html[data-motion="paused"] .school-card:hover { transform: none; }
+html.motion-sleeping *, html.motion-sleeping *::before, html.motion-sleeping *::after { animation-play-state: paused !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+@media print {
+  .motion-control, .journey-orbits, .scene-spark { display: none !important; }
+}

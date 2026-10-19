@@ -146,7 +146,7 @@ function overview() {
   const percent = Math.round(state.completed.length / tasks.length * 100);
   return `${heading('你好，同学','新的一天，离你的理想再近一点。','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
     ${SeasonWorkspace.overview()}<div class="main-grid"><div class="main-column">
-    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#schools" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✳</span> A little closer, every day.</div></div><div class="hero-scene"><div class="scene-orbit"></div>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
+    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#schools" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✳</span> A little closer, every day.</div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✳</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
     <div class="overview-jumpbar" aria-label="申请路线">${[['schools','01','探索选校','complete'],['applications','02','准备材料','active'],['documents','03','打磨文书',''],['applications','04','提交申请','']].map(([route,n,title,cls])=>`<a href="#${route}" class="journey-step ${cls}"><span>${cls==='complete'?'✓':n}</span><strong>${title}</strong>${icon('arrow')}</a>`).join('')}</div>
     <div class="stats-grid"><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">申请项目 ${icon('school')}</div><div class="stat-value">${String(ProgramWorkspace.items().length).padStart(2,'0')}<small>个项目</small></div><div class="stat-foot"><span>我的申请清单</span> ${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="documents"><div class="stat-label">文书工作区 ${icon('document')}</div><div class="stat-value">${String(documents.length).padStart(2,'0')}<small>份文档</small></div><div class="stat-foot"><span>让你的故事被看见</span>${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">材料准备进度 ${icon('folder')}</div><div class="stat-value">${percent}<small>% 已完成</small></div><div class="stat-foot"><div class="tiny-bar"><span style="width:${percent}%"></span></div><span>${state.completed.length}/${tasks.length}</span></div></button></div>
     <section><div class="section-heading"><h2><span class="section-number">01</span>今天，往前一步 <span>${tasks.length-state.completed.length} 项待办</span></h2><button class="view-all" data-action="add-task">${icon('plus')}添加待办</button></div><div class="task-panel-top"><span>小小行动，大大进展</span><div class="segmented" aria-label="待办筛选"><button data-action="task-filter" data-filter="pending" class="${taskFilter==='pending'?'active':''}">待完成</button><button data-action="task-filter" data-filter="completed" class="${taskFilter==='completed'?'active':''}">已完成</button></div></div><div class="tasks-panel">${taskRows()}</div></section>
@@ -222,6 +222,7 @@ function render() {
   document.querySelector('#account-name').textContent = state.profile.name || '同学';
   document.title = `${pageNames[activePage]} · Gradpath`;
   renderCompareBar();
+  VisualMotion.reveal(document.querySelector('#main-content'));
 }
 function goTo(target, updateURL = true) {
   activePage = pages[target] ? target : 'overview';
@@ -302,6 +303,7 @@ function showCommand() {
 }
 function refreshLibrary() {
   document.querySelector('#school-results').innerHTML=libraryResults();
+  VisualMotion.reveal(document.querySelector('#school-results'));
   document.querySelector('#result-count').textContent=`${matchingSchools().length} 个结果`;
   document.querySelector('[data-action="clear-school-search"]').hidden=!search;
 }
@@ -442,16 +444,9 @@ document.addEventListener('dragend',event=>{event.target.closest('[data-drag-sch
 document.addEventListener('dragover',event=>{const column=event.target.closest('[data-drop-status]');if(column){event.preventDefault();column.classList.add('drop-ready');}});
 document.addEventListener('dragleave',event=>{const column=event.target.closest('[data-drop-status]');if(column&&!column.contains(event.relatedTarget))column.classList.remove('drop-ready');});
 document.addEventListener('drop',event=>{const column=event.target.closest('[data-drop-status]');if(!column)return;event.preventDefault();const id=event.dataTransfer.getData('text/plain');if(!ProgramWorkspace.items().some(s=>s.id===id))return;state.statuses[id]=column.dataset.dropStatus;save();render();toast(`已更新为「${column.dataset.dropStatus}」`);});
-document.addEventListener('pointermove',event=>{
-  const hero=event.target.closest('.hero');
-  if(!hero||event.pointerType==='touch'||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
-  const rect=hero.getBoundingClientRect();
-  hero.style.setProperty('--scene-x',`${(event.clientX-rect.left-rect.width/2)/rect.width*10}px`);
-  hero.style.setProperty('--scene-y',`${(event.clientY-rect.top-rect.height/2)/rect.height*8}px`);
-},{passive:true});
-document.addEventListener('pointerout',event=>{const hero=event.target.closest('.hero');if(hero&&!hero.contains(event.relatedTarget)){hero.style.setProperty('--scene-x','0px');hero.style.setProperty('--scene-y','0px');}},{passive:true});
 window.addEventListener('hashchange',()=>{closeModal();navigate();});
 window.addEventListener('popstate',()=>{closeModal();navigate();});
+VisualMotion.init();
 hydrateIcons();navigate();
 
 function contactAuthor() {

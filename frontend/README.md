@@ -21,11 +21,13 @@ python3.12 scripts/build_frontend.py
 
 此前的 6 个项目和截止日期保留为明确标注的演示内容；其余学校不提供未核验的项目日期。文书助手已实现服务端 GPT 接口和浏览器对话，需要配置服务端密钥才会调用 OpenAI；未接通时会明确提示，并可选用本地规则提示。不访问真实数据库。
 
-页面使用系统字体，不依赖外部资源。`styles.css`、`assistant.js`、`map.js`、`app.js`、`documents.js`、`applications.js`、`shortlist.js`、`seasons.js`、`programs.js` 和 `data/*.json` 是可编辑源文件。构建会校验排名年份、来源和完整性，再将数据及脚本内嵌。修改后运行以下命令更新独立页面，再重新打开预览：
+页面使用系统字体，不依赖外部资源。`styles.css`、`assistant.js`、`map.js`、`app.js`、`documents.js`、`applications.js`、`shortlist.js`、`seasons.js`、`programs.js`、`motion.js` 和 `data/*.json` 是可编辑源文件。构建会校验排名年份、来源和完整性，再将数据及脚本内嵌。修改后运行以下命令更新独立页面，再重新打开预览：
 
 ```bash
 python3.12 scripts/build_frontend.py
 ```
+
+视觉样式参考作者作品集中的网格纸、轨道线与漂浮标签，使用绿色主调及蓝紫、杏色点缀。`motion.js` 提供卡片滚动入场和精细指针下的轻微倾斜；触屏不启用指针动效。顶栏的动效按钮可暂停动画，选择以独立的 `gradpath-motion` 键保存；系统开启“减少动态效果”时自动使用静态显示。存储受限时仍可在当前页面切换，不影响原有申请数据。
 
 ## 浏览器检查
 

@@ -10,7 +10,7 @@ from program_catalog import load_program_catalog
 from map_data import build_map
 
 FRONTEND = Path(__file__).resolve().parents[1] / 'frontend'
-MODULES=('assistant.js','map.js','programs.js','documents.js','applications.js','shortlist.js','seasons.js','app.js')
+MODULES=('assistant.js','map.js','programs.js','documents.js','applications.js','shortlist.js','seasons.js','motion.js','app.js')
 
 
 def replace_section(document: str, name: str, content: str) -> str:

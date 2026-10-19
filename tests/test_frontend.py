@@ -613,3 +613,50 @@ def test_large_catalogue_search_and_pagination(page):
     assert all(t=='MS' for t in page.locator('.degree-type').all_text_contents())
     page.set_viewport_size({'width':390,'height':844})
     assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
+
+
+def test_motion_pause_survives_navigation_and_reload(page):
+    # Includes both CSS decoration and JS scroll reveals in the standalone build.
+    orbit = page.locator('.journey-orbit-track')
+    assert orbit.evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
+    page.get_by_role('button', name='暂停动效', exact=True).click()
+    expect(page.get_by_role('button', name='开启动效', exact=True)).to_have_attribute('aria-pressed', 'true')
+    page.wait_for_function("document.getAnimations().every(a => a.playState !== 'running')")
+    assert orbit.evaluate("el => getComputedStyle(el).animationName") == 'none'
+    navigate(page, 'schools', '寻找属于你的下一站')
+    page.get_by_role('textbox', name='搜索学校、专业或城市').fill('波士顿大学')
+    assert page.locator('.school-card').count() == 1
+    assert page.evaluate("document.getAnimations().every(a => a.playState !== 'running')")
+    page.reload()
+    expect(page.get_by_role('button', name='开启动效', exact=True)).to_have_attribute('aria-pressed', 'true')
+    page.get_by_role('button', name='开启动效', exact=True).click()
+    navigate(page, 'overview', '你好，同学')
+    assert page.locator('.journey-orbit-track').evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
+
+
+def test_motion_follows_live_system_preference(page):
+    page.emulate_media(reduced_motion='reduce')
+    expect(page.get_by_role('button', name='已跟随系统减少动效', exact=True)).to_be_disabled()
+    page.wait_for_function("document.getAnimations().every(a => a.playState !== 'running')")
+    page.emulate_media(reduced_motion='no-preference')
+    expect(page.get_by_role('button', name='暂停动效', exact=True)).to_be_enabled()
+    page.get_by_role('button', name='暂停动效', exact=True).click()
+    page.emulate_media(reduced_motion='reduce')
+    expect(page.get_by_role('button', name='已跟随系统减少动效', exact=True)).to_be_disabled()
+    page.emulate_media(reduced_motion='no-preference')
+    expect(page.get_by_role('button', name='开启动效', exact=True)).to_be_enabled()
+
+
+def test_pausing_motion_clears_pointer_depth(page):
+    page.wait_for_timeout(800)
+    hero = page.locator('.hero')
+    bounds = hero.bounding_box()
+    page.mouse.move(bounds['x'] + bounds['width'] * .8, bounds['y'] + bounds['height'] * .3)
+    page.wait_for_function("document.querySelector('.hero').style.getPropertyValue('--scene-x') !== ''")
+    # Keyboard toggling does not implicitly clear depth by moving the pointer away.
+    page.get_by_role('button', name='暂停动效', exact=True).focus()
+    page.keyboard.press('Enter')
+    assert hero.evaluate("el => el.style.getPropertyValue('--scene-x')") == ''
+    page.mouse.move(bounds['x'] + bounds['width'] * .7, bounds['y'] + bounds['height'] * .4)
+    page.wait_for_timeout(50)
+    assert hero.evaluate("el => el.style.getPropertyValue('--scene-x')") == ''
