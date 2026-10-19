@@ -2485,7 +2485,7 @@ main[data-page="overview"] .main-column,main[data-page="overview"] .right-column
 .crest-cluster { position:absolute; inset:0; }
 .crest-cluster::before { position:absolute; top:4%; left:10%; width:84%; aspect-ratio:1; border:0; border-radius:50%; background:radial-gradient(ellipse at 48% 45%,#d4e4f8b8 0%,#d7e7f993 42%,#dfedfb4d 64%,transparent 78%); filter:blur(2px); content:""; }
 .hero-crest { position:absolute; z-index:1; display:flex; align-items:center; justify-content:center; aspect-ratio:1; border:0; background:transparent; box-shadow:none; mix-blend-mode:multiply; transform:translate(-50%,-50%) rotate(var(--crest-angle)); animation:crest-drift 7s ease-in-out infinite; }
-.hero-crest img { display:block; width:90%; height:90%; object-fit:contain; filter:saturate(.65) contrast(.97); opacity:.9; mask-image:radial-gradient(ellipse closest-side at center,#000 62%,#000d 77%,#0006 90%,transparent 100%); }
+.hero-crest img { display:block; width:90%; height:90%; object-fit:contain; transform:scale(1.22); filter:saturate(.65) contrast(.97); opacity:.9; mask-image:radial-gradient(ellipse closest-side at center,#000 62%,#000d 77%,#0006 90%,transparent 100%); }
 @keyframes crest-drift { 50% { translate:0 -5px; } }
 .journey-orbits { position:absolute; inset:0; width:100%; height:100%; overflow:visible; fill:none; stroke:#8ba8ce; stroke-width:.8; opacity:.65; }
 .journey-orbit-track { transform-origin:180px 150px; animation:chapter-spin 38s linear infinite; }
