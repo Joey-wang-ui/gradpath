@@ -738,14 +738,15 @@ def test_compact_home_keeps_application_entries_and_agent(page):
     expect(page.locator('.deadline-card')).to_be_visible()
     expect(page.locator('.featured-section, .tasks-panel, .journey-note')).to_have_count(0)
     page.get_by_role('link', name='发现理想项目', exact=False).click()
-    expect(page.get_by_role('heading', name='找到适合你的专业')).to_be_visible()
+    expect(page.get_by_role('heading', name='专业搜索')).to_be_visible()
     expect(page.locator('[data-nav="programs"]')).to_have_attribute('aria-current', 'page')
 
 
 def test_cross_school_search_categories_and_combined_filters(page):
-    navigate(page, 'programs', '找到适合你的专业')
+    navigate(page, 'programs', '专业搜索')
     search = page.get_by_role('textbox', name='搜索跨校专业')
     search.fill('Computer Science')
+    expect(page.get_by_role('complementary', name='专业分类').get_by_role('button', name=re.compile('艺术与设计'))).to_be_disabled()
     assert len(set(page.locator('.cross-program-card').evaluate_all('els => els.map(el => el.dataset.schoolId)'))) > 1
     page.get_by_role('complementary', name='专业分类').get_by_role('button', name=re.compile('计算机与信息')).click()
     page.get_by_role('combobox', name='筛选专业所属学校').select_option('nyu')
@@ -763,7 +764,7 @@ def test_cross_school_search_categories_and_combined_filters(page):
 
 
 def test_cross_school_paging_empty_reset_and_chinese_alias(page):
-    navigate(page, 'programs', '找到适合你的专业')
+    navigate(page, 'programs', '专业搜索')
     expect(page.locator('.cross-program-card')).to_have_count(24)
     page.get_by_role('button', name='继续加载专业', exact=True).click()
     expect(page.locator('.cross-program-card')).to_have_count(48)
@@ -787,7 +788,7 @@ def test_cross_school_paging_empty_reset_and_chinese_alias(page):
 
 
 def test_cross_school_additions_persist_for_separate_universities(page):
-    navigate(page, 'programs', '找到适合你的专业')
+    navigate(page, 'programs', '专业搜索')
     page.get_by_role('textbox', name='搜索跨校专业').fill('Computer Science')
     school = page.get_by_role('combobox', name='筛选专业所属学校')
     school.select_option('nyu')
@@ -805,7 +806,7 @@ def test_cross_school_additions_persist_for_separate_universities(page):
 @pytest.mark.parametrize('width', [320, 390, 768])
 def test_program_search_fits_mobile_and_category_filters(page, width):
     page.set_viewport_size({'width':width, 'height':844})
-    navigate(page, 'programs', '找到适合你的专业')
+    navigate(page, 'programs', '专业搜索')
     page.get_by_role('button', name=re.compile('艺术与设计')).click()
     expect(page.get_by_role('button', name=re.compile('艺术与设计'))).to_have_attribute('aria-pressed', 'true')
     assert set(page.locator('.cross-program-card .degree-field').all_text_contents()) == {'艺术与设计'}

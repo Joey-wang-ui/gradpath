@@ -103,5 +103,5 @@ const ProgramWorkspace = (() => {
   }
   function onInput(input) {if(input.id==='program-search'){query=input.value;visibleLimit=24;refresh();}}
   function onChange(input){if(input.id==='program-degree')degreeFilter=input.value;else if(input.id==='program-mode')modeFilter=input.value;else return;visibleLimit=24;refresh();}
-  return {open, handle, onInput, onChange, items, resolve, choices, renderCard:card, get:id=>programIndex.get(id)};
+  return {open, handle, onInput, onChange, items, resolve, choices, addButton, get:id=>programIndex.get(id)};
 })();
