@@ -11,12 +11,12 @@ permissions:
 jobs:
   reset-stale-runs:
     name: Clear obsolete deployment runs
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-24.04-arm
     timeout-minutes: 5
     permissions:
       actions: write
     steps:
-      - name: Cancel only the four superseded Gradpath runs
+      - name: Cancel only the superseded Gradpath runs
         uses: actions/github-script@v7
         with:
           script: |
@@ -25,6 +25,7 @@ jobs:
               {id: 39279096351, sha: '7428aec'},
               {id: 39279958322, sha: '623224f'},
               {id: 39281345994, sha: '8b3d493'},
+              {id: 39281929129, sha: '9e62a25'},
             ];
             for (const item of obsolete) {
               const params = {...context.repo, run_id: item.id};
@@ -39,8 +40,15 @@ jobs:
                   String(run.id) === String(context.runId)) {
                 throw new Error(`Run ${item.id} does not match the obsolete deployment.`);
               }
-              await github.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel', params);
-              core.info(`Requested force cancellation of superseded run ${item.id}.`);
+              try {
+                await github.request('POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel', params);
+              } catch (error) {
+                if (![409, 422].includes(error.status)) throw error;
+                const {data: current} = await github.rest.actions.getWorkflowRun(params);
+                if (current.status === 'completed') continue;
+                await github.rest.actions.cancelWorkflowRun(params);
+              }
+              core.info(`Requested cancellation of superseded run ${item.id}.`);
             }
             for (let attempt = 0; attempt < 24; attempt++) {
               const pending = [];
@@ -49,7 +57,7 @@ jobs:
                 if (run.status !== 'completed') pending.push(item.id);
               }
               if (!pending.length) {
-                core.info('All four obsolete runs have finished. The new build may proceed.');
+                core.info('All obsolete runs have finished. The new build may proceed.');
                 return;
               }
               core.info(`Waiting for cancellation: ${pending.join(', ')}`);
