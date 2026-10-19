@@ -2422,14 +2422,15 @@ nav a.active::before,.library-nav-toggle.active::before { left:-16px; background
 .contact-author-button:hover { border-color:#e3eaf3; background:#f7f9fc; }
 
 /* Home: one main action, then the student's own work and dates. */
+.overview-title { display:inline-block; }
 main[data-page="overview"] .main-grid { display:grid; grid-template-columns:minmax(0,1fr) 324px; gap:18px 22px; align-items:stretch; }
 main[data-page="overview"] .main-column,main[data-page="overview"] .right-column { display:contents; }
-.hero { grid-column:1; grid-row:1; display:flex; align-items:center; min-height:320px; padding:28px; background:linear-gradient(115deg,#fff 5%,#f4f9ff 55%,#e8f2ff); border-color:#dce7f5; border-radius:15px; box-shadow:none; }
+.hero { grid-column:1; grid-row:1; container-type:inline-size; display:flex; align-items:center; min-height:320px; padding:28px; background:linear-gradient(115deg,#fff 5%,#f4f9ff 55%,#e8f2ff); border-color:#dce7f5; border-radius:15px; box-shadow:none; }
 .hero::before { inset:0; width:auto; height:auto; border:0; border-radius:inherit; background-image:linear-gradient(#8ba6c612 1px,transparent 1px),linear-gradient(90deg,#8ba6c612 1px,transparent 1px); background-size:34px 34px; mask-image:linear-gradient(90deg,transparent 40%,#000); }
 .hero::after { display:none; }
 .hero-copy { width:63%; max-width:none; }
 .hero-topline { font-size:10px; letter-spacing:1px; color:#7f98b7; margin-bottom:17px; }
-.hero h2 { margin-bottom:14px; color:#2c4a70; font-size:41px; line-height:1.35; letter-spacing:-1.3px; }
+.hero h2 { margin-bottom:14px; color:#2c4a70; font-size:clamp(23px,5.7cqw,41px); line-height:1.35; letter-spacing:-1.3px; }
 .hero-title-accent { color:#6090cf; }
 .hero-title-accent::after { height:5px; background:#d3e4fb; transform-origin:left; animation:chapter-underline .8s var(--ease) both; }
 .hero p { color:#6b7f99; font-size:12px; line-height:1.85; margin-bottom:22px; }
@@ -2598,7 +2599,7 @@ main[data-page="overview"] .deadline-card { grid-column:1/-1; grid-row:3; displa
   .hero { min-height:310px; padding:24px; border-radius:13px; }
   .hero-copy { width:100%; }
   .hero-topline { font-size:9px; margin-bottom:16px; }
-  .hero h2 { font-size:35px; line-height:1.35; }
+  .hero h2 { font-size:clamp(23px,10cqw,35px); line-height:1.35; }
   .hero p { font-size:12px; max-width:230px; margin-bottom:18px; }
   .hero-actions { flex-direction:row; gap:13px; }
   .hero .primary-button { min-height:38px; font-size:11px; }
@@ -3704,7 +3705,7 @@ const campus = `<svg class="campus-art" viewBox="0 0 370 270" fill="none" aria-h
  </svg>`;
 
 function heading(title, sub, eyebrow, action = '') {
-  return `<div class="page-heading"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1><p>${sub}</p></div>${action}</div>`;
+  return `<div class="page-heading"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1>${sub?`<p>${sub}</p>`:''}</div>${action}</div>`;
 }
 function schoolLogo(s) {
   return `<div class="school-logo ${s.crestDataURL?'has-crest':''}" style="--school-color:${s.color};--school-bg:${s.bg}">${s.crestDataURL?`<img class="school-crest" ${s.crestFit==='cover'?'style="object-fit:cover"':''} src="${s.crestDataURL}" alt="${escapeHTML(s.name)}校徽" width="64" height="64" decoding="async">`:`<span>${s.initial}</span>`}</div>`;
@@ -3731,13 +3732,13 @@ function deadlineRows() {
   return dated.length ? dated.sort((a,b)=>dateOrder(a)-dateOrder(b)).slice(0,3).map(s=>`<div class="deadline-row"><div class="deadline-date"><span>${s.month}</span>${s.day}</div><div><div class="deadline-name">${s.name}</div><div class="deadline-meta">${s.program.replace(' · ',' / ')}<b>示例待核验</b></div></div></div>`).join('') : '<p class="library-note">学校没有统一的研究生申请截止日期。选择具体项目后，再核验当季时间。</p>';
 }
 function assistantCard() {
-  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✺</span><div><h2>你的申请搭子</h2><p>GRADPATH ASSISTANT</p></div><span class="assistant-caption">申请与文书</span></div><p class="assistant-intro">选校、材料、文书，一起理清<strong>下一步</strong>。</p><div class="suggestions"><button class="suggestion" data-action="chat" data-question="帮我安排本周的申请任务">${icon('calendar')}帮我安排本周的申请任务<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我的选校清单合理吗？">${icon('school')}我的选校清单合理吗？<span>↗</span></button><button class="suggestion" data-action="chat" data-question="文书不知道从哪里开始">${icon('document')}文书不知道从哪里开始<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊你的申请困惑…" aria-label="向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">建议仅供参考 · 重要信息请核对官网</div></section>`;
+  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✺</span><div><h2>AI 留学申请助手</h2><p>GRADPATH ASSISTANT</p></div><span class="assistant-caption">申请与文书</span></div><p class="assistant-intro">选校、文书、申请安排，从你的问题开始。</p><div class="suggestions"><button class="suggestion" data-action="chat" data-question="帮我安排本周的申请任务">${icon('calendar')}帮我安排本周的申请任务<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我的选校清单合理吗？">${icon('school')}我的选校清单合理吗？<span>↗</span></button><button class="suggestion" data-action="chat" data-question="文书不知道从哪里开始">${icon('document')}文书不知道从哪里开始<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊你的申请困惑…" aria-label="向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">建议仅供参考 · 重要信息请核对官网</div></section>`;
 }
 function overview() {
   const percent = Math.round(state.completed.length / tasks.length * 100);
-  return `${heading('你好，同学','新的一天，离你的理想再近一点。','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
+  return `${heading('GradPath · <span class="overview-title">留学申请工作台</span>','','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
     ${SeasonWorkspace.overview()}<div class="main-grid"><div class="main-column">
-    <section class="hero"><div class="hero-copy"><div class="hero-topline">从找到方向，到准备好申请</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#programs" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
+    <section class="hero"><div class="hero-copy"><div class="hero-topline">选校 · 专业搜索 · 申请管理</div><h2>查院校，找专业，<br>规划你的<span class="hero-title-accent">留学申请。</span></h2><p>搜索不同学校的专业，整理申请材料，跟进申请进度。<br>不知道下一步做什么？问问 AI 助手。</p><div class="hero-actions"><a href="#programs" class="primary-button">搜索专业 ${icon('arrow')}</a><a href="#applications" class="hero-secondary">我的申请 ${icon('arrow')}</a></div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
 
     <div class="stats-grid"><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">申请项目 ${icon('school')}</div><div class="stat-value">${String(ProgramWorkspace.items().length).padStart(2,'0')}<small>个项目</small></div><div class="stat-foot"><span>查看申请</span> ${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="documents"><div class="stat-label">文书工作区 ${icon('document')}</div><div class="stat-value">${String(documents.length).padStart(2,'0')}<small>份文档</small></div><div class="stat-foot"><span>继续写作</span>${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">材料准备进度 ${icon('folder')}</div><div class="stat-value">${percent}<small>% 已完成</small></div><div class="stat-foot"><div class="tiny-bar"><span style="width:${percent}%"></span></div><span>${state.completed.length}/${tasks.length}</span></div></button></div>
 

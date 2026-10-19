@@ -123,7 +123,7 @@ def test_real_web_server_renders_navigation_and_writing_on_mobile():
         page=browser.new_page(viewport={'width':1440,'height':1000})
         errors=[];page.on('pageerror',lambda exc:errors.append(str(exc)))
         page.goto(url+'/frontend/index.html')
-        expect(page.get_by_role('heading',name='你好，同学',exact=True)).to_be_visible()
+        expect(page.get_by_role('heading',name='GradPath · 留学申请工作台',exact=True)).to_be_visible()
         assert page.locator('.sidebar').evaluate('e=>getComputedStyle(e).position')=='fixed'
         assert '<title>' not in page.locator('body').inner_text()
         page.locator('[data-nav="schools"]').click()

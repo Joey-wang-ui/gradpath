@@ -74,7 +74,7 @@ def test_project_filter_and_saved_application(page):
 def test_document_persistence_export_and_task_progress(page):
     navigate(page, "applications", "让每一份申请，都有条不紊")
     page.get_by_role("button", name="完成：完成个人陈述的第一版提纲", exact=True).click()
-    navigate(page, "overview", "你好，同学")
+    navigate(page, "overview", "GradPath · 留学申请工作台")
     assert "50" in page.locator(".stat-value").nth(2).inner_text()
     navigate(page, "documents", "写下你的申请故事")
     content = "A real research experience. 真实经历。"
@@ -92,7 +92,7 @@ def test_profile_is_rendered_as_text_and_assistant_discloses_demo(page):
     page.get_by_role("button", name="保存我的档案").click()
     assert page.locator("#account-name").inner_text() == "<Test Student>"
     assert page.locator("#account-name test").count() == 0
-    navigate(page, "overview", "你好，同学")
+    navigate(page, "overview", "GradPath · 留学申请工作台")
     page.get_by_role("button", name="帮我安排本周的申请任务").click()
     page.get_by_role("button", name="本地写作提示").click()
     page.get_by_text("交互演示 · 以下为本地规则回复，尚未连接 AI。").wait_for()
@@ -101,7 +101,7 @@ def test_profile_is_rendered_as_text_and_assistant_discloses_demo(page):
 
 
 @pytest.mark.parametrize("route,title", [
-    ("overview", "你好，同学"),
+    ("overview", "GradPath · 留学申请工作台"),
     ("schools", "寻找属于你的下一站"),
     ("applications", "让每一份申请，都有条不紊"),
     ("documents", "写下你的申请故事"),
@@ -126,7 +126,7 @@ def test_single_file_preview_without_network_or_storage(page, width):
         f'srcdoc="{escape(source.read_text(encoding="utf-8"), quote=True)}"></iframe>'
     )
     preview = page.frame_locator("iframe")
-    preview.get_by_role("heading", name="你好，同学", exact=True).wait_for()
+    preview.get_by_role("heading", name="GradPath · 留学申请工作台", exact=True).wait_for()
     assert preview.locator(".sidebar").evaluate("el => getComputedStyle(el).position") == "fixed"
     assert preview.locator(".hero").evaluate("el => getComputedStyle(el).display") == "flex"
     preview.locator('[data-nav="schools"]').click()
@@ -640,7 +640,7 @@ def test_motion_has_no_toolbar_control_and_ignores_retired_preference(page):
     navigate(page, 'schools', '寻找属于你的下一站')
     page.reload()
     expect(page.locator('.motion-control')).to_have_count(0)
-    navigate(page, 'overview', '你好，同学')
+    navigate(page, 'overview', 'GradPath · 留学申请工作台')
     assert page.locator('.journey-orbit-track').evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
 
 
@@ -676,7 +676,7 @@ def test_library_navigation_branches_and_current_page(page, width):
     expect(trigger).to_have_attribute('aria-expanded', 'false')
     url_before = page.url
     trigger.click()
-    expect(page.get_by_role('heading', name='你好，同学', exact=True)).to_be_visible()
+    expect(page.get_by_role('heading', name='GradPath · 留学申请工作台', exact=True)).to_be_visible()
     assert page.url == url_before
     expect(trigger).to_have_attribute('aria-expanded', 'true')
     submenu.get_by_role('link', name='院校主页', exact=True).click()
@@ -726,7 +726,7 @@ def test_mobile_library_menu_dismisses_on_outside_click(page):
     page.set_viewport_size({'width': 320, 'height': 844})
     page.get_by_role('button', name='院校资料库', exact=True).click()
     expect(page.get_by_role('group', name='院校资料库分页面')).to_be_visible()
-    page.get_by_role('heading', name='你好，同学', exact=True).click()
+    page.get_by_role('heading', name='GradPath · 留学申请工作台', exact=True).click()
     expect(page.get_by_role('group', name='院校资料库分页面')).to_be_hidden()
     expect(page.get_by_role('button', name='院校资料库', exact=True)).to_have_attribute('aria-expanded', 'false')
 
@@ -737,7 +737,7 @@ def test_compact_home_keeps_application_entries_and_agent(page):
     expect(page.locator('.stats-grid .stat-card')).to_have_count(3)
     expect(page.locator('.deadline-card')).to_be_visible()
     expect(page.locator('.featured-section, .tasks-panel, .journey-note')).to_have_count(0)
-    page.get_by_role('link', name='发现理想项目', exact=False).click()
+    page.get_by_role('link', name='搜索专业', exact=False).click()
     expect(page.get_by_role('heading', name='专业搜索')).to_be_visible()
     expect(page.locator('[data-nav="programs"]')).to_have_attribute('aria-current', 'page')
 
