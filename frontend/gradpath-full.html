@@ -2599,6 +2599,101 @@ nav a.active, .library-nav-toggle.active, .library-nav-toggle[aria-expanded="tru
   .library-subnav { background: #fff; }
   .library-subnav a.active { background: #e8f1ff; }
 }
+
+/* A lighter blue wash, with white space around the work. */
+body { background-image: radial-gradient(ellipse at 92% 5%, #e8f3ff80, transparent 55%), linear-gradient(145deg, #fcfeff, #f4f9ff 60%, #fff); }
+.hero { background: linear-gradient(115deg, #fff, #f5faff 48%, #e5f1ff); border-color: #dae8f8; box-shadow: 0 4px 0 #eaf3ff80, 0 12px 32px #31588a06; }
+.hero::after { background: radial-gradient(circle, #cee4ff60, transparent 70%); }
+.hero-title-accent { color: #6194d3; }
+.hero-title-accent::after { background: #d4e7ff; }
+.primary-button { color: #24518a; background: linear-gradient(120deg, #dcecff, #bad8ff); border-color: #b3d1f5; box-shadow: 0 3px 8px #6098d811; }
+.primary-button:hover { color: #214c82; background: linear-gradient(120deg, #cfe4ff, #adcef5); border-color: #9cbfea; }
+.assistant-card { background: linear-gradient(145deg, #f4faff, #deedff); border-color: #cfe2fa; color: #315681; box-shadow: 0 4px 0 #eaf3ff80; }
+.assistant-heading h2 { color: #2b5080; }
+.assistant-card p, .assistant-card .suggestion, .assistant-card .assistant-note { color: #56759b; }
+.assistant-intro strong, .assistant-mark { color: #447bb7; }
+.assistant-mark { border-color: #adcdf050; background: #ffffff60; }
+.assistant-status { background: #8ebbea; }
+.suggestion { background: #ffffff70; border-color: #bdd6f05c; }
+.suggestion i, .suggestion > span { color: #7b9dc7; }
+.suggestion:hover { color: #2e5c94; border-color: #9bbfe8; background: #fff; }
+.assistant-card .assistant-input { background: #ffffff80; border-color: #bdd4ef; }
+.assistant-card .assistant-input input { color: #355c8e; }
+.assistant-card .assistant-input input::placeholder { color: #7a96b8; }
+.assistant-card .assistant-input button { background: #cbe1fc; color: #386ba7; }
+.stats-grid .stat-card, .stats-grid .stat-card:nth-child(2), .stats-grid .stat-card:nth-child(3) { background: linear-gradient(130deg, #fff, #eef6ff); border-color: #dce9f9; box-shadow: 0 2px 0 #edf5ff80; }
+.catalog-hero { background: linear-gradient(115deg, #fff, #f1f8ff 60%, #e3f0ff); }
+nav a.active, .library-nav-toggle.active, .library-nav-toggle[aria-expanded="true"] { background: linear-gradient(105deg, #eaf4ff, #f4f9ff); }
+.library-subnav a.active { background: #edf6ff; }
+
+/* One search across the existing catalogue; categories remain visible at left. */
+.cross-program-toolbar { padding: 20px; border: 1px solid #dce9f7; border-radius: 16px; background: linear-gradient(115deg, #fff, #f0f7ff); margin-bottom: 25px; }
+.cross-program-query { display: flex; align-items: center; gap: 12px; padding: 15px 17px; border: 1px solid #cfdef1; border-radius: 10px; background: #fff; color: #7697bf; }
+.cross-program-query:focus-within { border-color: #8eb8e7; box-shadow: 0 0 0 3px #ddebfc; }
+.cross-program-query input { border: 0; outline: 0; background: transparent; width: 100%; min-width: 0; color: #345781; font-size: 15px; }
+.cross-program-query input::placeholder { color: #829dbb; }
+.cross-program-filters { display: flex; gap: 12px; align-items: center; margin-top: 13px; }
+.cross-program-filters select { min-width: 0; flex: 1; min-height: 42px; border: 1px solid #d7e4f5; border-radius: 8px; padding: 9px 12px; background: #fff; color: #5f7c9f; font-size: 13px; }
+.cross-program-filters .text-button { padding: 9px; flex-shrink: 0; }
+.cross-program-layout { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 24px; align-items: start; }
+.cross-program-categories { padding: 12px; border: 1px solid #dce8f7; border-radius: 13px; background: #ffffffc9; }
+.cross-program-category-title { padding: 8px 10px 16px; font-size: 13px; font-weight: 600; color: #57769e; }
+.cross-program-categories button { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; padding: 12px 10px; margin-bottom: 4px; border: 1px solid transparent; border-radius: 8px; color: #7187a2; font-size: 12px; text-align: left; }
+.cross-program-categories button b { font-size: 10px; font-weight: 500; color: #8ba3c0; }
+.cross-program-categories button:hover { background: #f1f7ff; }
+.cross-program-categories button[aria-pressed="true"] { background: #eaf3ff; border-color: #d6e6f8; color: #3e70aa; font-weight: 600; }
+.cross-program-categories > p { padding: 10px 10px 0; margin: 12px 0 0; border-top: 1px solid #e7eef7; color: #8a9db5; font-size: 10px; line-height: 1.9; }
+.cross-program-results { min-width: 0; }
+.cross-program-summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 5px 0 10px; }
+.cross-program-summary strong { color: #4b6f9a; font-weight: 550; font-size: 15px; }
+.cross-program-summary > span { color: #8c9fb8; font-size: 11px; }
+.cross-program-scope { color: #8298b3; font-size: 11px; line-height: 1.9; margin: 0 0 19px; }
+.cross-program-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px; }
+.cross-program-card { min-width: 0; display: flex; flex-direction: column; border: 1px solid #dce7f5; border-radius: 13px; background: #fff; overflow: hidden; transition: box-shadow .25s, border-color .25s; }
+.cross-program-card:hover { border-color: #b6cfee; box-shadow: 0 8px 24px #527dad0a; }
+.cross-program-school { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; padding: 17px 18px; border-bottom: 1px solid #e9eff8; background: #f8fbff; }
+.cross-program-school button { display: flex; align-items: center; gap: 9px; min-width: 0; padding: 0; text-align: left; }
+.cross-program-school button > span { min-width: 0; }
+.cross-program-school strong { display: block; font-size: 13px; font-weight: 550; color: #50729a; }
+.cross-program-school small { display: block; margin-top: 4px; color: #8a9fb8; font-size: 10px; overflow-wrap: anywhere; }
+.cross-program-school > span { max-width: 35%; color: #92a5bf; font-size: 10px; text-align: right; }
+.cross-program-card .degree-card { flex: 1; border: 0; border-radius: 0; box-shadow: none; background: #fff; padding: 19px 18px; }
+.cross-program-card .degree-title h3 { font-size: 19px; overflow-wrap: anywhere; }
+.cross-program-card .degree-title > span { min-height: 0; font-size: 12px; }
+.cross-program-card .degree-college { min-height: 0; font-size: 11px; }
+.cross-program-card .degree-card-actions { flex-wrap: wrap; gap: 10px; }
+.cross-program-card .degree-card-actions .primary-button, .cross-program-card .degree-card-actions .secondary-button { font-size: 12px; min-height: 36px; padding: 8px 10px; }
+.cross-program-card .degree-more { font-size: 12px; }
+.cross-program-evidence { display: flex; align-items: flex-start; gap: 6px; margin: 0 18px; padding: 12px 0; border-top: 1px dashed #e4edf8; color: #8b9eb7; font-size: 10px; line-height: 1.8; }
+.cross-program-evidence i, .cross-program-evidence svg { width: 13px; height: 13px; margin-top: 2px; }
+.cross-program-more { display: flex; margin: 24px auto 10px; }
+.cross-program-progress { text-align: center; color: #93a5bd; font-size: 11px; }
+.cross-program-empty { grid-column: 1 / -1; text-align: center; padding: 50px 20px; background: #fff; border: 1px dashed #d7e4f6; border-radius: 13px; }
+.cross-program-empty h2 { font-size: 19px; font-weight: 500; color: #5b7a9f; }
+.cross-program-empty p { color: #8299b4; font-size: 13px; }
+.cross-program-empty > i { color: #a3bddb; }
+@media (max-width: 1180px) { .cross-program-grid { grid-template-columns: 1fr; } .cross-program-layout { grid-template-columns: 165px minmax(0, 1fr); gap: 18px; } }
+@media (max-width: 760px) {
+  nav > a, .library-nav-toggle { font-size: 10px; }
+  .cross-program-toolbar { padding: 14px; }
+  .cross-program-query { padding: 13px 12px; }
+  .cross-program-query input, .cross-program-filters select { font-size: 16px; }
+  .cross-program-filters { flex-wrap: wrap; gap: 9px; }
+  .cross-program-filters select { flex: 1 1 calc(50% - 5px); max-width: 100%; }
+  .cross-program-filters .text-button { margin-left: auto; font-size: 12px; }
+  .cross-program-layout { grid-template-columns: 1fr; gap: 15px; }
+  .cross-program-categories { display: flex; overflow-x: auto; align-items: center; gap: 6px; padding: 9px; scrollbar-width: thin; }
+  .cross-program-category-title { flex-shrink: 0; padding: 8px; font-size: 11px; }
+  .cross-program-categories button { flex: 0 0 auto; width: auto; gap: 10px; margin: 0; white-space: nowrap; }
+  .cross-program-categories > p { display: none; }
+  .cross-program-summary { align-items: flex-start; }
+  .cross-program-summary strong { font-size: 14px; }
+  .cross-program-summary > span { font-size: 10px; max-width: 80px; text-align: right; }
+  .cross-program-scope { font-size: 10px; }
+}
+@media (min-width: 761px) {
+  .cross-program-categories { position: sticky; top: 18px; max-height: calc(100dvh - 36px); overflow-y: auto; scrollbar-width: thin; }
+}
 </style>
 <!-- gradpath:styles:end -->
 </head>
@@ -2618,6 +2713,7 @@ nav a.active, .library-nav-toggle.active, .library-nav-toggle[aria-expanded="tru
           <a href="#map" data-library-page="map"><i data-icon="map"></i>地图查看</a>
         </div>
       </div>
+      <a href="#programs" data-nav="programs"><i data-icon="search"></i>专业搜索</a>
       <a href="#applications" data-nav="applications"><i data-icon="folder"></i>我的申请<span class="nav-count" id="application-count">4</span></a>
       <a href="#documents" data-nav="documents"><i data-icon="document"></i>文书工作区</a>
       <a href="#profile" data-nav="profile"><i data-icon="user"></i>我的背景</a>
@@ -2847,6 +2943,7 @@ const ProgramWorkspace = (() => {
   const programIndex = new Map();
   directory.schools.forEach(s=>s.colleges.forEach(c=>c.programs.forEach(p=>programIndex.set(p.id,{...p,schoolId:s.schoolId,college:c}))));
   let viewingSchool = '';
+  let detailFromSearch = false;
   let collegeFilter = 'all';
   let query = '';
   let degreeFilter='all',modeFilter='all',visibleLimit=24;
@@ -2905,11 +3002,12 @@ const ProgramWorkspace = (() => {
     openModal(s.name,`<div class="university-profile" style="--school-color:${s.color};--school-bg:${s.bg}"><div class="university-profile-main">${schoolLogo(s)}<div><span class="eyebrow">FIND YOUR PROGRAM, WRITE YOUR NEXT CHAPTER</span><h3>${escapeHTML(s.english)}</h3><p>${escapeHTML(s.location)}<span>·</span>${s.control}大学<span>·</span><b>${escapeHTML(s.rank)}</b></p></div></div><div class="university-profile-links"><a class="secondary-button" href="${escapeHTML(s.homepage)}" target="_blank" rel="noopener noreferrer">学校官网 ↗</a><a class="primary-button" href="${escapeHTML(entry?.catalogURL || s.homepage)}" target="_blank" rel="noopener noreferrer">全校研究生入口 ↗</a></div></div><div class="degree-intro"><div><span class="eyebrow">SCHOOLS & MASTER’S PROGRAMS</span><h2>找到你的学术方向。</h2><p>已收录 ${count} 个硕士项目与方向 · ${unitCount} 个已归类学术单位</p></div><span class="degree-reference-label">${reviewed?`${reviewed} 条按官网目录整理`:'参考条目 · 待核对'}</span></div><div class="program-browser"><aside class="college-browser" aria-label="学院筛选"><button data-action="program-college" data-college="all" aria-pressed="${collegeFilter==='all'}"><span>全部学院</span><b>${count}</b></button>${units.map(c=>`<button data-action="program-college" data-college="${c.id}" aria-pressed="${collegeFilter===c.id}"><span>${escapeHTML(c.name)}<small>${escapeHTML(c.english)}</small></span><b>${c.programs.length}</b></button>`).join('')}<p>先看课程与学位，再确认申请方式。</p></aside><section class="degree-results-area" aria-label="硕士项目"><label class="degree-search">${icon('search')}<input id="program-search" aria-label="搜索本校硕士项目" placeholder="搜索项目、专业方向或学位…" value="${escapeHTML(query)}" maxlength="120"></label><div class="degree-filter-row"><select id="program-degree" aria-label="筛选硕士学位"><option value="all">全部硕士学位</option>${codes.map(code=>`<option value="${escapeHTML(code)}" ${degreeFilter===code?'selected':''}>${escapeHTML(code)}</option>`).join('')}</select><select id="program-mode" aria-label="筛选授课形式"><option value="all">全部授课形式</option>${Object.entries(modeNames).map(([key,name])=>`<option value="${key}" ${modeFilter===key?'selected':''}>${name}</option>`).join('')}</select></div><div class="degree-results-summary"><span>按兴趣，找到值得深入了解的项目</span><b id="degree-result-count" role="status">${matching().length} 个结果</b></div><div class="degree-grid" id="degree-results">${resultHTML()}</div><p class="degree-scope">当前目录持续补充。校内衔接、联合学位与专业方向需先确认申请路径；完整范围请查全校研究生入口。</p></section></div>${facts(s)}<div class="university-bottom-actions"><button class="text-button" data-action="bookmark" data-id="${id}" data-modal="true">${icon(state.saved.includes(id)?'bookmark':'plus')}${state.saved.includes(id)?'已关注院校 · 点击移除':'先关注这所院校'}</button><a class="text-button" href="#applications">查看我的申请 ${icon('arrow')}</a></div>`);
     document.querySelector('.modal').classList.add('university-modal');
   }
-  function detail(id) {
+  function detail(id, fromSearch = false) {
+    detailFromSearch = fromSearch;
     const p=programIndex.get(id);if(!p)return;
     if(viewingSchool!==p.schoolId){viewingSchool=p.schoolId;collegeFilter='all';query='';}
     const s=schools.find(s=>s.id===p.schoolId);
-    openModal(p.name,`<button class="degree-back" data-action="program-back">← ${escapeHTML(s.name)} · 学院与项目</button><div class="degree-detail-hero"><span class="eyebrow">YOUR NEXT ACADEMIC CHAPTER</span><div class="degree-detail-tags"><span>${escapeHTML(p.degree)}</span><span>${escapeHTML(p.field)}</span></div><h3>${escapeHTML(p.english)}</h3><p>${escapeHTML(p.college.name)}<br><small>${escapeHTML(p.college.english)}</small></p></div><div class="degree-detail-facts"><div><span>所属院校</span><strong>${escapeHTML(s.name)}</strong></div><div><span>目标申请季</span><strong>${state.cycleYear} Fall</strong></div><div><span>学位</span><strong>${escapeHTML(p.degree)}</strong></div><div><span>申请方式</span><strong>${p.admissionMode==='check-route'?'先核对硕士招生路径':'按当季官方要求确认'}</strong></div></div><div class="degree-check-note"><h4>定项之前，先确认这几件事。</h4><p>${escapeHTML(p.note)}</p><ul><li>课程设置与学位类型是否符合你的目标</li><li>先修课、语言成绩与材料要求</li><li>本申请季是否招生、截止时间与项目总费用</li></ul></div><div class="degree-source-line"><span>官方参考入口</span><a href="${escapeHTML(p.url)}" target="_blank" rel="noopener noreferrer">${p.sourceLevel==='program'?'项目页面':'学院 / 目录入口'} ↗</a></div><p class="disclaimer">${p.sourceEvidence?.length?`项目名称与学位按 ${escapeHTML(p.catalogueReviewedAt)} 保留的官方目录页面整理；当季招生要求仍待核验。`:'此参考条目尚未逐页核对当前官网。'}未提供未经核验的截止日期、费用或录取概率。</p><div class="modal-actions">${addButton(p)}<a class="secondary-button" href="${escapeHTML(p.url)}" target="_blank" rel="noopener noreferrer">${p.sourceLevel==='program'?'项目官网':'学院 / 目录入口'} ↗</a></div>`);
+    openModal(p.name,`<button class="degree-back" data-action="program-back">${fromSearch?'← 返回专业搜索':'← '+escapeHTML(s.name)+' · 学院与项目'}</button><div class="degree-detail-hero"><span class="eyebrow">YOUR NEXT ACADEMIC CHAPTER</span><div class="degree-detail-tags"><span>${escapeHTML(p.degree)}</span><span>${escapeHTML(p.field)}</span></div><h3>${escapeHTML(p.english)}</h3><p>${escapeHTML(p.college.name)}<br><small>${escapeHTML(p.college.english)}</small></p></div><div class="degree-detail-facts"><div><span>所属院校</span><strong>${escapeHTML(s.name)}</strong></div><div><span>目标申请季</span><strong>${state.cycleYear} Fall</strong></div><div><span>学位</span><strong>${escapeHTML(p.degree)}</strong></div><div><span>申请方式</span><strong>${p.admissionMode==='check-route'?'先核对硕士招生路径':'按当季官方要求确认'}</strong></div></div><div class="degree-check-note"><h4>定项之前，先确认这几件事。</h4><p>${escapeHTML(p.note)}</p><ul><li>课程设置与学位类型是否符合你的目标</li><li>先修课、语言成绩与材料要求</li><li>本申请季是否招生、截止时间与项目总费用</li></ul></div><div class="degree-source-line"><span>官方参考入口</span><a href="${escapeHTML(p.url)}" target="_blank" rel="noopener noreferrer">${p.sourceLevel==='program'?'项目页面':'学院 / 目录入口'} ↗</a></div><p class="disclaimer">${p.sourceEvidence?.length?`项目名称与学位按 ${escapeHTML(p.catalogueReviewedAt)} 保留的官方目录页面整理；当季招生要求仍待核验。`:'此参考条目尚未逐页核对当前官网。'}未提供未经核验的截止日期、费用或录取概率。</p><div class="modal-actions">${addButton(p)}<a class="secondary-button" href="${escapeHTML(p.url)}" target="_blank" rel="noopener noreferrer">${p.sourceLevel==='program'?'项目官网':'学院 / 目录入口'} ↗</a></div>`);
     document.querySelector('.modal').classList.add('degree-detail-modal');
   }
   function add(id) {
@@ -2933,17 +3031,102 @@ const ProgramWorkspace = (() => {
   function handle(action,button) {
     if(action==='program-college'){visibleLimit=24;collegeFilter=button.dataset.college;document.querySelectorAll('[data-action="program-college"]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.college===collegeFilter)));refresh();}
     else if(action==='program-more'){visibleLimit+=24;refresh();}
-    else if(action==='program-detail')detail(button.dataset.id);
+    else if(action==='program-detail')detail(button.dataset.id,Boolean(button.closest('#cross-program-results')));
     else if(action==='program-add')add(button.dataset.id);
     else if(action==='program-remove')remove(button.dataset.id);
-    else if(action==='program-back')open(viewingSchool,false);
+    else if(action==='program-back'){if(detailFromSearch){closeModal();document.querySelector('#cross-program-query')?.focus();}else open(viewingSchool,false);}
     else if(action==='program-reset'){collegeFilter='all';query='';degreeFilter=modeFilter='all';visibleLimit=24;open(viewingSchool,false);}
     else return false;
     return true;
   }
   function onInput(input) {if(input.id==='program-search'){query=input.value;visibleLimit=24;refresh();}}
   function onChange(input){if(input.id==='program-degree')degreeFilter=input.value;else if(input.id==='program-mode')modeFilter=input.value;else return;visibleLimit=24;refresh();}
-  return {open, handle, onInput, onChange, items, resolve, choices, get:id=>programIndex.get(id)};
+  return {open, handle, onInput, onChange, items, resolve, choices, renderCard:card, get:id=>programIndex.get(id)};
+})();
+
+// Cross-university browsing uses the retained catalogue, never inferred admissions.
+const ProgramSearch = (() => {
+  const groups = [
+    ['computing', '计算机与信息', ['计算机', '信息管理', '信息与数据', '工程与计算机']],
+    ['data', '数据与统计', ['数据与统计', '数据科学', '商科与数据', '工程与数据']],
+    ['business', '商科与经济', ['商科与经济', '商科', '金融', '工程与管理']],
+    ['science', '工程与自然科学', ['工程', '自然科学', '地球科学', '环境']],
+    ['arts', '艺术与设计', ['艺术与设计']],
+    ['education', '教育与心理', ['教育', '教育与心理']],
+    ['humanities', '人文与社会科学', ['人文', '社会科学', '传播']],
+    ['public', '公共与国际事务', ['公共政策', '公共与国际事务', '国际事务']],
+    ['health', '健康与医学', ['健康与医学', '公共卫生']],
+    ['other', '其他学科', ['其他学科']],
+  ];
+  const aliases = [
+    ['计算机', 'computer science', 'computing'], ['金融', 'finance', 'financial'],
+    ['商业分析', 'business analytics'], ['数据科学', 'data science'],
+    ['统计', 'statistics', 'statistical'], ['经济', 'economics', 'economic'],
+    ['心理', 'psychology', 'psychological'], ['教育', 'education'],
+    ['工程', 'engineering'], ['公共卫生', 'public health'],
+  ];
+  const schoolById = new Map(SchoolCatalog.schools.map(s => [s.id, s]));
+  const entries = (SchoolCatalog.programDirectory?.schools || []).flatMap(entry =>
+    entry.colleges.flatMap(college => college.programs.map(program => {
+      const school = schoolById.get(entry.schoolId);
+      const category = groups.find(([, , fields]) => fields.includes(program.field))?.[0] || 'other';
+      return { program, college, school, category,
+        text: [school.name, school.english, school.wordmark, program.name, program.english,
+          program.degree, program.field, college.name, college.english].join(' ').toLocaleLowerCase() };
+    }))
+  ).sort((a, b) => (a.school.rankNumber ?? Infinity) - (b.school.rankNumber ?? Infinity)
+    || a.school.english.localeCompare(b.school.english) || a.program.english.localeCompare(b.program.english));
+  let query = '', category = 'all', school = 'all', degree = 'all', limit = 24;
+  const degrees = [...new Set(entries.map(e => e.program.degree))].sort();
+  function baseMatches() {
+    const terms = query.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    return entries.filter(entry => (school === 'all' || entry.school.id === school)
+      && (degree === 'all' || entry.program.degree === degree)
+      && terms.every(term => entry.text.includes(term)
+        || aliases.some(set => set.includes(term) && set.some(alias => entry.text.includes(alias)))));
+  }
+  const matches = base => base.filter(entry => category === 'all' || entry.category === category);
+  function cards(results) {
+    if (!results.length) return `<div class="cross-program-empty">${icon('search')}<h2>暂时没有找到匹配专业</h2><p>试试其他关键词，或清空学校与专业分类筛选。</p><button class="secondary-button" data-action="cross-program-reset">清空筛选</button></div>`;
+    return results.slice(0, limit).map(({ program, college, school }) => `<div class="cross-program-card" data-school-id="${school.id}"><div class="cross-program-school"><button data-action="school" data-id="${school.id}" aria-label="查看${escapeHTML(school.name)}院校资料">${icon('school')}<span><strong>${escapeHTML(school.name)}</strong><small>${escapeHTML(school.english)}</small></span></button><span>${escapeHTML(school.location)}</span></div>${ProgramWorkspace.renderCard(program, college)}<p class="cross-program-evidence">${icon('help')}${program.sourceEvidence?.length ? '名称与学位有官网目录依据 · 当季招生要求待核验' : '参考条目 · 名称与当季招生要求待进一步核对'}</p></div>`).join('');
+  }
+  function page() {
+    const base = baseMatches(), results = matches(base);
+    return `${heading('找到适合你的专业','跨院校看方向，把感兴趣的可能放在一起。','EXPLORE YOUR POSSIBILITIES')}
+      <section class="cross-program-toolbar" aria-label="跨校专业搜索"><label class="cross-program-query">${icon('search')}<input id="cross-program-query" aria-label="搜索跨校专业" placeholder="搜索专业、方向或学校，如：计算机、Finance、纽约大学" value="${escapeHTML(query)}" maxlength="160" autocomplete="off"></label><div class="cross-program-filters"><select id="cross-program-school" aria-label="筛选专业所属学校"><option value="all">全部学校</option>${[...schoolById.values()].sort((a,b)=>a.name.localeCompare(b.name,'zh-CN')).map(s=>`<option value="${s.id}" ${school===s.id?'selected':''}>${escapeHTML(s.name)}</option>`).join('')}</select><select id="cross-program-degree" aria-label="筛选跨校专业学位"><option value="all">全部学位</option>${degrees.map(value=>`<option value="${escapeHTML(value)}" ${degree===value?'selected':''}>${escapeHTML(value)}</option>`).join('')}</select><button class="text-button" data-action="cross-program-reset">清空筛选</button></div></section>
+      <div class="cross-program-layout"><aside class="cross-program-categories" aria-label="专业分类"><div class="cross-program-category-title">按专业分类</div>${[['all','全部专业'],...groups].map(([id,name])=>`<button data-action="cross-program-category" data-category="${id}" aria-pressed="${category===id}"><span>${name}</span><b>${id==='all'?base.length:base.filter(e=>e.category===id).length}</b></button>`).join('')}<p>分类沿用目录中的专业方向，<br>仅用于探索与筛选。</p></aside><section class="cross-program-results" aria-label="跨校专业结果"><div class="cross-program-summary"><strong id="cross-program-count" role="status">${results.length} 个专业 · ${new Set(results.map(e=>e.school.id)).size} 所学校</strong><span>按院校榜单顺序浏览</span></div><p class="cross-program-scope">当前收录 ${entries.length.toLocaleString()} 个硕士项目与方向，涵盖 ${schoolById.size} 份院校档案，目录仍在补全。分类与名称依据不代表当季招生要求已核验。</p><div id="cross-program-results" class="cross-program-grid">${cards(results)}</div><button class="secondary-button cross-program-more" data-action="cross-program-more" ${results.length<=limit?'hidden':''}>继续加载专业</button><p id="cross-program-progress" class="cross-program-progress">已展示 ${Math.min(limit,results.length)} / ${results.length} 个专业</p></section></div>`;
+  }
+  function refresh() {
+    const root = document.querySelector('#cross-program-results');
+    if (!root) return;
+    const base = baseMatches(), results = matches(base);
+    root.innerHTML = cards(results);
+    document.querySelector('#cross-program-count').textContent = `${results.length} 个专业 · ${new Set(results.map(e=>e.school.id)).size} 所学校`;
+    document.querySelector('#cross-program-progress').textContent = `已展示 ${Math.min(limit,results.length)} / ${results.length} 个专业`;
+    document.querySelector('[data-action="cross-program-more"]').hidden = results.length <= limit;
+    document.querySelectorAll('[data-action="cross-program-category"]').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.category===category));
+      button.querySelector('b').textContent = button.dataset.category==='all'?base.length:base.filter(e=>e.category===button.dataset.category).length;
+    });
+    hydrateIcons(root);
+  }
+  function handle(action, button) {
+    if (action === 'cross-program-category') { category=button.dataset.category; limit=24; refresh(); }
+    else if (action === 'cross-program-more') { limit+=24; refresh(); }
+    else if (action === 'cross-program-reset') {
+      query=''; category=school=degree='all'; limit=24; render();
+      document.querySelector('#cross-program-query').focus();
+    } else return false;
+    return true;
+  }
+  function onInput(input) { if (input.id==='cross-program-query') { query=input.value; limit=24; refresh(); } }
+  function onChange(input) {
+    if (input.id==='cross-program-school') school=input.value;
+    else if (input.id==='cross-program-degree') degree=input.value;
+    else return;
+    limit=24; refresh();
+  }
+  return { render:page, handle, onInput, onChange, total:entries.length };
 })();
 
 // Loaded before app.js in both the regular app and the standalone preview.
@@ -3471,7 +3654,6 @@ const rankingEdition = SchoolCatalog.ranking;
 const rankingAvailable = ['verified','user-provided'].includes(rankingEdition.status);
 const rankingSourceLabel = rankingEdition.status==='user-provided'?'用户提供 PDF · 未独立核验官网':rankingEdition.status==='verified'?'官网来源已核验':'排名来源待核验';
 const rankedSchools = schools.filter(s => s.rankNumber !== null).sort((a,b) => a.rankNumber-b.rankNumber || (a.rankingSourceOrder??Infinity)-(b.rankingSourceOrder??Infinity) || a.english.localeCompare(b.english));
-const featuredSchools = rankedSchools.slice(0, 10);
 const tasks = [
   {id:'sop',title:'完成个人陈述的第一版提纲',school:'通用申请材料',category:'文书准备',tag:'优先完成',color:'',doc:'sop'},
   {id:'resume',title:'更新简历中的科研与实习经历',school:'通用申请材料',category:'简历优化',tag:'进行中',color:'blue',doc:'resume'},
@@ -3583,15 +3765,12 @@ function overview() {
   const percent = Math.round(state.completed.length / tasks.length * 100);
   return `${heading('你好，同学','新的一天，离你的理想再近一点。','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
     ${SeasonWorkspace.overview()}<div class="main-grid"><div class="main-column">
-    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#schools" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✺</span> A little closer, every day.</div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
+    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#programs" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✺</span> A little closer, every day.</div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
     <div class="overview-jumpbar" aria-label="申请路线">${[['schools','01','探索选校','complete'],['applications','02','准备材料','active'],['documents','03','打磨文书',''],['applications','04','提交申请','']].map(([route,n,title,cls])=>`<a href="#${route}" class="journey-step ${cls}"><span>${cls==='complete'?'✓':n}</span><strong>${title}</strong>${icon('arrow')}</a>`).join('')}</div>
     <div class="stats-grid"><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">申请项目 ${icon('school')}</div><div class="stat-value">${String(ProgramWorkspace.items().length).padStart(2,'0')}<small>个项目</small></div><div class="stat-foot"><span>我的申请清单</span> ${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="documents"><div class="stat-label">文书工作区 ${icon('document')}</div><div class="stat-value">${String(documents.length).padStart(2,'0')}<small>份文档</small></div><div class="stat-foot"><span>让你的故事被看见</span>${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">材料准备进度 ${icon('folder')}</div><div class="stat-value">${percent}<small>% 已完成</small></div><div class="stat-foot"><div class="tiny-bar"><span style="width:${percent}%"></span></div><span>${state.completed.length}/${tasks.length}</span></div></button></div>
-    <section><div class="section-heading"><h2><span class="section-number">01</span>今天，往前一步 <span>${tasks.length-state.completed.length} 项待办</span></h2><button class="view-all" data-action="add-task">${icon('plus')}添加待办</button></div><div class="task-panel-top"><span>小小行动，大大进展</span><div class="segmented" aria-label="待办筛选"><button data-action="task-filter" data-filter="pending" class="${taskFilter==='pending'?'active':''}">待完成</button><button data-action="task-filter" data-filter="completed" class="${taskFilter==='completed'?'active':''}">已完成</button></div></div><div class="tasks-panel">${taskRows()}</div></section>
+
     </div>
-    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>别错过，重要的日子</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div>${deadlineRows()}<p class="date-disclaimer">示例日期 · 以项目当季官网信息为准</p></section><div class="journey-note"><div class="leaf">✺</div><p>你不需要一次看清整条路，<br>只要勇敢走好下一步。</p><small>YOUR JOURNEY, YOUR PACE.</small></div></aside></div>${featuredShowcase()}`;
-}
-function featuredShowcase() {
-  return `<section class="school-section featured-section" aria-label="2027前十展示区"><div class="featured-heading"><div><div class="eyebrow">THE NEXT CHAPTER · SELECTED TEN</div><h2>TOP 10 · 最高学术殿堂<span>2027</span></h2></div><div class="featured-heading-actions"><button class="text-button" data-action="ranking-source">查看来源 ↗</button><a href="#schools" class="secondary-button">浏览资料库 ${icon('arrow')}</a></div></div>${featuredSchools.length?`<div class="school-grid featured-school-grid">${featuredSchools.map(schoolCard).join('')}</div>`:`<div class="ranking-pending-panel"><div class="ranking-pending-copy"><span class="ranking-pending-mark">${icon('school')}</span><div><h3>2027 官方榜单，等待核验</h3><p>前 10 名单尚未确认。核验完成后，这里会展示对应学校；当前基础目录不代表 2027 前 50。</p><button class="text-button" data-action="ranking-source">查看榜单来源与状态 ↗</button></div></div><div class="rank-placeholders" aria-label="尚未填入学校的十个展示位">${Array.from({length:10},(_,i)=>`<div class="rank-placeholder"><span>${String(i+1).padStart(2,'0')}</span><small>展示位 · 待核验</small></div>`).join('')}</div></div>`}</section>`;
+    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>别错过，重要的日子</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div>${deadlineRows()}<p class="date-disclaimer">示例日期 · 以项目当季官网信息为准</p></section></aside></div>`;
 }
 function matchingSchools() {
   const query = search.trim().toLowerCase();
@@ -3604,7 +3783,7 @@ function matchingSchools() {
 function cycleDate(school) { if(!school.deadline)return Infinity;const [month,day]=school.deadline.split('.').map(Number);return (month<8?month+12:month)*100+day; }
 function library() {
   return `${heading('寻找属于你的下一站','从一所学校开始，看看更大的世界。','THE UNIVERSITY EDIT',`<div class="library-heading-actions"><button class="secondary-button" data-action="show-comparison">${icon('compare')}院校对比</button></div>`)}
-    <div class="catalog-hero"><div class="catalog-hero-copy"><span class="eyebrow">YOUR AMBITION, WITHOUT BORDERS</span><h2>把世界，<br>放进你的选校清单。</h2><p>了解学校与城市，收藏值得奔赴的可能。<br>${rankingEdition.status==='user-provided'?'按你提供的 2027 PDF 整理，完整保留并列学校。':'2027 排名独立核验，基础资料持续整理。'}</p><div class="catalog-stats"><span><strong>${rankingAvailable?rankedSchools.length:schools.length}</strong>${rankingAvailable?'榜单收录院校':'基础院校'}</span><span><strong>${featuredSchools.length}</strong>首页展示院校</span><span><strong>2027</strong>目标榜单年份</span></div></div><div class="catalog-hero-art" aria-hidden="true"><span>THE<br>UNIVERSITY<br>EDIT.</span><div class="catalog-orbit"></div><b>↗</b></div></div>
+    <div class="catalog-hero"><div class="catalog-hero-copy"><span class="eyebrow">YOUR AMBITION, WITHOUT BORDERS</span><h2>把世界，<br>放进你的选校清单。</h2><p>了解学校与城市，收藏值得奔赴的可能。<br>${rankingEdition.status==='user-provided'?'按你提供的 2027 PDF 整理，完整保留并列学校。':'2027 排名独立核验，基础资料持续整理。'}</p><div class="catalog-stats"><span><strong>${rankingAvailable?rankedSchools.length:schools.length}</strong>${rankingAvailable?'榜单收录院校':'基础院校'}</span><span><strong>${ProgramSearch.total.toLocaleString()}</strong>已收录专业</span><span><strong>2027</strong>目标榜单年份</span></div></div><div class="catalog-hero-art" aria-hidden="true"><span>THE<br>UNIVERSITY<br>EDIT.</span><div class="catalog-orbit"></div><b>↗</b></div></div>
     <div class="ranking-source-strip"><span class="source-status-dot ${rankingEdition.status==='verified'?'verified':''}"></span><strong>U.S. News 2027 · National Universities</strong><span>${rankingSourceLabel}</span><button data-action="ranking-source">查看来源 ${icon('arrow')}</button></div>
     <div class="toolbar"><label class="search-box">${icon('search')}<input id="school-search" placeholder="搜索中英文校名、州或城市…" value="${escapeHTML(search)}" aria-label="搜索学校、专业或城市"><button class="icon-button" data-action="clear-school-search" aria-label="清空搜索" ${search?'':'hidden'}>${icon('close')}</button><kbd>/</kbd></label><select id="discipline-filter" class="filter-select" aria-label="院校性质">${[['all','全部院校性质'],['公立','公立大学'],['私立','私立大学']].map(([value,label])=>`<option value="${value}" ${activeDiscipline===value?'selected':''}>${label}</option>`).join('')}</select></div>
     <div class="explore-filter-row"><div class="filter-buttons" aria-label="排名区间筛选">${[['all','全部院校'],['10','Top 10'],['30','Top 11–30'],['50','Top 31–50'],['saved','我的收藏'],['directory','全部档案']].map(([value,label])=>`<button data-action="tier" data-tier="${value}" class="${activeTier===value?'active':''}" aria-pressed="${activeTier===value}">${value==='saved'?icon('bookmark'):''}${label}</button>`).join('')}</div><select id="school-sort" class="filter-select" aria-label="项目排序">${[['default','2027排名 / 名称'],['name','学校名称 A–Z'],['deadline','示例项目截止日期']].map(([value,label])=>`<option value="${value}" ${schoolSort===value?'selected':''}>${label}</option>`).join('')}</select></div>
@@ -3647,8 +3826,8 @@ function profilePage() {
   const filled=['major','school','gpa','language','budget','goals'].filter(key=>String(state.profile[key]||'').trim()).length;
   return `${heading('从认识自己开始','你的经历和期待，值得被认真看见。','EVERY JOURNEY STARTS WITH YOU')}<div class="profile-layout"><form class="profile-card" data-form="profile"><h2>我的申请档案</h2><p>整理背景，理清目标。之后的选校和文书，都从这里出发。</p><div class="form-grid">${field('name','怎么称呼你','例如：同学')}${field('major','目标专业','例如：计算机科学、金融、教育')}${field('school','本科院校与专业','填写你的教育背景')}${field('gpa','GPA / 成绩体系','例如：3.7 / 4.0')}${field('language','语言成绩','例如：TOEFL 105 / 待考')}${field('budget','总预算','例如：人民币 50–70 万元')}<label class="form-field full">经历与申请目标<textarea name="goals" rows="5" maxlength="5000" placeholder="记录科研、实习、感兴趣的方向，以及你希望通过读研获得什么。">${escapeHTML(state.profile.goals||'')}</textarea></label></div><button class="primary-button" type="submit">保存我的档案 ${icon('check')}</button><div class="profile-note">保存后查看选校建议 · 仅保存在此浏览器</div></form><aside class="profile-aside"><span class="eyebrow">A LITTLE MORE ABOUT YOU</span><div class="profile-progress-ring" style="--progress:${filled/6*100}%"><strong>${Math.round(filled/6*100)}<small>%</small></strong></div><h2>让你的轮廓，更清晰</h2><p>已填写 ${filled} / 6 项背景资料。<br>不必一次填完，随时回来补充。</p><div class="profile-advice">${icon('spark')}专业兴趣、预算和职业目标，比一个孤立的排名更能帮助你选择。</div></aside></div>${ShortlistWorkspace.render()}`;
 }
-const pages = {map:MapWorkspace.render,overview, schools:library, applications, documents:documentPage, profile:profilePage};
-const pageNames = {map:'院校地图',overview:'申请总览',schools:'院校资料库',applications:'我的申请',documents:'文书工作区',profile:'我的背景'};
+const pages = {programs:ProgramSearch.render,map:MapWorkspace.render,overview, schools:library, applications, documents:documentPage, profile:profilePage};
+const pageNames = {programs:'专业搜索',map:'院校地图',overview:'申请总览',schools:'院校资料库',applications:'我的申请',documents:'文书工作区',profile:'我的背景'};
 function render() {
   SeasonWorkspace.sync();
   if (activePage !== 'documents') document.body.classList.remove('focus-mode');
@@ -3715,7 +3894,7 @@ function schoolDetail(id) { ProgramWorkspace.open(id); }
 
 function rankingSourceDialog() {
   const uploaded=rankingEdition.status==='user-provided';
-  openModal('2027 榜单来源与核验状态',`<div class="ranking-source-detail"><span class="eyebrow">SOURCE & EDITION</span><h3>U.S. News · 2027</h3><p>全美综合大学 / National Universities</p><div class="detail-grid"><div><span>目标排名年份</span><strong>2027</strong></div><div><span>排名资料来源</span><strong>${uploaded?'用户提供 PDF':rankingEdition.status==='verified'?'官网来源已核验':'等待官方来源核验'}</strong></div><div><span>本份榜单收录</span><strong>${rankedSchools.length} 所院校</strong></div><div><span>${uploaded?'文件导入日期':'来源核验日期'}</span><strong>${uploaded?rankingEdition.importedAt:rankingEdition.verifiedAt||'尚未核验'}</strong></div></div><p>${uploaded?'已逐行录入你提供的 PDF，保留 51 所学校和全部并列名次。文件明确注明：这是便于阅读的整理版，并非 U.S. News 官方出版物；本站尚未独立核验官网。首页按原表顺序展示前 10 所，第 9 名的并列学校可在完整资料库查看。':rankingEdition.status==='verified'?`核验日期：${rankingEdition.verifiedAt}。并列名次按原榜单保留，前 50 名不截断边界并列学校。`:'尚未取得可核验的 2027 官方榜单，现有基础目录不等于当年前 50。不会使用 2026 排名或其他榜单替代。'}</p>${uploaded?`<div class="source-document"><span>${icon('document')}</span><div><strong>${escapeHTML(rankingEdition.source.fileName)}</strong><p>${rankingEdition.source.pages} 页 · 51 所学校 · 原始文件已保留</p></div><button class="secondary-button" data-action="download-ranking">${icon('download')}下载来源 PDF</button></div>`:''}<p class="disclaimer">学校名称、城市、性质与官网入口来自 IPEDS HD2023，与 PDF 排名分别标注。综合大学排名不等于各硕士项目排名。</p><div class="modal-actions"><a class="${uploaded?'secondary-button':'primary-button'}" href="${rankingEdition.sourceURL}" target="_blank" rel="noopener noreferrer">U.S. News 官网入口 ↗</a><a class="secondary-button" href="${SchoolCatalog.sources[0].url}" target="_blank" rel="noopener noreferrer">IPEDS 资料来源 ↗</a></div></div>`);
+  openModal('2027 榜单来源与核验状态',`<div class="ranking-source-detail"><span class="eyebrow">SOURCE & EDITION</span><h3>U.S. News · 2027</h3><p>全美综合大学 / National Universities</p><div class="detail-grid"><div><span>目标排名年份</span><strong>2027</strong></div><div><span>排名资料来源</span><strong>${uploaded?'用户提供 PDF':rankingEdition.status==='verified'?'官网来源已核验':'等待官方来源核验'}</strong></div><div><span>本份榜单收录</span><strong>${rankedSchools.length} 所院校</strong></div><div><span>${uploaded?'文件导入日期':'来源核验日期'}</span><strong>${uploaded?rankingEdition.importedAt:rankingEdition.verifiedAt||'尚未核验'}</strong></div></div><p>${uploaded?'已逐行录入你提供的 PDF，保留 51 所学校和全部并列名次。文件明确注明：这是便于阅读的整理版，并非 U.S. News 官方出版物；本站尚未独立核验官网。完整院校资料库保留原表顺序与全部并列名次，首页不再陈列学校榜单。':rankingEdition.status==='verified'?`核验日期：${rankingEdition.verifiedAt}。并列名次按原榜单保留，前 50 名不截断边界并列学校。`:'尚未取得可核验的 2027 官方榜单，现有基础目录不等于当年前 50。不会使用 2026 排名或其他榜单替代。'}</p>${uploaded?`<div class="source-document"><span>${icon('document')}</span><div><strong>${escapeHTML(rankingEdition.source.fileName)}</strong><p>${rankingEdition.source.pages} 页 · 51 所学校 · 原始文件已保留</p></div><button class="secondary-button" data-action="download-ranking">${icon('download')}下载来源 PDF</button></div>`:''}<p class="disclaimer">学校名称、城市、性质与官网入口来自 IPEDS HD2023，与 PDF 排名分别标注。综合大学排名不等于各硕士项目排名。</p><div class="modal-actions"><a class="${uploaded?'secondary-button':'primary-button'}" href="${rankingEdition.sourceURL}" target="_blank" rel="noopener noreferrer">U.S. News 官网入口 ↗</a><a class="secondary-button" href="${SchoolCatalog.sources[0].url}" target="_blank" rel="noopener noreferrer">IPEDS 资料来源 ↗</a></div></div>`);
 }
 function downloadRankingSource() {
   if(!SchoolCatalog.sourcePDFBase64)return;
@@ -3754,7 +3933,7 @@ function commandResults(query='') {
   const q=query.trim().toLowerCase();
   const routes=Object.entries(pageNames).filter(([key,name])=>`${key} ${name}`.toLowerCase().includes(q));
   const projects=schools.filter(s=>`${s.name} ${s.english} ${s.program} ${s.location}`.toLowerCase().includes(q));
-  return `${routes.length?'<div class="command-section-label">工作台页面</div>':''}${routes.map(([route,name])=>`<button class="command-result" data-action="command-route" data-page="${route}">${icon(({overview:'dashboard',schools:'school',applications:'folder',documents:'document',profile:'user'})[route])}<span><strong>${name}</strong><small>打开页面</small></span>${icon('arrow')}</button>`).join('')}${projects.length?'<div class="command-section-label">申请项目</div>':''}${projects.map(s=>`<button class="command-result" data-action="command-school" data-id="${s.id}">${schoolLogo(s)}<span><strong>${s.name}</strong><small>${s.program}</small></span>${icon('arrow')}</button>`).join('')}${routes.length+projects.length===0?'<div class="empty-state">暂时没有匹配结果，换个关键词试试。</div>':''}`;
+  return `${routes.length?'<div class="command-section-label">工作台页面</div>':''}${routes.map(([route,name])=>`<button class="command-result" data-action="command-route" data-page="${route}">${icon(({overview:'dashboard',schools:'school',programs:'search',applications:'folder',documents:'document',profile:'user'})[route])}<span><strong>${name}</strong><small>打开页面</small></span>${icon('arrow')}</button>`).join('')}${projects.length?'<div class="command-section-label">申请项目</div>':''}${projects.map(s=>`<button class="command-result" data-action="command-school" data-id="${s.id}">${schoolLogo(s)}<span><strong>${s.name}</strong><small>${s.program}</small></span>${icon('arrow')}</button>`).join('')}${routes.length+projects.length===0?'<div class="empty-state">暂时没有匹配结果，换个关键词试试。</div>':''}`;
 }
 function showCommand() {
   commandIndex=-1;
@@ -3785,6 +3964,7 @@ document.addEventListener('click',event=>{
   if(GPTWorkspace.handle(action,button))return;
   if(WritingWorkspace.handle(action,button))return;
   if(MapWorkspace.handle(action,button))return;
+  if(ProgramSearch.handle(action,button))return;
   if(ProgramWorkspace.handle(action,button))return;
   if(ApplicationWorkspace.handle(action,button))return;
   if(ShortlistWorkspace.handle(action,button))return;
@@ -3847,6 +4027,7 @@ document.addEventListener('click',event=>{
   if(action==='guide')openModal('你的申请路线图',`<p>每个人的节奏不同。把申请拆成几个清晰的阶段，一步一步来。</p>${[['认识自己','整理教育背景、真实经历、兴趣、预算和读研目标。'],['探索项目','按专业和目标比较项目，核验官网要求，形成申请清单。'],['准备材料','联系推荐人、整理成绩与语言材料，记录文书经历素材。'],['打磨与提交','按项目题目修改文书，核对材料完整性、截止时间和提交状态。'],['等待与选择','记录结果，比较课程、费用与发展方向，做出适合自己的选择。']].map(([title,desc],i)=>`<div class="guide-step"><b>${i+1}</b><div><h3>${title}</h3><p>${desc}</p></div></div>`).join('')}`);
 });
 document.addEventListener('input',event=>{
+  ProgramSearch.onInput(event.target);
   ProgramWorkspace.onInput(event.target);
   MapWorkspace.onInput(event.target);
   if(event.target.id==='school-search'){
@@ -3858,6 +4039,7 @@ document.addEventListener('input',event=>{
   if(event.target.id==='command-query'){commandIndex=-1;document.querySelector('#command-results').innerHTML=commandResults(event.target.value);}
 });
 document.addEventListener('change',event=>{
+  ProgramSearch.onChange(event.target);
   ProgramWorkspace.onChange(event.target);
   ApplicationWorkspace.onChange(event.target);
   MapWorkspace.onChange(event.target);

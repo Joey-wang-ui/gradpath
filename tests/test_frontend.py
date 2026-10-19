@@ -72,7 +72,9 @@ def test_project_filter_and_saved_application(page):
 
 
 def test_document_persistence_export_and_task_progress(page):
+    navigate(page, "applications", "让每一份申请，都有条不紊")
     page.get_by_role("button", name="完成：完成个人陈述的第一版提纲", exact=True).click()
+    navigate(page, "overview", "你好，同学")
     assert "50" in page.locator(".stat-value").nth(2).inner_text()
     navigate(page, "documents", "写下你的申请故事")
     content = "A real research experience. 真实经历。"
@@ -138,6 +140,10 @@ def test_single_file_preview_without_network_or_storage(page, width):
     program_dialog.locator('[data-program="mit--business-analytics"] [data-action="program-add"]').click()
     preview.get_by_role("button", name="关闭对话框", exact=True).click()
     preview.locator('[data-nav="documents"]').click()
+    preview.locator('[data-nav="programs"]').click()
+    preview.get_by_role("textbox", name="搜索跨校专业").fill("Computer Science")
+    expect(preview.locator(".cross-program-card")).to_have_count(24)
+    preview.locator('[data-nav="documents"]').click()
     preview.get_by_role("textbox", name="Statement of Purpose编辑器").fill("预览中的文稿")
     assert preview.locator("#save-status").inner_text() == "未保存，请导出备份"
     assert not requests
@@ -158,19 +164,21 @@ def test_project_comparison_shows_selected_programs(page):
 
 
 def test_completed_task_can_be_undone_and_progress_restored(page):
+    navigate(page, "applications", "让每一份申请，都有条不紊")
     task = page.get_by_role("button", name="完成：完成个人陈述的第一版提纲", exact=True)
     task.click()
     expect(task).to_have_count(0)
-    expect(page.locator(".stat-value").nth(2)).to_contain_text("50")
+    expect(page.locator(".summary-chip").nth(1)).to_contain_text("50")
     page.get_by_role("button", name="撤销", exact=True).click()
     expect(task).to_be_visible()
-    expect(page.locator(".stat-value").nth(2)).to_contain_text("25")
+    expect(page.locator(".summary-chip").nth(1)).to_contain_text("25")
     page.reload()
     expect(task).to_be_visible()
-    expect(page.locator(".stat-value").nth(2)).to_contain_text("25")
+    expect(page.locator(".summary-chip").nth(1)).to_contain_text("25")
 
 
 def test_custom_task_is_saved_across_reload(page):
+    navigate(page, "applications", "让每一份申请，都有条不紊")
     title = "核对目标项目的推荐信截止时间"
     page.get_by_role("button", name="添加待办", exact=True).click()
     page.get_by_role("textbox", name="待办内容", exact=True).fill(title)
@@ -214,17 +222,18 @@ def test_global_search_opens_matching_project(page):
     expect(details).to_contain_text("MS · Computer Science")
 
 
-def test_uploaded_pdf_presents_ten_in_source_order_and_retains_download(page):
-    showcase = page.get_by_role("region", name="2027前十展示区")
-    expect(showcase.locator(".school-card")).to_have_count(10)
-    assert showcase.locator(".school-card h3").all_text_contents() == [
+def test_uploaded_pdf_directory_preserves_source_order_and_retains_download(page):
+    navigate(page, "schools", "寻找属于你的下一站")
+    showcase = page.locator(".library-grid")
+    expect(showcase.locator(".school-card")).to_have_count(51)
+    assert showcase.locator(".school-card h3").all_text_contents()[:10] == [
         "麻省理工学院", "普林斯顿大学", "哈佛大学", "耶鲁大学", "加州理工学院",
         "斯坦福大学", "宾夕法尼亚大学", "杜克大学", "约翰斯·霍普金斯大学", "西北大学",
     ]
-    assert showcase.locator(".rank-badge").all_text_contents() == [
+    assert showcase.locator(".rank-badge").all_text_contents()[:10] == [
         "#1", "#2", "#3", "#4", "#5 并列", "#5 并列", "#7", "#8", "#9 并列", "#9 并列",
     ]
-    showcase.get_by_role("button", name="查看来源 ↗", exact=True).click()
+    page.locator('[data-action="ranking-source"]').click()
     dialog = page.get_by_role("dialog")
     expect(dialog).to_contain_text("用户提供 PDF")
     expect(dialog).to_contain_text("并非 U.S. News 官方出版物")
@@ -251,7 +260,7 @@ def test_school_directory_control_filter_and_unknown_deadline(page):
     assert "null" not in dialog.inner_text()
 
 
-def test_verified_catalog_renders_exactly_ten_preserving_tied_positions(page):
+def test_verified_catalog_preserves_tied_positions_in_directory(page):
     """Synthetic ranks exercise the UI only, without modifying any shipped data."""
     from scripts.school_catalog import load_catalog
 
@@ -266,9 +275,10 @@ def test_verified_catalog_renders_exactly_ten_preserving_tied_positions(page):
     end = markup.index("\n", start)
     fixture = "const SchoolCatalog = " + json.dumps(catalog) + ";"
     page.set_content(markup[:start] + fixture + markup[end:])
-    showcase = page.get_by_role("region", name="2027前十展示区")
-    expect(showcase.locator(".school-card")).to_have_count(10)
-    labels = showcase.locator(".rank-badge").all_text_contents()
+    navigate(page, "schools", "寻找属于你的下一站")
+    showcase = page.locator(".library-grid")
+    expect(showcase.locator(".school-card")).to_have_count(53)
+    labels = showcase.locator(".rank-badge").all_text_contents()[:10]
     assert labels == ["#1", "#2 并列", "#2 并列", "#4", "#5", "#6", "#7", "#8", "#9", "#10"]
 
 
@@ -319,10 +329,9 @@ def test_application_details_checklist_and_tracking_persist(page):
 
 
 def test_real_crests_public_contact_and_account_placeholder(page):
-    showcase = page.get_by_role("region", name="2027前十展示区")
-    expect(showcase.get_by_role("heading", name="TOP 10 · 最高学术殿堂 2027")).to_be_visible()
-    images = showcase.locator("img.school-crest")
-    assert images.count() == 10
+    navigate(page, "schools", "寻找属于你的下一站")
+    images = page.locator(".library-grid img.school-crest")
+    assert images.count() == 51
     assert images.evaluate_all("imgs => imgs.every(img => img.complete && img.naturalWidth > 0 && /^data:image\/(png|webp);base64,/.test(img.src))")
     page.get_by_role("button", name="联系作者", exact=True).click()
     dialog = page.get_by_role("dialog", name="联系作者")
@@ -415,7 +424,8 @@ def test_historical_review_and_custom_season_persist(page):
     page.get_by_role("button", name="打开这个申请季").click()
     expect(page.locator('.workspace-select')).to_contain_text("2025 FALL")
     expect(review.get_by_role("textbox", name="我的申请总结", exact=True)).to_be_empty()
-    expect(page.locator('.featured-heading')).to_contain_text("2027")
+    navigate(page, "schools", "寻找属于你的下一站")
+    expect(page.locator('.ranking-source-strip')).to_contain_text("2027")
     page.locator('.workspace-select').click()
     page.get_by_role("button", name=re.compile(r"26 2026 Fall")).click()
     expect(review.get_by_role("textbox", name="最终去向", exact=True)).to_have_value("我的新起点")
@@ -719,3 +729,85 @@ def test_mobile_library_menu_dismisses_on_outside_click(page):
     page.get_by_role('heading', name='你好，同学', exact=True).click()
     expect(page.get_by_role('group', name='院校资料库分页面')).to_be_hidden()
     expect(page.get_by_role('button', name='院校资料库', exact=True)).to_have_attribute('aria-expanded', 'false')
+
+
+def test_compact_home_keeps_application_entries_and_agent(page):
+    expect(page.locator('.hero')).to_be_visible()
+    expect(page.locator('.assistant-card')).to_be_visible()
+    expect(page.locator('.stats-grid .stat-card')).to_have_count(3)
+    expect(page.locator('.deadline-card')).to_be_visible()
+    expect(page.locator('.featured-section, .tasks-panel, .journey-note')).to_have_count(0)
+    page.get_by_role('link', name='发现理想项目', exact=False).click()
+    expect(page.get_by_role('heading', name='找到适合你的专业')).to_be_visible()
+    expect(page.locator('[data-nav="programs"]')).to_have_attribute('aria-current', 'page')
+
+
+def test_cross_school_search_categories_and_combined_filters(page):
+    navigate(page, 'programs', '找到适合你的专业')
+    search = page.get_by_role('textbox', name='搜索跨校专业')
+    search.fill('Computer Science')
+    assert len(set(page.locator('.cross-program-card').evaluate_all('els => els.map(el => el.dataset.schoolId)'))) > 1
+    page.get_by_role('complementary', name='专业分类').get_by_role('button', name=re.compile('计算机与信息')).click()
+    page.get_by_role('combobox', name='筛选专业所属学校').select_option('nyu')
+    page.get_by_role('combobox', name='筛选跨校专业学位').select_option('MS')
+    assert page.locator('.cross-program-card').count() >= 2
+    assert set(page.locator('.cross-program-card').evaluate_all('els => els.map(el => el.dataset.schoolId)')) == {'nyu'}
+    assert set(page.locator('.cross-program-card .degree-type').all_text_contents()) == {'MS'}
+    card = page.locator('[data-program="nyu--tandon-computer-science"]')
+    card.locator('[data-action="program-detail"]').first.click()
+    expect(page.get_by_role('dialog')).to_contain_text('纽约大学')
+    page.get_by_role('button', name='← 返回专业搜索', exact=True).click()
+    expect(page.get_by_role('dialog')).to_have_count(0)
+    expect(search).to_have_value('Computer Science')
+    expect(page.get_by_role('combobox', name='筛选专业所属学校')).to_have_value('nyu')
+
+
+def test_cross_school_paging_empty_reset_and_chinese_alias(page):
+    navigate(page, 'programs', '找到适合你的专业')
+    expect(page.locator('.cross-program-card')).to_have_count(24)
+    page.get_by_role('button', name='继续加载专业', exact=True).click()
+    expect(page.locator('.cross-program-card')).to_have_count(48)
+    page.get_by_role('button', name=re.compile('数据与统计')).click()
+    expect(page.locator('.cross-program-card')).to_have_count(24)
+    search = page.get_by_role('textbox', name='搜索跨校专业')
+    search.fill('<img src=x onerror=alert(1)>')
+    expect(page.get_by_role('heading', name='暂时没有找到匹配专业')).to_be_visible()
+    expect(page.locator('#cross-program-results img')).to_have_count(0)
+    expect(page.locator('[data-action="cross-program-more"]')).to_be_hidden()
+    page.locator('.cross-program-filters [data-action="cross-program-reset"]').click()
+    expect(search).to_be_empty()
+    expect(page.locator('.cross-program-card')).to_have_count(24)
+    search.fill('金融')
+    page.get_by_role('combobox', name='筛选专业所属学校').select_option('mit')
+    expect(page.locator('[data-program="mit--finance"]')).to_be_visible()
+    search.fill('纽约大学 计算机')
+    page.get_by_role('combobox', name='筛选专业所属学校').select_option('all')
+    assert page.locator('.cross-program-card').count() >= 2
+    assert set(page.locator('.cross-program-card').evaluate_all('els => els.map(el => el.dataset.schoolId)')) == {'nyu'}
+
+
+def test_cross_school_additions_persist_for_separate_universities(page):
+    navigate(page, 'programs', '找到适合你的专业')
+    page.get_by_role('textbox', name='搜索跨校专业').fill('Computer Science')
+    school = page.get_by_role('combobox', name='筛选专业所属学校')
+    school.select_option('nyu')
+    page.locator('[data-program="nyu--tandon-computer-science"] [data-action="program-add"]').click()
+    school.select_option('stanford')
+    page.locator('[data-program="stanford--computer-science"] [data-action="program-add"]').click()
+    navigate(page, 'applications', '让每一份申请，都有条不紊')
+    expect(page.locator('[data-status="nyu--tandon-computer-science"]')).to_have_count(1)
+    expect(page.locator('[data-status="stanford--computer-science"]')).to_have_count(1)
+    page.reload()
+    expect(page.locator('[data-status="nyu--tandon-computer-science"]')).to_have_count(1)
+    expect(page.locator('[data-status="stanford--computer-science"]')).to_have_count(1)
+
+
+@pytest.mark.parametrize('width', [320, 390, 768])
+def test_program_search_fits_mobile_and_category_filters(page, width):
+    page.set_viewport_size({'width':width, 'height':844})
+    navigate(page, 'programs', '找到适合你的专业')
+    page.get_by_role('button', name=re.compile('艺术与设计')).click()
+    expect(page.get_by_role('button', name=re.compile('艺术与设计'))).to_have_attribute('aria-pressed', 'true')
+    assert set(page.locator('.cross-program-card .degree-field').all_text_contents()) == {'艺术与设计'}
+    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+    expect(page.locator('.motion-control')).to_have_count(0)
