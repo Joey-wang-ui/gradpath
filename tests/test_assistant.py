@@ -136,3 +136,12 @@ def test_real_web_server_renders_navigation_and_writing_on_mobile():
         assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
         browser.close()
         assert not errors
+
+
+def test_writing_context_accepts_background_fields_and_bounds_them():
+    profile={'research':'实验设计','experience':'实习项目','goals':'真'*5000,'targetProgram':'目标项目','writingPrompt':'500 words','unexpected':'drop'}
+    _,context=validate({'messages':[{'role':'user','content':'根据背景写文书'}],'context':{'profile':profile}})
+    assert context['profile']=={k:v for k,v in profile.items() if k!='unexpected'}
+    profile['research']='长'*3001
+    with pytest.raises(AssistantError):
+        validate({'messages':[{'role':'user','content':'写文书'}],'context':{'profile':profile}})

@@ -93,7 +93,7 @@ def test_profile_is_rendered_as_text_and_assistant_discloses_demo(page):
     assert page.locator("#account-name").inner_text() == "<Test Student>"
     assert page.locator("#account-name test").count() == 0
     navigate(page, "overview", "GradPath · 留学申请工作台")
-    page.get_by_role("button", name="帮我安排本周的申请任务").click()
+    page.get_by_role("button", name="帮我搭建个人陈述提纲").click()
     page.get_by_role("button", name="本地写作提示").click()
     page.get_by_text("交互演示 · 以下为本地规则回复，尚未连接 AI。").wait_for()
     page.keyboard.press("Escape")
@@ -813,3 +813,61 @@ def test_program_search_fits_mobile_and_category_filters(page, width):
     assert set(page.locator('.cross-program-card .degree-field').all_text_contents()) == {'艺术与设计'}
     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
     expect(page.locator('.motion-control')).to_have_count(0)
+
+
+def test_writing_background_is_persisted_shared_and_attached_only_on_request(page):
+    sent=mock_gpt(page)
+    page.get_by_role('button',name='填写写作背景',exact=False).click()
+    dialog=page.get_by_role('dialog',name='填写文书背景',exact=True)
+    dialog.get_by_role('button',name='保存并开始写文书').click()
+    expect(dialog.get_by_role('alert')).to_contain_text('请至少填写一项')
+    dialog.get_by_role('textbox',name='教育背景',exact=True).fill('测试大学 · 计算机科学')
+    dialog.get_by_role('textbox',name='科研与课程项目',exact=True).fill('我设计了实验并分析误差。')
+    dialog.get_by_role('textbox',name='文书题目与字数要求',exact=True).fill('Explain your research interests. 500 words.')
+    dialog.get_by_role('button',name='保存并开始写文书').click()
+    page.get_by_text('GPT 已连接 · test-gpt',exact=True).wait_for()
+    expect(page.get_by_role('checkbox',name='写作背景',exact=True)).to_be_checked()
+    assert not sent
+    page.get_by_role('button',name='发送',exact=True).click()
+    page.locator('.gpt-message.assistant').wait_for()
+    assert sent[0]['context']['profile']['research']=='我设计了实验并分析误差。'
+    assert sent[0]['context']['profile']['writingPrompt'].endswith('500 words.')
+    page.get_by_role('checkbox',name='写作背景',exact=True).uncheck()
+    page.get_by_role('textbox',name='向 GPT 提问').fill('只解释提纲结构，不附上背景')
+    page.get_by_role('button',name='发送',exact=True).click()
+    expect(page.locator('.gpt-message.assistant')).to_have_count(2)
+    assert 'profile' not in sent[1]['context']
+    page.keyboard.press('Escape')
+    navigate(page,'profile','从认识自己开始')
+    expect(page.get_by_role('textbox',name='本科院校与专业',exact=True)).to_have_value('测试大学 · 计算机科学')
+    page.get_by_role('button',name='保存我的档案').click()
+    page.reload()
+    navigate(page,'overview','GradPath · 留学申请工作台')
+    page.get_by_role('button',name='编辑写作背景',exact=False).click()
+    expect(page.get_by_role('textbox',name='科研与课程项目',exact=True)).to_have_value('我设计了实验并分析误差。')
+
+
+@pytest.mark.parametrize('width',[1440,390])
+def test_calendar_expands_timeline_switches_months_and_dismisses(page,width):
+    page.clock.set_fixed_time('2026-10-19T12:00:00')
+    page.set_viewport_size({'width':width,'height':1000})
+    trigger=page.get_by_role('button',name='展开申请日历',exact=True)
+    panel=page.get_by_role('region',name='申请时间轴',exact=True)
+    expect(trigger).to_have_attribute('aria-expanded','false')
+    expect(panel).to_be_hidden()
+    trigger.click()
+    expect(panel).to_be_visible()
+    expect(trigger).to_have_attribute('aria-expanded','true')
+    expect(panel.locator('.calendar-event')).to_have_count(2)
+    expect(panel.locator('.calendar-event-copy em').first).to_have_text('示例 · 待核验')
+    panel.get_by_role('button',name='下一个月',exact=True).click()
+    expect(panel.get_by_role('heading',name='2027 年 1 月',exact=True)).to_be_visible()
+    expect(panel.locator('.calendar-event')).to_have_count(2)
+    expect(panel).to_contain_text('哥伦比亚大学')
+    page.keyboard.press('Escape')
+    expect(panel).to_be_hidden()
+    expect(trigger).to_be_focused()
+    trigger.click()
+    page.locator('.assistant-heading h2').click()
+    expect(panel).to_be_hidden()
+    assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')

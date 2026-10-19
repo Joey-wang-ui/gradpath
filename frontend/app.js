@@ -93,24 +93,18 @@ const save = () => {
   catch { storageAvailable = false; toast('浏览器未允许保存，当前内容仅在本次打开期间保留'); return false; }
 };
 function hydrateIcons(root = document) { root.querySelectorAll('i[data-icon]:empty').forEach(el => {el.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[el.dataset.icon] || icons.spark}</svg>`;}); }
-const campus = `<svg class="campus-art" viewBox="0 0 370 270" fill="none" aria-hidden="true">
- <circle cx="245" cy="100" r="71" fill="#dfe6ef"/><circle cx="316" cy="49" r="15" fill="#cbd7e7"/>
- <path d="M35 250c54-22 96-18 145-15 66 4 126-18 185-5" stroke="#a9b8cb" stroke-width="1.3"/>
- <path d="m70 221 30-2m-9 13 28-2m151 9 40-2m-17-9 22-2" stroke="#b2bfd0"/>
- <path d="M119 216V127h90v89M112 127h104l-52-28-52 28Z" fill="#ebf0f6" stroke="#8395ac" stroke-width="1.2"/>
- <path d="M125 134h78m-76 8v67m12-67v67m13-67v67m13-67v67m13-67v67m13-67v67m12-67v67M116 211h97v8h-97z" stroke="#8d9db1"/>
- <path d="M211 216V152h76v64M207 151h84l-42-20-42 20Z" fill="#dde5ef" stroke="#8395ac"/>
- <path d="M220 163h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9zm-38 27h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9z" fill="#bac7d9" stroke="#93a2b6"/>
- <path d="M147 106V76h34v30m-37-30h40l-20-23-20 23Z" fill="#e3e9f2" stroke="#8395ac"/>
- <path d="M161 54V38m0 0 25 5-25 6" stroke="#8395ac"/><circle cx="164" cy="88" r="8" stroke="#8c9cb2"/><path d="M164 83v5l4 2" stroke="#8c9cb2"/>
- <path d="M160 215v-27a8 8 0 0 1 16 0v27" fill="#a8b8ce" stroke="#7c90aa"/>
- <path d="M151 220h34l17 20h-68l17-20Z" stroke="#9eaec2"/>
- <path d="M93 221v-69m0 16c-20 0-25-18-17-31-13-13-2-36 17-33 18-3 31 17 20 32 10 19-2 34-20 32Z" fill="#ccd8e7" stroke="#91a3ba"/><path d="m93 154-11-13m11 4 11-12" stroke="#8a9db5"/>
- <path d="M307 227v-66m0 19c-22 0-27-17-16-32-11-14-2-29 16-28 18-1 27 14 16 28 10 16 5 32-16 32Z" fill="#b5c5db" stroke="#8599b4"/><path d="m307 169-10-13m10 5 9-11" stroke="#8598b1"/>
- <path d="m241 81 7-3 7 3m17-15 6-3 6 3M57 96l7-3 7 3" stroke="#95a4b8" stroke-linecap="round"/>
- <path d="M50 244c3-22 14-28 22-23 9-22 24-20 29-4 12-7 25 5 26 24m162-1c4-13 12-20 20-14 5-18 21-17 28-2 15-5 23 3 24 15" fill="#d2dce9" stroke="#a0b0c5"/>
- <path d="M63 240v-9m10 9 4-14m18 13-1-12m225 9 2-11m11 12 4-7" stroke="#99abc2"/>
- </svg>`;
+function heroCrests() {
+  const positions = [
+    ['harvard',50,49,22,-5],['yale',22,27,17,-9],['princeton',25,71,17,6],
+    ['stanford',75,71,18,-5],['mit',78,28,19,7],['columbia',50,9,14,4],
+    ['upenn',8,49,13,-7],['uchicago',50,91,14,5],['berkeley',92,49,13,8],
+  ];
+  return `<div class="crest-cluster">${positions.map(([id,x,y,size,angle],index)=>{
+    const school=schools.find(s=>s.id===id);
+    if(!school?.crestDataURL)return '';
+    return `<span class="hero-crest" data-school-id="${id}" style="left:${x}%;top:${y}%;width:${size}%;--crest-angle:${angle}deg;animation-delay:-${index*.7}s"><img src="${school.crestDataURL}" alt="${escapeHTML(school.name)}校徽" width="64" height="64" decoding="async" ${school.crestFit==='cover'?'style="object-fit:cover"':''}></span>`;
+  }).join('')}</div>`;
+}
 
 function heading(title, sub, eyebrow, action = '') {
   return `<div class="page-heading"><div><div class="eyebrow">${eyebrow}</div><h1>${title}</h1>${sub?`<p>${sub}</p>`:''}</div>${action}</div>`;
@@ -140,18 +134,21 @@ function deadlineRows() {
   return dated.length ? dated.sort((a,b)=>dateOrder(a)-dateOrder(b)).slice(0,3).map(s=>`<div class="deadline-row"><div class="deadline-date"><span>${s.month}</span>${s.day}</div><div><div class="deadline-name">${s.name}</div><div class="deadline-meta">${s.program.replace(' · ',' / ')}<b>示例待核验</b></div></div></div>`).join('') : '<p class="library-note">学校没有统一的研究生申请截止日期。选择具体项目后，再核验当季时间。</p>';
 }
 function assistantCard() {
-  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✺</span><div><h2>AI 留学申请助手</h2><p>GRADPATH ASSISTANT</p></div><span class="assistant-caption">申请与文书</span></div><p class="assistant-intro">选校、文书、申请安排，从你的问题开始。</p><div class="suggestions"><button class="suggestion" data-action="chat" data-question="帮我安排本周的申请任务">${icon('calendar')}帮我安排本周的申请任务<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我的选校清单合理吗？">${icon('school')}我的选校清单合理吗？<span>↗</span></button><button class="suggestion" data-action="chat" data-question="文书不知道从哪里开始">${icon('document')}文书不知道从哪里开始<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊你的申请困惑…" aria-label="向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">建议仅供参考 · 重要信息请核对官网</div></section>`;
+  const hasBackground=GPTWorkspace.hasBackground();
+  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✺</span><div><h2>文书小助手</h2><p>GRADPATH WRITING ASSISTANT</p></div><span class="assistant-caption">素材 · 提纲 · 润色</span></div><p class="assistant-intro">从你的背景与经历出发，一起梳理素材、搭建提纲、打磨表达。</p><button class="writing-background-entry" data-action="writing-background">${icon('user')}<span><strong>${hasBackground?'编辑写作背景':'填写写作背景'}</strong><small>${hasBackground?'已记录背景 · 为文书提供素材':'教育背景、个人经历与申请目标'}</small></span>${icon('arrow')}</button><div class="suggestions"><button class="suggestion" data-action="writing-start">${icon('spark')}根据我的背景写文书<span>↗</span></button><button class="suggestion" data-action="chat" data-question="帮我搭建个人陈述提纲，缺少的信息请先问我">${icon('document')}帮我搭建个人陈述提纲<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我想润色一段文书，请先让我提供原文，并保留真实经历和个人表达">${icon('edit')}帮我润色一段文书<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊素材、提纲或文书修改…" aria-label="向文书小助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">基于真实经历写作 · 改写由你确认</div></section>`;
 }
+
+function currentTimeLabel() { return new Intl.DateTimeFormat('zh-CN',{year:'numeric',month:'long',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date()); }
 function overview() {
   const percent = Math.round(state.completed.length / tasks.length * 100);
-  return `${heading('GradPath · <span class="overview-title">留学申请工作台</span>','','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
+  return `${heading('GradPath · <span class="overview-title">留学申请工作台</span>','','YOUR NEXT CHAPTER',`<time class="current-time" id="current-time">${currentTimeLabel()}</time>`)}
     ${SeasonWorkspace.overview()}<div class="main-grid"><div class="main-column">
-    <section class="hero"><div class="hero-copy"><div class="hero-topline">选校 · 专业搜索 · 申请管理</div><h2>查院校，找专业，<br>规划你的<span class="hero-title-accent">留学申请。</span></h2><p>搜索不同学校的专业，整理申请材料，跟进申请进度。<br>不知道下一步做什么？问问 AI 助手。</p><div class="hero-actions"><a href="#programs" class="primary-button">搜索专业 ${icon('arrow')}</a><a href="#applications" class="hero-secondary">我的申请 ${icon('arrow')}</a></div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
+    <section class="hero"><div class="hero-copy"><div class="hero-topline">选校 · 专业搜索 · 申请管理</div><h2>在这里<br>开启你留学的<span class="hero-title-accent">第一步</span></h2><p>搜索不同学校的专业，整理申请材料，跟进申请进度。<br>不知道文书从哪开始？问问文书小助手。</p><div class="hero-actions"><a href="#programs" class="primary-button">搜索专业 ${icon('arrow')}</a><a href="#applications" class="hero-secondary">我的申请 ${icon('arrow')}</a></div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${heroCrests()}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
 
     <div class="stats-grid"><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">申请项目 ${icon('school')}</div><div class="stat-value">${String(ProgramWorkspace.items().length).padStart(2,'0')}<small>个项目</small></div><div class="stat-foot"><span>查看申请</span> ${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="documents"><div class="stat-label">文书工作区 ${icon('document')}</div><div class="stat-value">${String(documents.length).padStart(2,'0')}<small>份文档</small></div><div class="stat-foot"><span>继续写作</span>${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">材料准备进度 ${icon('folder')}</div><div class="stat-value">${percent}<small>% 已完成</small></div><div class="stat-foot"><div class="tiny-bar"><span style="width:${percent}%"></span></div><span>${state.completed.length}/${tasks.length}</span></div></button></div>
 
     </div>
-    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>申请日期提醒</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div><p class="date-disclaimer">示例日期 · 请先核对项目当季官网</p>${deadlineRows()}</section></aside></div>`;
+    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>申请 DDL 提醒</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div><p class="deadline-intro">留意项目截止时间，提前准备并提交申请材料。</p><p class="date-disclaimer">示例日期 · 请先核对项目当季官网</p>${deadlineRows()}</section></aside></div>`;
 }
 function matchingSchools() {
   const query = search.trim().toLowerCase();
@@ -211,6 +208,7 @@ const pages = {programs:ProgramSearch.render,map:MapWorkspace.render,overview, s
 const pageNames = {programs:'专业搜索',map:'院校地图',overview:'申请总览',schools:'院校资料库',applications:'我的申请',documents:'文书工作区',profile:'我的背景'};
 function render() {
   SeasonWorkspace.sync();
+  ApplicationCalendar.sync();
   if (activePage !== 'documents') document.body.classList.remove('focus-mode');
   document.querySelector('#main-content').dataset.page = activePage;
   document.querySelector('#main-content').innerHTML = pages[activePage]();
@@ -230,6 +228,7 @@ function render() {
   VisualMotion.reveal(document.querySelector('#main-content'));
 }
 function goTo(target, updateURL = true) {
+  ApplicationCalendar.close();
   activePage = pages[target] ? target : 'overview';
   libraryNavOpen = (activePage === 'schools' || activePage === 'map') && !matchMedia('(max-width: 760px)').matches;
   // Single-file previews may run in srcdoc with an opaque origin. A normal
@@ -267,6 +266,7 @@ function toast(message, undo = null) {
   toastTimer=setTimeout(()=>{el.classList.remove('visible');undoAction=null;},undo?6500:3200);
 }
 function openModal(title,body) {
+  ApplicationCalendar.close();
   if(!document.querySelector('.modal')) modalReturnFocus=document.activeElement;
   document.querySelector('#modal-root').innerHTML=`<div class="modal-overlay"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-header"><h2 id="modal-title">${escapeHTML(title)}</h2><button class="icon-button" data-action="close-modal" aria-label="关闭对话框">${icon('close')}</button></div>${body}</section></div>`;
   document.body.style.overflow='hidden';
@@ -288,11 +288,10 @@ function downloadRankingSource() {
 }
 function assistantReply(question) { GPTWorkspace.open(question); }
 function localAssistantReply(question) {
-  let reply;
-  if(/文书|SOP|sop|写作|经历/.test(question)) reply='可以先从一个真实经历开始，而不是急着写开头。\n\n1. 你遇到了什么具体问题？\n2. 你采取了哪些行动，贡献是什么？\n3. 这段经历如何影响了你的学习目标？\n\n去「文书工作区 → My Story Bank」记录这三点，再根据目标项目的正式题目组织内容。';
-  else if(/选校|项目|学校|清单/.test(question)) reply=`你的演示清单里有 ${ProgramWorkspace.items().length} 个项目。\n\n建议先补全本科专业、成绩、先修课、预算与职业目标，再逐项比较课程内容和申请要求。排名可以作为浏览入口，项目是否适合你还需要具体分析。\n\n项目目录可以作为探索入口；当季申请要求仍需逐项核对，暂时不能据此给出可靠的背景匹配结论。`;
-  else reply=`先把注意力放在能推进的一小步上：\n\n${tasks.filter(t=>!state.completed.includes(t.id)).map((t,i)=>`${i+1}. ${t.title}`).join('\n') || '你已经完成当前示例待办，可以继续核对项目官网和材料要求。'}\n\n下一步可以先挑一项，在「我的申请」中更新进度。`;
-  openModal('和申请搭子聊一聊',`<p class="disclaimer">交互演示 · 以下为本地规则回复，尚未连接 AI。</p><div class="chat-question">你：${escapeHTML(question)}</div><div class="chat-message">${escapeHTML(reply)}</div><form class="assistant-input" data-form="chat"><input name="question" placeholder="继续聊聊你的申请…" aria-label="继续向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="modal-actions"><a href="#documents" class="secondary-button" data-action="close-link">打开文书工作区 ↗</a><a href="#profile" class="secondary-button" data-action="close-link">完善个人背景 ↗</a></div>`);
+  const background=GPTWorkspace.backgroundSummary();
+  const writingQuestion=/文书|SOP|sop|写作|经历|素材|提纲|润色|背景|个人陈述|简历/.test(question);
+  const reply=writingQuestion ? `${background?`已记录的写作素材（请核对）：\n${background}\n\n`:''}先围绕真实经历搭建提纲：\n\n1. 申请动机：是什么问题让你想继续学习这个方向？\n2. 代表经历：选择一段科研、课程或实践，写清背景、你的行动与具体贡献。\n3. 学习目标：这段经历让你发现了什么不足，希望在目标项目中学到什么？\n4. 项目契合：提供正式文书题目与项目资料后，再补充对应内容。\n\n${background?'目前只是本地素材整理与写作框架，没有生成 AI 文稿。':'先填写写作背景，补充真实经历后再逐段展开。'}缺少的事实保留为待补充内容。` : '我专注于文书素材、提纲和表达修改。你可以提供一段真实经历、文书题目或原稿，我们从这里开始。';
+  openModal('文书小助手 · 本地写作提示',`<p class="disclaimer">交互演示 · 以下为本地规则回复，尚未连接 AI。</p><div class="chat-question">你：${escapeHTML(question)}</div><div class="chat-message">${escapeHTML(reply)}</div><form class="assistant-input" data-form="chat"><input name="question" placeholder="继续聊聊你的文书…" aria-label="继续向文书小助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="modal-actions"><button class="secondary-button" data-action="writing-background">编辑写作背景 ↗</button><a href="#documents" class="secondary-button" data-action="close-link">打开文书工作区 ↗</a></div>`);
 }
 
 function renderCompareBar() {
@@ -332,6 +331,7 @@ function refreshLibrary() {
 }
 
 document.addEventListener('click',event=>{
+  ApplicationCalendar.outside(event);
   if (libraryNavOpen && matchMedia('(max-width: 760px)').matches && !event.target.closest('.library-nav-group')) closeLibraryNav();
   if(event.target.classList.contains('modal-overlay')){closeModal();return;}
   const link = event.target.closest('a[href^="#"]');
@@ -344,6 +344,7 @@ document.addEventListener('click',event=>{
   }
   const button=event.target.closest('[data-action]');if(!button)return;
   const {action,id}=button.dataset;
+  if(ApplicationCalendar.handle(action,button))return;
   if(GPTWorkspace.handle(action,button))return;
   if(WritingWorkspace.handle(action,button))return;
   if(MapWorkspace.handle(action,button))return;
@@ -401,7 +402,7 @@ document.addEventListener('click',event=>{
   if(action==='edit-doc'){activeDoc=id;state.activeDocumentId=id;save();goTo('documents');}
   if(action==='profile')goTo('profile');
   if(action==='chat')assistantReply(button.dataset.question);
-  if(action==='notifications')openModal('申请日历',`${deadlineRows()}<p class="disclaimer">以上为原型示例日期，未按所选申请季核验。实际截止日期与时区请以项目官网为准。</p><a href="#applications" class="primary-button" data-action="close-link">查看我的申请 →</a>`);
+
   if(action==='task-detail'){
     const task=tasks.find(t=>t.id===id);
     if(!task)return;
@@ -444,7 +445,7 @@ document.addEventListener('submit',event=>{
     tasks.push(task);state.customTasks.push(task);save();taskFilter='pending';closeModal();render();toast('新的小目标已加入清单');
   }
   if(form.dataset.form==='profile'){
-    state.profile=Object.fromEntries([...data].map(([key,value])=>[key,String(value).trim()]));
+    state.profile={...state.profile,...Object.fromEntries([...data].map(([key,value])=>[key,String(value).trim()]))};
     state.profileSaved=true;
     const persisted=save();render();ShortlistWorkspace.show();toast(persisted?'档案已保存，接下来看看选校建议':'档案已更新，暂未保存到浏览器');
   }
@@ -454,6 +455,7 @@ document.addEventListener('pointermove',MapWorkspace.pointerMove);
 document.addEventListener('pointerup',MapWorkspace.pointerUp);
 document.addEventListener('pointercancel',MapWorkspace.pointerUp);
 document.addEventListener('keydown',event=>{
+  if(ApplicationCalendar.onKeydown(event))return;
   if (event.key === 'Escape' && libraryNavOpen && !document.querySelector('.modal')) { closeLibraryNav(true); return; }
   MapWorkspace.onKeydown(event);
   const editing=event.target.matches('input,textarea,select,[contenteditable="true"]');
@@ -482,6 +484,7 @@ window.addEventListener('hashchange',()=>{closeModal();navigate();});
 window.addEventListener('popstate',()=>{closeModal();navigate();});
 VisualMotion.init();
 hydrateIcons();navigate();
+setInterval(()=>{const current=document.querySelector('#current-time');if(current)current.textContent=currentTimeLabel();},30000);
 
 function contactAuthor() {
   openModal('联系作者', `<div class="contact-intro"><span class="contact-symbol">${icon('message')}</span><span class="eyebrow">LET’S MAKE THE NEXT CHAPTER BETTER</span><h3>关于申请，关于这个小站。</h3><p>欢迎交流申请经验、分享使用感受，或一起讨论新的想法。</p></div><div class="contact-links"><a href="https://www.xiaohongshu.com/user/profile/62a89f570000000019028f30" target="_blank" rel="noopener noreferrer"><span>XIAOHONGSHU · 小红书</span><strong>我的小红书主页</strong><b>去主页聊聊 ↗</b></a><a href="https://github.com/Joey-wang-ui" target="_blank" rel="noopener noreferrer"><span>GITHUB · 主页</span><strong>Joey-wang-ui</strong><b>去逛逛 ↗</b></a></div><p class="profile-note">期待与你交流，让申请这段路更清晰一点。</p>`);
