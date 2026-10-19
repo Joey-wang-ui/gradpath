@@ -95,22 +95,22 @@ const save = () => {
 };
 function hydrateIcons(root = document) { root.querySelectorAll('i[data-icon]:empty').forEach(el => {el.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[el.dataset.icon] || icons.spark}</svg>`;}); }
 const campus = `<svg class="campus-art" viewBox="0 0 370 270" fill="none" aria-hidden="true">
- <circle cx="245" cy="100" r="71" fill="#e2e9d3"/><circle cx="316" cy="49" r="15" fill="#d8e1bf"/>
- <path d="M35 250c54-22 96-18 145-15 66 4 126-18 185-5" stroke="#bdcba9" stroke-width="1.3"/>
- <path d="m70 221 30-2m-9 13 28-2m151 9 40-2m-17-9 22-2" stroke="#c4d0b2"/>
- <path d="M119 216V127h90v89M112 127h104l-52-28-52 28Z" fill="#eef1df" stroke="#97ac83" stroke-width="1.2"/>
- <path d="M125 134h78m-76 8v67m12-67v67m13-67v67m13-67v67m13-67v67m13-67v67m12-67v67M116 211h97v8h-97z" stroke="#a0b18d"/>
- <path d="M211 216V152h76v64M207 151h84l-42-20-42 20Z" fill="#e3e9d1" stroke="#97ac83"/>
- <path d="M220 163h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9zm-38 27h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9z" fill="#ced9ba" stroke="#a6b693"/>
- <path d="M147 106V76h34v30m-37-30h40l-20-23-20 23Z" fill="#e7ecd7" stroke="#97ac83"/>
- <path d="M161 54V38m0 0 25 5-25 6" stroke="#97ac83"/><circle cx="164" cy="88" r="8" stroke="#a2b28c"/><path d="M164 83v5l4 2" stroke="#a2b28c"/>
- <path d="M160 215v-27a8 8 0 0 1 16 0v27" fill="#bfcea8" stroke="#94aa7c"/>
- <path d="M151 220h34l17 20h-68l17-20Z" stroke="#b4c29e"/>
- <path d="M93 221v-69m0 16c-20 0-25-18-17-31-13-13-2-36 17-33 18-3 31 17 20 32 10 19-2 34-20 32Z" fill="#d6e1c0" stroke="#a8ba91"/><path d="m93 154-11-13m11 4 11-12" stroke="#a1b58a"/>
- <path d="M307 227v-66m0 19c-22 0-27-17-16-32-11-14-2-29 16-28 18-1 27 14 16 28 10 16 5 32-16 32Z" fill="#cddbb5" stroke="#9fb485"/><path d="m307 169-10-13m10 5 9-11" stroke="#9db185"/>
- <path d="m241 81 7-3 7 3m17-15 6-3 6 3M57 96l7-3 7 3" stroke="#a6b895" stroke-linecap="round"/>
- <path d="M50 244c3-22 14-28 22-23 9-22 24-20 29-4 12-7 25 5 26 24m162-1c4-13 12-20 20-14 5-18 21-17 28-2 15-5 23 3 24 15" fill="#d9e3c6" stroke="#b4c5a0"/>
- <path d="M63 240v-9m10 9 4-14m18 13-1-12m225 9 2-11m11 12 4-7" stroke="#b0c299"/>
+ <circle cx="245" cy="100" r="71" fill="#dfe6ef"/><circle cx="316" cy="49" r="15" fill="#cbd7e7"/>
+ <path d="M35 250c54-22 96-18 145-15 66 4 126-18 185-5" stroke="#a9b8cb" stroke-width="1.3"/>
+ <path d="m70 221 30-2m-9 13 28-2m151 9 40-2m-17-9 22-2" stroke="#b2bfd0"/>
+ <path d="M119 216V127h90v89M112 127h104l-52-28-52 28Z" fill="#ebf0f6" stroke="#8395ac" stroke-width="1.2"/>
+ <path d="M125 134h78m-76 8v67m12-67v67m13-67v67m13-67v67m13-67v67m13-67v67m12-67v67M116 211h97v8h-97z" stroke="#8d9db1"/>
+ <path d="M211 216V152h76v64M207 151h84l-42-20-42 20Z" fill="#dde5ef" stroke="#8395ac"/>
+ <path d="M220 163h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9zm-38 27h9v15h-9zm19 0h9v15h-9zm19 0h9v15h-9z" fill="#bac7d9" stroke="#93a2b6"/>
+ <path d="M147 106V76h34v30m-37-30h40l-20-23-20 23Z" fill="#e3e9f2" stroke="#8395ac"/>
+ <path d="M161 54V38m0 0 25 5-25 6" stroke="#8395ac"/><circle cx="164" cy="88" r="8" stroke="#8c9cb2"/><path d="M164 83v5l4 2" stroke="#8c9cb2"/>
+ <path d="M160 215v-27a8 8 0 0 1 16 0v27" fill="#a8b8ce" stroke="#7c90aa"/>
+ <path d="M151 220h34l17 20h-68l17-20Z" stroke="#9eaec2"/>
+ <path d="M93 221v-69m0 16c-20 0-25-18-17-31-13-13-2-36 17-33 18-3 31 17 20 32 10 19-2 34-20 32Z" fill="#ccd8e7" stroke="#91a3ba"/><path d="m93 154-11-13m11 4 11-12" stroke="#8a9db5"/>
+ <path d="M307 227v-66m0 19c-22 0-27-17-16-32-11-14-2-29 16-28 18-1 27 14 16 28 10 16 5 32-16 32Z" fill="#b5c5db" stroke="#8599b4"/><path d="m307 169-10-13m10 5 9-11" stroke="#8598b1"/>
+ <path d="m241 81 7-3 7 3m17-15 6-3 6 3M57 96l7-3 7 3" stroke="#95a4b8" stroke-linecap="round"/>
+ <path d="M50 244c3-22 14-28 22-23 9-22 24-20 29-4 12-7 25 5 26 24m162-1c4-13 12-20 20-14 5-18 21-17 28-2 15-5 23 3 24 15" fill="#d2dce9" stroke="#a0b0c5"/>
+ <path d="M63 240v-9m10 9 4-14m18 13-1-12m225 9 2-11m11 12 4-7" stroke="#99abc2"/>
  </svg>`;
 
 function heading(title, sub, eyebrow, action = '') {
@@ -141,18 +141,18 @@ function deadlineRows() {
   return dated.length ? dated.sort((a,b)=>dateOrder(a)-dateOrder(b)).slice(0,3).map(s=>`<div class="deadline-row"><div class="deadline-date"><span>${s.month}</span>${s.day}</div><div><div class="deadline-name">${s.name}</div><div class="deadline-meta">${s.program.replace(' · ',' / ')}<b>示例待核验</b></div></div></div>`).join('') : '<p class="library-note">学校没有统一的研究生申请截止日期。选择具体项目后，再核验当季时间。</p>';
 }
 function assistantCard() {
-  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✳</span><div><h2>你的申请搭子</h2><p>GRADPATH ASSISTANT</p></div><span class="assistant-status"></span></div><p class="assistant-intro">申请这件事，不用一个人摸索。<br>我们一起把<strong>下一步</strong>理清楚。</p><div class="suggestions"><button class="suggestion" data-action="chat" data-question="帮我安排本周的申请任务">${icon('calendar')}帮我安排本周的申请任务<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我的选校清单合理吗？">${icon('school')}我的选校清单合理吗？<span>↗</span></button><button class="suggestion" data-action="chat" data-question="文书不知道从哪里开始">${icon('document')}文书不知道从哪里开始<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊你的申请困惑…" aria-label="向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">GPT 文书助手 · 一起梳理你的申请</div></section>`;
+  return `<section class="assistant-card"><div class="assistant-heading"><span class="assistant-mark">✺</span><div><h2>你的申请搭子</h2><p>GRADPATH ASSISTANT</p></div><span class="assistant-status"></span></div><p class="assistant-intro">申请这件事，不用一个人摸索。<br>我们一起把<strong>下一步</strong>理清楚。</p><div class="suggestions"><button class="suggestion" data-action="chat" data-question="帮我安排本周的申请任务">${icon('calendar')}帮我安排本周的申请任务<span>↗</span></button><button class="suggestion" data-action="chat" data-question="我的选校清单合理吗？">${icon('school')}我的选校清单合理吗？<span>↗</span></button><button class="suggestion" data-action="chat" data-question="文书不知道从哪里开始">${icon('document')}文书不知道从哪里开始<span>↗</span></button></div><form class="assistant-input" data-form="chat"><input name="question" placeholder="聊聊你的申请困惑…" aria-label="向申请助手提问" maxlength="1000" required><button aria-label="发送问题">${icon('send')}</button></form><div class="assistant-note">GPT 文书助手 · 一起梳理你的申请</div></section>`;
 }
 function overview() {
   const percent = Math.round(state.completed.length / tasks.length * 100);
   return `${heading('你好，同学','新的一天，离你的理想再近一点。','YOUR NEXT CHAPTER',`<button class="date-label" data-action="choose-season">${icon('calendar')}<span data-cycle-label>${state.cycleYear} Fall</span><span>${SeasonWorkspace.phase()}</span>${icon('arrow')}</button>`)}
     ${SeasonWorkspace.overview()}<div class="main-grid"><div class="main-column">
-    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#schools" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✳</span> A little closer, every day.</div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✳</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
+    <section class="hero"><div class="hero-copy"><div class="hero-topline"><span class="hero-live-dot"></span> THE FUTURE IS YOURS TO MAKE</div><h2>把向往，<br>变成<span class="hero-title-accent">下一站。</span></h2><p>从一份选校清单，到一封心动的 Offer。<br>你的每一步，都值得认真规划。</p><div class="hero-actions"><a href="#schools" class="primary-button">发现理想项目 ${icon('arrow')}</a><button class="hero-secondary" data-action="guide">查看申请路线 ${icon('arrow')}</button></div><div class="hero-bottomline"><span>✺</span> A little closer, every day.</div></div><div class="hero-scene" aria-hidden="true"><svg class="journey-orbits" viewBox="0 0 360 300"><ellipse cx="180" cy="150" rx="174" ry="106" transform="rotate(-25 180 150)"/><g class="journey-orbit-track"><circle class="journey-orbit-dash" cx="180" cy="150" r="139"/><circle class="journey-orbit-node" cx="180" cy="11" r="5"/></g><path class="journey-orbit-cross" d="M14 117h16m-8-8v16M323 218h16m-8-8v16"/></svg><span class="scene-spark">✺</span>${campus}<span class="orbit-label orbit-one">${icon('school')}Dream bigger.</span><span class="orbit-label orbit-two">${icon('check')}One step closer</span><span class="scene-caption">YOUR NEXT CHAPTER<br><b>BEGINS HERE ↗</b></span></div></section>
     <div class="overview-jumpbar" aria-label="申请路线">${[['schools','01','探索选校','complete'],['applications','02','准备材料','active'],['documents','03','打磨文书',''],['applications','04','提交申请','']].map(([route,n,title,cls])=>`<a href="#${route}" class="journey-step ${cls}"><span>${cls==='complete'?'✓':n}</span><strong>${title}</strong>${icon('arrow')}</a>`).join('')}</div>
     <div class="stats-grid"><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">申请项目 ${icon('school')}</div><div class="stat-value">${String(ProgramWorkspace.items().length).padStart(2,'0')}<small>个项目</small></div><div class="stat-foot"><span>我的申请清单</span> ${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="documents"><div class="stat-label">文书工作区 ${icon('document')}</div><div class="stat-value">${String(documents.length).padStart(2,'0')}<small>份文档</small></div><div class="stat-foot"><span>让你的故事被看见</span>${icon('arrow')}</div></button><button class="stat-card" data-action="navigate" data-page="applications"><div class="stat-label">材料准备进度 ${icon('folder')}</div><div class="stat-value">${percent}<small>% 已完成</small></div><div class="stat-foot"><div class="tiny-bar"><span style="width:${percent}%"></span></div><span>${state.completed.length}/${tasks.length}</span></div></button></div>
     <section><div class="section-heading"><h2><span class="section-number">01</span>今天，往前一步 <span>${tasks.length-state.completed.length} 项待办</span></h2><button class="view-all" data-action="add-task">${icon('plus')}添加待办</button></div><div class="task-panel-top"><span>小小行动，大大进展</span><div class="segmented" aria-label="待办筛选"><button data-action="task-filter" data-filter="pending" class="${taskFilter==='pending'?'active':''}">待完成</button><button data-action="task-filter" data-filter="completed" class="${taskFilter==='completed'?'active':''}">已完成</button></div></div><div class="tasks-panel">${taskRows()}</div></section>
     </div>
-    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>别错过，重要的日子</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div>${deadlineRows()}<p class="date-disclaimer">示例日期 · 以项目当季官网信息为准</p></section><div class="journey-note"><div class="leaf">✳</div><p>你不需要一次看清整条路，<br>只要勇敢走好下一步。</p><small>YOUR JOURNEY, YOUR PACE.</small></div></aside></div>${featuredShowcase()}`;
+    <aside class="right-column">${assistantCard()}<section class="deadline-card"><div class="section-heading"><h2>别错过，重要的日子</h2><button class="icon-button" data-action="notifications" aria-label="打开申请日历">${icon('calendar')}</button></div>${deadlineRows()}<p class="date-disclaimer">示例日期 · 以项目当季官网信息为准</p></section><div class="journey-note"><div class="leaf">✺</div><p>你不需要一次看清整条路，<br>只要勇敢走好下一步。</p><small>YOUR JOURNEY, YOUR PACE.</small></div></aside></div>${featuredShowcase()}`;
 }
 function featuredShowcase() {
   return `<section class="school-section featured-section" aria-label="2027前十展示区"><div class="featured-heading"><div><div class="eyebrow">THE NEXT CHAPTER · SELECTED TEN</div><h2>TOP 10 · 最高学术殿堂<span>2027</span></h2></div><div class="featured-heading-actions"><button class="text-button" data-action="ranking-source">查看来源 ↗</button><a href="#schools" class="secondary-button">浏览资料库 ${icon('arrow')}</a></div></div>${featuredSchools.length?`<div class="school-grid featured-school-grid">${featuredSchools.map(schoolCard).join('')}</div>`:`<div class="ranking-pending-panel"><div class="ranking-pending-copy"><span class="ranking-pending-mark">${icon('school')}</span><div><h3>2027 官方榜单，等待核验</h3><p>前 10 名单尚未确认。核验完成后，这里会展示对应学校；当前基础目录不代表 2027 前 50。</p><button class="text-button" data-action="ranking-source">查看榜单来源与状态 ↗</button></div></div><div class="rank-placeholders" aria-label="尚未填入学校的十个展示位">${Array.from({length:10},(_,i)=>`<div class="rank-placeholder"><span>${String(i+1).padStart(2,'0')}</span><small>展示位 · 待核验</small></div>`).join('')}</div></div>`}</section>`;
@@ -354,8 +354,8 @@ document.addEventListener('click',event=>{
   if(ShortlistWorkspace.handle(action,button))return;
   if(SeasonWorkspace.handle(action,button))return;
   if (action === 'toggle-library-nav') {
-    if (activePage !== 'schools' && activePage !== 'map') { goTo('schools'); libraryNavOpen = true; syncLibraryNav(); }
-    else { libraryNavOpen = !libraryNavOpen; syncLibraryNav(); }
+    libraryNavOpen = !libraryNavOpen;
+    syncLibraryNav();
     return;
   }
   if(action==='contact-author')contactAuthor();

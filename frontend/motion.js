@@ -3,15 +3,11 @@ const VisualMotion = (() => {
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const pointer = matchMedia('(hover: hover) and (pointer: fine)');
   const animations = new Set();
-  let paused = false;
   let observer;
   let frame = 0;
   let currentCard;
   let currentHero;
-  let control;
-  try { paused = localStorage.getItem('gradpath-motion') === 'paused'; } catch { /* Opaque previews have no storage. */ }
-
-  const enabled = () => !paused && !reduced.matches;
+  const enabled = () => !reduced.matches;
   function resetPointer() {
     cancelAnimationFrame(frame);
     frame = 0;
@@ -23,12 +19,6 @@ const VisualMotion = (() => {
   }
   function sync() {
     document.documentElement.dataset.motion = enabled() ? 'playing' : 'paused';
-    control.disabled = reduced.matches;
-    control.setAttribute('aria-pressed', String(!enabled()));
-    const label = reduced.matches ? '已跟随系统减少动效' : paused ? '开启动效' : '暂停动效';
-    control.setAttribute('aria-label', label);
-    control.title = label;
-    control.querySelector('span').textContent = reduced.matches ? '静态' : paused ? '动效已暂停' : '动效开启';
     if (!enabled()) {
       observer?.disconnect();
       animations.forEach(animation => animation.cancel());
@@ -62,16 +52,6 @@ const VisualMotion = (() => {
     root.querySelectorAll('.stat-card, .school-card, .assistant-card, .deadline-card, .journey-note, .catalog-hero, .profile-card, .profile-aside').forEach(element => observer.observe(element));
   }
   function init() {
-    control = document.createElement('button');
-    control.className = 'motion-control';
-    control.type = 'button';
-    control.innerHTML = '<svg viewBox="0 0 20 20" aria-hidden="true"><path class="motion-pause" d="M7 5v10M13 5v10"/><path class="motion-play" d="m7 4 9 6-9 6Z"/></svg><span></span>';
-    document.querySelector('.topbar-actions').prepend(control);
-    control.addEventListener('click', () => {
-      paused = !paused;
-      try { localStorage.setItem('gradpath-motion', paused ? 'paused' : 'playing'); } catch { /* Session-only preference. */ }
-      sync();
-    });
     reduced.addEventListener('change', sync);
     pointer.addEventListener('change', resetPointer);
     sync();

@@ -42,7 +42,13 @@ def page(site):
 
 
 def navigate(page, name, heading):
-    page.locator(f'[data-nav="{name}"]').click()
+    if name == 'schools':
+        trigger = page.locator('[data-nav="schools"]')
+        if trigger.get_attribute('aria-expanded') != 'true':
+            trigger.click()
+        page.get_by_role('link', name='院校主页', exact=True).click()
+    else:
+        page.locator(f'[data-nav="{name}"]').click()
     page.get_by_role("heading", name=heading, exact=True).wait_for()
 
 
@@ -122,6 +128,7 @@ def test_single_file_preview_without_network_or_storage(page, width):
     assert preview.locator(".sidebar").evaluate("el => getComputedStyle(el).position") == "fixed"
     assert preview.locator(".hero").evaluate("el => getComputedStyle(el).display") == "flex"
     preview.locator('[data-nav="schools"]').click()
+    preview.get_by_role('link', name='院校主页', exact=True).click()
     preview.get_by_role("heading", name="寻找属于你的下一站", exact=True).wait_for()
     preview.get_by_role("button", name="Top 10", exact=True).click()
     assert preview.locator(".school-card").count() == 11
@@ -615,47 +622,36 @@ def test_large_catalogue_search_and_pagination(page):
     assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
 
 
-def test_motion_pause_survives_navigation_and_reload(page):
-    # Includes both CSS decoration and JS scroll reveals in the standalone build.
-    orbit = page.locator('.journey-orbit-track')
-    assert orbit.evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
-    page.get_by_role('button', name='暂停动效', exact=True).click()
-    expect(page.get_by_role('button', name='开启动效', exact=True)).to_have_attribute('aria-pressed', 'true')
-    page.wait_for_function("document.getAnimations().every(a => a.playState !== 'running')")
-    assert orbit.evaluate("el => getComputedStyle(el).animationName") == 'none'
-    navigate(page, 'schools', '寻找属于你的下一站')
-    page.get_by_role('textbox', name='搜索学校、专业或城市').fill('波士顿大学')
-    assert page.locator('.school-card').count() == 1
-    assert page.evaluate("document.getAnimations().every(a => a.playState !== 'running')")
+def test_motion_has_no_toolbar_control_and_ignores_retired_preference(page):
+    page.evaluate("localStorage.setItem('gradpath-motion', 'paused')")
     page.reload()
-    expect(page.get_by_role('button', name='开启动效', exact=True)).to_have_attribute('aria-pressed', 'true')
-    page.get_by_role('button', name='开启动效', exact=True).click()
+    expect(page.locator('.motion-control')).to_have_count(0)
+    assert page.locator('.journey-orbit-track').evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
+    navigate(page, 'schools', '寻找属于你的下一站')
+    page.reload()
+    expect(page.locator('.motion-control')).to_have_count(0)
     navigate(page, 'overview', '你好，同学')
     assert page.locator('.journey-orbit-track').evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
 
 
 def test_motion_follows_live_system_preference(page):
     page.emulate_media(reduced_motion='reduce')
-    expect(page.get_by_role('button', name='已跟随系统减少动效', exact=True)).to_be_disabled()
+    expect(page.locator('html')).to_have_attribute('data-motion', 'paused')
     page.wait_for_function("document.getAnimations().every(a => a.playState !== 'running')")
     page.emulate_media(reduced_motion='no-preference')
-    expect(page.get_by_role('button', name='暂停动效', exact=True)).to_be_enabled()
-    page.get_by_role('button', name='暂停动效', exact=True).click()
-    page.emulate_media(reduced_motion='reduce')
-    expect(page.get_by_role('button', name='已跟随系统减少动效', exact=True)).to_be_disabled()
-    page.emulate_media(reduced_motion='no-preference')
-    expect(page.get_by_role('button', name='开启动效', exact=True)).to_be_enabled()
+    expect(page.locator('html')).to_have_attribute('data-motion', 'playing')
+    assert page.locator('.journey-orbit-track').evaluate("el => getComputedStyle(el).animationName") == 'chapter-spin'
+    expect(page.locator('.motion-control')).to_have_count(0)
 
 
-def test_pausing_motion_clears_pointer_depth(page):
+def test_reducing_motion_clears_pointer_depth(page):
     page.wait_for_timeout(800)
     hero = page.locator('.hero')
     bounds = hero.bounding_box()
     page.mouse.move(bounds['x'] + bounds['width'] * .8, bounds['y'] + bounds['height'] * .3)
     page.wait_for_function("document.querySelector('.hero').style.getPropertyValue('--scene-x') !== ''")
-    # Keyboard toggling does not implicitly clear depth by moving the pointer away.
-    page.get_by_role('button', name='暂停动效', exact=True).focus()
-    page.keyboard.press('Enter')
+    page.emulate_media(reduced_motion='reduce')
+    expect(page.locator('html')).to_have_attribute('data-motion', 'paused')
     assert hero.evaluate("el => el.style.getPropertyValue('--scene-x')") == ''
     page.mouse.move(bounds['x'] + bounds['width'] * .7, bounds['y'] + bounds['height'] * .4)
     page.wait_for_timeout(50)
@@ -668,9 +664,15 @@ def test_library_navigation_branches_and_current_page(page, width):
     trigger = page.get_by_role('button', name='院校资料库', exact=True)
     submenu = page.get_by_role('group', name='院校资料库分页面')
     expect(trigger).to_have_attribute('aria-expanded', 'false')
+    url_before = page.url
     trigger.click()
-    expect(page.get_by_role('heading', name='寻找属于你的下一站')).to_be_visible()
+    expect(page.get_by_role('heading', name='你好，同学', exact=True)).to_be_visible()
+    assert page.url == url_before
     expect(trigger).to_have_attribute('aria-expanded', 'true')
+    submenu.get_by_role('link', name='院校主页', exact=True).click()
+    expect(page.get_by_role('heading', name='寻找属于你的下一站')).to_be_visible()
+    if width < 761:
+        trigger.click()
     expect(submenu.get_by_role('link', name='院校主页')).to_have_attribute('aria-current', 'page')
     assert page.locator('.library-heading-actions a[href="#map"]').count() == 0
     submenu.get_by_role('link', name='地图查看', exact=True).click()
@@ -714,6 +716,6 @@ def test_mobile_library_menu_dismisses_on_outside_click(page):
     page.set_viewport_size({'width': 320, 'height': 844})
     page.get_by_role('button', name='院校资料库', exact=True).click()
     expect(page.get_by_role('group', name='院校资料库分页面')).to_be_visible()
-    page.get_by_role('heading', name='寻找属于你的下一站').click()
+    page.get_by_role('heading', name='你好，同学', exact=True).click()
     expect(page.get_by_role('group', name='院校资料库分页面')).to_be_hidden()
     expect(page.get_by_role('button', name='院校资料库', exact=True)).to_have_attribute('aria-expanded', 'false')
